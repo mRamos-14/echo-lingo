@@ -33,9 +33,10 @@ async def make_leads(tmp):
 
 def main():
     import whisper
-    with open(os.path.join(HERE, 'asr_report.json'), encoding='utf-8') as f:
+    src = sys.argv[1] if len(sys.argv) > 1 else 'asr_report.json'   # e.g. asr_new.json: recheck every flag
+    with open(os.path.join(HERE, src), encoding='utf-8') as f:
         report = json.load(f)
-    flagged = [r for r in report if r['score'] < A.THRESHOLD and len(r['want'].split()) <= 4]
+    flagged = [r for r in report if r['score'] < A.THRESHOLD and (src != 'asr_report.json' or len(r['want'].split()) <= 4)]
     tmp = tempfile.mkdtemp()
     leads = asyncio.run(make_leads(tmp))
     model = whisper.load_model('turbo', device='cuda')

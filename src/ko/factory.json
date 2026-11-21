@@ -4,6 +4,8 @@
     "food": [["사과", {"o": "apples", "the": "the apple"}], ["빵", {"o": "bread", "the": "the bread"}], ["고기", {"o": "meat", "the": "the meat"}],
              ["과일", {"o": "fruit", "the": "the fruit"}], ["김치", {"o": "kimchi", "the": "the kimchi"}], ["밥", {"o": "rice", "the": "the rice"}]],
     "drink": [["커피", {"o": "coffee"}], ["차", {"o": "tea"}], ["우유", {"o": "milk"}], ["주스", {"o": "juice"}], ["맥주", {"o": "beer"}], ["물", {"o": "water"}]],
+    "hotdrink": [["커피", {"o": "coffee"}], ["차", {"o": "tea"}]],
+    "colddrink": [["우유", {"o": "milk"}], ["주스", {"o": "juice"}], ["맥주", {"o": "beer"}], ["물", {"o": "water"}]],
     "menu": "@food,drink",
     "thing": [["책", {"a": "a book", "hm": "is the book"}], ["가방", {"a": "a bag", "hm": "is the bag"}], ["연필", {"a": "a pencil", "hm": "is the pencil"}],
               ["공책", {"a": "a notebook", "hm": "is the notebook"}], ["컴퓨터", {"a": "a computer", "hm": "is the computer"}], ["의자", {"a": "a chair", "hm": "is the chair"}]],
@@ -25,7 +27,7 @@
     "day": [["월요일", {"n": "Monday"}], ["화요일", {"n": "Tuesday"}], ["수요일", {"n": "Wednesday"}], ["목요일", {"n": "Thursday"}],
             ["금요일", {"n": "Friday"}], ["토요일", {"n": "Saturday"}], ["일요일", {"n": "Sunday"}]],
     "transport": [["버스", {"by": "by bus"}], ["지하철", {"by": "by subway"}], ["택시", {"by": "by taxi"}]],
-    "num": [["한", {"r": "han", "cup": "One cup", "x": "일"}], ["두", {"r": "du", "cup": "Two cups", "x": "이"}], ["세", {"r": "se", "cup": "Three cups", "x": "삼"}]],
+    "num": [["한", {"r": "han", "cup": "One cup", "glass": "One glass", "x": "일"}], ["두", {"r": "du", "cup": "Two cups", "glass": "Two glasses", "x": "이"}], ["세", {"r": "se", "cup": "Three cups", "glass": "Three glasses", "x": "삼"}]],
     "num2": [["두", {"r": "du", "n": "two", "x": "이"}], ["세", {"r": "se", "n": "three", "x": "삼"}], ["네", {"r": "ne", "n": "four", "x": "사"}]]
   },
   "templates": [
@@ -53,7 +55,8 @@
     {"after": "ko3-6", "w": "내일 {place:에} 갈 거예요.", "r": "naeil {place:에} gal geoyeyo.", "m": "I'll go {place:to} tomorrow.", "x": ["내일 {place:에} 갔어요."]},
     {"after": "ko3-8", "w": "{food:을} 먹고 싶어요.", "r": "{food:을} meokgo sipeoyo.", "m": "I want to eat {food:o}.", "x": ["{food:을} 먹어 싶어요."]},
     {"after": "ko3-8", "w": "{country:에} 가고 싶어요.", "r": "{country:에} gago sipeoyo.", "m": "I want to go {country:to}.", "x": ["{country:에} 가요 싶어요."]},
-    {"after": "ko1-17", "w": "{drink} {num} 잔 주세요.", "r": "{drink} {num} jan juseyo.", "m": "{num:cup} of {drink:o}, please.", "x": ["{drink} {num:x} 잔 주세요."]},
+    {"after": "ko1-17", "w": "{hotdrink} {num} 잔 주세요.", "r": "{hotdrink} {num} jan juseyo.", "m": "{num:cup} of {hotdrink:o}, please.", "x": ["{hotdrink} {num:x} 잔 주세요."]},
+    {"after": "ko1-17", "w": "{colddrink} {num} 잔 주세요.", "r": "{colddrink} {num} jan juseyo.", "m": "{num:glass} of {colddrink:o}, please.", "x": ["{colddrink} {num:x} 잔 주세요."]},
     {"after": "ko3-12", "w": "{animal} {num2} 마리가 있어요.", "r": "{animal} {num2} mariga isseoyo.", "m": "I have {num2:n} {animal:pl}.", "x": ["{animal} {num2:x} 마리가 있어요."]}
   ]
 }

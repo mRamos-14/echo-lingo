@@ -3062,13 +3062,13 @@
   ]
  },
  {
-  "id": "ko-x-6f8f6b70e3",
-  "w": "맥주 두 잔 주세요.",
-  "r": "maekju du jan juseyo.",
-  "m": "Two cups of beer, please.",
+  "id": "ko-x-87537a7d2d",
+  "w": "차 두 잔 주세요.",
+  "r": "cha du jan juseyo.",
+  "m": "Two cups of tea, please.",
   "kind": "sent",
   "toks": [
-   "맥주",
+   "차",
    "두",
    "잔",
    "주세요"
@@ -3078,169 +3078,7 @@
   ],
   "tpl": 24,
   "x": [
-   "맥주 이 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-825bc6ebc0",
-  "w": "주스 세 잔 주세요.",
-  "r": "juseu se jan juseyo.",
-  "m": "Three cups of juice, please.",
-  "kind": "sent",
-  "toks": [
-   "주스",
-   "세",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "주스 삼 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-2aaba97dc5",
-  "w": "커피 세 잔 주세요.",
-  "r": "keopi se jan juseyo.",
-  "m": "Three cups of coffee, please.",
-  "kind": "sent",
-  "toks": [
-   "커피",
-   "세",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "커피 삼 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-389a7e3f7d",
-  "w": "주스 한 잔 주세요.",
-  "r": "juseu han jan juseyo.",
-  "m": "One cup of juice, please.",
-  "kind": "sent",
-  "toks": [
-   "주스",
-   "한",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "주스 일 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-0961430a37",
-  "w": "맥주 세 잔 주세요.",
-  "r": "maekju se jan juseyo.",
-  "m": "Three cups of beer, please.",
-  "kind": "sent",
-  "toks": [
-   "맥주",
-   "세",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "맥주 삼 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-477c338797",
-  "w": "맥주 한 잔 주세요.",
-  "r": "maekju han jan juseyo.",
-  "m": "One cup of beer, please.",
-  "kind": "sent",
-  "toks": [
-   "맥주",
-   "한",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "맥주 일 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-e3930697bd",
-  "w": "물 두 잔 주세요.",
-  "r": "mul du jan juseyo.",
-  "m": "Two cups of water, please.",
-  "kind": "sent",
-  "toks": [
-   "물",
-   "두",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko0-8",
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "물 이 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-4e91afa793",
-  "w": "물 한 잔 주세요.",
-  "r": "mul han jan juseyo.",
-  "m": "One cup of water, please.",
-  "kind": "sent",
-  "toks": [
-   "물",
-   "한",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko0-8",
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "물 일 잔 주세요."
-  ]
- },
- {
-  "id": "ko-x-5f5cf019b2",
-  "w": "우유 한 잔 주세요.",
-  "r": "uyu han jan juseyo.",
-  "m": "One cup of milk, please.",
-  "kind": "sent",
-  "toks": [
-   "우유",
-   "한",
-   "잔",
-   "주세요"
-  ],
-  "need": [
-   "ko1-17"
-  ],
-  "tpl": 24,
-  "x": [
-   "우유 일 잔 주세요."
+   "차 이 잔 주세요."
   ]
  },
  {
@@ -3264,6 +3102,26 @@
   ]
  },
  {
+  "id": "ko-x-4bcebaa31a",
+  "w": "차 세 잔 주세요.",
+  "r": "cha se jan juseyo.",
+  "m": "Three cups of tea, please.",
+  "kind": "sent",
+  "toks": [
+   "차",
+   "세",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "차 삼 잔 주세요."
+  ]
+ },
+ {
   "id": "ko-x-8c4f4acab8",
   "w": "커피 두 잔 주세요.",
   "r": "keopi du jan juseyo.",
@@ -3284,153 +3142,266 @@
   ]
  },
  {
-  "id": "ko-x-2fb5c2c42c",
-  "w": "새 네 마리가 있어요.",
-  "r": "sae ne mariga isseoyo.",
-  "m": "I have four birds.",
+  "id": "ko-x-2aaba97dc5",
+  "w": "커피 세 잔 주세요.",
+  "r": "keopi se jan juseyo.",
+  "m": "Three cups of coffee, please.",
   "kind": "sent",
   "toks": [
-   "새",
-   "네",
-   "마리가",
-   "있어요"
-  ],
-  "need": [
-   "ko0-9",
-   "ko1-24",
-   "ko3-12"
-  ],
-  "tpl": 25,
-  "x": [
-   "새 사 마리가 있어요."
-  ]
- },
- {
-  "id": "ko-x-8fde2f6c38",
-  "w": "강아지 네 마리가 있어요.",
-  "r": "gangaji ne mariga isseoyo.",
-  "m": "I have four puppies.",
-  "kind": "sent",
-  "toks": [
-   "강아지",
-   "네",
-   "마리가",
-   "있어요"
-  ],
-  "need": [
-   "ko0-9",
-   "ko1-24",
-   "ko3-12"
-  ],
-  "tpl": 25,
-  "x": [
-   "강아지 사 마리가 있어요."
-  ]
- },
- {
-  "id": "ko-x-d7e0388093",
-  "w": "고양이 세 마리가 있어요.",
-  "r": "goyangi se mariga isseoyo.",
-  "m": "I have three cats.",
-  "kind": "sent",
-  "toks": [
-   "고양이",
+   "커피",
    "세",
-   "마리가",
-   "있어요"
+   "잔",
+   "주세요"
   ],
   "need": [
-   "ko1-24",
-   "ko3-12"
+   "ko1-17"
   ],
-  "tpl": 25,
+  "tpl": 24,
   "x": [
-   "고양이 삼 마리가 있어요."
+   "커피 삼 잔 주세요."
   ]
  },
  {
-  "id": "ko-x-ea3e941e4f",
-  "w": "물고기 세 마리가 있어요.",
-  "r": "mulgogi se mariga isseoyo.",
-  "m": "I have three fish.",
+  "id": "ko-x-0961430a37",
+  "w": "맥주 세 잔 주세요.",
+  "r": "maekju se jan juseyo.",
+  "m": "Three glasses of beer, please.",
   "kind": "sent",
   "toks": [
-   "물고기",
+   "맥주",
    "세",
-   "마리가",
-   "있어요"
+   "잔",
+   "주세요"
   ],
   "need": [
-   "ko1-24",
-   "ko3-12"
+   "ko1-17"
   ],
   "tpl": 25,
   "x": [
-   "물고기 삼 마리가 있어요."
+   "맥주 삼 잔 주세요."
   ]
  },
  {
-  "id": "ko-x-f95b9e002d",
-  "w": "강아지 두 마리가 있어요.",
-  "r": "gangaji du mariga isseoyo.",
-  "m": "I have two puppies.",
+  "id": "ko-x-bae1a6363f",
+  "w": "우유 세 잔 주세요.",
+  "r": "uyu se jan juseyo.",
+  "m": "Three glasses of milk, please.",
   "kind": "sent",
   "toks": [
-   "강아지",
+   "우유",
+   "세",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "우유 삼 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-055e0d87fc",
+  "w": "주스 두 잔 주세요.",
+  "r": "juseu du jan juseyo.",
+  "m": "Two glasses of juice, please.",
+  "kind": "sent",
+  "toks": [
+   "주스",
    "두",
-   "마리가",
-   "있어요"
+   "잔",
+   "주세요"
   ],
   "need": [
-   "ko1-24",
-   "ko3-12"
+   "ko1-17"
   ],
   "tpl": 25,
   "x": [
-   "강아지 이 마리가 있어요."
+   "주스 이 잔 주세요."
   ]
  },
  {
-  "id": "ko-x-fa792520ad",
-  "w": "물고기 두 마리가 있어요.",
-  "r": "mulgogi du mariga isseoyo.",
-  "m": "I have two fish.",
+  "id": "ko-x-4e91afa793",
+  "w": "물 한 잔 주세요.",
+  "r": "mul han jan juseyo.",
+  "m": "One glass of water, please.",
   "kind": "sent",
   "toks": [
-   "물고기",
+   "물",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "물 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-5f5cf019b2",
+  "w": "우유 한 잔 주세요.",
+  "r": "uyu han jan juseyo.",
+  "m": "One glass of milk, please.",
+  "kind": "sent",
+  "toks": [
+   "우유",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "우유 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-a77d6b155b",
+  "w": "물 세 잔 주세요.",
+  "r": "mul se jan juseyo.",
+  "m": "Three glasses of water, please.",
+  "kind": "sent",
+  "toks": [
+   "물",
+   "세",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "물 삼 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-825bc6ebc0",
+  "w": "주스 세 잔 주세요.",
+  "r": "juseu se jan juseyo.",
+  "m": "Three glasses of juice, please.",
+  "kind": "sent",
+  "toks": [
+   "주스",
+   "세",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "주스 삼 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-389a7e3f7d",
+  "w": "주스 한 잔 주세요.",
+  "r": "juseu han jan juseyo.",
+  "m": "One glass of juice, please.",
+  "kind": "sent",
+  "toks": [
+   "주스",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "주스 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-6f8f6b70e3",
+  "w": "맥주 두 잔 주세요.",
+  "r": "maekju du jan juseyo.",
+  "m": "Two glasses of beer, please.",
+  "kind": "sent",
+  "toks": [
+   "맥주",
    "두",
-   "마리가",
-   "있어요"
+   "잔",
+   "주세요"
   ],
   "need": [
-   "ko1-24",
-   "ko3-12"
+   "ko1-17"
   ],
   "tpl": 25,
   "x": [
-   "물고기 이 마리가 있어요."
+   "맥주 이 잔 주세요."
   ]
  },
  {
-  "id": "ko-x-37b87ea15b",
-  "w": "고양이 네 마리가 있어요.",
-  "r": "goyangi ne mariga isseoyo.",
-  "m": "I have four cats.",
+  "id": "ko-x-b8573c8faf",
+  "w": "우유 두 잔 주세요.",
+  "r": "uyu du jan juseyo.",
+  "m": "Two glasses of milk, please.",
   "kind": "sent",
   "toks": [
-   "고양이",
-   "네",
-   "마리가",
-   "있어요"
+   "우유",
+   "두",
+   "잔",
+   "주세요"
   ],
   "need": [
-   "ko0-9",
-   "ko1-24",
-   "ko3-12"
+   "ko1-17"
   ],
   "tpl": 25,
   "x": [
-   "고양이 사 마리가 있어요."
+   "우유 이 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-477c338797",
+  "w": "맥주 한 잔 주세요.",
+  "r": "maekju han jan juseyo.",
+  "m": "One glass of beer, please.",
+  "kind": "sent",
+  "toks": [
+   "맥주",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "맥주 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-e3930697bd",
+  "w": "물 두 잔 주세요.",
+  "r": "mul du jan juseyo.",
+  "m": "Two glasses of water, please.",
+  "kind": "sent",
+  "toks": [
+   "물",
+   "두",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-17"
+  ],
+  "tpl": 25,
+  "x": [
+   "물 이 잔 주세요."
   ]
  },
  {
@@ -3449,9 +3420,179 @@
    "ko1-24",
    "ko3-12"
   ],
-  "tpl": 25,
+  "tpl": 26,
   "x": [
    "새 삼 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-2fb5c2c42c",
+  "w": "새 네 마리가 있어요.",
+  "r": "sae ne mariga isseoyo.",
+  "m": "I have four birds.",
+  "kind": "sent",
+  "toks": [
+   "새",
+   "네",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko0-9",
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "새 사 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-fa792520ad",
+  "w": "물고기 두 마리가 있어요.",
+  "r": "mulgogi du mariga isseoyo.",
+  "m": "I have two fish.",
+  "kind": "sent",
+  "toks": [
+   "물고기",
+   "두",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "물고기 이 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-9f810564e0",
+  "w": "토끼 두 마리가 있어요.",
+  "r": "tokki du mariga isseoyo.",
+  "m": "I have two rabbits.",
+  "kind": "sent",
+  "toks": [
+   "토끼",
+   "두",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "토끼 이 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-d7e0388093",
+  "w": "고양이 세 마리가 있어요.",
+  "r": "goyangi se mariga isseoyo.",
+  "m": "I have three cats.",
+  "kind": "sent",
+  "toks": [
+   "고양이",
+   "세",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "고양이 삼 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-f95b9e002d",
+  "w": "강아지 두 마리가 있어요.",
+  "r": "gangaji du mariga isseoyo.",
+  "m": "I have two puppies.",
+  "kind": "sent",
+  "toks": [
+   "강아지",
+   "두",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "강아지 이 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-0e0e8d9da0",
+  "w": "강아지 세 마리가 있어요.",
+  "r": "gangaji se mariga isseoyo.",
+  "m": "I have three puppies.",
+  "kind": "sent",
+  "toks": [
+   "강아지",
+   "세",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "강아지 삼 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-599234b7d6",
+  "w": "토끼 네 마리가 있어요.",
+  "r": "tokki ne mariga isseoyo.",
+  "m": "I have four rabbits.",
+  "kind": "sent",
+  "toks": [
+   "토끼",
+   "네",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko0-9",
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "토끼 사 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-ea3e941e4f",
+  "w": "물고기 세 마리가 있어요.",
+  "r": "mulgogi se mariga isseoyo.",
+  "m": "I have three fish.",
+  "kind": "sent",
+  "toks": [
+   "물고기",
+   "세",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "물고기 삼 마리가 있어요."
   ]
  },
  {
@@ -3471,40 +3612,19 @@
    "ko1-24",
    "ko3-12"
   ],
-  "tpl": 25,
+  "tpl": 26,
   "x": [
    "물고기 사 마리가 있어요."
   ]
  },
  {
-  "id": "ko-x-9f810564e0",
-  "w": "토끼 두 마리가 있어요.",
-  "r": "tokki du mariga isseoyo.",
-  "m": "I have two rabbits.",
+  "id": "ko-x-aa9527e95a",
+  "w": "토끼 세 마리가 있어요.",
+  "r": "tokki se mariga isseoyo.",
+  "m": "I have three rabbits.",
   "kind": "sent",
   "toks": [
    "토끼",
-   "두",
-   "마리가",
-   "있어요"
-  ],
-  "need": [
-   "ko1-24",
-   "ko3-12"
-  ],
-  "tpl": 25,
-  "x": [
-   "토끼 이 마리가 있어요."
-  ]
- },
- {
-  "id": "ko-x-0e0e8d9da0",
-  "w": "강아지 세 마리가 있어요.",
-  "r": "gangaji se mariga isseoyo.",
-  "m": "I have three puppies.",
-  "kind": "sent",
-  "toks": [
-   "강아지",
    "세",
    "마리가",
    "있어요"
@@ -3513,9 +3633,31 @@
    "ko1-24",
    "ko3-12"
   ],
-  "tpl": 25,
+  "tpl": 26,
   "x": [
-   "강아지 삼 마리가 있어요."
+   "토끼 삼 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-37b87ea15b",
+  "w": "고양이 네 마리가 있어요.",
+  "r": "goyangi ne mariga isseoyo.",
+  "m": "I have four cats.",
+  "kind": "sent",
+  "toks": [
+   "고양이",
+   "네",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko0-9",
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 26,
+  "x": [
+   "고양이 사 마리가 있어요."
   ]
  }
 ]

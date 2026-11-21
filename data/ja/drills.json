@@ -622,7 +622,7 @@
   "id": "ja-x-1e7698e2f3",
   "w": "やさい は おいしい です。",
   "r": "yasai wa oishii desu.",
-  "m": "The vegetables is delicious.",
+  "m": "The vegetables are delicious.",
   "kind": "sent",
   "toks": [
    "やさい",
@@ -1374,25 +1374,25 @@
   ]
  },
  {
-  "id": "ja-x-fe5a977bb9",
-  "w": "えき に いきます。",
-  "r": "eki ni ikimasu.",
-  "m": "I go to the station.",
+  "id": "ja-x-3becb8f228",
+  "w": "こうえん に いきます。",
+  "r": "kōen ni ikimasu.",
+  "m": "I go to the park.",
   "kind": "sent",
   "toks": [
-   "えき",
+   "こうえん",
    "に",
    "いきます"
   ],
   "need": [
-   "ja1-26",
-   "ja1-27"
+   "ja1-27",
+   "ja2-9"
   ],
   "tpl": 8,
-  "say": "えきにいきます。",
+  "say": "こうえんにいきます。",
   "x": [
-   "えき を いきます。",
-   "いきます えき に。"
+   "こうえん を いきます。",
+   "いきます こうえん に。"
   ]
  },
  {
@@ -1440,28 +1440,6 @@
   ]
  },
  {
-  "id": "ja-x-af7b1c8f6d",
-  "w": "うち に いきます。",
-  "r": "uchi ni ikimasu.",
-  "m": "I go home.",
-  "kind": "sent",
-  "toks": [
-   "うち",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-26",
-   "ja1-27"
-  ],
-  "tpl": 8,
-  "say": "うちにいきます。",
-  "x": [
-   "うち を いきます。",
-   "いきます うち に。"
-  ]
- },
- {
   "id": "ja-x-46a51eab5e",
   "w": "くうこう に いきます。",
   "r": "kūkō ni ikimasu.",
@@ -1481,6 +1459,50 @@
   "x": [
    "くうこう を いきます。",
    "いきます くうこう に。"
+  ]
+ },
+ {
+  "id": "ja-x-6dc347b41e",
+  "w": "みせ に いきます。",
+  "r": "mise ni ikimasu.",
+  "m": "I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "みせ",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-26",
+   "ja1-27"
+  ],
+  "tpl": 8,
+  "say": "みせにいきます。",
+  "x": [
+   "みせ を いきます。",
+   "いきます みせ に。"
+  ]
+ },
+ {
+  "id": "ja-x-fe5a977bb9",
+  "w": "えき に いきます。",
+  "r": "eki ni ikimasu.",
+  "m": "I go to the station.",
+  "kind": "sent",
+  "toks": [
+   "えき",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-26",
+   "ja1-27"
+  ],
+  "tpl": 8,
+  "say": "えきにいきます。",
+  "x": [
+   "えき を いきます。",
+   "いきます えき に。"
   ]
  },
  {
@@ -1528,47 +1550,51 @@
   ]
  },
  {
-  "id": "ja-x-6dc347b41e",
-  "w": "みせ に いきます。",
-  "r": "mise ni ikimasu.",
-  "m": "I go to the shop.",
+  "id": "ja-x-614549e87b",
+  "w": "せんせい は えき に いきます。",
+  "r": "sensei wa eki ni ikimasu.",
+  "m": "The teacher goes to the station.",
   "kind": "sent",
   "toks": [
-   "みせ",
+   "せんせい",
+   "は",
+   "えき",
    "に",
    "いきます"
   ],
   "need": [
    "ja1-26",
-   "ja1-27"
+   "ja1-27",
+   "ja1-3"
   ],
-  "tpl": 8,
-  "say": "みせにいきます。",
+  "tpl": 9,
+  "say": "せんせいわえきにいきます。",
   "x": [
-   "みせ を いきます。",
-   "いきます みせ に。"
+   "せんせい は えき で いきます。"
   ]
  },
  {
-  "id": "ja-x-3becb8f228",
-  "w": "こうえん に いきます。",
-  "r": "kōen ni ikimasu.",
-  "m": "I go to the park.",
+  "id": "ja-x-63b3b17deb",
+  "w": "はは は レストラン に いきます。",
+  "r": "haha wa resutoran ni ikimasu.",
+  "m": "My mother goes to the restaurant.",
   "kind": "sent",
   "toks": [
-   "こうえん",
+   "はは",
+   "は",
+   "レストラン",
    "に",
    "いきます"
   ],
   "need": [
+   "ja1-11",
    "ja1-27",
-   "ja2-9"
+   "ja2-4"
   ],
-  "tpl": 8,
-  "say": "こうえんにいきます。",
+  "tpl": 9,
+  "say": "ははわレストランにいきます。",
   "x": [
-   "こうえん を いきます。",
-   "いきます こうえん に。"
+   "はは は レストラン で いきます。"
   ]
  },
  {
@@ -1596,222 +1622,6 @@
   ]
  },
  {
-  "id": "ja-x-bdca09fed1",
-  "w": "はは は びょういん に いきます。",
-  "r": "haha wa byōin ni ikimasu.",
-  "m": "My mother goes to the hospital.",
-  "kind": "sent",
-  "toks": [
-   "はは",
-   "は",
-   "びょういん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-11",
-   "ja1-27",
-   "ja3-25"
-  ],
-  "tpl": 9,
-  "say": "ははわびょういんにいきます。",
-  "x": [
-   "はは は びょういん で いきます。"
-  ]
- },
- {
-  "id": "ja-x-5308fb3290",
-  "w": "はは は としょかん に いきます。",
-  "r": "haha wa toshokan ni ikimasu.",
-  "m": "My mother goes to the library.",
-  "kind": "sent",
-  "toks": [
-   "はは",
-   "は",
-   "としょかん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-11",
-   "ja1-27",
-   "ja2-4"
-  ],
-  "tpl": 9,
-  "say": "ははわとしょかんにいきます。",
-  "x": [
-   "はは は としょかん で いきます。"
-  ]
- },
- {
-  "id": "ja-x-4944cbfcd0",
-  "w": "せんせい は こうえん に いきます。",
-  "r": "sensei wa kōen ni ikimasu.",
-  "m": "The teacher goes to the park.",
-  "kind": "sent",
-  "toks": [
-   "せんせい",
-   "は",
-   "こうえん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-27",
-   "ja1-3",
-   "ja2-9"
-  ],
-  "tpl": 9,
-  "say": "せんせいわこうえんにいきます。",
-  "x": [
-   "せんせい は こうえん で いきます。"
-  ]
- },
- {
-  "id": "ja-x-198a212183",
-  "w": "ともだち は びょういん に いきます。",
-  "r": "tomodachi wa byōin ni ikimasu.",
-  "m": "My friend goes to the hospital.",
-  "kind": "sent",
-  "toks": [
-   "ともだち",
-   "は",
-   "びょういん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-14",
-   "ja1-27",
-   "ja3-25"
-  ],
-  "tpl": 9,
-  "say": "ともだちわびょういんにいきます。",
-  "x": [
-   "ともだち は びょういん で いきます。"
-  ]
- },
- {
-  "id": "ja-x-c4a9221854",
-  "w": "ちち は こうえん に いきます。",
-  "r": "chichi wa kōen ni ikimasu.",
-  "m": "My father goes to the park.",
-  "kind": "sent",
-  "toks": [
-   "ちち",
-   "は",
-   "こうえん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-11",
-   "ja1-27",
-   "ja2-9"
-  ],
-  "tpl": 9,
-  "say": "ちちわこうえんにいきます。",
-  "x": [
-   "ちち は こうえん で いきます。"
-  ]
- },
- {
-  "id": "ja-x-db87557efd",
-  "w": "いもうと は くうこう に いきます。",
-  "r": "imōto wa kūkō ni ikimasu.",
-  "m": "My younger sister goes to the airport.",
-  "kind": "sent",
-  "toks": [
-   "いもうと",
-   "は",
-   "くうこう",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-12",
-   "ja1-27",
-   "ja3-22"
-  ],
-  "tpl": 9,
-  "say": "いもうとわくうこうにいきます。",
-  "x": [
-   "いもうと は くうこう で いきます。"
-  ]
- },
- {
-  "id": "ja-x-ab87f76942",
-  "w": "ちち は くうこう に いきます。",
-  "r": "chichi wa kūkō ni ikimasu.",
-  "m": "My father goes to the airport.",
-  "kind": "sent",
-  "toks": [
-   "ちち",
-   "は",
-   "くうこう",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-11",
-   "ja1-27",
-   "ja3-22"
-  ],
-  "tpl": 9,
-  "say": "ちちわくうこうにいきます。",
-  "x": [
-   "ちち は くうこう で いきます。"
-  ]
- },
- {
-  "id": "ja-x-a6727caaea",
-  "w": "ちち は としょかん に いきます。",
-  "r": "chichi wa toshokan ni ikimasu.",
-  "m": "My father goes to the library.",
-  "kind": "sent",
-  "toks": [
-   "ちち",
-   "は",
-   "としょかん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-11",
-   "ja1-27",
-   "ja2-4"
-  ],
-  "tpl": 9,
-  "say": "ちちわとしょかんにいきます。",
-  "x": [
-   "ちち は としょかん で いきます。"
-  ]
- },
- {
-  "id": "ja-x-33d76c335c",
-  "w": "いもうと は ぎんこう に いきます。",
-  "r": "imōto wa ginkō ni ikimasu.",
-  "m": "My younger sister goes to the bank.",
-  "kind": "sent",
-  "toks": [
-   "いもうと",
-   "は",
-   "ぎんこう",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-12",
-   "ja1-27",
-   "ja2-6"
-  ],
-  "tpl": 9,
-  "say": "いもうとわぎんこうにいきます。",
-  "x": [
-   "いもうと は ぎんこう で いきます。"
-  ]
- },
- {
   "id": "ja-x-3ac046429d",
   "w": "ともだち は レストラン に いきます。",
   "r": "tomodachi wa resutoran ni ikimasu.",
@@ -1833,6 +1643,102 @@
   "say": "ともだちわレストランにいきます。",
   "x": [
    "ともだち は レストラン で いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-5d8a08d979",
+  "w": "ともだち は としょかん に いきます。",
+  "r": "tomodachi wa toshokan ni ikimasu.",
+  "m": "My friend goes to the library.",
+  "kind": "sent",
+  "toks": [
+   "ともだち",
+   "は",
+   "としょかん",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-14",
+   "ja1-27",
+   "ja2-4"
+  ],
+  "tpl": 9,
+  "say": "ともだちわとしょかんにいきます。",
+  "x": [
+   "ともだち は としょかん で いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-7cbc39a82d",
+  "w": "おとうと は みせ に いきます。",
+  "r": "otōto wa mise ni ikimasu.",
+  "m": "My younger brother goes to the shop.",
+  "kind": "sent",
+  "toks": [
+   "おとうと",
+   "は",
+   "みせ",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-12",
+   "ja1-26",
+   "ja1-27"
+  ],
+  "tpl": 9,
+  "say": "おとうとわみせにいきます。",
+  "x": [
+   "おとうと は みせ で いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-9c1730fc61",
+  "w": "せんせい は ぎんこう に いきます。",
+  "r": "sensei wa ginkō ni ikimasu.",
+  "m": "The teacher goes to the bank.",
+  "kind": "sent",
+  "toks": [
+   "せんせい",
+   "は",
+   "ぎんこう",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-27",
+   "ja1-3",
+   "ja2-6"
+  ],
+  "tpl": 9,
+  "say": "せんせいわぎんこうにいきます。",
+  "x": [
+   "せんせい は ぎんこう で いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-ec8d496971",
+  "w": "ともだち は みせ に いきます。",
+  "r": "tomodachi wa mise ni ikimasu.",
+  "m": "My friend goes to the shop.",
+  "kind": "sent",
+  "toks": [
+   "ともだち",
+   "は",
+   "みせ",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-14",
+   "ja1-26",
+   "ja1-27"
+  ],
+  "tpl": 9,
+  "say": "ともだちわみせにいきます。",
+  "x": [
+   "ともだち は みせ で いきます。"
   ]
  },
  {
@@ -1860,156 +1766,76 @@
   ]
  },
  {
-  "id": "ja-x-c479c687b4",
-  "w": "あした くうこう に いきます。",
-  "r": "ashita kūkō ni ikimasu.",
-  "m": "I'm going to the airport tomorrow.",
+  "id": "ja-x-138b554d20",
+  "w": "せんせい は みせ に いきます。",
+  "r": "sensei wa mise ni ikimasu.",
+  "m": "The teacher goes to the shop.",
   "kind": "sent",
   "toks": [
-   "あした",
-   "くうこう",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-28",
-   "ja3-22"
-  ],
-  "tpl": 10,
-  "say": "あしたくうこうにいきます。"
- },
- {
-  "id": "ja-x-f0b5831657",
-  "w": "あした びょういん に いきます。",
-  "r": "ashita byōin ni ikimasu.",
-  "m": "I'm going to the hospital tomorrow.",
-  "kind": "sent",
-  "toks": [
-   "あした",
-   "びょういん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-28",
-   "ja3-25"
-  ],
-  "tpl": 10,
-  "say": "あしたびょういんにいきます。"
- },
- {
-  "id": "ja-x-1ebd3b0156",
-  "w": "あした みせ に いきます。",
-  "r": "ashita mise ni ikimasu.",
-  "m": "I'm going to the shop tomorrow.",
-  "kind": "sent",
-  "toks": [
-   "あした",
+   "せんせい",
+   "は",
    "みせ",
    "に",
    "いきます"
   ],
   "need": [
    "ja1-26",
-   "ja1-28"
+   "ja1-27",
+   "ja1-3"
   ],
-  "tpl": 10,
-  "say": "あしたみせにいきます。"
+  "tpl": 9,
+  "say": "せんせいわみせにいきます。",
+  "x": [
+   "せんせい は みせ で いきます。"
+  ]
  },
  {
-  "id": "ja-x-48f06c5452",
-  "w": "きょう レストラン に いきます。",
-  "r": "kyō resutoran ni ikimasu.",
-  "m": "I'm going to the restaurant today.",
+  "id": "ja-x-a8bf336e90",
+  "w": "せんせい は としょかん に いきます。",
+  "r": "sensei wa toshokan ni ikimasu.",
+  "m": "The teacher goes to the library.",
   "kind": "sent",
   "toks": [
-   "きょう",
-   "レストラン",
+   "せんせい",
+   "は",
+   "としょかん",
    "に",
    "いきます"
   ],
   "need": [
-   "ja1-28",
+   "ja1-27",
+   "ja1-3",
    "ja2-4"
   ],
-  "tpl": 10,
-  "say": "きょうレストランにいきます。"
+  "tpl": 9,
+  "say": "せんせいわとしょかんにいきます。",
+  "x": [
+   "せんせい は としょかん で いきます。"
+  ]
  },
  {
-  "id": "ja-x-ebe258457d",
-  "w": "きょう みせ に いきます。",
-  "r": "kyō mise ni ikimasu.",
-  "m": "I'm going to the shop today.",
+  "id": "ja-x-0e2b2b8a89",
+  "w": "おとうと は としょかん に いきます。",
+  "r": "otōto wa toshokan ni ikimasu.",
+  "m": "My younger brother goes to the library.",
   "kind": "sent",
   "toks": [
-   "きょう",
-   "みせ",
+   "おとうと",
+   "は",
+   "としょかん",
    "に",
    "いきます"
   ],
   "need": [
-   "ja1-26",
-   "ja1-28"
+   "ja1-12",
+   "ja1-27",
+   "ja2-4"
   ],
-  "tpl": 10,
-  "say": "きょうみせにいきます。"
- },
- {
-  "id": "ja-x-6535f14898",
-  "w": "きょう えき に いきます。",
-  "r": "kyō eki ni ikimasu.",
-  "m": "I'm going to the station today.",
-  "kind": "sent",
-  "toks": [
-   "きょう",
-   "えき",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-26",
-   "ja1-28"
-  ],
-  "tpl": 10,
-  "say": "きょうえきにいきます。"
- },
- {
-  "id": "ja-x-4edda429da",
-  "w": "あした ぎんこう に いきます。",
-  "r": "ashita ginkō ni ikimasu.",
-  "m": "I'm going to the bank tomorrow.",
-  "kind": "sent",
-  "toks": [
-   "あした",
-   "ぎんこう",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-28",
-   "ja2-6"
-  ],
-  "tpl": 10,
-  "say": "あしたぎんこうにいきます。"
- },
- {
-  "id": "ja-x-4dbc1edc06",
-  "w": "あした うち に いきます。",
-  "r": "ashita uchi ni ikimasu.",
-  "m": "I'm going home tomorrow.",
-  "kind": "sent",
-  "toks": [
-   "あした",
-   "うち",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-26",
-   "ja1-28"
-  ],
-  "tpl": 10,
-  "say": "あしたうちにいきます。"
+  "tpl": 9,
+  "say": "おとうとわとしょかんにいきます。",
+  "x": [
+   "おとうと は としょかん で いきます。"
+  ]
  },
  {
   "id": "ja-x-8a0e96a479",
@@ -2031,6 +1857,63 @@
   "say": "あしたレストランにいきます。"
  },
  {
+  "id": "ja-x-4edda429da",
+  "w": "あした ぎんこう に いきます。",
+  "r": "ashita ginkō ni ikimasu.",
+  "m": "I'm going to the bank tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "あした",
+   "ぎんこう",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-28",
+   "ja2-6"
+  ],
+  "tpl": 10,
+  "say": "あしたぎんこうにいきます。"
+ },
+ {
+  "id": "ja-x-a295b1e21c",
+  "w": "あした こうえん に いきます。",
+  "r": "ashita kōen ni ikimasu.",
+  "m": "I'm going to the park tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "あした",
+   "こうえん",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-28",
+   "ja2-9"
+  ],
+  "tpl": 10,
+  "say": "あしたこうえんにいきます。"
+ },
+ {
+  "id": "ja-x-6535f14898",
+  "w": "きょう えき に いきます。",
+  "r": "kyō eki ni ikimasu.",
+  "m": "I'm going to the station today.",
+  "kind": "sent",
+  "toks": [
+   "きょう",
+   "えき",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-26",
+   "ja1-28"
+  ],
+  "tpl": 10,
+  "say": "きょうえきにいきます。"
+ },
+ {
   "id": "ja-x-46f7984ae1",
   "w": "あした としょかん に いきます。",
   "r": "ashita toshokan ni ikimasu.",
@@ -2050,23 +1933,42 @@
   "say": "あしたとしょかんにいきます。"
  },
  {
-  "id": "ja-x-30e670949e",
-  "w": "きょう ぎんこう に いきます。",
-  "r": "kyō ginkō ni ikimasu.",
-  "m": "I'm going to the bank today.",
+  "id": "ja-x-c479c687b4",
+  "w": "あした くうこう に いきます。",
+  "r": "ashita kūkō ni ikimasu.",
+  "m": "I'm going to the airport tomorrow.",
   "kind": "sent",
   "toks": [
-   "きょう",
-   "ぎんこう",
+   "あした",
+   "くうこう",
    "に",
    "いきます"
   ],
   "need": [
    "ja1-28",
-   "ja2-6"
+   "ja3-22"
   ],
   "tpl": 10,
-  "say": "きょうぎんこうにいきます。"
+  "say": "あしたくうこうにいきます。"
+ },
+ {
+  "id": "ja-x-ebe258457d",
+  "w": "きょう みせ に いきます。",
+  "r": "kyō mise ni ikimasu.",
+  "m": "I'm going to the shop today.",
+  "kind": "sent",
+  "toks": [
+   "きょう",
+   "みせ",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-26",
+   "ja1-28"
+  ],
+  "tpl": 10,
+  "say": "きょうみせにいきます。"
  },
  {
   "id": "ja-x-8b5f6c6029",
@@ -2086,6 +1988,63 @@
   ],
   "tpl": 10,
   "say": "きょうこうえんにいきます。"
+ },
+ {
+  "id": "ja-x-8ad364c491",
+  "w": "きょう びょういん に いきます。",
+  "r": "kyō byōin ni ikimasu.",
+  "m": "I'm going to the hospital today.",
+  "kind": "sent",
+  "toks": [
+   "きょう",
+   "びょういん",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-28",
+   "ja3-25"
+  ],
+  "tpl": 10,
+  "say": "きょうびょういんにいきます。"
+ },
+ {
+  "id": "ja-x-05ad36f755",
+  "w": "きょう としょかん に いきます。",
+  "r": "kyō toshokan ni ikimasu.",
+  "m": "I'm going to the library today.",
+  "kind": "sent",
+  "toks": [
+   "きょう",
+   "としょかん",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-28",
+   "ja2-4"
+  ],
+  "tpl": 10,
+  "say": "きょうとしょかんにいきます。"
+ },
+ {
+  "id": "ja-x-f0b5831657",
+  "w": "あした びょういん に いきます。",
+  "r": "ashita byōin ni ikimasu.",
+  "m": "I'm going to the hospital tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "あした",
+   "びょういん",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-28",
+   "ja3-25"
+  ],
+  "tpl": 10,
+  "say": "あしたびょういんにいきます。"
  },
  {
   "id": "ja-x-de75e56a40",
@@ -2390,13 +2349,13 @@
   ]
  },
  {
-  "id": "ja-x-f8092186b0",
-  "w": "土曜日 に としょかん に いきます。",
-  "r": "doyōbi ni toshokan ni ikimasu.",
-  "m": "On Saturday, I go to the library.",
+  "id": "ja-x-c0cbda26ce",
+  "w": "火曜日 に としょかん に いきます。",
+  "r": "kayōbi ni toshokan ni ikimasu.",
+  "m": "On Tuesday, I go to the library.",
   "kind": "sent",
   "toks": [
-   "土曜日",
+   "火曜日",
    "に",
    "としょかん",
    "に",
@@ -2407,36 +2366,36 @@
    "ja2-4"
   ],
   "tpl": 14,
-  "say": "土曜日にとしょかんにいきます。"
+  "say": "火曜日にとしょかんにいきます。"
  },
  {
-  "id": "ja-x-3a34407fa1",
-  "w": "月曜日 に としょかん に いきます。",
-  "r": "getsuyōbi ni toshokan ni ikimasu.",
-  "m": "On Monday, I go to the library.",
+  "id": "ja-x-8d616fb585",
+  "w": "月曜日 に こうえん に いきます。",
+  "r": "getsuyōbi ni kōen ni ikimasu.",
+  "m": "On Monday, I go to the park.",
   "kind": "sent",
   "toks": [
    "月曜日",
    "に",
-   "としょかん",
+   "こうえん",
    "に",
    "いきます"
   ],
   "need": [
    "ja2-12",
-   "ja2-4"
+   "ja2-9"
   ],
   "tpl": 14,
-  "say": "月曜日にとしょかんにいきます。"
+  "say": "月曜日にこうえんにいきます。"
  },
  {
-  "id": "ja-x-b9b89e0363",
-  "w": "火曜日 に レストラン に いきます。",
-  "r": "kayōbi ni resutoran ni ikimasu.",
-  "m": "On Tuesday, I go to the restaurant.",
+  "id": "ja-x-194c27dbca",
+  "w": "木曜日 に レストラン に いきます。",
+  "r": "mokuyōbi ni resutoran ni ikimasu.",
+  "m": "On Thursday, I go to the restaurant.",
   "kind": "sent",
   "toks": [
-   "火曜日",
+   "木曜日",
    "に",
    "レストラン",
    "に",
@@ -2447,16 +2406,16 @@
    "ja2-4"
   ],
   "tpl": 14,
-  "say": "火曜日にレストランにいきます。"
+  "say": "木曜日にレストランにいきます。"
  },
  {
-  "id": "ja-x-3f3ffa086c",
-  "w": "水曜日 に えき に いきます。",
-  "r": "suiyōbi ni eki ni ikimasu.",
-  "m": "On Wednesday, I go to the station.",
+  "id": "ja-x-dd073984b1",
+  "w": "火曜日 に えき に いきます。",
+  "r": "kayōbi ni eki ni ikimasu.",
+  "m": "On Tuesday, I go to the station.",
   "kind": "sent",
   "toks": [
-   "水曜日",
+   "火曜日",
    "に",
    "えき",
    "に",
@@ -2467,58 +2426,18 @@
    "ja2-12"
   ],
   "tpl": 14,
-  "say": "水曜日にえきにいきます。"
+  "say": "火曜日にえきにいきます。"
  },
  {
-  "id": "ja-x-2f0c07b911",
-  "w": "土曜日 に こうえん に いきます。",
-  "r": "doyōbi ni kōen ni ikimasu.",
-  "m": "On Saturday, I go to the park.",
-  "kind": "sent",
-  "toks": [
-   "土曜日",
-   "に",
-   "こうえん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja2-12",
-   "ja2-9"
-  ],
-  "tpl": 14,
-  "say": "土曜日にこうえんにいきます。"
- },
- {
-  "id": "ja-x-64587ca07c",
-  "w": "水曜日 に こうえん に いきます。",
-  "r": "suiyōbi ni kōen ni ikimasu.",
-  "m": "On Wednesday, I go to the park.",
+  "id": "ja-x-e46f8e7843",
+  "w": "水曜日 に としょかん に いきます。",
+  "r": "suiyōbi ni toshokan ni ikimasu.",
+  "m": "On Wednesday, I go to the library.",
   "kind": "sent",
   "toks": [
    "水曜日",
    "に",
-   "こうえん",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja2-12",
-   "ja2-9"
-  ],
-  "tpl": 14,
-  "say": "水曜日にこうえんにいきます。"
- },
- {
-  "id": "ja-x-87ed7ef228",
-  "w": "金曜日 に レストラン に いきます。",
-  "r": "kin'yōbi ni resutoran ni ikimasu.",
-  "m": "On Friday, I go to the restaurant.",
-  "kind": "sent",
-  "toks": [
-   "金曜日",
-   "に",
-   "レストラン",
+   "としょかん",
    "に",
    "いきます"
   ],
@@ -2527,87 +2446,7 @@
    "ja2-4"
   ],
   "tpl": 14,
-  "say": "金曜日にレストランにいきます。"
- },
- {
-  "id": "ja-x-797b7799e0",
-  "w": "火曜日 に うち に いきます。",
-  "r": "kayōbi ni uchi ni ikimasu.",
-  "m": "On Tuesday, I go home.",
-  "kind": "sent",
-  "toks": [
-   "火曜日",
-   "に",
-   "うち",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-26",
-   "ja2-12"
-  ],
-  "tpl": 14,
-  "say": "火曜日にうちにいきます。"
- },
- {
-  "id": "ja-x-75788ce6fe",
-  "w": "火曜日 に みせ に いきます。",
-  "r": "kayōbi ni mise ni ikimasu.",
-  "m": "On Tuesday, I go to the shop.",
-  "kind": "sent",
-  "toks": [
-   "火曜日",
-   "に",
-   "みせ",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-26",
-   "ja2-12"
-  ],
-  "tpl": 14,
-  "say": "火曜日にみせにいきます。"
- },
- {
-  "id": "ja-x-d36bd951bb",
-  "w": "土曜日 に うち に いきます。",
-  "r": "doyōbi ni uchi ni ikimasu.",
-  "m": "On Saturday, I go home.",
-  "kind": "sent",
-  "toks": [
-   "土曜日",
-   "に",
-   "うち",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja1-26",
-   "ja2-12"
-  ],
-  "tpl": 14,
-  "say": "土曜日にうちにいきます。"
- },
- {
-  "id": "ja-x-01729b3bf6",
-  "w": "金曜日 に くうこう に いきます。",
-  "r": "kin'yōbi ni kūkō ni ikimasu.",
-  "m": "On Friday, I go to the airport.",
-  "kind": "sent",
-  "toks": [
-   "金曜日",
-   "に",
-   "くうこう",
-   "に",
-   "いきます"
-  ],
-  "need": [
-   "ja2-12",
-   "ja3-22"
-  ],
-  "tpl": 14,
-  "say": "金曜日にくうこうにいきます。"
+  "say": "水曜日にとしょかんにいきます。"
  },
  {
   "id": "ja-x-da8e557940",
@@ -2628,6 +2467,126 @@
   ],
   "tpl": 14,
   "say": "月曜日にみせにいきます。"
+ },
+ {
+  "id": "ja-x-de2fe3b6a8",
+  "w": "日曜日 に びょういん に いきます。",
+  "r": "nichiyōbi ni byōin ni ikimasu.",
+  "m": "On Sunday, I go to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "日曜日",
+   "に",
+   "びょういん",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja2-12",
+   "ja3-25"
+  ],
+  "tpl": 14,
+  "say": "日曜日にびょういんにいきます。"
+ },
+ {
+  "id": "ja-x-449c4b9b35",
+  "w": "日曜日 に こうえん に いきます。",
+  "r": "nichiyōbi ni kōen ni ikimasu.",
+  "m": "On Sunday, I go to the park.",
+  "kind": "sent",
+  "toks": [
+   "日曜日",
+   "に",
+   "こうえん",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja2-12",
+   "ja2-9"
+  ],
+  "tpl": 14,
+  "say": "日曜日にこうえんにいきます。"
+ },
+ {
+  "id": "ja-x-ebdd4a480c",
+  "w": "木曜日 に みせ に いきます。",
+  "r": "mokuyōbi ni mise ni ikimasu.",
+  "m": "On Thursday, I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "木曜日",
+   "に",
+   "みせ",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-26",
+   "ja2-12"
+  ],
+  "tpl": 14,
+  "say": "木曜日にみせにいきます。"
+ },
+ {
+  "id": "ja-x-8d7d4ae4c4",
+  "w": "土曜日 に えき に いきます。",
+  "r": "doyōbi ni eki ni ikimasu.",
+  "m": "On Saturday, I go to the station.",
+  "kind": "sent",
+  "toks": [
+   "土曜日",
+   "に",
+   "えき",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-26",
+   "ja2-12"
+  ],
+  "tpl": 14,
+  "say": "土曜日にえきにいきます。"
+ },
+ {
+  "id": "ja-x-7e244cb1d2",
+  "w": "金曜日 に みせ に いきます。",
+  "r": "kin'yōbi ni mise ni ikimasu.",
+  "m": "On Friday, I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "金曜日",
+   "に",
+   "みせ",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja1-26",
+   "ja2-12"
+  ],
+  "tpl": 14,
+  "say": "金曜日にみせにいきます。"
+ },
+ {
+  "id": "ja-x-b9b89e0363",
+  "w": "火曜日 に レストラン に いきます。",
+  "r": "kayōbi ni resutoran ni ikimasu.",
+  "m": "On Tuesday, I go to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "火曜日",
+   "に",
+   "レストラン",
+   "に",
+   "いきます"
+  ],
+  "need": [
+   "ja2-12",
+   "ja2-4"
+  ],
+  "tpl": 14,
+  "say": "火曜日にレストランにいきます。"
  },
  {
   "id": "ja-x-cf638a6d6c",
@@ -2806,36 +2765,14 @@
   ]
  },
  {
-  "id": "ja-x-0e9b09d969",
-  "w": "きのう びょういん に いきました。",
-  "r": "kinō byōin ni ikimashita.",
-  "m": "I went to the hospital yesterday.",
+  "id": "ja-x-dad4115060",
+  "w": "きのう みせ に いきました。",
+  "r": "kinō mise ni ikimashita.",
+  "m": "I went to the shop yesterday.",
   "kind": "sent",
   "toks": [
    "きのう",
-   "びょういん",
-   "に",
-   "いきました"
-  ],
-  "need": [
-   "ja3-1",
-   "ja3-25"
-  ],
-  "tpl": 16,
-  "say": "きのうびょういんにいきました。",
-  "x": [
-   "きのう びょういん に いきます。"
-  ]
- },
- {
-  "id": "ja-x-35194ac2f2",
-  "w": "きのう うち に いきました。",
-  "r": "kinō uchi ni ikimashita.",
-  "m": "I went home yesterday.",
-  "kind": "sent",
-  "toks": [
-   "きのう",
-   "うち",
+   "みせ",
    "に",
    "いきました"
   ],
@@ -2844,97 +2781,9 @@
    "ja3-1"
   ],
   "tpl": 16,
-  "say": "きのううちにいきました。",
+  "say": "きのうみせにいきました。",
   "x": [
-   "きのう うち に いきます。"
-  ]
- },
- {
-  "id": "ja-x-929821f27d",
-  "w": "きのう としょかん に いきました。",
-  "r": "kinō toshokan ni ikimashita.",
-  "m": "I went to the library yesterday.",
-  "kind": "sent",
-  "toks": [
-   "きのう",
-   "としょかん",
-   "に",
-   "いきました"
-  ],
-  "need": [
-   "ja2-4",
-   "ja3-1"
-  ],
-  "tpl": 16,
-  "say": "きのうとしょかんにいきました。",
-  "x": [
-   "きのう としょかん に いきます。"
-  ]
- },
- {
-  "id": "ja-x-e9b765ac83",
-  "w": "きのう ぎんこう に いきました。",
-  "r": "kinō ginkō ni ikimashita.",
-  "m": "I went to the bank yesterday.",
-  "kind": "sent",
-  "toks": [
-   "きのう",
-   "ぎんこう",
-   "に",
-   "いきました"
-  ],
-  "need": [
-   "ja2-6",
-   "ja3-1"
-  ],
-  "tpl": 16,
-  "say": "きのうぎんこうにいきました。",
-  "x": [
-   "きのう ぎんこう に いきます。"
-  ]
- },
- {
-  "id": "ja-x-97e784053d",
-  "w": "きのう こうえん に いきました。",
-  "r": "kinō kōen ni ikimashita.",
-  "m": "I went to the park yesterday.",
-  "kind": "sent",
-  "toks": [
-   "きのう",
-   "こうえん",
-   "に",
-   "いきました"
-  ],
-  "need": [
-   "ja2-9",
-   "ja3-1"
-  ],
-  "tpl": 16,
-  "say": "きのうこうえんにいきました。",
-  "x": [
-   "きのう こうえん に いきます。"
-  ]
- },
- {
-  "id": "ja-x-74dfd8b849",
-  "w": "きのう くうこう に いきました。",
-  "r": "kinō kūkō ni ikimashita.",
-  "m": "I went to the airport yesterday.",
-  "kind": "sent",
-  "toks": [
-   "きのう",
-   "くうこう",
-   "に",
-   "いきました"
-  ],
-  "need": [
-   "ja3-1",
-   "ja3-22"
-  ],
-  "tpl": 16,
-  "say": "きのうくうこうにいきました。",
-  "x": [
-   "きのう くうこう に いきます。"
+   "きのう みせ に いきます。"
   ]
  },
  {
@@ -2960,25 +2809,113 @@
   ]
  },
  {
-  "id": "ja-x-dad4115060",
-  "w": "きのう みせ に いきました。",
-  "r": "kinō mise ni ikimashita.",
-  "m": "I went to the shop yesterday.",
+  "id": "ja-x-929821f27d",
+  "w": "きのう としょかん に いきました。",
+  "r": "kinō toshokan ni ikimashita.",
+  "m": "I went to the library yesterday.",
   "kind": "sent",
   "toks": [
    "きのう",
-   "みせ",
+   "としょかん",
    "に",
    "いきました"
   ],
   "need": [
-   "ja1-26",
+   "ja2-4",
    "ja3-1"
   ],
   "tpl": 16,
-  "say": "きのうみせにいきました。",
+  "say": "きのうとしょかんにいきました。",
   "x": [
-   "きのう みせ に いきます。"
+   "きのう としょかん に いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-97e784053d",
+  "w": "きのう こうえん に いきました。",
+  "r": "kinō kōen ni ikimashita.",
+  "m": "I went to the park yesterday.",
+  "kind": "sent",
+  "toks": [
+   "きのう",
+   "こうえん",
+   "に",
+   "いきました"
+  ],
+  "need": [
+   "ja2-9",
+   "ja3-1"
+  ],
+  "tpl": 16,
+  "say": "きのうこうえんにいきました。",
+  "x": [
+   "きのう こうえん に いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-0e9b09d969",
+  "w": "きのう びょういん に いきました。",
+  "r": "kinō byōin ni ikimashita.",
+  "m": "I went to the hospital yesterday.",
+  "kind": "sent",
+  "toks": [
+   "きのう",
+   "びょういん",
+   "に",
+   "いきました"
+  ],
+  "need": [
+   "ja3-1",
+   "ja3-25"
+  ],
+  "tpl": 16,
+  "say": "きのうびょういんにいきました。",
+  "x": [
+   "きのう びょういん に いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-74dfd8b849",
+  "w": "きのう くうこう に いきました。",
+  "r": "kinō kūkō ni ikimashita.",
+  "m": "I went to the airport yesterday.",
+  "kind": "sent",
+  "toks": [
+   "きのう",
+   "くうこう",
+   "に",
+   "いきました"
+  ],
+  "need": [
+   "ja3-1",
+   "ja3-22"
+  ],
+  "tpl": 16,
+  "say": "きのうくうこうにいきました。",
+  "x": [
+   "きのう くうこう に いきます。"
+  ]
+ },
+ {
+  "id": "ja-x-e9b765ac83",
+  "w": "きのう ぎんこう に いきました。",
+  "r": "kinō ginkō ni ikimashita.",
+  "m": "I went to the bank yesterday.",
+  "kind": "sent",
+  "toks": [
+   "きのう",
+   "ぎんこう",
+   "に",
+   "いきました"
+  ],
+  "need": [
+   "ja2-6",
+   "ja3-1"
+  ],
+  "tpl": 16,
+  "say": "きのうぎんこうにいきました。",
+  "x": [
+   "きのう ぎんこう に いきます。"
   ]
  },
  {
@@ -3290,14 +3227,14 @@
   ]
  },
  {
-  "id": "ja-x-5a40be1814",
-  "w": "いっしょに としょかん に いきましょう。",
-  "r": "issho ni toshokan ni ikimashō.",
-  "m": "Let's go to the library together.",
+  "id": "ja-x-10ec6edcb8",
+  "w": "いっしょに レストラン に いきましょう。",
+  "r": "issho ni resutoran ni ikimashō.",
+  "m": "Let's go to the restaurant together.",
   "kind": "sent",
   "toks": [
    "いっしょに",
-   "としょかん",
+   "レストラン",
    "に",
    "いきましょう"
   ],
@@ -3306,9 +3243,9 @@
    "ja3-12"
   ],
   "tpl": 19,
-  "say": "いっしょにとしょかんにいきましょう。",
+  "say": "いっしょにレストランにいきましょう。",
   "x": [
-   "いっしょに としょかん に いきました。"
+   "いっしょに レストラン に いきました。"
   ]
  },
  {
@@ -3378,25 +3315,25 @@
   ]
  },
  {
-  "id": "ja-x-10ec6edcb8",
-  "w": "いっしょに レストラン に いきましょう。",
-  "r": "issho ni resutoran ni ikimashō.",
-  "m": "Let's go to the restaurant together.",
+  "id": "ja-x-287b4b55c9",
+  "w": "いっしょに みせ に いきましょう。",
+  "r": "issho ni mise ni ikimashō.",
+  "m": "Let's go to the shop together.",
   "kind": "sent",
   "toks": [
    "いっしょに",
-   "レストラン",
+   "みせ",
    "に",
    "いきましょう"
   ],
   "need": [
-   "ja2-4",
+   "ja1-26",
    "ja3-12"
   ],
   "tpl": 19,
-  "say": "いっしょにレストランにいきましょう。",
+  "say": "いっしょにみせにいきましょう。",
   "x": [
-   "いっしょに レストラン に いきました。"
+   "いっしょに みせ に いきました。"
   ]
  },
  {
@@ -3444,47 +3381,25 @@
   ]
  },
  {
-  "id": "ja-x-287b4b55c9",
-  "w": "いっしょに みせ に いきましょう。",
-  "r": "issho ni mise ni ikimashō.",
-  "m": "Let's go to the shop together.",
+  "id": "ja-x-5a40be1814",
+  "w": "いっしょに としょかん に いきましょう。",
+  "r": "issho ni toshokan ni ikimashō.",
+  "m": "Let's go to the library together.",
   "kind": "sent",
   "toks": [
    "いっしょに",
-   "みせ",
+   "としょかん",
    "に",
    "いきましょう"
   ],
   "need": [
-   "ja1-26",
+   "ja2-4",
    "ja3-12"
   ],
   "tpl": 19,
-  "say": "いっしょにみせにいきましょう。",
+  "say": "いっしょにとしょかんにいきましょう。",
   "x": [
-   "いっしょに みせ に いきました。"
-  ]
- },
- {
-  "id": "ja-x-ffa86efd87",
-  "w": "いっしょに うち に いきましょう。",
-  "r": "issho ni uchi ni ikimashō.",
-  "m": "Let's go home together.",
-  "kind": "sent",
-  "toks": [
-   "いっしょに",
-   "うち",
-   "に",
-   "いきましょう"
-  ],
-  "need": [
-   "ja1-26",
-   "ja3-12"
-  ],
-  "tpl": 19,
-  "say": "いっしょにうちにいきましょう。",
-  "x": [
-   "いっしょに うち に いきました。"
+   "いっしょに としょかん に いきました。"
   ]
  }
 ]

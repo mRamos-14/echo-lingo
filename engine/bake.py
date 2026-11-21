@@ -40,10 +40,14 @@ AUDIO_GEN = 'edge1'  # bump when re-recording everything, so phones never keep s
 VOICES = {'ko': 'ko-KR-SunHiNeural', 'ja': 'ja-JP-NanamiNeural', 'zh': 'zh-CN-XiaoxiaoNeural'}
 # Chinese characters with several readings: record a same-sounding character instead
 ZH_TTS = {'只': '枝', '长': '常', '还': '孩', '都': '兜', '和': '河'}
+# Korean lines the voice runs together (Whisper heard 찾으세요 / 답 주세요): a short comma pause keeps them clear
+KO_TTS = {'차 주세요.': '차, 주세요.', '밥 주세요.': '밥, 주세요.'}
+SLOW = {'차, 주세요.', '밥, 주세요.'}   # spoken text recorded 15% slower
 
 
 def file_of(lang, text):
-    h = hashlib.sha1(f'{key_of(lang, text)}|{AUDIO_GEN}'.encode('utf-8')).hexdigest()[:12]
+    alt = KO_TTS.get(text) if lang == 'ko' else None   # a new file name when the spoken text changes
+    h = hashlib.sha1(f'{key_of(lang, text)}|{AUDIO_GEN}{"|" + alt + "|slow" if alt else ""}'.encode('utf-8')).hexdigest()[:12]
     return f'audio/{lang}/{h}.mp3'
 
 
@@ -59,7 +63,7 @@ def tts_of(lang, entry):
         return entry['w'].replace(' ', '')   # natural text: the voice reads particle は as "wa" itself
     if lang == 'zh':
         return ZH_TTS.get(say, say)
-    return say
+    return KO_TTS.get(say, say)
 
 
 SENT_END = '.?!。？！'
@@ -521,7 +525,7 @@ def render_edge(clips, redo=(), langs=None):
         async with sem:
             for attempt in range(4):
                 try:
-                    await edge_tts.Communicate(tts, VOICES[lang]).save(out)
+                    await edge_tts.Communicate(tts, VOICES[lang], rate='-15%' if tts in SLOW else '+0%').save(out)
                     if os.path.getsize(out) > 1000:
                         break
                 except Exception as e:  # network hiccup: retry
