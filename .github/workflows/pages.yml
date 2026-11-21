@@ -26,7 +26,11 @@ jobs:
       - name: Check lessons and teaching order
         run: python engine/bake.py --check
       - name: Lessons in data/ match their sources in src/
-        run: git diff --exit-code --stat -- data/ || (echo "::error::data/ is out of date: run engine/bake.py --check locally and commit the result" && exit 1)
+        run: |
+          if ! git diff --exit-code --stat -- data/; then
+            echo "::error::data/ is out of date - run engine/bake.py --check locally and commit the result"
+            exit 1
+          fi
 
   deploy:
     needs: check
