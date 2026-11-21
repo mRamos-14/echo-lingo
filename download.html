@@ -7,6 +7,8 @@
 <meta name="description" content="Download the Echo Lingo app: listening-first lessons for Korean, Japanese and Chinese.">
 <meta name="theme-color" content="#4f46e5">
 <link rel="icon" type="image/png" href="icons/favicon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <style>
   :root { --bg: #f7f5f0; --card: #fff; --ink: #1d1c1a; --muted: #6b6860; --line: #e4e0d7; --acc: #4f46e5; --acc-soft: #eceafd; }
   @media (prefers-color-scheme: dark) { :root { --bg: #161513; --card: #211f1c; --ink: #f1eee7; --muted: #a39f95; --line: #34312c; --acc: #8b84ff; --acc-soft: #26244a; } }
@@ -30,7 +32,10 @@
   .card p { margin: 6px 0 0; }
   .muted { color: var(--muted); font-size: 14px; }
   .alt { display: inline-block; margin-top: 10px; color: var(--acc); font-weight: 700; text-decoration: none; }
-  .ios .android-only, .android .ios-only { display: none; }
+  .ios .android-only, .android .ios-only, .ios .desktop-only, .android .desktop-only, .desktop .android-only, .desktop .ios-only { display: none; }
+  .dl.win { background: #2f6fdb; box-shadow: 0 5px 0 #1f4e9e; }
+  .dl.inst { background: var(--acc); box-shadow: 0 5px 0 #3730a3; margin-bottom: 14px; border: 0; cursor: pointer; font-family: inherit; }
+  .dl.inst[hidden] { display: none; }
 </style>
 </head>
 <body>
@@ -39,6 +44,22 @@
   <h1>Echo Lingo</h1>
   <p class="sub">Learn Korean, Japanese and Chinese by ear, from the first sounds to real sentences.</p>
   <div class="langs"><span>한국어</span><span>日本語</span><span>中文</span><span>~100 lessons each</span><span>works offline</span></div>
+
+  <button class="dl inst" id="install" hidden>＋ Install app <small>one tap, no download, no browser badge</small></button>
+
+  <div class="desktop-only">
+    <a class="dl win" id="exe" href="https://github.com/mRamos-14/echo-lingo/releases/latest/download/echo-lingo-windows.exe" download>
+      ⬇ Download for Windows <small id="exeinfo">echo-lingo-windows.exe</small>
+    </a>
+    <div class="card">
+      <h2>Install on Windows</h2>
+      <ol>
+        <li>Download <b>echo-lingo-windows.exe</b> and double-click it. It runs straight away, nothing to set up.</li>
+        <li>Windows may say “Windows protected your PC” because the app isn't signed by a paid certificate: click <b>More info</b> → <b>Run anyway</b>.</li>
+        <li>Pin it to your taskbar or move the file wherever you like. Lessons and audio are inside, so it works offline.</li>
+      </ol>
+    </div>
+  </div>
 
   <div class="android-only">
     <a class="dl" id="apk" href="https://github.com/mRamos-14/echo-lingo/releases/latest/download/echo-lingo.apk" download>
@@ -81,21 +102,30 @@
   var ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   if (ios) document.body.classList.add('ios');
   else if (/Android/i.test(ua)) document.body.classList.add('android');
-  // show the current version and size; grey the button out until the first build exists
+  else document.body.classList.add('desktop');
+
+  // One-tap install where the browser supports it (Chrome / Edge on Android and Windows)
+  var deferred = null, inst = document.getElementById('install');
+  if ('serviceWorker' in navigator && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) navigator.serviceWorker.register('sw.js').catch(function () {});
+  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferred = e; inst.hidden = false; });
+  window.addEventListener('appinstalled', function () { inst.hidden = false; inst.disabled = true; inst.innerHTML = '✓ Installed <small>open Echo Lingo from your apps</small>'; });
+  inst.addEventListener('click', function () { if (!deferred) return; deferred.prompt(); deferred.userChoice.then(function () { deferred = null; }); });
+
+  // show versions and sizes; grey a button out until its first build exists
+  function ready(id, info, re, label) {
+    return function (rel) {
+      var a = (rel && rel.assets || []).filter(function (x) { return re.test(x.name); })[0];
+      var b = document.getElementById(id);
+      if (!a) { b.classList.add('wait'); b.innerHTML = label + ' is being built… <small>check back in a few minutes</small>'; return; }
+      document.getElementById(info).textContent = 'Version ' + String(rel.tag_name).replace(/^v/, '') + ' · ' + (a.size / 1048576).toFixed(0) + ' MB';
+    };
+  }
   fetch('https://api.github.com/repos/mRamos-14/echo-lingo/releases/latest').then(function (r) {
-    if (r.status === 404) throw new Error('none');
-    return r.json();
+    return r.status === 404 ? null : r.json();
   }).then(function (rel) {
-    var a = (rel.assets || []).filter(function (x) { return /\.apk$/.test(x.name); })[0];
-    if (!a) throw new Error('none');
-    document.getElementById('apkinfo').textContent = 'Version ' + String(rel.tag_name).replace(/^v/, '') + ' · ' + (a.size / 1048576).toFixed(0) + ' MB';
-  }).catch(function (e) {
-    if (e.message === 'none') {
-      var b = document.getElementById('apk');
-      b.classList.add('wait');
-      b.innerHTML = 'Android app is being built… <small>check back in a few minutes</small>';
-    }
-  });
+    ready('apk', 'apkinfo', /\.apk$/, 'Android app')(rel);
+    ready('exe', 'exeinfo', /\.exe$/, 'Windows app')(rel);
+  }).catch(function () {});
 </script>
 </body>
 </html>

@@ -994,6 +994,7 @@
   const DEV_HOST = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) && !/[?&]sw=1/.test(location.search);
   const UA = navigator.userAgent || '';
   const IS_APK = !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+  const IS_DESKTOP = /Electron\//.test(UA); // the Windows app
   const IS_IOS = /iPhone|iPad|iPod/.test(UA) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   const IS_ANDROID = /Android/i.test(UA);
   const IS_STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
@@ -1012,7 +1013,7 @@
       if (!r.ok) throw new Error(String(r.status));
       const rel = await r.json();
       const latest = String(rel.tag_name || '').replace(/^v/, '');
-      const asset = (rel.assets || []).find((a) => a.name.endsWith('.apk'));
+      const asset = (rel.assets || []).find((a) => a.name.endsWith(IS_DESKTOP ? '.exe' : '.apk'));
       if (latest && asset && latest > APPV) {
         UPD.apk = { version: latest, url: asset.browser_download_url };
         setUpdStatus(`Version ${latest} is ready`);
@@ -1024,7 +1025,7 @@
   function openExternal(url) { location.href = url; } // the Android app hands outside links to the phone's browser
 
   function initSW() {
-    if (IS_APK) {
+    if (IS_APK || IS_DESKTOP) {
       checkApkUpdate(false);
       setInterval(() => checkApkUpdate(false), 30 * 60 * 1000);
       document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkApkUpdate(false); });
@@ -1078,7 +1079,7 @@
     UPD.waiting.postMessage({ type: 'SKIP_WAITING' });
   }
   async function checkForUpdates() {
-    if (IS_APK) { if (UPD.apk) showUpdateBar(); else await checkApkUpdate(true); return; }
+    if (IS_APK || IS_DESKTOP) { if (UPD.apk) showUpdateBar(); else await checkApkUpdate(true); return; }
     if (!UPD.reg) { setUpdStatus(DEV_HOST ? 'Updates are off in the PC preview' : 'Updates need the installed app'); return; }
     if (UPD.waiting) { showUpdateBar(); return; }
     setUpdStatus('Checking…');
@@ -1122,7 +1123,7 @@
   // Install help on the web version: APK for Android, Safari steps for iPhone
   const installHidden = () => { try { return localStorage.getItem('echolingo.hideinstall') === '1'; } catch (e) { return false; } };
   function installCardHTML() {
-    if (IS_APK || IS_STANDALONE || installHidden() || !(IS_ANDROID || IS_IOS)) return '';
+    if (IS_APK || IS_DESKTOP || IS_STANDALONE || installHidden() || !(IS_ANDROID || IS_IOS)) return '';
     let body;
     if (IS_ANDROID) {
       body = `<b>Get the Android app</b>

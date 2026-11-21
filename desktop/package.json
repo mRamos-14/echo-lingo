@@ -1,0 +1,40 @@
+{
+  "name": "echo-lingo",
+  "productName": "Echo Lingo",
+  "version": "1.0.0",
+  "description": "Listening-first lessons for Korean, Japanese and Chinese",
+  "main": "main.js",
+  "author": "mRamos-14",
+  "license": "UNLICENSED",
+  "build": {
+    "appId": "com.mramos14.echolingo",
+    "productName": "Echo Lingo",
+    "files": [
+      "main.js",
+      "www/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "www/icons/icon-512.png"
+    },
+    "portable": {
+      "artifactName": "echo-lingo-windows.exe"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "allowScripts": {
+    "electron@33.2.1": true
+  }
+}

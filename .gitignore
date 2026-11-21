@@ -6,6 +6,12 @@ engine/voice_test/
 engine/req-win.txt
 engine/build-constraints.txt
 engine/ja_probe.py
+# app build folders (made fresh by the GitHub build)
+desktop/node_modules/
+desktop/www/
+desktop/dist/
+desktop/package-lock.json
+app/
 # Android signing key: NEVER commit (backup kept locally, copy stored as a GitHub secret)
 engine/keys/
 *.p12
