@@ -135,7 +135,7 @@ def compile_sources():
                         'parts': [{'w': p[0], 'm': p[1], 'r': p[2], **({'alt': p[3]} if len(p) > 3 else {})} for p in g['parts']],
                     } for g in grammar[les['id']]]
             dst = os.path.join(ROOT, 'data', lang, fn)
-            with open(dst, 'w', encoding='utf-8') as f:
+            with open(dst, 'w', encoding='utf-8', newline='\n') as f:  # same bytes on Windows and on GitHub
                 json.dump(full, f, ensure_ascii=False, indent=1)
             print(f'compiled src/{lang}/{fn} -> data/{lang}/{fn}: {len(full["lessons"])} lessons')
 

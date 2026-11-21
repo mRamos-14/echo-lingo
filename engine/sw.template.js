@@ -55,7 +55,7 @@ self.addEventListener('fetch', (event) => {
       return await fetch(req);
     } catch (err) {
       if (req.mode === 'navigate') {
-        const page = url.pathname.endsWith('download.html') ? 'download.html' : 'index.html';
+        const page = url.pathname.includes('/play/') ? 'play/index.html' : 'index.html';
         const saved = await cache.match(page);
         if (saved) return saved;
       }

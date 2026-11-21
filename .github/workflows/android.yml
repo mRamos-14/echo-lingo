@@ -18,7 +18,15 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check lessons and teaching order
+        run: python3 engine/bake.py --check
+
   android:
+    needs: check
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.v.outputs.version }}
@@ -57,7 +65,8 @@ jobs:
       - name: Bundle the web app
         run: |
           mkdir -p app/www
-          cp -r index.html manifest.webmanifest css js data audio icons app/www/
+          cp -r manifest.webmanifest css js data audio icons app/www/
+          cp play/index.html app/www/index.html   # the app opens straight into the game
 
       - name: Create the Android project (Capacitor)
         working-directory: app
@@ -114,6 +123,7 @@ jobs:
           path: echo-lingo.apk
 
   windows:
+    needs: check
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
@@ -126,7 +136,8 @@ jobs:
         shell: bash
         run: |
           mkdir -p desktop/www
-          cp -r index.html manifest.webmanifest css js data audio icons desktop/www/
+          cp -r manifest.webmanifest css js data audio icons desktop/www/
+          cp play/index.html desktop/www/index.html   # the app opens straight into the game
 
       - name: Build the Windows app (Electron)
         working-directory: desktop

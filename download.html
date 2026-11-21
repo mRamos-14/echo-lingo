@@ -2,130 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Download Echo Lingo</title>
-<meta name="description" content="Download the Echo Lingo app: listening-first lessons for Korean, Japanese and Chinese.">
-<meta name="theme-color" content="#4f46e5">
-<link rel="icon" type="image/png" href="icons/favicon.png">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-<style>
-  :root { --bg: #f7f5f0; --card: #fff; --ink: #1d1c1a; --muted: #6b6860; --line: #e4e0d7; --acc: #4f46e5; --acc-soft: #eceafd; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #161513; --card: #211f1c; --ink: #f1eee7; --muted: #a39f95; --line: #34312c; --acc: #8b84ff; --acc-soft: #26244a; } }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 520px; margin: 0 auto; padding: max(28px, env(safe-area-inset-top)) 18px 48px; text-align: center; }
-  .icon { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 10px 30px rgba(79,70,229,.35); }
-  h1 { font-size: 30px; margin: 16px 0 4px; }
-  .sub { color: var(--muted); margin: 0 0 22px; }
-  .langs { display: flex; justify-content: center; gap: 8px; margin-bottom: 22px; flex-wrap: wrap; }
-  .langs span { background: var(--card); border: 1px solid var(--line); border-radius: 99px; padding: 4px 12px; font-size: 14px; }
-  .dl { display: block; width: 100%; text-decoration: none; background: #2f9e5b; color: #fff; font-weight: 800; font-size: 20px;
-        border-radius: 16px; padding: 16px; box-shadow: 0 5px 0 #1f6e3f; }
-  .dl:active { transform: translateY(3px); box-shadow: 0 2px 0 #1f6e3f; }
-  .dl small { display: block; font-weight: 600; font-size: 13px; opacity: .9; margin-top: 2px; }
-  .dl.wait { background: var(--line); color: var(--muted); box-shadow: none; pointer-events: none; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin-top: 18px; text-align: left; }
-  .card h2 { font-size: 17px; margin: 0 0 6px; }
-  .card ol { margin: 6px 0 0; padding-left: 20px; }
-  .card li { margin: 4px 0; }
-  .card p { margin: 6px 0 0; }
-  .muted { color: var(--muted); font-size: 14px; }
-  .alt { display: inline-block; margin-top: 10px; color: var(--acc); font-weight: 700; text-decoration: none; }
-  .ios .android-only, .android .ios-only, .ios .desktop-only, .android .desktop-only, .desktop .android-only, .desktop .ios-only { display: none; }
-  .dl.win { background: #2f6fdb; box-shadow: 0 5px 0 #1f4e9e; }
-  .dl.inst { background: var(--acc); box-shadow: 0 5px 0 #3730a3; margin-bottom: 14px; border: 0; cursor: pointer; font-family: inherit; }
-  .dl.inst[hidden] { display: none; }
-</style>
+<meta http-equiv="refresh" content="0; url=./">
+<link rel="canonical" href="./">
+<script>location.replace('./' + location.search + location.hash);</script>
 </head>
-<body>
-<main>
-  <img class="icon" src="icons/icon-512.png" alt="">
-  <h1>Echo Lingo</h1>
-  <p class="sub">Learn Korean, Japanese and Chinese by ear, from the first sounds to real sentences.</p>
-  <div class="langs"><span>한국어</span><span>日本語</span><span>中文</span><span>~100 lessons each</span><span>works offline</span></div>
-
-  <button class="dl inst" id="install" hidden>＋ Install app <small>one tap, no download, no browser badge</small></button>
-
-  <div class="desktop-only">
-    <a class="dl win" id="exe" href="https://github.com/mRamos-14/echo-lingo/releases/latest/download/echo-lingo-windows.exe" download>
-      ⬇ Download for Windows <small id="exeinfo">echo-lingo-windows.exe</small>
-    </a>
-    <div class="card">
-      <h2>Install on Windows</h2>
-      <ol>
-        <li>Download <b>echo-lingo-windows.exe</b> and double-click it. It runs straight away, nothing to set up.</li>
-        <li>Windows may say “Windows protected your PC” because the app isn't signed by a paid certificate: click <b>More info</b> → <b>Run anyway</b>.</li>
-        <li>Pin it to your taskbar or move the file wherever you like. Lessons and audio are inside, so it works offline.</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="android-only">
-    <a class="dl" id="apk" href="https://github.com/mRamos-14/echo-lingo/releases/latest/download/echo-lingo.apk" download>
-      ⬇ Download for Android <small id="apkinfo">echo-lingo.apk</small>
-    </a>
-    <div class="card">
-      <h2>Install on Android</h2>
-      <ol>
-        <li>Tap <b>Download for Android</b> above.</li>
-        <li>Open the downloaded <b>echo-lingo.apk</b> (from the notification or your Downloads).</li>
-        <li>If your phone asks, allow your browser to <b>install unknown apps</b>, then go back.</li>
-        <li>Tap <b>Install</b>, then <b>Open</b>. Echo Lingo is now a normal app in your app drawer.</li>
-      </ol>
-      <p class="muted">It's a standalone app: lessons and all audio are inside it, so it works without internet. When a new version is out, the app shows a <b>Download update</b> button, and installing it keeps your progress.</p>
-    </div>
-    <div class="card">
-      <h2>No download? Install from Chrome</h2>
-      <ol>
-        <li>Open <a href="./">this link</a> in <b>Chrome</b> (not Brave or another browser).</li>
-        <li>Tap <b>⋮</b> → <b>Install app</b>. Don't use “Add to home screen” or “Create shortcut”: those make a badged browser shortcut.</li>
-        <li>Chrome turns it into a real app: no browser badge, listed in your app drawer and Settings → Apps. Updates arrive through the in-app <b>Update now</b> button.</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="card ios-only">
-    <h2>iPhone</h2>
-    <p>Apple doesn't allow installing app files from the internet. On iPhone, Echo Lingo installs from <b>Safari</b> instead:</p>
-    <ol>
-      <li>Open <a href="./">this link</a> in <b>Safari</b> (not Chrome).</li>
-      <li>Tap the <b>Share</b> button, then <b>Add to Home Screen</b>, then <b>Add</b>.</li>
-      <li>Open Echo Lingo from your home screen. Tap <b>Save audio for offline</b> once, and it works without internet.</li>
-    </ol>
-  </div>
-
-  <a class="alt" href="./">Or play in your browser now →</a>
-</main>
-<script>
-  var ua = navigator.userAgent;
-  var ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-  if (ios) document.body.classList.add('ios');
-  else if (/Android/i.test(ua)) document.body.classList.add('android');
-  else document.body.classList.add('desktop');
-
-  // One-tap install where the browser supports it (Chrome / Edge on Android and Windows)
-  var deferred = null, inst = document.getElementById('install');
-  if ('serviceWorker' in navigator && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) navigator.serviceWorker.register('sw.js').catch(function () {});
-  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferred = e; inst.hidden = false; });
-  window.addEventListener('appinstalled', function () { inst.hidden = false; inst.disabled = true; inst.innerHTML = '✓ Installed <small>open Echo Lingo from your apps</small>'; });
-  inst.addEventListener('click', function () { if (!deferred) return; deferred.prompt(); deferred.userChoice.then(function () { deferred = null; }); });
-
-  // show versions and sizes; grey a button out until its first build exists
-  function ready(id, info, re, label) {
-    return function (rel) {
-      var a = (rel && rel.assets || []).filter(function (x) { return re.test(x.name); })[0];
-      var b = document.getElementById(id);
-      if (!a) { b.classList.add('wait'); b.innerHTML = label + ' is being built… <small>check back in a few minutes</small>'; return; }
-      document.getElementById(info).textContent = 'Version ' + String(rel.tag_name).replace(/^v/, '') + ' · ' + (a.size / 1048576).toFixed(0) + ' MB';
-    };
-  }
-  fetch('https://api.github.com/repos/mRamos-14/echo-lingo/releases/latest').then(function (r) {
-    return r.status === 404 ? null : r.json();
-  }).then(function (rel) {
-    ready('apk', 'apkinfo', /\.apk$/, 'Android app')(rel);
-    ready('exe', 'exeinfo', /\.exe$/, 'Windows app')(rel);
-  }).catch(function () {});
-</script>
+<body style="font-family: system-ui, sans-serif; background: #161513; color: #f1eee7; padding: 24px;">
+<p>Echo Lingo's download page has moved. <a href="./" style="color: #8b84ff;">Continue to the download page →</a></p>
 </body>
 </html>

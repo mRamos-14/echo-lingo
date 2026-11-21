@@ -12,7 +12,7 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SHELL = ['./', 'index.html', 'download.html','css/app.css', 'js/lang.js', 'js/app.js', 'js/version.js', 'manifest.webmanifest',
+SHELL = ['./', 'index.html', 'download.html', 'play/', 'play/index.html', 'css/app.css', 'js/lang.js', 'js/app.js', 'js/version.js', 'manifest.webmanifest',
          'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png',
          'icons/favicon.png', 'data/index.json', 'audio/manifest.json']
 
@@ -22,7 +22,7 @@ def main():
         files = SHELL + [t['file'] for c in json.load(f) for t in c['tiers']]
     # content fingerprint, so the version only changes when something actually changed
     h = hashlib.sha1()
-    for rel in [f for f in files if f not in ('./', 'js/version.js')] + ['engine/sw.template.js']:
+    for rel in [f for f in files if not f.endswith('/') and f != 'js/version.js'] + ['engine/sw.template.js']:
         with open(os.path.join(ROOT, rel), 'rb') as f:
             h.update(rel.encode() + f.read())
     fp = h.hexdigest()[:8]

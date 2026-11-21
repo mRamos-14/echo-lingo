@@ -1139,7 +1139,7 @@
     if (IS_STANDALONE) return '<span class="installed">Installed app ✓</span>';
     if (installPrompt) return '<button class="btn primary sm" id="setinstall">Install app</button>';
     if (IS_IOS) return '<span class="muted sm">Install: Safari → Share → Add to Home Screen</span>';
-    if (IS_ANDROID) return '<a class="btn ghost sm" href="download.html">Install / download app</a>';
+    if (IS_ANDROID) return '<a class="btn ghost sm" href="./">Install / download app</a>';
     return '';
   }
   // Install help on the web version: APK for Android, Safari steps for iPhone
@@ -1150,7 +1150,7 @@
     if (IS_ANDROID) {
       body = `<b>Get the Android app</b>
         <p>Download the app, open the file, and tap <b>Install</b>. If your phone asks, allow your browser to install apps. It works offline, and updates show up inside the app.</p>
-        <div class="ibtns"><a class="btn primary sm" id="apkdl" href="download.html">Download Android app</a>
+        <div class="ibtns"><a class="btn primary sm" id="apkdl" href="./">Download Android app</a>
         ${installPrompt ? '<button class="btn ghost sm" id="pwainstall">Install from Chrome</button>' : ''}</div>
         <p class="muted sm">No download? In <b>Chrome</b> tap ⋮ → <b>Install app</b> (not “Create shortcut”) for a real app without the browser badge.</p>`;
     } else if (/CriOS|FxiOS|EdgiOS|OPiOS|GSA\//.test(UA)) {
