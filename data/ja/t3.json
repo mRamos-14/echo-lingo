@@ -1,0 +1,2593 @@
+{
+ "lang": "ja",
+ "tier": 3,
+ "name": "Upper elementary",
+ "sub": "Past tense, the て-form, wants and invitations, counters and travel (≈ JLPT N5–N4)",
+ "lessons": [
+  {
+   "id": "ja3-1",
+   "title": "Did it",
+   "unit": "Unit 1 · The past",
+   "learn": [
+    {
+     "h": "ます → ました",
+     "p": "For the past, change <b>ます</b> to <b>ました</b>: いきます → いきました (went).",
+     "ex": [
+      "ja-いきました"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いきました",
+     "w": "いきました",
+     "r": "ikimashita",
+     "m": "went",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たべました",
+     "w": "たべました",
+     "r": "tabemashita",
+     "m": "ate",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みました",
+     "w": "みました",
+     "r": "mimashita",
+     "m": "saw / watched",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きのう えいが を みました。",
+     "w": "きのう えいが を みました。",
+     "r": "kinō eiga o mimashita.",
+     "m": "I watched a movie yesterday.",
+     "kind": "sent",
+     "say": "きのうえいがおみました。",
+     "toks": [
+      "きのう",
+      "えいが",
+      "を",
+      "みました"
+     ]
+    },
+    {
+     "id": "ja-なに を しました か。",
+     "w": "なに を しました か。",
+     "r": "nani o shimashita ka.",
+     "m": "What did you do?",
+     "kind": "sent",
+     "say": "なにおしましたか。",
+     "toks": [
+      "なに",
+      "を",
+      "しました",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "ます → ました (past)",
+     "ex": "ja-きのう えいが を みました。",
+     "parts": [
+      {
+       "w": "きのう",
+       "m": "yesterday",
+       "r": "t"
+      },
+      {
+       "w": "えいが",
+       "m": "movie",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "が"
+       ]
+      },
+      {
+       "w": "みました",
+       "m": "watched",
+       "r": "v",
+       "alt": [
+        "みます"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-2",
+   "title": "Didn't do it",
+   "learn": [
+    {
+     "h": "ません → ませんでした",
+     "p": "Past negative adds <b>でした</b>: いきません → いきませんでした (didn't go)."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いきませんでした",
+     "w": "いきませんでした",
+     "r": "ikimasen deshita",
+     "m": "didn't go",
+     "kind": "word"
+    },
+    {
+     "id": "ja-のみませんでした",
+     "w": "のみませんでした",
+     "r": "nomimasen deshita",
+     "m": "didn't drink",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あさごはん を たべませんでした。",
+     "w": "あさごはん を たべませんでした。",
+     "r": "asagohan o tabemasen deshita.",
+     "m": "I didn't eat breakfast.",
+     "kind": "sent",
+     "say": "あさごはんおたべませんでした。",
+     "toks": [
+      "あさごはん",
+      "を",
+      "たべませんでした"
+     ]
+    },
+    {
+     "id": "ja-きのう は べんきょう しませんでした。",
+     "w": "きのう は べんきょう しませんでした。",
+     "r": "kinō wa benkyō shimasen deshita.",
+     "m": "I didn't study yesterday.",
+     "kind": "sent",
+     "say": "きのうわべんきょうしませんでした。",
+     "toks": [
+      "きのう",
+      "は",
+      "べんきょう",
+      "しませんでした"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "ません → ませんでした",
+     "ex": "ja-あさごはん を たべませんでした。",
+     "parts": [
+      {
+       "w": "あさごはん",
+       "m": "breakfast",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "に"
+       ]
+      },
+      {
+       "w": "たべませんでした",
+       "m": "didn't eat",
+       "r": "v",
+       "alt": [
+        "たべました",
+        "たべません"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-3",
+   "title": "It was fun",
+   "learn": [
+    {
+     "h": "Past adjectives",
+     "p": "い-adjectives: drop い, add <b>かった</b>: たのしい → たのしかった (was fun). Nouns and な-adjectives use <b>でした</b>: かんたん でした (was easy).",
+     "ex": [
+      "ja-たのしかった です。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-かんたん",
+     "w": "かんたん",
+     "r": "kantan",
+     "m": "easy / simple",
+     "kind": "word"
+    },
+    {
+     "id": "ja-テスト",
+     "w": "テスト",
+     "r": "tesuto",
+     "m": "test",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たのしかった です。",
+     "w": "たのしかった です。",
+     "r": "tanoshikatta desu.",
+     "m": "It was fun.",
+     "kind": "sent",
+     "say": "たのしかったです。",
+     "toks": [
+      "たのしかった",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-さむかった です。",
+     "w": "さむかった です。",
+     "r": "samukatta desu.",
+     "m": "It was cold.",
+     "kind": "sent",
+     "say": "さむかったです。",
+     "toks": [
+      "さむかった",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-テスト は かんたん でした。",
+     "w": "テスト は かんたん でした。",
+     "r": "tesuto wa kantan deshita.",
+     "m": "The test was easy.",
+     "kind": "sent",
+     "say": "テストわかんたんでした。",
+     "toks": [
+      "テスト",
+      "は",
+      "かんたん",
+      "でした"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "noun / な-adjective + でした",
+     "ex": "ja-テスト は かんたん でした。",
+     "parts": [
+      {
+       "w": "テスト",
+       "m": "test",
+       "r": "n"
+      },
+      {
+       "w": "は",
+       "m": "topic marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "かんたん",
+       "m": "easy",
+       "r": "a"
+      },
+      {
+       "w": "でした",
+       "m": "was",
+       "r": "e",
+       "alt": [
+        "です"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-4",
+   "title": "Last week, next year",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-せんしゅう",
+     "w": "せんしゅう",
+     "r": "senshū",
+     "m": "last week",
+     "kind": "word"
+    },
+    {
+     "id": "ja-らいしゅう",
+     "w": "らいしゅう",
+     "r": "raishū",
+     "m": "next week",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きょねん",
+     "w": "きょねん",
+     "r": "kyonen",
+     "m": "last year",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ことし",
+     "w": "ことし",
+     "r": "kotoshi",
+     "m": "this year",
+     "kind": "word"
+    },
+    {
+     "id": "ja-らいねん",
+     "w": "らいねん",
+     "r": "rainen",
+     "m": "next year",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きょうと",
+     "w": "きょうと",
+     "r": "kyōto",
+     "m": "Kyoto",
+     "kind": "word"
+    },
+    {
+     "id": "ja-せんしゅう きょうと に いきました。",
+     "w": "せんしゅう きょうと に いきました。",
+     "r": "senshū kyōto ni ikimashita.",
+     "m": "I went to Kyoto last week.",
+     "kind": "sent",
+     "say": "せんしゅうきょうとにいきました。",
+     "toks": [
+      "せんしゅう",
+      "きょうと",
+      "に",
+      "いきました"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[time] [place] に いきました",
+     "ex": "ja-せんしゅう きょうと に いきました。",
+     "parts": [
+      {
+       "w": "せんしゅう",
+       "m": "last week",
+       "r": "t"
+      },
+      {
+       "w": "きょうと",
+       "m": "Kyoto",
+       "r": "t"
+      },
+      {
+       "w": "に",
+       "m": "to",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "いきました",
+       "m": "went",
+       "r": "v",
+       "alt": [
+        "いきます"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-5",
+   "title": "Time kanji",
+   "learn": [
+    {
+     "h": "Kanji you already know",
+     "p": "These kanji are also used in Chinese: <b>今</b> (now), <b>日</b> (day, sun), <b>月</b> (moon, month), <b>年</b> (year). Today = 今日 (きょう), tomorrow = 明日 (あした).",
+     "ex": [
+      "ja-今日",
+      "ja-明日"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-今日",
+     "w": "今日",
+     "r": "kyō",
+     "m": "today (kanji)",
+     "kind": "word",
+     "k": "きょう",
+     "say": "きょう"
+    },
+    {
+     "id": "ja-明日",
+     "w": "明日",
+     "r": "ashita",
+     "m": "tomorrow (kanji)",
+     "kind": "word",
+     "k": "あした",
+     "say": "あした"
+    },
+    {
+     "id": "ja-昨日",
+     "w": "昨日",
+     "r": "kinō",
+     "m": "yesterday (kanji)",
+     "kind": "word",
+     "k": "きのう",
+     "say": "きのう"
+    },
+    {
+     "id": "ja-今",
+     "w": "今",
+     "r": "ima",
+     "m": "now (kanji)",
+     "kind": "word",
+     "k": "いま",
+     "say": "いま"
+    },
+    {
+     "id": "ja-年",
+     "w": "年",
+     "r": "toshi",
+     "m": "year",
+     "kind": "word",
+     "k": "とし",
+     "say": "とし"
+    },
+    {
+     "id": "ja-月",
+     "w": "月",
+     "r": "tsuki",
+     "m": "moon / month",
+     "kind": "word",
+     "k": "つき",
+     "say": "つき"
+    },
+    {
+     "id": "ja-日",
+     "w": "日",
+     "r": "hi",
+     "m": "sun / day",
+     "kind": "word",
+     "k": "ひ",
+     "say": "ひ"
+    },
+    {
+     "id": "ja-明日 は いそがしい です。",
+     "w": "明日 は いそがしい です。",
+     "r": "ashita wa isogashii desu.",
+     "m": "I'm busy tomorrow.",
+     "kind": "sent",
+     "k": "あした は いそがしい です。",
+     "say": "あしたわいそがしいです。",
+     "toks": [
+      "明日",
+      "は",
+      "いそがしい",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-昨日 は たのしかった です。",
+     "w": "昨日 は たのしかった です。",
+     "r": "kinō wa tanoshikatta desu.",
+     "m": "Yesterday was fun.",
+     "kind": "sent",
+     "k": "きのう は たのしかった です。",
+     "say": "きのうわたのしかったです。",
+     "toks": [
+      "昨日",
+      "は",
+      "たのしかった",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-6",
+   "title": "The て-form",
+   "unit": "Unit 2 · The て-form",
+   "learn": [
+    {
+     "h": "The most useful verb form",
+     "p": "The <b>て-form</b> links actions and makes requests. る-verbs just swap る for て (たべる → たべて). Others change sound: のむ → のんで, いく → いって, する → して. Add <b>ください</b> and it becomes a polite request: たべて ください = please eat.",
+     "ex": [
+      "ja-たべて",
+      "ja-のんで",
+      "ja-たべて ください。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-たべて",
+     "w": "たべて",
+     "r": "tabete",
+     "m": "eat (て-form)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みて",
+     "w": "みて",
+     "r": "mite",
+     "m": "look (て-form)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きいて",
+     "w": "きいて",
+     "r": "kiite",
+     "m": "listen (て-form)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-のんで",
+     "w": "のんで",
+     "r": "nonde",
+     "m": "drink (て-form)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いって",
+     "w": "いって",
+     "r": "itte",
+     "m": "go / say (て-form)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-して",
+     "w": "して",
+     "r": "shite",
+     "m": "do (て-form)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たべて ください。",
+     "w": "たべて ください。",
+     "r": "tabete kudasai.",
+     "m": "Please eat.",
+     "kind": "sent",
+     "say": "たべてください。",
+     "toks": [
+      "たべて",
+      "ください"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-7",
+   "title": "Please do",
+   "learn": [
+    {
+     "h": "～て ください",
+     "p": "て-form + <b>ください</b> = please do it: まって ください = please wait.",
+     "ex": [
+      "ja-まって ください。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-まちます",
+     "w": "まちます",
+     "r": "machimasu",
+     "m": "wait",
+     "kind": "word"
+    },
+    {
+     "id": "ja-すわります",
+     "w": "すわります",
+     "r": "suwarimasu",
+     "m": "sit",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まって ください。",
+     "w": "まって ください。",
+     "r": "matte kudasai.",
+     "m": "Please wait.",
+     "kind": "sent",
+     "say": "まってください。",
+     "toks": [
+      "まって",
+      "ください"
+     ]
+    },
+    {
+     "id": "ja-みて ください。",
+     "w": "みて ください。",
+     "r": "mite kudasai.",
+     "m": "Please look.",
+     "kind": "sent",
+     "say": "みてください。",
+     "toks": [
+      "みて",
+      "ください"
+     ]
+    },
+    {
+     "id": "ja-すわって ください。",
+     "w": "すわって ください。",
+     "r": "suwatte kudasai.",
+     "m": "Please sit down.",
+     "kind": "sent",
+     "say": "すわってください。",
+     "toks": [
+      "すわって",
+      "ください"
+     ]
+    },
+    {
+     "id": "ja-もう いちど いって ください。",
+     "w": "もう いちど いって ください。",
+     "r": "mō ichido itte kudasai.",
+     "m": "Please say it again.",
+     "kind": "sent",
+     "say": "もういちどいってください。",
+     "toks": [
+      "もう",
+      "いちど",
+      "いって",
+      "ください"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "て-form + ください",
+     "ex": "ja-まって ください。",
+     "parts": [
+      {
+       "w": "まって",
+       "m": "wait (て-form)",
+       "r": "v",
+       "alt": [
+        "まちます"
+       ]
+      },
+      {
+       "w": "ください",
+       "m": "please",
+       "r": "e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-8",
+   "title": "Doing it now",
+   "learn": [
+    {
+     "h": "～て います",
+     "p": "て-form + <b>います</b> = something happening right now: たべて います = I'm eating.",
+     "ex": [
+      "ja-たべて います。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-ふります",
+     "w": "ふります",
+     "r": "furimasu",
+     "m": "fall (rain / snow)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たべて います。",
+     "w": "たべて います。",
+     "r": "tabete imasu.",
+     "m": "I'm eating.",
+     "kind": "sent",
+     "say": "たべています。",
+     "toks": [
+      "たべて",
+      "います"
+     ]
+    },
+    {
+     "id": "ja-いま なに を して います か。",
+     "w": "いま なに を して います か。",
+     "r": "ima nani o shite imasu ka.",
+     "m": "What are you doing now?",
+     "kind": "sent",
+     "say": "いまなにおしていますか。",
+     "toks": [
+      "いま",
+      "なに",
+      "を",
+      "して",
+      "います",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-べんきょう して います。",
+     "w": "べんきょう して います。",
+     "r": "benkyō shite imasu.",
+     "m": "I'm studying.",
+     "kind": "sent",
+     "say": "べんきょうしています。",
+     "toks": [
+      "べんきょう",
+      "して",
+      "います"
+     ]
+    },
+    {
+     "id": "ja-あめ が ふって います。",
+     "w": "あめ が ふって います。",
+     "r": "ame ga futte imasu.",
+     "m": "It's raining.",
+     "kind": "sent",
+     "say": "あめがふっています。",
+     "toks": [
+      "あめ",
+      "が",
+      "ふって",
+      "います"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "て-form + います = doing now",
+     "ex": "ja-いま なに を して います か。",
+     "parts": [
+      {
+       "w": "いま",
+       "m": "now",
+       "r": "t"
+      },
+      {
+       "w": "なに",
+       "m": "what",
+       "r": "q"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "が"
+       ]
+      },
+      {
+       "w": "して",
+       "m": "do (て-form)",
+       "r": "v"
+      },
+      {
+       "w": "います",
+       "m": "(ongoing)",
+       "r": "e",
+       "alt": [
+        "ください"
+       ]
+      },
+      {
+       "w": "か",
+       "m": "question",
+       "r": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-9",
+   "title": "Where I live",
+   "learn": [
+    {
+     "h": "～て います for states",
+     "p": "て います also describes ongoing states: すんで います (live), しって います (know), けっこん して います (be married)."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-すみます",
+     "w": "すみます",
+     "r": "sumimasu",
+     "m": "live (somewhere)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-しります",
+     "w": "しります",
+     "r": "shirimasu",
+     "m": "get to know",
+     "kind": "word"
+    },
+    {
+     "id": "ja-とうきょう",
+     "w": "とうきょう",
+     "r": "tōkyō",
+     "m": "Tokyo",
+     "kind": "word"
+    },
+    {
+     "id": "ja-けっこん",
+     "w": "けっこん",
+     "r": "kekkon",
+     "m": "marriage",
+     "kind": "word"
+    },
+    {
+     "id": "ja-とうきょう に すんで います。",
+     "w": "とうきょう に すんで います。",
+     "r": "tōkyō ni sunde imasu.",
+     "m": "I live in Tokyo.",
+     "kind": "sent",
+     "say": "とうきょうにすんでいます。",
+     "toks": [
+      "とうきょう",
+      "に",
+      "すんで",
+      "います"
+     ]
+    },
+    {
+     "id": "ja-しって います か。",
+     "w": "しって います か。",
+     "r": "shitte imasu ka.",
+     "m": "Do you know (it)?",
+     "kind": "sent",
+     "say": "しっていますか。",
+     "toks": [
+      "しって",
+      "います",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-けっこん して います。",
+     "w": "けっこん して います。",
+     "r": "kekkon shite imasu.",
+     "m": "I'm married.",
+     "kind": "sent",
+     "say": "けっこんしています。",
+     "toks": [
+      "けっこん",
+      "して",
+      "います"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-10",
+   "title": "And then",
+   "learn": [
+    {
+     "h": "Linking with て",
+     "p": "Use the て-form to chain actions in order: おきて、 シャワー を あびます = I get up and take a shower.",
+     "ex": [
+      "ja-あさ おきて、 シャワー を あびます。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-あびます",
+     "w": "あびます",
+     "r": "abimasu",
+     "m": "take (a shower)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-シャワー",
+     "w": "シャワー",
+     "r": "shawā",
+     "m": "shower",
+     "kind": "word"
+    },
+    {
+     "id": "ja-でかけます",
+     "w": "でかけます",
+     "r": "dekakemasu",
+     "m": "go out",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あさ おきて、 シャワー を あびます。",
+     "w": "あさ おきて、 シャワー を あびます。",
+     "r": "asa okite, shawā o abimasu.",
+     "m": "I get up and take a shower.",
+     "kind": "sent",
+     "say": "あさおきて、シャワーおあびます。",
+     "toks": [
+      "あさ",
+      "おきて",
+      "シャワー",
+      "を",
+      "あびます"
+     ]
+    },
+    {
+     "id": "ja-ごはん を たべて、 でかけます。",
+     "w": "ごはん を たべて、 でかけます。",
+     "r": "gohan o tabete, dekakemasu.",
+     "m": "I eat and then go out.",
+     "kind": "sent",
+     "say": "ごはんおたべて、でかけます。",
+     "toks": [
+      "ごはん",
+      "を",
+      "たべて",
+      "でかけます"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "て-form, then next action",
+     "ex": "ja-ごはん を たべて、 でかけます。",
+     "parts": [
+      {
+       "w": "ごはん",
+       "m": "meal",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p"
+      },
+      {
+       "w": "たべて",
+       "m": "eat (and then)",
+       "r": "v",
+       "alt": [
+        "たべます"
+       ]
+      },
+      {
+       "w": "でかけます",
+       "m": "go out",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-11",
+   "title": "I want to",
+   "unit": "Unit 3 · Wants and invitations",
+   "learn": [
+    {
+     "h": "～たい / ほしい",
+     "p": "Verb stem + <b>たい</b> = want to do: いきたい (want to go). For wanting a <i>thing</i>, use <b>ほしい</b>.",
+     "ex": [
+      "ja-いきたい",
+      "ja-ほしい"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いきたい",
+     "w": "いきたい",
+     "r": "ikitai",
+     "m": "want to go",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たべたい",
+     "w": "たべたい",
+     "r": "tabetai",
+     "m": "want to eat",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ほしい",
+     "w": "ほしい",
+     "r": "hoshii",
+     "m": "want (a thing)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-にほん に いきたい です。",
+     "w": "にほん に いきたい です。",
+     "r": "nihon ni ikitai desu.",
+     "m": "I want to go to Japan.",
+     "kind": "sent",
+     "say": "にほんにいきたいです。",
+     "toks": [
+      "にほん",
+      "に",
+      "いきたい",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-なに が たべたい です か。",
+     "w": "なに が たべたい です か。",
+     "r": "nani ga tabetai desu ka.",
+     "m": "What do you want to eat?",
+     "kind": "sent",
+     "say": "なにがたべたいですか。",
+     "toks": [
+      "なに",
+      "が",
+      "たべたい",
+      "です",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-あたらしい くるま が ほしい です。",
+     "w": "あたらしい くるま が ほしい です。",
+     "r": "atarashii kuruma ga hoshii desu.",
+     "m": "I want a new car.",
+     "kind": "sent",
+     "say": "あたらしいくるまがほしいです。",
+     "toks": [
+      "あたらしい",
+      "くるま",
+      "が",
+      "ほしい",
+      "です"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "verb stem + たい = want to",
+     "ex": "ja-にほん に いきたい です。",
+     "parts": [
+      {
+       "w": "にほん",
+       "m": "Japan",
+       "r": "t"
+      },
+      {
+       "w": "に",
+       "m": "to",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "いきたい",
+       "m": "want to go",
+       "r": "v",
+       "alt": [
+        "いきました"
+       ]
+      },
+      {
+       "w": "です",
+       "m": "(polite)",
+       "r": "e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-12",
+   "title": "Let's",
+   "learn": [
+    {
+     "h": "～ましょう",
+     "p": "Change ます to <b>ましょう</b> for “let's”: いきましょう = let's go."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いきましょう",
+     "w": "いきましょう",
+     "r": "ikimashō",
+     "m": "let's go",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たべましょう",
+     "w": "たべましょう",
+     "r": "tabemashō",
+     "m": "let's eat",
+     "kind": "word"
+    },
+    {
+     "id": "ja-やすみます",
+     "w": "やすみます",
+     "r": "yasumimasu",
+     "m": "rest / take a break",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いっしょに たべましょう。",
+     "w": "いっしょに たべましょう。",
+     "r": "issho ni tabemashō.",
+     "m": "Let's eat together.",
+     "kind": "sent",
+     "say": "いっしょにたべましょう。",
+     "toks": [
+      "いっしょに",
+      "たべましょう"
+     ]
+    },
+    {
+     "id": "ja-すこし やすみましょう。",
+     "w": "すこし やすみましょう。",
+     "r": "sukoshi yasumimashō.",
+     "m": "Let's take a short break.",
+     "kind": "sent",
+     "say": "すこしやすみましょう。",
+     "toks": [
+      "すこし",
+      "やすみましょう"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "ます → ましょう = let's",
+     "ex": "ja-いっしょに たべましょう。",
+     "parts": [
+      {
+       "w": "いっしょに",
+       "m": "together",
+       "r": "m"
+      },
+      {
+       "w": "たべましょう",
+       "m": "let's eat",
+       "r": "v",
+       "alt": [
+        "たべました"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-13",
+   "title": "Won't you…?",
+   "learn": [
+    {
+     "h": "Inviting politely",
+     "p": "<b>～ませんか</b> (won't you…?) is the polite way to invite. Accept with <b>いい です ね</b> (sounds good).",
+     "ex": [
+      "ja-いっしょに えいが を みませんか。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-ざんねん",
+     "w": "ざんねん",
+     "r": "zannen",
+     "m": "too bad / unfortunately",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いっしょに えいが を みませんか。",
+     "w": "いっしょに えいが を みませんか。",
+     "r": "issho ni eiga o mimasen ka.",
+     "m": "Would you like to watch a movie together?",
+     "kind": "sent",
+     "say": "いっしょにえいがおみませんか。",
+     "toks": [
+      "いっしょに",
+      "えいが",
+      "を",
+      "みませんか"
+     ]
+    },
+    {
+     "id": "ja-コーヒー を のみませんか。",
+     "w": "コーヒー を のみませんか。",
+     "r": "kōhī o nomimasen ka.",
+     "m": "Would you like some coffee?",
+     "kind": "sent",
+     "say": "コーヒーおのみませんか。",
+     "toks": [
+      "コーヒー",
+      "を",
+      "のみませんか"
+     ]
+    },
+    {
+     "id": "ja-いい です ね。",
+     "w": "いい です ね。",
+     "r": "ii desu ne.",
+     "m": "Sounds good.",
+     "kind": "sent",
+     "say": "いいですね。",
+     "toks": [
+      "いい",
+      "です",
+      "ね"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "～ませんか = won't you?",
+     "ex": "ja-コーヒー を のみませんか。",
+     "parts": [
+      {
+       "w": "コーヒー",
+       "m": "coffee",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "が"
+       ]
+      },
+      {
+       "w": "のみませんか",
+       "m": "won't you drink?",
+       "r": "v",
+       "alt": [
+        "のみました"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-14",
+   "title": "I can",
+   "learn": [
+    {
+     "h": "できます",
+     "p": "<b>できます</b> = can / be able to. The skill takes <b>が</b>: にほんご が できます = I can speak Japanese.",
+     "ex": [
+      "ja-にほんご が できます。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-できます",
+     "w": "できます",
+     "r": "dekimasu",
+     "m": "can / be able to",
+     "kind": "word"
+    },
+    {
+     "id": "ja-うんてん",
+     "w": "うんてん",
+     "r": "unten",
+     "m": "driving",
+     "kind": "word"
+    },
+    {
+     "id": "ja-にほんご が できます。",
+     "w": "にほんご が できます。",
+     "r": "nihongo ga dekimasu.",
+     "m": "I can speak Japanese.",
+     "kind": "sent",
+     "say": "にほんごができます。",
+     "toks": [
+      "にほんご",
+      "が",
+      "できます"
+     ]
+    },
+    {
+     "id": "ja-りょうり が できます。",
+     "w": "りょうり が できます。",
+     "r": "ryōri ga dekimasu.",
+     "m": "I can cook.",
+     "kind": "sent",
+     "say": "りょうりができます。",
+     "toks": [
+      "りょうり",
+      "が",
+      "できます"
+     ]
+    },
+    {
+     "id": "ja-うんてん が できます か。",
+     "w": "うんてん が できます か。",
+     "r": "unten ga dekimasu ka.",
+     "m": "Can you drive?",
+     "kind": "sent",
+     "say": "うんてんができますか。",
+     "toks": [
+      "うんてん",
+      "が",
+      "できます",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[skill] が できます",
+     "ex": "ja-にほんご が できます。",
+     "parts": [
+      {
+       "w": "にほんご",
+       "m": "Japanese",
+       "r": "n"
+      },
+      {
+       "w": "が",
+       "m": "(the skill)",
+       "r": "p",
+       "alt": [
+        "に"
+       ]
+      },
+      {
+       "w": "できます",
+       "m": "can do",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-15",
+   "title": "Giving and receiving",
+   "learn": [
+    {
+     "h": "あげます / もらいます",
+     "p": "<b>あげます</b> = give (to someone else), <b>もらいます</b> = receive. The person takes <b>に</b>: ともだち に あげます = give to a friend."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-あげます",
+     "w": "あげます",
+     "r": "agemasu",
+     "m": "give",
+     "kind": "word"
+    },
+    {
+     "id": "ja-もらいます",
+     "w": "もらいます",
+     "r": "moraimasu",
+     "m": "receive",
+     "kind": "word"
+    },
+    {
+     "id": "ja-プレゼント",
+     "w": "プレゼント",
+     "r": "purezento",
+     "m": "present / gift",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ともだち に プレゼント を あげます。",
+     "w": "ともだち に プレゼント を あげます。",
+     "r": "tomodachi ni purezento o agemasu.",
+     "m": "I give my friend a present.",
+     "kind": "sent",
+     "say": "ともだちにプレゼントおあげます。",
+     "toks": [
+      "ともだち",
+      "に",
+      "プレゼント",
+      "を",
+      "あげます"
+     ]
+    },
+    {
+     "id": "ja-はは に はな を もらいました。",
+     "w": "はは に はな を もらいました。",
+     "r": "haha ni hana o moraimashita.",
+     "m": "I got flowers from my mother.",
+     "kind": "sent",
+     "say": "ははにはなおもらいました。",
+     "toks": [
+      "はは",
+      "に",
+      "はな",
+      "を",
+      "もらいました"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[person] に [thing] を あげます",
+     "ex": "ja-ともだち に プレゼント を あげます。",
+     "parts": [
+      {
+       "w": "ともだち",
+       "m": "friend",
+       "r": "n"
+      },
+      {
+       "w": "に",
+       "m": "to",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "プレゼント",
+       "m": "present",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "に"
+       ]
+      },
+      {
+       "w": "あげます",
+       "m": "give",
+       "r": "v",
+       "alt": [
+        "もらいます"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-16",
+   "title": "Counting people",
+   "unit": "Unit 4 · Counting",
+   "learn": [
+    {
+     "h": "にん for people",
+     "p": "One and two people are special: <b>ひとり</b>, <b>ふたり</b>. From three on: number + <b>にん</b> (さんにん, よにん)."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-ひとり",
+     "w": "ひとり",
+     "r": "hitori",
+     "m": "one person",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ふたり",
+     "w": "ふたり",
+     "r": "futari",
+     "m": "two people",
+     "kind": "word"
+    },
+    {
+     "id": "ja-さんにん",
+     "w": "さんにん",
+     "r": "sannin",
+     "m": "three people",
+     "kind": "word"
+    },
+    {
+     "id": "ja-なんにん",
+     "w": "なんにん",
+     "r": "nannin",
+     "m": "how many people",
+     "kind": "word"
+    },
+    {
+     "id": "ja-よにん",
+     "w": "よにん",
+     "r": "yonin",
+     "m": "four people",
+     "kind": "word"
+    },
+    {
+     "id": "ja-かぞく は よにん です。",
+     "w": "かぞく は よにん です。",
+     "r": "kazoku wa yonin desu.",
+     "m": "There are four people in my family.",
+     "kind": "sent",
+     "say": "かぞくわよにんです。",
+     "toks": [
+      "かぞく",
+      "は",
+      "よにん",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-17",
+   "title": "Flat things, long things",
+   "learn": [
+    {
+     "h": "Shape counters",
+     "p": "<b>まい</b> counts flat things (tickets, paper), <b>ほん</b> long things (pens, bottles), <b>さつ</b> books. Sounds shift: いっぽん, いっさつ."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いちまい",
+     "w": "いちまい",
+     "r": "ichimai",
+     "m": "one (flat thing)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いっぽん",
+     "w": "いっぽん",
+     "r": "ippon",
+     "m": "one (long thing)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いっさつ",
+     "w": "いっさつ",
+     "r": "issatsu",
+     "m": "one (book)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-にまい",
+     "w": "にまい",
+     "r": "nimai",
+     "m": "two (flat things)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ペン",
+     "w": "ペン",
+     "r": "pen",
+     "m": "pen",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きっぷ を にまい ください。",
+     "w": "きっぷ を にまい ください。",
+     "r": "kippu o nimai kudasai.",
+     "m": "Two tickets, please.",
+     "kind": "sent",
+     "say": "きっぷおにまいください。",
+     "toks": [
+      "きっぷ",
+      "を",
+      "にまい",
+      "ください"
+     ]
+    },
+    {
+     "id": "ja-ペン を いっぽん ください。",
+     "w": "ペン を いっぽん ください。",
+     "r": "pen o ippon kudasai.",
+     "m": "One pen, please.",
+     "kind": "sent",
+     "say": "ペンおいっぽんください。",
+     "toks": [
+      "ペン",
+      "を",
+      "いっぽん",
+      "ください"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] を + number + counter",
+     "ex": "ja-きっぷ を にまい ください。",
+     "parts": [
+      {
+       "w": "きっぷ",
+       "m": "tickets",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p"
+      },
+      {
+       "w": "にまい",
+       "m": "two (flat things)",
+       "r": "m",
+       "alt": [
+        "にさつ"
+       ]
+      },
+      {
+       "w": "ください",
+       "m": "please give",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-18",
+   "title": "How old are you?",
+   "learn": [
+    {
+     "h": "さい = years old",
+     "p": "Age is number + <b>さい</b>. Twenty is special: <b>はたち</b>."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-さい",
+     "w": "さい",
+     "r": "sai",
+     "m": "years old",
+     "kind": "word"
+    },
+    {
+     "id": "ja-なんさい",
+     "w": "なんさい",
+     "r": "nansai",
+     "m": "how old",
+     "kind": "word"
+    },
+    {
+     "id": "ja-はたち",
+     "w": "はたち",
+     "r": "hatachi",
+     "m": "twenty years old",
+     "kind": "word"
+    },
+    {
+     "id": "ja-なんさい です か。",
+     "w": "なんさい です か。",
+     "r": "nansai desu ka.",
+     "m": "How old are you?",
+     "kind": "sent",
+     "say": "なんさいですか。",
+     "toks": [
+      "なんさい",
+      "です",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-はたち です。",
+     "w": "はたち です。",
+     "r": "hatachi desu.",
+     "m": "I'm twenty.",
+     "kind": "sent",
+     "say": "はたちです。",
+     "toks": [
+      "はたち",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-19",
+   "title": "Dates and birthdays",
+   "learn": [
+    {
+     "h": "がつ = month",
+     "p": "Months are number + <b>がつ</b>: いちがつ (January). April is <b>しがつ</b>. The 1st of the month is <b>ついたち</b>."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いちがつ",
+     "w": "いちがつ",
+     "r": "ichigatsu",
+     "m": "January",
+     "kind": "word"
+    },
+    {
+     "id": "ja-しがつ",
+     "w": "しがつ",
+     "r": "shigatsu",
+     "m": "April",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ついたち",
+     "w": "ついたち",
+     "r": "tsuitachi",
+     "m": "the 1st (of the month)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たんじょうび",
+     "w": "たんじょうび",
+     "r": "tanjōbi",
+     "m": "birthday",
+     "kind": "word"
+    },
+    {
+     "id": "ja-たんじょうび は いつ です か。",
+     "w": "たんじょうび は いつ です か。",
+     "r": "tanjōbi wa itsu desu ka.",
+     "m": "When is your birthday?",
+     "kind": "sent",
+     "say": "たんじょうびわいつですか。",
+     "toks": [
+      "たんじょうび",
+      "は",
+      "いつ",
+      "です",
+      "か"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-20",
+   "title": "Bigger numbers",
+   "learn": [
+    {
+     "h": "Sound changes",
+     "p": "Some hundreds and thousands shift sound: 300 = さん<b>びゃく</b>, 800 = <b>はっぴゃく</b>, 3,000 = さん<b>ぜん</b>."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-さんびゃく",
+     "w": "さんびゃく",
+     "r": "sanbyaku",
+     "m": "300",
+     "kind": "word"
+    },
+    {
+     "id": "ja-はっぴゃく",
+     "w": "はっぴゃく",
+     "r": "happyaku",
+     "m": "800",
+     "kind": "word"
+    },
+    {
+     "id": "ja-さんぜん",
+     "w": "さんぜん",
+     "r": "sanzen",
+     "m": "3,000",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いちまん",
+     "w": "いちまん",
+     "r": "ichiman",
+     "m": "10,000",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ぜんぶ で さんぜんえん です。",
+     "w": "ぜんぶ で さんぜんえん です。",
+     "r": "zenbu de sanzen'en desu.",
+     "m": "It's 3,000 yen in total.",
+     "kind": "sent",
+     "say": "ぜんぶでさんぜんえんです。",
+     "toks": [
+      "ぜんぶ",
+      "で",
+      "さんぜんえん",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-21",
+   "title": "Directions",
+   "unit": "Unit 5 · Getting around",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-まがります",
+     "w": "まがります",
+     "r": "magarimasu",
+     "m": "turn",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まっすぐ",
+     "w": "まっすぐ",
+     "r": "massugu",
+     "m": "straight ahead",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みぎ",
+     "w": "みぎ",
+     "r": "migi",
+     "m": "right",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ひだり",
+     "w": "ひだり",
+     "r": "hidari",
+     "m": "left",
+     "kind": "word"
+    },
+    {
+     "id": "ja-しんごう",
+     "w": "しんごう",
+     "r": "shingō",
+     "m": "traffic light",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まっすぐ いって ください。",
+     "w": "まっすぐ いって ください。",
+     "r": "massugu itte kudasai.",
+     "m": "Please go straight.",
+     "kind": "sent",
+     "say": "まっすぐいってください。",
+     "toks": [
+      "まっすぐ",
+      "いって",
+      "ください"
+     ]
+    },
+    {
+     "id": "ja-みぎ に まがって ください。",
+     "w": "みぎ に まがって ください。",
+     "r": "migi ni magatte kudasai.",
+     "m": "Please turn right.",
+     "kind": "sent",
+     "say": "みぎにまがってください。",
+     "toks": [
+      "みぎ",
+      "に",
+      "まがって",
+      "ください"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[direction] に まがって ください",
+     "ex": "ja-みぎ に まがって ください。",
+     "parts": [
+      {
+       "w": "みぎ",
+       "m": "right",
+       "r": "t"
+      },
+      {
+       "w": "に",
+       "m": "to",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "まがって",
+       "m": "turn (て-form)",
+       "r": "v",
+       "alt": [
+        "まがります"
+       ]
+      },
+      {
+       "w": "ください",
+       "m": "please",
+       "r": "e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-22",
+   "title": "Trains",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-のります",
+     "w": "のります",
+     "r": "norimasu",
+     "m": "get on / ride",
+     "kind": "word"
+    },
+    {
+     "id": "ja-のりかえ",
+     "w": "のりかえ",
+     "r": "norikae",
+     "m": "transfer",
+     "kind": "word"
+    },
+    {
+     "id": "ja-くうこう",
+     "w": "くうこう",
+     "r": "kūkō",
+     "m": "airport",
+     "kind": "word"
+    },
+    {
+     "id": "ja-どのぐらい",
+     "w": "どのぐらい",
+     "r": "donogurai",
+     "m": "how long / how much",
+     "kind": "word"
+    },
+    {
+     "id": "ja-かかります",
+     "w": "かかります",
+     "r": "kakarimasu",
+     "m": "it takes (time / money)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-でんしゃ に のります。",
+     "w": "でんしゃ に のります。",
+     "r": "densha ni norimasu.",
+     "m": "I get on the train.",
+     "kind": "sent",
+     "say": "でんしゃにのります。",
+     "toks": [
+      "でんしゃ",
+      "に",
+      "のります"
+     ]
+    },
+    {
+     "id": "ja-くうこう まで どのぐらい かかります か。",
+     "w": "くうこう まで どのぐらい かかります か。",
+     "r": "kūkō made donogurai kakarimasu ka.",
+     "m": "How long does it take to the airport?",
+     "kind": "sent",
+     "say": "くうこうまでどのぐらいかかりますか。",
+     "toks": [
+      "くうこう",
+      "まで",
+      "どのぐらい",
+      "かかります",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[vehicle] に のります",
+     "ex": "ja-でんしゃ に のります。",
+     "parts": [
+      {
+       "w": "でんしゃ",
+       "m": "train",
+       "r": "n"
+      },
+      {
+       "w": "に",
+       "m": "on(to)",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "のります",
+       "m": "ride / get on",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-23",
+   "title": "From and until",
+   "learn": [
+    {
+     "h": "から / まで",
+     "p": "<b>から</b> = from, <b>まで</b> = until / as far as: くじ から ごじ まで = from nine to five."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-から",
+     "w": "から",
+     "r": "kara",
+     "m": "from",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まで",
+     "w": "まで",
+     "r": "made",
+     "m": "until / to",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ごじ",
+     "w": "ごじ",
+     "r": "goji",
+     "m": "five o'clock",
+     "kind": "word"
+    },
+    {
+     "id": "ja-はたらきます",
+     "w": "はたらきます",
+     "r": "hatarakimasu",
+     "m": "work",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ちかい",
+     "w": "ちかい",
+     "r": "chikai",
+     "m": "close",
+     "kind": "word"
+    },
+    {
+     "id": "ja-とおい",
+     "w": "とおい",
+     "r": "tōi",
+     "m": "far",
+     "kind": "word"
+    },
+    {
+     "id": "ja-くじ から ごじ まで はたらきます。",
+     "w": "くじ から ごじ まで はたらきます。",
+     "r": "kuji kara goji made hatarakimasu.",
+     "m": "I work from nine to five.",
+     "kind": "sent",
+     "say": "くじからごじまではたらきます。",
+     "toks": [
+      "くじ",
+      "から",
+      "ごじ",
+      "まで",
+      "はたらきます"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[A] から [B] まで",
+     "ex": "ja-くじ から ごじ まで はたらきます。",
+     "parts": [
+      {
+       "w": "くじ",
+       "m": "nine o'clock",
+       "r": "t"
+      },
+      {
+       "w": "から",
+       "m": "from",
+       "r": "p",
+       "alt": [
+        "まで"
+       ]
+      },
+      {
+       "w": "ごじ",
+       "m": "five o'clock",
+       "r": "t"
+      },
+      {
+       "w": "まで",
+       "m": "until",
+       "r": "p",
+       "alt": [
+        "から"
+       ]
+      },
+      {
+       "w": "はたらきます",
+       "m": "work",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-24",
+   "title": "At the hotel",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-ホテル",
+     "w": "ホテル",
+     "r": "hoteru",
+     "m": "hotel",
+     "kind": "word"
+    },
+    {
+     "id": "ja-よやく",
+     "w": "よやく",
+     "r": "yoyaku",
+     "m": "reservation",
+     "kind": "word"
+    },
+    {
+     "id": "ja-パスポート",
+     "w": "パスポート",
+     "r": "pasupōto",
+     "m": "passport",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ホテル を よやく しました。",
+     "w": "ホテル を よやく しました。",
+     "r": "hoteru o yoyaku shimashita.",
+     "m": "I booked a hotel.",
+     "kind": "sent",
+     "say": "ホテルおよやくしました。",
+     "toks": [
+      "ホテル",
+      "を",
+      "よやく",
+      "しました"
+     ]
+    },
+    {
+     "id": "ja-へや は あります か。",
+     "w": "へや は あります か。",
+     "r": "heya wa arimasu ka.",
+     "m": "Do you have a room?",
+     "kind": "sent",
+     "say": "へやわありますか。",
+     "toks": [
+      "へや",
+      "は",
+      "あります",
+      "か"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-25",
+   "title": "Asking for help",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-たすけて",
+     "w": "たすけて",
+     "r": "tasukete",
+     "m": "help!",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みち",
+     "w": "みち",
+     "r": "michi",
+     "m": "road / way",
+     "kind": "word"
+    },
+    {
+     "id": "ja-けいさつ",
+     "w": "けいさつ",
+     "r": "keisatsu",
+     "m": "police",
+     "kind": "word"
+    },
+    {
+     "id": "ja-びょういん",
+     "w": "びょういん",
+     "r": "byōin",
+     "m": "hospital",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まよいます",
+     "w": "まよいます",
+     "r": "mayoimasu",
+     "m": "get lost",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みち に まよいました。",
+     "w": "みち に まよいました。",
+     "r": "michi ni mayoimashita.",
+     "m": "I'm lost.",
+     "kind": "sent",
+     "say": "みちにまよいました。",
+     "toks": [
+      "みち",
+      "に",
+      "まよいました"
+     ]
+    },
+    {
+     "id": "ja-びょういん は どこ です か。",
+     "w": "びょういん は どこ です か。",
+     "r": "byōin wa doko desu ka.",
+     "m": "Where is the hospital?",
+     "kind": "sent",
+     "say": "びょういんわどこですか。",
+     "toks": [
+      "びょういん",
+      "は",
+      "どこ",
+      "です",
+      "か"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-26",
+   "title": "Seasons",
+   "unit": "Unit 6 · Daily life",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-はる",
+     "w": "はる",
+     "r": "haru",
+     "m": "spring",
+     "kind": "word"
+    },
+    {
+     "id": "ja-なつ",
+     "w": "なつ",
+     "r": "natsu",
+     "m": "summer",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あき",
+     "w": "あき",
+     "r": "aki",
+     "m": "autumn",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ふゆ",
+     "w": "ふゆ",
+     "r": "fuyu",
+     "m": "winter",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きせつ",
+     "w": "きせつ",
+     "r": "kisetsu",
+     "m": "season",
+     "kind": "word"
+    },
+    {
+     "id": "ja-どの きせつ が すき です か。",
+     "w": "どの きせつ が すき です か。",
+     "r": "dono kisetsu ga suki desu ka.",
+     "m": "Which season do you like?",
+     "kind": "sent",
+     "say": "どのきせつがすきですか。",
+     "toks": [
+      "どの",
+      "きせつ",
+      "が",
+      "すき",
+      "です",
+      "か"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-27",
+   "title": "At the doctor",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-かぜ",
+     "w": "かぜ",
+     "r": "kaze",
+     "m": "a cold",
+     "kind": "word"
+    },
+    {
+     "id": "ja-くすり",
+     "w": "くすり",
+     "r": "kusuri",
+     "m": "medicine",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ねつ",
+     "w": "ねつ",
+     "r": "netsu",
+     "m": "fever",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ひきます",
+     "w": "ひきます",
+     "r": "hikimasu",
+     "m": "catch (a cold)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-かぜ を ひきました。",
+     "w": "かぜ を ひきました。",
+     "r": "kaze o hikimashita.",
+     "m": "I caught a cold.",
+     "kind": "sent",
+     "say": "かぜおひきました。",
+     "toks": [
+      "かぜ",
+      "を",
+      "ひきました"
+     ]
+    },
+    {
+     "id": "ja-くすり を のみます。",
+     "w": "くすり を のみます。",
+     "r": "kusuri o nomimasu.",
+     "m": "I take medicine.",
+     "kind": "sent",
+     "say": "くすりおのみます。",
+     "toks": [
+      "くすり",
+      "を",
+      "のみます"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-28",
+   "title": "At home",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-だいどころ",
+     "w": "だいどころ",
+     "r": "daidokoro",
+     "m": "kitchen",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ベッド",
+     "w": "ベッド",
+     "r": "beddo",
+     "m": "bed",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まど",
+     "w": "まど",
+     "r": "mado",
+     "m": "window",
+     "kind": "word"
+    },
+    {
+     "id": "ja-そうじ",
+     "w": "そうじ",
+     "r": "sōji",
+     "m": "cleaning",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あけます",
+     "w": "あけます",
+     "r": "akemasu",
+     "m": "open",
+     "kind": "word"
+    },
+    {
+     "id": "ja-へや を そうじ します。",
+     "w": "へや を そうじ します。",
+     "r": "heya o sōji shimasu.",
+     "m": "I clean my room.",
+     "kind": "sent",
+     "say": "へやおそうじします。",
+     "toks": [
+      "へや",
+      "を",
+      "そうじ",
+      "します"
+     ]
+    },
+    {
+     "id": "ja-まど を あけて ください。",
+     "w": "まど を あけて ください。",
+     "r": "mado o akete kudasai.",
+     "m": "Please open the window.",
+     "kind": "sent",
+     "say": "まどおあけてください。",
+     "toks": [
+      "まど",
+      "を",
+      "あけて",
+      "ください"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-29",
+   "title": "And, but, so",
+   "learn": [
+    {
+     "h": "Linking words",
+     "p": "<b>そして</b> = and, <b>でも</b> = but, <b>だから</b> = so. Inside a sentence, <b>から</b> after a reason means “because” and <b>が</b> means “but”.",
+     "ex": [
+      "ja-あめ です から、 うち に います。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-そして",
+     "w": "そして",
+     "r": "soshite",
+     "m": "and (then)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-でも",
+     "w": "でも",
+     "r": "demo",
+     "m": "but",
+     "kind": "word"
+    },
+    {
+     "id": "ja-だから",
+     "w": "だから",
+     "r": "dakara",
+     "m": "so / that's why",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あめ です から、 うち に います。",
+     "w": "あめ です から、 うち に います。",
+     "r": "ame desu kara, uchi ni imasu.",
+     "m": "It's raining, so I'm staying home.",
+     "kind": "sent",
+     "say": "あめですから、うちにいます。",
+     "toks": [
+      "あめ",
+      "です",
+      "から",
+      "うち",
+      "に",
+      "います"
+     ]
+    },
+    {
+     "id": "ja-おいしい です が、 たかい です。",
+     "w": "おいしい です が、 たかい です。",
+     "r": "oishii desu ga, takai desu.",
+     "m": "It's delicious, but expensive.",
+     "kind": "sent",
+     "say": "おいしいですが、たかいです。",
+     "toks": [
+      "おいしい",
+      "です",
+      "が",
+      "たかい",
+      "です"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[reason] から、 [result]",
+     "ex": "ja-あめ です から、 うち に います。",
+     "parts": [
+      {
+       "w": "あめ",
+       "m": "rain",
+       "r": "n"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      },
+      {
+       "w": "から",
+       "m": "because",
+       "r": "p",
+       "alt": [
+        "まで"
+       ]
+      },
+      {
+       "w": "うち",
+       "m": "home",
+       "r": "t"
+      },
+      {
+       "w": "に",
+       "m": "at",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "います",
+       "m": "stay / am",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-30",
+   "title": "Everyday phrases",
+   "learn": [
+    {
+     "h": "Meal and work phrases",
+     "p": "Say <b>いただきます</b> before eating and <b>ごちそうさま でした</b> after. Coworkers say <b>おつかれさま でした</b> (thanks for your hard work) at the end of the day."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いただきます",
+     "w": "いただきます",
+     "r": "itadakimasu",
+     "m": "(said before eating)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ごちそうさま でした",
+     "w": "ごちそうさま でした",
+     "r": "gochisōsama deshita",
+     "m": "thank you for the meal (after eating)",
+     "kind": "sent",
+     "say": "ごちそうさまでした",
+     "toks": [
+      "ごちそうさま",
+      "でした"
+     ]
+    },
+    {
+     "id": "ja-おつかれさま でした",
+     "w": "おつかれさま でした",
+     "r": "otsukaresama deshita",
+     "m": "thanks for your hard work",
+     "kind": "sent",
+     "say": "おつかれさまでした",
+     "toks": [
+      "おつかれさま",
+      "でした"
+     ]
+    },
+    {
+     "id": "ja-おめでとう ございます",
+     "w": "おめでとう ございます",
+     "r": "omedetō gozaimasu",
+     "m": "congratulations",
+     "kind": "sent",
+     "say": "おめでとうございます",
+     "toks": [
+      "おめでとう",
+      "ございます"
+     ]
+    },
+    {
+     "id": "ja-たんじょうび おめでとう！",
+     "w": "たんじょうび おめでとう！",
+     "r": "tanjōbi omedetō!",
+     "m": "Happy birthday!",
+     "kind": "sent",
+     "say": "たんじょうびおめでとう！",
+     "toks": [
+      "たんじょうび",
+      "おめでとう"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja3-R",
+   "title": "Tier 3 review",
+   "review": true
+  }
+ ]
+}

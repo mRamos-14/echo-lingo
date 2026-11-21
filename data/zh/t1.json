@@ -1,0 +1,2585 @@
+{
+ "lang": "zh",
+ "tier": 1,
+ "name": "Kindergarten",
+ "sub": "Greetings, numbers, family, food and your first sentences",
+ "lessons": [
+  {
+   "id": "zh1-1",
+   "title": "Greetings",
+   "unit": "Unit 1 · Hello",
+   "learn": [
+    {
+     "h": "Polite hello",
+     "p": "<b>您好</b> (nín hǎo) is the respectful hello for elders, teachers and customers. 您 is the polite “you”.",
+     "ex": [
+      "zh-您好"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-您好",
+     "w": "您好",
+     "r": "nín hǎo",
+     "m": "hello (polite)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-早上好",
+     "w": "早上好",
+     "r": "zǎoshang hǎo",
+     "m": "good morning",
+     "kind": "word"
+    },
+    {
+     "id": "zh-晚上好",
+     "w": "晚上好",
+     "r": "wǎnshang hǎo",
+     "m": "good evening",
+     "kind": "word"
+    },
+    {
+     "id": "zh-拜拜",
+     "w": "拜拜",
+     "r": "báibái",
+     "m": "bye-bye",
+     "kind": "word"
+    },
+    {
+     "id": "zh-不客气",
+     "w": "不客气",
+     "r": "bú kèqi",
+     "m": "you're welcome",
+     "kind": "word"
+    },
+    {
+     "id": "zh-没关系",
+     "w": "没关系",
+     "r": "méi guānxi",
+     "m": "it's okay / no problem",
+     "kind": "word"
+    },
+    {
+     "id": "zh-老师，您好！",
+     "w": "老师，您好！",
+     "r": "lǎoshī, nín hǎo!",
+     "m": "Hello, teacher!",
+     "kind": "sent",
+     "toks": [
+      "老师",
+      "您好"
+     ]
+    },
+    {
+     "id": "zh-早上好，老师！",
+     "w": "早上好，老师！",
+     "r": "zǎoshang hǎo, lǎoshī!",
+     "m": "Good morning, teacher!",
+     "kind": "sent",
+     "toks": [
+      "早上好",
+      "老师"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-2",
+   "title": "How are you?",
+   "learn": [
+    {
+     "h": "吗 makes a question",
+     "p": "Add <b>吗</b> (ma) to the end of any statement to make a yes/no question: 你好吗？ = How are you? <b>呢</b> (ne) means “and you?”.",
+     "ex": [
+      "zh-你好吗？",
+      "zh-你呢？"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-我",
+     "w": "我",
+     "r": "wǒ",
+     "m": "I / me",
+     "kind": "char"
+    },
+    {
+     "id": "zh-也",
+     "w": "也",
+     "r": "yě",
+     "m": "also / too",
+     "kind": "char"
+    },
+    {
+     "id": "zh-你好吗？",
+     "w": "你好吗？",
+     "r": "nǐ hǎo ma?",
+     "m": "How are you?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "好",
+      "吗"
+     ]
+    },
+    {
+     "id": "zh-我很好。",
+     "w": "我很好。",
+     "r": "wǒ hěn hǎo.",
+     "m": "I'm very well.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "很",
+      "好"
+     ]
+    },
+    {
+     "id": "zh-你呢？",
+     "w": "你呢？",
+     "r": "nǐ ne?",
+     "m": "And you?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "呢"
+     ]
+    },
+    {
+     "id": "zh-我也很好。",
+     "w": "我也很好。",
+     "r": "wǒ yě hěn hǎo.",
+     "m": "I'm well too.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "也",
+      "很",
+      "好"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "statement + 吗 = yes/no question",
+     "ex": "zh-你好吗？",
+     "parts": [
+      {
+       "w": "你",
+       "m": "you",
+       "r": "n"
+      },
+      {
+       "w": "好",
+       "m": "good / well",
+       "r": "a"
+      },
+      {
+       "w": "吗",
+       "m": "question particle",
+       "r": "p",
+       "alt": [
+        "的",
+        "了"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-3",
+   "title": "What's your name?",
+   "learn": [
+    {
+     "h": "Question words stay in place",
+     "p": "Chinese doesn't move question words to the front. Just put <b>什么</b> (what) where the answer goes: 你叫什么名字？ = You are called what name?",
+     "ex": [
+      "zh-你叫什么名字？"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-叫",
+     "w": "叫",
+     "r": "jiào",
+     "m": "to be called",
+     "kind": "char"
+    },
+    {
+     "id": "zh-名字",
+     "w": "名字",
+     "r": "míngzi",
+     "m": "name",
+     "kind": "word"
+    },
+    {
+     "id": "zh-什么",
+     "w": "什么",
+     "r": "shénme",
+     "m": "what",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你叫什么名字？",
+     "w": "你叫什么名字？",
+     "r": "nǐ jiào shénme míngzi?",
+     "m": "What's your name?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "叫",
+      "什么",
+      "名字"
+     ]
+    },
+    {
+     "id": "zh-我叫大卫。",
+     "w": "我叫大卫。",
+     "r": "wǒ jiào Dàwèi.",
+     "m": "My name is David.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "叫",
+      "大卫"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "你 叫 什么 名字？",
+     "ex": "zh-你叫什么名字？",
+     "parts": [
+      {
+       "w": "你",
+       "m": "you",
+       "r": "n"
+      },
+      {
+       "w": "叫",
+       "m": "are called",
+       "r": "v",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "什么",
+       "m": "what",
+       "r": "q"
+      },
+      {
+       "w": "名字",
+       "m": "name",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-4",
+   "title": "I am a student",
+   "learn": [
+    {
+     "h": "是 = to be",
+     "p": "<b>是</b> (shì) links two nouns: 我是学生 = I am a student. Verbs never change in Chinese: 我是, 你是, 他是.",
+     "ex": [
+      "zh-我是学生。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-她",
+     "w": "她",
+     "r": "tā",
+     "m": "she / her",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我们",
+     "w": "我们",
+     "r": "wǒmen",
+     "m": "we / us",
+     "kind": "word"
+    },
+    {
+     "id": "zh-他们",
+     "w": "他们",
+     "r": "tāmen",
+     "m": "they / them",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我是学生。",
+     "w": "我是学生。",
+     "r": "wǒ shì xuésheng.",
+     "m": "I am a student.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "是",
+      "学生"
+     ]
+    },
+    {
+     "id": "zh-他是老师吗？",
+     "w": "他是老师吗？",
+     "r": "tā shì lǎoshī ma?",
+     "m": "Is he a teacher?",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "是",
+      "老师",
+      "吗"
+     ]
+    },
+    {
+     "id": "zh-她是我朋友。",
+     "w": "她是我朋友。",
+     "r": "tā shì wǒ péngyou.",
+     "m": "She is my friend.",
+     "kind": "sent",
+     "toks": [
+      "她",
+      "是",
+      "我",
+      "朋友"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[A] 是 [B]",
+     "ex": "zh-我是学生。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "是",
+       "m": "am",
+       "r": "v",
+       "alt": [
+        "很"
+       ]
+      },
+      {
+       "w": "学生",
+       "m": "student",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-5",
+   "title": "Where are you from?",
+   "learn": [
+    {
+     "h": "Country + 人",
+     "p": "Add <b>人</b> (rén, person) to a country: 美国人 = an American. Compare Korean 사람 and Japanese じん!",
+     "ex": [
+      "zh-我是美国人。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-美国",
+     "w": "美国",
+     "r": "Měiguó",
+     "m": "the USA",
+     "kind": "word"
+    },
+    {
+     "id": "zh-日本",
+     "w": "日本",
+     "r": "Rìběn",
+     "m": "Japan",
+     "kind": "word"
+    },
+    {
+     "id": "zh-韩国",
+     "w": "韩国",
+     "r": "Hánguó",
+     "m": "Korea",
+     "kind": "word"
+    },
+    {
+     "id": "zh-哪",
+     "w": "哪",
+     "r": "nǎ",
+     "m": "which",
+     "kind": "char"
+    },
+    {
+     "id": "zh-国",
+     "w": "国",
+     "r": "guó",
+     "m": "country",
+     "kind": "char"
+    },
+    {
+     "id": "zh-你是哪国人？",
+     "w": "你是哪国人？",
+     "r": "nǐ shì nǎ guó rén?",
+     "m": "Which country are you from?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "是",
+      "哪",
+      "国",
+      "人"
+     ]
+    },
+    {
+     "id": "zh-我是美国人。",
+     "w": "我是美国人。",
+     "r": "wǒ shì Měiguó rén.",
+     "m": "I'm American.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "是",
+      "美国",
+      "人"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "你 是 哪 国 人？",
+     "ex": "zh-你是哪国人？",
+     "parts": [
+      {
+       "w": "你",
+       "m": "you",
+       "r": "n"
+      },
+      {
+       "w": "是",
+       "m": "are",
+       "r": "v"
+      },
+      {
+       "w": "哪",
+       "m": "which",
+       "r": "q",
+       "alt": [
+        "什么"
+       ]
+      },
+      {
+       "w": "国",
+       "m": "country",
+       "r": "n"
+      },
+      {
+       "w": "人",
+       "m": "person",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-6",
+   "title": "The other digits",
+   "unit": "Unit 2 · Numbers",
+   "learn": [
+    {
+     "h": "Remaining numbers",
+     "p": "You already know 四, 七, 八, 九 and 十. Here are the rest. Notice 一 (one line), 二 (two lines), 三 (three lines)!"
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-一",
+     "w": "一",
+     "r": "yī",
+     "m": "one",
+     "kind": "char"
+    },
+    {
+     "id": "zh-二",
+     "w": "二",
+     "r": "èr",
+     "m": "two",
+     "kind": "char"
+    },
+    {
+     "id": "zh-三",
+     "w": "三",
+     "r": "sān",
+     "m": "three",
+     "kind": "char"
+    },
+    {
+     "id": "zh-五",
+     "w": "五",
+     "r": "wǔ",
+     "m": "five",
+     "kind": "char"
+    },
+    {
+     "id": "zh-六",
+     "w": "六",
+     "r": "liù",
+     "m": "six",
+     "kind": "char"
+    },
+    {
+     "id": "zh-零",
+     "w": "零",
+     "r": "líng",
+     "m": "zero",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一，二，三，四，五！",
+     "w": "一，二，三，四，五！",
+     "r": "yī, èr, sān, sì, wǔ!",
+     "m": "one, two, three, four, five!",
+     "kind": "sent",
+     "toks": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五"
+     ]
+    },
+    {
+     "id": "zh-六，七，八，九，十！",
+     "w": "六，七，八，九，十！",
+     "r": "liù, qī, bā, jiǔ, shí!",
+     "m": "six, seven, eight, nine, ten!",
+     "kind": "sent",
+     "toks": [
+      "六",
+      "七",
+      "八",
+      "九",
+      "十"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-7",
+   "title": "Bigger numbers",
+   "learn": [
+    {
+     "h": "Numbers are logical",
+     "p": "11 = 十一 (ten-one), 20 = 二十 (two-ten), 99 = 九十九. For “two of something” use <b>两</b> (liǎng), not 二: 两个.",
+     "ex": [
+      "zh-两个"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-十一",
+     "w": "十一",
+     "r": "shíyī",
+     "m": "eleven",
+     "kind": "word"
+    },
+    {
+     "id": "zh-二十",
+     "w": "二十",
+     "r": "èrshí",
+     "m": "twenty",
+     "kind": "word"
+    },
+    {
+     "id": "zh-九十九",
+     "w": "九十九",
+     "r": "jiǔshíjiǔ",
+     "m": "ninety-nine",
+     "kind": "word"
+    },
+    {
+     "id": "zh-一百",
+     "w": "一百",
+     "r": "yìbǎi",
+     "m": "one hundred",
+     "kind": "word"
+    },
+    {
+     "id": "zh-两",
+     "w": "两",
+     "r": "liǎng",
+     "m": "two (of something)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-两个",
+     "w": "两个",
+     "r": "liǎng ge",
+     "m": "two (things)",
+     "kind": "sent",
+     "toks": [
+      "两",
+      "个"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-8",
+   "title": "How many?",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-有",
+     "w": "有",
+     "r": "yǒu",
+     "m": "to have / there is",
+     "kind": "char"
+    },
+    {
+     "id": "zh-几",
+     "w": "几",
+     "r": "jǐ",
+     "m": "how many (small numbers)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-多少",
+     "w": "多少",
+     "r": "duōshao",
+     "m": "how many / how much",
+     "kind": "word"
+    },
+    {
+     "id": "zh-钱",
+     "w": "钱",
+     "r": "qián",
+     "m": "money",
+     "kind": "char"
+    },
+    {
+     "id": "zh-你有几个哥哥？",
+     "w": "你有几个哥哥？",
+     "r": "nǐ yǒu jǐ ge gēge?",
+     "m": "How many older brothers do you have?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "有",
+      "几",
+      "个",
+      "哥哥"
+     ]
+    },
+    {
+     "id": "zh-多少钱？",
+     "w": "多少钱？",
+     "r": "duōshao qián?",
+     "m": "How much money?",
+     "kind": "sent",
+     "toks": [
+      "多少",
+      "钱"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "number + measure word + noun",
+     "ex": "zh-你有几个哥哥？",
+     "parts": [
+      {
+       "w": "你",
+       "m": "you",
+       "r": "n"
+      },
+      {
+       "w": "有",
+       "m": "have",
+       "r": "v",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "几",
+       "m": "how many",
+       "r": "q"
+      },
+      {
+       "w": "个",
+       "m": "(measure word)",
+       "r": "p",
+       "alt": [
+        "本",
+        "杯"
+       ]
+      },
+      {
+       "w": "哥哥",
+       "m": "older brothers",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-9",
+   "title": "Measure words",
+   "learn": [
+    {
+     "h": "Every noun has a counter",
+     "p": "Between a number and a noun you need a <b>measure word</b>: 个 (general), 本 (books), 杯 (cups). 三本书 = three books. Korean and Japanese counters work the same way!",
+     "ex": [
+      "zh-三本书"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-个",
+     "w": "个",
+     "r": "gè",
+     "m": "(general measure word)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-本",
+     "w": "本",
+     "r": "běn",
+     "m": "(measure word for books)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-杯",
+     "w": "杯",
+     "r": "bēi",
+     "m": "cup / glass",
+     "kind": "char"
+    },
+    {
+     "id": "zh-书",
+     "w": "书",
+     "r": "shū",
+     "m": "book",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一杯水",
+     "w": "一杯水",
+     "r": "yì bēi shuǐ",
+     "m": "a glass of water",
+     "kind": "sent",
+     "toks": [
+      "一",
+      "杯",
+      "水"
+     ]
+    },
+    {
+     "id": "zh-三本书",
+     "w": "三本书",
+     "r": "sān běn shū",
+     "m": "three books",
+     "kind": "sent",
+     "toks": [
+      "三",
+      "本",
+      "书"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "number + 本 + book",
+     "ex": "zh-三本书",
+     "parts": [
+      {
+       "w": "三",
+       "m": "three",
+       "r": "m"
+      },
+      {
+       "w": "本",
+       "m": "(measure word: books)",
+       "r": "p",
+       "alt": [
+        "只",
+        "杯"
+       ]
+      },
+      {
+       "w": "书",
+       "m": "books",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-10",
+   "title": "How much is this?",
+   "learn": [
+    {
+     "h": "Spoken money",
+     "p": "In speech, prices use <b>块</b> (kuài, yuan) and <b>毛</b> (máo, 10 cents): 十块钱 = 10 yuan."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-块",
+     "w": "块",
+     "r": "kuài",
+     "m": "yuan (spoken)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-毛",
+     "w": "毛",
+     "r": "máo",
+     "m": "ten cents (spoken)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-这个",
+     "w": "这个",
+     "r": "zhège",
+     "m": "this one",
+     "kind": "word"
+    },
+    {
+     "id": "zh-那个",
+     "w": "那个",
+     "r": "nàge",
+     "m": "that one",
+     "kind": "word"
+    },
+    {
+     "id": "zh-这个多少钱？",
+     "w": "这个多少钱？",
+     "r": "zhège duōshao qián?",
+     "m": "How much is this?",
+     "kind": "sent",
+     "toks": [
+      "这个",
+      "多少",
+      "钱"
+     ]
+    },
+    {
+     "id": "zh-十块钱。",
+     "w": "十块钱。",
+     "r": "shí kuài qián.",
+     "m": "Ten yuan.",
+     "kind": "sent",
+     "toks": [
+      "十",
+      "块",
+      "钱"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-11",
+   "title": "Family members",
+   "unit": "Unit 3 · Family",
+   "learn": [
+    {
+     "h": "Doubled words",
+     "p": "Family words are often doubled: 爸爸 (dad), 妈妈 (mom), 哥哥 (older brother). The second syllable is light and short."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-爸爸",
+     "w": "爸爸",
+     "r": "bàba",
+     "m": "dad",
+     "kind": "word"
+    },
+    {
+     "id": "zh-妈妈",
+     "w": "妈妈",
+     "r": "māma",
+     "m": "mom",
+     "kind": "word"
+    },
+    {
+     "id": "zh-哥哥",
+     "w": "哥哥",
+     "r": "gēge",
+     "m": "older brother",
+     "kind": "word"
+    },
+    {
+     "id": "zh-姐姐",
+     "w": "姐姐",
+     "r": "jiějie",
+     "m": "older sister",
+     "kind": "word"
+    },
+    {
+     "id": "zh-弟弟",
+     "w": "弟弟",
+     "r": "dìdi",
+     "m": "younger brother",
+     "kind": "word"
+    },
+    {
+     "id": "zh-妹妹",
+     "w": "妹妹",
+     "r": "mèimei",
+     "m": "younger sister",
+     "kind": "word"
+    },
+    {
+     "id": "zh-她是我姐姐。",
+     "w": "她是我姐姐。",
+     "r": "tā shì wǒ jiějie.",
+     "m": "She's my older sister.",
+     "kind": "sent",
+     "toks": [
+      "她",
+      "是",
+      "我",
+      "姐姐"
+     ]
+    },
+    {
+     "id": "zh-我是哥哥。",
+     "w": "我是哥哥。",
+     "r": "wǒ shì gēge.",
+     "m": "I'm the older brother.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "是",
+      "哥哥"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-12",
+   "title": "This is my dad",
+   "learn": [
+    {
+     "h": "的 = 's",
+     "p": "<b>的</b> (de) works like English “'s”: 我的书 = my book. With close family you can drop it: 我爸爸 = my dad.",
+     "ex": [
+      "zh-我的妈妈"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-的",
+     "w": "的",
+     "r": "de",
+     "m": "'s (possession)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-这",
+     "w": "这",
+     "r": "zhè",
+     "m": "this",
+     "kind": "char"
+    },
+    {
+     "id": "zh-那",
+     "w": "那",
+     "r": "nà",
+     "m": "that",
+     "kind": "char"
+    },
+    {
+     "id": "zh-谁",
+     "w": "谁",
+     "r": "shéi",
+     "m": "who",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我的妈妈",
+     "w": "我的妈妈",
+     "r": "wǒ de māma",
+     "m": "my mom",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "的",
+      "妈妈"
+     ]
+    },
+    {
+     "id": "zh-这是我爸爸。",
+     "w": "这是我爸爸。",
+     "r": "zhè shì wǒ bàba.",
+     "m": "This is my dad.",
+     "kind": "sent",
+     "toks": [
+      "这",
+      "是",
+      "我",
+      "爸爸"
+     ]
+    },
+    {
+     "id": "zh-那是谁？",
+     "w": "那是谁？",
+     "r": "nà shì shéi?",
+     "m": "Who is that?",
+     "kind": "sent",
+     "toks": [
+      "那",
+      "是",
+      "谁"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "这 是 [who]",
+     "ex": "zh-这是我爸爸。",
+     "parts": [
+      {
+       "w": "这",
+       "m": "this",
+       "r": "n"
+      },
+      {
+       "w": "是",
+       "m": "is",
+       "r": "v",
+       "alt": [
+        "有"
+       ]
+      },
+      {
+       "w": "我",
+       "m": "my",
+       "r": "n"
+      },
+      {
+       "w": "爸爸",
+       "m": "dad",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-13",
+   "title": "I have, I don't have",
+   "learn": [
+    {
+     "h": "没有",
+     "p": "The negative of 有 (have) is always <b>没有</b> (méiyǒu), never 不有.",
+     "ex": [
+      "zh-我没有弟弟。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-没有",
+     "w": "没有",
+     "r": "méiyǒu",
+     "m": "not have / there isn't",
+     "kind": "word"
+    },
+    {
+     "id": "zh-儿子",
+     "w": "儿子",
+     "r": "érzi",
+     "m": "son",
+     "kind": "word"
+    },
+    {
+     "id": "zh-女儿",
+     "w": "女儿",
+     "r": "nǚ'ér",
+     "m": "daughter",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我没有弟弟。",
+     "w": "我没有弟弟。",
+     "r": "wǒ méiyǒu dìdi.",
+     "m": "I don't have a younger brother.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "没有",
+      "弟弟"
+     ]
+    },
+    {
+     "id": "zh-你有姐姐吗？",
+     "w": "你有姐姐吗？",
+     "r": "nǐ yǒu jiějie ma?",
+     "m": "Do you have an older sister?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "有",
+      "姐姐",
+      "吗"
+     ]
+    },
+    {
+     "id": "zh-我家有四口人。",
+     "w": "我家有四口人。",
+     "r": "wǒ jiā yǒu sì kǒu rén.",
+     "m": "There are four people in my family.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "家",
+      "有",
+      "四",
+      "口",
+      "人"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "没有 (never 不有)",
+     "ex": "zh-我没有弟弟。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "没有",
+       "m": "don't have",
+       "r": "v",
+       "alt": [
+        "不有"
+       ]
+      },
+      {
+       "w": "弟弟",
+       "m": "younger brother",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-14",
+   "title": "People",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-男人",
+     "w": "男人",
+     "r": "nánrén",
+     "m": "man",
+     "kind": "word"
+    },
+    {
+     "id": "zh-女人",
+     "w": "女人",
+     "r": "nǚrén",
+     "m": "woman",
+     "kind": "word"
+    },
+    {
+     "id": "zh-孩子",
+     "w": "孩子",
+     "r": "háizi",
+     "m": "child",
+     "kind": "word"
+    },
+    {
+     "id": "zh-宝宝",
+     "w": "宝宝",
+     "r": "bǎobao",
+     "m": "baby",
+     "kind": "word"
+    },
+    {
+     "id": "zh-爷爷",
+     "w": "爷爷",
+     "r": "yéye",
+     "m": "grandpa (father's side)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-奶奶",
+     "w": "奶奶",
+     "r": "nǎinai",
+     "m": "grandma (father's side)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-他是我爷爷。",
+     "w": "他是我爷爷。",
+     "r": "tā shì wǒ yéye.",
+     "m": "He's my grandpa.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "是",
+      "我",
+      "爷爷"
+     ]
+    },
+    {
+     "id": "zh-我有一个孩子。",
+     "w": "我有一个孩子。",
+     "r": "wǒ yǒu yí ge háizi.",
+     "m": "I have one child.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "有",
+      "一",
+      "个",
+      "孩子"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-15",
+   "title": "Here and there",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-这里",
+     "w": "这里",
+     "r": "zhèlǐ",
+     "m": "here",
+     "kind": "word"
+    },
+    {
+     "id": "zh-那里",
+     "w": "那里",
+     "r": "nàlǐ",
+     "m": "there",
+     "kind": "word"
+    },
+    {
+     "id": "zh-哪里",
+     "w": "哪里",
+     "r": "nǎlǐ",
+     "m": "where",
+     "kind": "word"
+    },
+    {
+     "id": "zh-这是什么？",
+     "w": "这是什么？",
+     "r": "zhè shì shénme?",
+     "m": "What is this?",
+     "kind": "sent",
+     "toks": [
+      "这",
+      "是",
+      "什么"
+     ]
+    },
+    {
+     "id": "zh-那是我的书。",
+     "w": "那是我的书。",
+     "r": "nà shì wǒ de shū.",
+     "m": "That's my book.",
+     "kind": "sent",
+     "toks": [
+      "那",
+      "是",
+      "我",
+      "的",
+      "书"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[who] 的 [thing]",
+     "ex": "zh-那是我的书。",
+     "parts": [
+      {
+       "w": "那",
+       "m": "that",
+       "r": "n"
+      },
+      {
+       "w": "是",
+       "m": "is",
+       "r": "v"
+      },
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "的",
+       "m": "'s",
+       "r": "p",
+       "alt": [
+        "吗",
+        "了"
+       ]
+      },
+      {
+       "w": "书",
+       "m": "book",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-16",
+   "title": "Food",
+   "unit": "Unit 4 · Food",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-米饭",
+     "w": "米饭",
+     "r": "mǐfàn",
+     "m": "cooked rice",
+     "kind": "word"
+    },
+    {
+     "id": "zh-面条",
+     "w": "面条",
+     "r": "miàntiáo",
+     "m": "noodles",
+     "kind": "word"
+    },
+    {
+     "id": "zh-肉",
+     "w": "肉",
+     "r": "ròu",
+     "m": "meat",
+     "kind": "char"
+    },
+    {
+     "id": "zh-苹果",
+     "w": "苹果",
+     "r": "píngguǒ",
+     "m": "apple",
+     "kind": "word"
+    },
+    {
+     "id": "zh-水果",
+     "w": "水果",
+     "r": "shuǐguǒ",
+     "m": "fruit",
+     "kind": "word"
+    },
+    {
+     "id": "zh-鸡蛋",
+     "w": "鸡蛋",
+     "r": "jīdàn",
+     "m": "egg",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我吃米饭。",
+     "w": "我吃米饭。",
+     "r": "wǒ chī mǐfàn.",
+     "m": "I eat rice.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "吃",
+      "米饭"
+     ]
+    },
+    {
+     "id": "zh-我有苹果。",
+     "w": "我有苹果。",
+     "r": "wǒ yǒu píngguǒ.",
+     "m": "I have apples.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "有",
+      "苹果"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-17",
+   "title": "Drinks",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-茶",
+     "w": "茶",
+     "r": "chá",
+     "m": "tea",
+     "kind": "char"
+    },
+    {
+     "id": "zh-咖啡",
+     "w": "咖啡",
+     "r": "kāfēi",
+     "m": "coffee",
+     "kind": "word"
+    },
+    {
+     "id": "zh-牛奶",
+     "w": "牛奶",
+     "r": "niúnǎi",
+     "m": "milk",
+     "kind": "word"
+    },
+    {
+     "id": "zh-啤酒",
+     "w": "啤酒",
+     "r": "píjiǔ",
+     "m": "beer",
+     "kind": "word"
+    },
+    {
+     "id": "zh-喝",
+     "w": "喝",
+     "r": "hē",
+     "m": "to drink",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我喝茶。",
+     "w": "我喝茶。",
+     "r": "wǒ hē chá.",
+     "m": "I drink tea.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "喝",
+      "茶"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-18",
+   "title": "I want to eat",
+   "learn": [
+    {
+     "h": "Word order like English",
+     "p": "Chinese word order is subject + verb + object, just like English: 我吃面条 = I eat noodles. <b>想</b> (xiǎng) = would like to.",
+     "ex": [
+      "zh-我想喝咖啡。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-吃饭",
+     "w": "吃饭",
+     "r": "chīfàn",
+     "m": "to eat (a meal)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-想",
+     "w": "想",
+     "r": "xiǎng",
+     "m": "would like to / think",
+     "kind": "char"
+    },
+    {
+     "id": "zh-要",
+     "w": "要",
+     "r": "yào",
+     "m": "to want",
+     "kind": "char"
+    },
+    {
+     "id": "zh-你吃什么？",
+     "w": "你吃什么？",
+     "r": "nǐ chī shénme?",
+     "m": "What are you eating?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "吃",
+      "什么"
+     ]
+    },
+    {
+     "id": "zh-我吃面条。",
+     "w": "我吃面条。",
+     "r": "wǒ chī miàntiáo.",
+     "m": "I'm eating noodles.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "吃",
+      "面条"
+     ]
+    },
+    {
+     "id": "zh-我想喝咖啡。",
+     "w": "我想喝咖啡。",
+     "r": "wǒ xiǎng hē kāfēi.",
+     "m": "I'd like a coffee.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "想",
+      "喝",
+      "咖啡"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "想 + verb = would like to",
+     "ex": "zh-我想喝咖啡。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "想",
+       "m": "would like to",
+       "r": "m"
+      },
+      {
+       "w": "喝",
+       "m": "drink",
+       "r": "v",
+       "alt": [
+        "吃"
+       ]
+      },
+      {
+       "w": "咖啡",
+       "m": "coffee",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-19",
+   "title": "How does it taste?",
+   "learn": [
+    {
+     "h": "Adjectives need 很",
+     "p": "Describing words don't need 是. Instead add <b>很</b> (very, often just a link word): 很好吃 = (it's) tasty. 太…了 = too…!",
+     "ex": [
+      "zh-太辣了！"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-好吃",
+     "w": "好吃",
+     "r": "hǎochī",
+     "m": "tasty (food)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-好喝",
+     "w": "好喝",
+     "r": "hǎohē",
+     "m": "tasty (drinks)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-辣",
+     "w": "辣",
+     "r": "là",
+     "m": "spicy",
+     "kind": "char"
+    },
+    {
+     "id": "zh-甜",
+     "w": "甜",
+     "r": "tián",
+     "m": "sweet",
+     "kind": "char"
+    },
+    {
+     "id": "zh-这个很好吃。",
+     "w": "这个很好吃。",
+     "r": "zhège hěn hǎochī.",
+     "m": "This is tasty.",
+     "kind": "sent",
+     "toks": [
+      "这个",
+      "很",
+      "好吃"
+     ]
+    },
+    {
+     "id": "zh-太辣了！",
+     "w": "太辣了！",
+     "r": "tài là le!",
+     "m": "It's too spicy!",
+     "kind": "sent",
+     "toks": [
+      "太",
+      "辣",
+      "了"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] 很 + adjective (no 是!)",
+     "ex": "zh-这个很好吃。",
+     "parts": [
+      {
+       "w": "这个",
+       "m": "this",
+       "r": "n"
+      },
+      {
+       "w": "很",
+       "m": "very",
+       "r": "m",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "好吃",
+       "m": "tasty",
+       "r": "a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-20",
+   "title": "I like it",
+   "learn": [
+    {
+     "h": "不 + verb",
+     "p": "Put <b>不</b> (bù) before a verb to say no: 不喜欢 = don't like. 不 becomes bú before a 4th tone."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-喜欢",
+     "w": "喜欢",
+     "r": "xǐhuan",
+     "m": "to like",
+     "kind": "word"
+    },
+    {
+     "id": "zh-爱",
+     "w": "爱",
+     "r": "ài",
+     "m": "to love",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我喜欢苹果。",
+     "w": "我喜欢苹果。",
+     "r": "wǒ xǐhuan píngguǒ.",
+     "m": "I like apples.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "喜欢",
+      "苹果"
+     ]
+    },
+    {
+     "id": "zh-你喜欢什么？",
+     "w": "你喜欢什么？",
+     "r": "nǐ xǐhuan shénme?",
+     "m": "What do you like?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "喜欢",
+      "什么"
+     ]
+    },
+    {
+     "id": "zh-我不喜欢咖啡。",
+     "w": "我不喜欢咖啡。",
+     "r": "wǒ bù xǐhuan kāfēi.",
+     "m": "I don't like coffee.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "不",
+      "喜欢",
+      "咖啡"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "不 + verb = don't",
+     "ex": "zh-我不喜欢咖啡。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "不",
+       "m": "not",
+       "r": "m",
+       "alt": [
+        "没有"
+       ]
+      },
+      {
+       "w": "喜欢",
+       "m": "like",
+       "r": "v"
+      },
+      {
+       "w": "咖啡",
+       "m": "coffee",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-21",
+   "title": "Colors",
+   "unit": "Unit 5 · Things around you",
+   "learn": [
+    {
+     "h": "色 = color",
+     "p": "Colors end in <b>色</b> (sè): 红色 = red. Red is the lucky color in China."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-红色",
+     "w": "红色",
+     "r": "hóngsè",
+     "m": "red",
+     "kind": "word"
+    },
+    {
+     "id": "zh-蓝色",
+     "w": "蓝色",
+     "r": "lánsè",
+     "m": "blue",
+     "kind": "word"
+    },
+    {
+     "id": "zh-白色",
+     "w": "白色",
+     "r": "báisè",
+     "m": "white",
+     "kind": "word"
+    },
+    {
+     "id": "zh-黑色",
+     "w": "黑色",
+     "r": "hēisè",
+     "m": "black",
+     "kind": "word"
+    },
+    {
+     "id": "zh-黄色",
+     "w": "黄色",
+     "r": "huángsè",
+     "m": "yellow",
+     "kind": "word"
+    },
+    {
+     "id": "zh-颜色",
+     "w": "颜色",
+     "r": "yánsè",
+     "m": "color",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我喜欢红色。",
+     "w": "我喜欢红色。",
+     "r": "wǒ xǐhuan hóngsè.",
+     "m": "I like red.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "喜欢",
+      "红色"
+     ]
+    },
+    {
+     "id": "zh-这是蓝色。",
+     "w": "这是蓝色。",
+     "r": "zhè shì lánsè.",
+     "m": "This is blue.",
+     "kind": "sent",
+     "toks": [
+      "这",
+      "是",
+      "蓝色"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-22",
+   "title": "Big, small, new, old",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-小",
+     "w": "小",
+     "r": "xiǎo",
+     "m": "small",
+     "kind": "char"
+    },
+    {
+     "id": "zh-多",
+     "w": "多",
+     "r": "duō",
+     "m": "many / much",
+     "kind": "char"
+    },
+    {
+     "id": "zh-少",
+     "w": "少",
+     "r": "shǎo",
+     "m": "few / little",
+     "kind": "char"
+    },
+    {
+     "id": "zh-新",
+     "w": "新",
+     "r": "xīn",
+     "m": "new",
+     "kind": "char"
+    },
+    {
+     "id": "zh-旧",
+     "w": "旧",
+     "r": "jiù",
+     "m": "old (things)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-这本书很新。",
+     "w": "这本书很新。",
+     "r": "zhè běn shū hěn xīn.",
+     "m": "This book is new.",
+     "kind": "sent",
+     "toks": [
+      "这",
+      "本",
+      "书",
+      "很",
+      "新"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "这 + 本 + 书",
+     "ex": "zh-这本书很新。",
+     "parts": [
+      {
+       "w": "这",
+       "m": "this",
+       "r": "m"
+      },
+      {
+       "w": "本",
+       "m": "(measure word: books)",
+       "r": "p",
+       "alt": [
+        "只"
+       ]
+      },
+      {
+       "w": "书",
+       "m": "book",
+       "r": "n"
+      },
+      {
+       "w": "很",
+       "m": "very",
+       "r": "m",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "新",
+       "m": "new",
+       "r": "a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-23",
+   "title": "Body",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-头",
+     "w": "头",
+     "r": "tóu",
+     "m": "head",
+     "kind": "char"
+    },
+    {
+     "id": "zh-手",
+     "w": "手",
+     "r": "shǒu",
+     "m": "hand",
+     "kind": "char"
+    },
+    {
+     "id": "zh-眼睛",
+     "w": "眼睛",
+     "r": "yǎnjing",
+     "m": "eyes",
+     "kind": "word"
+    },
+    {
+     "id": "zh-耳朵",
+     "w": "耳朵",
+     "r": "ěrduo",
+     "m": "ears",
+     "kind": "word"
+    },
+    {
+     "id": "zh-疼",
+     "w": "疼",
+     "r": "téng",
+     "m": "to hurt",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我头疼。",
+     "w": "我头疼。",
+     "r": "wǒ tóu téng.",
+     "m": "I have a headache.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "头",
+      "疼"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-24",
+   "title": "Animals",
+   "learn": [
+    {
+     "h": "只 for animals",
+     "p": "Most animals are counted with <b>只</b> (zhī): 一只猫 = a cat."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-狗",
+     "w": "狗",
+     "r": "gǒu",
+     "m": "dog",
+     "kind": "char"
+    },
+    {
+     "id": "zh-猫",
+     "w": "猫",
+     "r": "māo",
+     "m": "cat",
+     "kind": "char"
+    },
+    {
+     "id": "zh-鸟",
+     "w": "鸟",
+     "r": "niǎo",
+     "m": "bird",
+     "kind": "char"
+    },
+    {
+     "id": "zh-动物",
+     "w": "动物",
+     "r": "dòngwù",
+     "m": "animal",
+     "kind": "word"
+    },
+    {
+     "id": "zh-只",
+     "w": "只",
+     "r": "zhī",
+     "m": "(measure word for animals)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我有一只猫。",
+     "w": "我有一只猫。",
+     "r": "wǒ yǒu yì zhī māo.",
+     "m": "I have a cat.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "有",
+      "一",
+      "只",
+      "猫"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "一 只 + animal",
+     "ex": "zh-我有一只猫。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "有",
+       "m": "have",
+       "r": "v"
+      },
+      {
+       "w": "一",
+       "m": "one",
+       "r": "m"
+      },
+      {
+       "w": "只",
+       "m": "(measure word: animals)",
+       "r": "p",
+       "alt": [
+        "本",
+        "杯"
+       ]
+      },
+      {
+       "w": "猫",
+       "m": "cat",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-25",
+   "title": "In the classroom",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-笔",
+     "w": "笔",
+     "r": "bǐ",
+     "m": "pen",
+     "kind": "char"
+    },
+    {
+     "id": "zh-桌子",
+     "w": "桌子",
+     "r": "zhuōzi",
+     "m": "table / desk",
+     "kind": "word"
+    },
+    {
+     "id": "zh-椅子",
+     "w": "椅子",
+     "r": "yǐzi",
+     "m": "chair",
+     "kind": "word"
+    },
+    {
+     "id": "zh-电脑",
+     "w": "电脑",
+     "r": "diànnǎo",
+     "m": "computer",
+     "kind": "word"
+    },
+    {
+     "id": "zh-书包",
+     "w": "书包",
+     "r": "shūbāo",
+     "m": "schoolbag",
+     "kind": "word"
+    },
+    {
+     "id": "zh-上",
+     "w": "上",
+     "r": "shàng",
+     "m": "on / above",
+     "kind": "char"
+    },
+    {
+     "id": "zh-桌子上有一本书。",
+     "w": "桌子上有一本书。",
+     "r": "zhuōzi shàng yǒu yì běn shū.",
+     "m": "There's a book on the table.",
+     "kind": "sent",
+     "toks": [
+      "桌子",
+      "上",
+      "有",
+      "一",
+      "本",
+      "书"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-26",
+   "title": "Places",
+   "unit": "Unit 6 · Places and time",
+   "learn": [
+    {
+     "h": "在 = is at",
+     "p": "<b>在</b> (zài) means “is at / in”: 厕所在哪儿？ = Where is the toilet?",
+     "ex": [
+      "zh-厕所在哪儿？"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-学校",
+     "w": "学校",
+     "r": "xuéxiào",
+     "m": "school",
+     "kind": "word"
+    },
+    {
+     "id": "zh-商店",
+     "w": "商店",
+     "r": "shāngdiàn",
+     "m": "shop",
+     "kind": "word"
+    },
+    {
+     "id": "zh-医院",
+     "w": "医院",
+     "r": "yīyuàn",
+     "m": "hospital",
+     "kind": "word"
+    },
+    {
+     "id": "zh-厕所",
+     "w": "厕所",
+     "r": "cèsuǒ",
+     "m": "toilet",
+     "kind": "word"
+    },
+    {
+     "id": "zh-哪儿",
+     "w": "哪儿",
+     "r": "nǎr",
+     "m": "where",
+     "kind": "word"
+    },
+    {
+     "id": "zh-厕所在哪儿？",
+     "w": "厕所在哪儿？",
+     "r": "cèsuǒ zài nǎr?",
+     "m": "Where is the toilet?",
+     "kind": "sent",
+     "toks": [
+      "厕所",
+      "在",
+      "哪儿"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] 在 [place]",
+     "ex": "zh-厕所在哪儿？",
+     "parts": [
+      {
+       "w": "厕所",
+       "m": "toilet",
+       "r": "n"
+      },
+      {
+       "w": "在",
+       "m": "is at",
+       "r": "v",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "哪儿",
+       "m": "where",
+       "r": "q"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-27",
+   "title": "Going places",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-回家",
+     "w": "回家",
+     "r": "huíjiā",
+     "m": "go home",
+     "kind": "word"
+    },
+    {
+     "id": "zh-走",
+     "w": "走",
+     "r": "zǒu",
+     "m": "to walk / leave",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我去学校。",
+     "w": "我去学校。",
+     "r": "wǒ qù xuéxiào.",
+     "m": "I'm going to school.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "去",
+      "学校"
+     ]
+    },
+    {
+     "id": "zh-你去哪儿？",
+     "w": "你去哪儿？",
+     "r": "nǐ qù nǎr?",
+     "m": "Where are you going?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "去",
+      "哪儿"
+     ]
+    },
+    {
+     "id": "zh-他来我家。",
+     "w": "他来我家。",
+     "r": "tā lái wǒ jiā.",
+     "m": "He's coming to my home.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "来",
+      "我",
+      "家"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-28",
+   "title": "Today and tomorrow",
+   "learn": [
+    {
+     "h": "Time goes first",
+     "p": "Time words come near the start, before the verb: 明天我去商店 = Tomorrow I go to the shop.",
+     "ex": [
+      "zh-明天我去商店。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-今天",
+     "w": "今天",
+     "r": "jīntiān",
+     "m": "today",
+     "kind": "word"
+    },
+    {
+     "id": "zh-明天",
+     "w": "明天",
+     "r": "míngtiān",
+     "m": "tomorrow",
+     "kind": "word"
+    },
+    {
+     "id": "zh-昨天",
+     "w": "昨天",
+     "r": "zuótiān",
+     "m": "yesterday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-现在",
+     "w": "现在",
+     "r": "xiànzài",
+     "m": "now",
+     "kind": "word"
+    },
+    {
+     "id": "zh-明天我去商店。",
+     "w": "明天我去商店。",
+     "r": "míngtiān wǒ qù shāngdiàn.",
+     "m": "I'm going to the shop tomorrow.",
+     "kind": "sent",
+     "toks": [
+      "明天",
+      "我",
+      "去",
+      "商店"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "time first, then the action",
+     "ex": "zh-明天我去商店。",
+     "parts": [
+      {
+       "w": "明天",
+       "m": "tomorrow",
+       "r": "t"
+      },
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      },
+      {
+       "w": "商店",
+       "m": "shop",
+       "r": "t"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-29",
+   "title": "Weather",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-天气",
+     "w": "天气",
+     "r": "tiānqì",
+     "m": "weather",
+     "kind": "word"
+    },
+    {
+     "id": "zh-冷",
+     "w": "冷",
+     "r": "lěng",
+     "m": "cold",
+     "kind": "char"
+    },
+    {
+     "id": "zh-热",
+     "w": "热",
+     "r": "rè",
+     "m": "hot",
+     "kind": "char"
+    },
+    {
+     "id": "zh-下雨",
+     "w": "下雨",
+     "r": "xiàyǔ",
+     "m": "to rain",
+     "kind": "word"
+    },
+    {
+     "id": "zh-今天很冷。",
+     "w": "今天很冷。",
+     "r": "jīntiān hěn lěng.",
+     "m": "It's cold today.",
+     "kind": "sent",
+     "toks": [
+      "今天",
+      "很",
+      "冷"
+     ]
+    },
+    {
+     "id": "zh-今天天气很好。",
+     "w": "今天天气很好。",
+     "r": "jīntiān tiānqì hěn hǎo.",
+     "m": "The weather is nice today.",
+     "kind": "sent",
+     "toks": [
+      "今天",
+      "天气",
+      "很",
+      "好"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-30",
+   "title": "Speaking Chinese",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-汉语",
+     "w": "汉语",
+     "r": "Hànyǔ",
+     "m": "the Chinese language",
+     "kind": "word"
+    },
+    {
+     "id": "zh-会",
+     "w": "会",
+     "r": "huì",
+     "m": "can (a learned skill)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-说",
+     "w": "说",
+     "r": "shuō",
+     "m": "to speak / say",
+     "kind": "char"
+    },
+    {
+     "id": "zh-请",
+     "w": "请",
+     "r": "qǐng",
+     "m": "please",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一点儿",
+     "w": "一点儿",
+     "r": "yìdiǎnr",
+     "m": "a little",
+     "kind": "word"
+    },
+    {
+     "id": "zh-再",
+     "w": "再",
+     "r": "zài",
+     "m": "again",
+     "kind": "char"
+    },
+    {
+     "id": "zh-遍",
+     "w": "遍",
+     "r": "biàn",
+     "m": "time (once through)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我会说一点儿汉语。",
+     "w": "我会说一点儿汉语。",
+     "r": "wǒ huì shuō yìdiǎnr Hànyǔ.",
+     "m": "I can speak a little Chinese.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "会",
+      "说",
+      "一点儿",
+      "汉语"
+     ]
+    },
+    {
+     "id": "zh-请再说一遍。",
+     "w": "请再说一遍。",
+     "r": "qǐng zài shuō yí biàn.",
+     "m": "Please say it again.",
+     "kind": "sent",
+     "toks": [
+      "请",
+      "再",
+      "说",
+      "一",
+      "遍"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "会 + verb = can (a skill)",
+     "ex": "zh-我会说一点儿汉语。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "会",
+       "m": "can",
+       "r": "m",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "说",
+       "m": "speak",
+       "r": "v"
+      },
+      {
+       "w": "一点儿",
+       "m": "a little",
+       "r": "m"
+      },
+      {
+       "w": "汉语",
+       "m": "Chinese",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh1-R",
+   "title": "Tier 1 review",
+   "review": true
+  }
+ ]
+}

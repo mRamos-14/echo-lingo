@@ -1,0 +1,2445 @@
+{
+ "lang": "ko",
+ "tier": 2,
+ "name": "Lower elementary",
+ "sub": "Present-tense verbs, places, time, shopping and daily life (≈ TOPIK 1)",
+ "lessons": [
+  {
+   "id": "ko2-1",
+   "title": "How verbs work",
+   "unit": "Unit 1 · Verbs",
+   "learn": [
+    {
+     "h": "Dictionary form",
+     "p": "Every verb in the dictionary ends in <b>-다</b>: 가다 (to go), 보다 (to see). To speak politely, drop 다 and add a 요-ending."
+    },
+    {
+     "h": "하다 verbs",
+     "p": "Many verbs are a noun + <b>하다</b> (to do): 공부 (study) + 하다. In polite speech 하다 becomes <b>해요</b>: 공부해요.",
+     "ex": [
+      "ko-저는 공부해요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-가다",
+     "w": "가다",
+     "r": "gada",
+     "m": "to go (dictionary form)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-오다",
+     "w": "오다",
+     "r": "oda",
+     "m": "to come (dictionary form)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-보다",
+     "w": "보다",
+     "r": "boda",
+     "m": "to see (dictionary form)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-하다",
+     "w": "하다",
+     "r": "hada",
+     "m": "to do (dictionary form)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-공부",
+     "w": "공부",
+     "r": "gongbu",
+     "m": "study (noun)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-공부하다",
+     "w": "공부하다",
+     "r": "gongbuhada",
+     "m": "to study (dictionary form)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-저는 공부해요.",
+     "w": "저는 공부해요.",
+     "r": "jeoneun gongbuhaeyo.",
+     "m": "I study.",
+     "kind": "sent",
+     "toks": [
+      "저는",
+      "공부해요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "하다 → 해요",
+     "ex": "ko-저는 공부해요.",
+     "parts": [
+      {
+       "w": "저",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "는",
+       "m": "topic marker",
+       "r": "p",
+       "alt": [
+        "을"
+       ]
+      },
+      {
+       "w": "공부해요",
+       "m": "study",
+       "r": "v",
+       "alt": [
+        "공부하요"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-2",
+   "title": "Verbs with 아요",
+   "learn": [
+    {
+     "h": "Bright vowels",
+     "p": "If the last vowel before 다 is <b>ㅏ</b> or <b>ㅗ</b>, add <b>아요</b>: 앉다 → 앉아요, 살다 → 살아요.",
+     "ex": [
+      "ko-앉아요",
+      "ko-살아요"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-앉아요",
+     "w": "앉아요",
+     "r": "anjayo",
+     "m": "sit",
+     "kind": "word"
+    },
+    {
+     "id": "ko-살아요",
+     "w": "살아요",
+     "r": "sarayo",
+     "m": "live",
+     "kind": "word"
+    },
+    {
+     "id": "ko-받아요",
+     "w": "받아요",
+     "r": "badayo",
+     "m": "receive",
+     "kind": "word"
+    },
+    {
+     "id": "ko-서울",
+     "w": "서울",
+     "r": "seoul",
+     "m": "Seoul",
+     "kind": "word"
+    },
+    {
+     "id": "ko-선물",
+     "w": "선물",
+     "r": "seonmul",
+     "m": "present / gift",
+     "kind": "word"
+    },
+    {
+     "id": "ko-서울에 살아요.",
+     "w": "서울에 살아요.",
+     "r": "seoure sarayo.",
+     "m": "I live in Seoul.",
+     "kind": "sent",
+     "toks": [
+      "서울에",
+      "살아요"
+     ]
+    },
+    {
+     "id": "ko-선물을 받아요.",
+     "w": "선물을 받아요.",
+     "r": "seonmureul badayo.",
+     "m": "I receive a present.",
+     "kind": "sent",
+     "toks": [
+      "선물을",
+      "받아요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "ㅏ/ㅗ verbs + 아요",
+     "ex": "ko-서울에 살아요.",
+     "parts": [
+      {
+       "w": "서울",
+       "m": "Seoul",
+       "r": "t"
+      },
+      {
+       "w": "에",
+       "m": "in",
+       "r": "p",
+       "alt": [
+        "를"
+       ]
+      },
+      {
+       "w": "살아요",
+       "m": "live",
+       "r": "v",
+       "alt": [
+        "살어요"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-3",
+   "title": "Verbs with 어요",
+   "learn": [
+    {
+     "h": "All other vowels",
+     "p": "Any other last vowel takes <b>어요</b>: 읽다 → 읽어요, 열다 → 열어요.",
+     "ex": [
+      "ko-읽어요",
+      "ko-열어요"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-읽어요",
+     "w": "읽어요",
+     "r": "ilgeoyo",
+     "m": "read",
+     "kind": "word"
+    },
+    {
+     "id": "ko-열어요",
+     "w": "열어요",
+     "r": "yeoreoyo",
+     "m": "open",
+     "kind": "word"
+    },
+    {
+     "id": "ko-문",
+     "w": "문",
+     "r": "mun",
+     "m": "door",
+     "kind": "word"
+    },
+    {
+     "id": "ko-책을 읽어요.",
+     "w": "책을 읽어요.",
+     "r": "chaegeul ilgeoyo.",
+     "m": "I read a book.",
+     "kind": "sent",
+     "toks": [
+      "책을",
+      "읽어요"
+     ]
+    },
+    {
+     "id": "ko-문을 열어요.",
+     "w": "문을 열어요.",
+     "r": "muneul yeoreoyo.",
+     "m": "I open the door.",
+     "kind": "sent",
+     "toks": [
+      "문을",
+      "열어요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "other verbs + 어요",
+     "ex": "ko-책을 읽어요.",
+     "parts": [
+      {
+       "w": "책",
+       "m": "book",
+       "r": "n"
+      },
+      {
+       "w": "을",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "를"
+       ]
+      },
+      {
+       "w": "읽어요",
+       "m": "read",
+       "r": "v",
+       "alt": [
+        "읽아요"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-4",
+   "title": "More 하다 verbs",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-일해요",
+     "w": "일해요",
+     "r": "ilhaeyo",
+     "m": "work",
+     "kind": "word"
+    },
+    {
+     "id": "ko-운동해요",
+     "w": "운동해요",
+     "r": "undonghaeyo",
+     "m": "exercise",
+     "kind": "word"
+    },
+    {
+     "id": "ko-요리해요",
+     "w": "요리해요",
+     "r": "yorihaeyo",
+     "m": "cook",
+     "kind": "word"
+    },
+    {
+     "id": "ko-전화해요",
+     "w": "전화해요",
+     "r": "jeonhwahaeyo",
+     "m": "make a phone call",
+     "kind": "word"
+    },
+    {
+     "id": "ko-엄마가 요리해요.",
+     "w": "엄마가 요리해요.",
+     "r": "eommaga yorihaeyo.",
+     "m": "Mom is cooking.",
+     "kind": "sent",
+     "toks": [
+      "엄마가",
+      "요리해요"
+     ]
+    },
+    {
+     "id": "ko-형이 운동해요.",
+     "w": "형이 운동해요.",
+     "r": "hyeong-i undonghaeyo.",
+     "m": "My older brother exercises.",
+     "kind": "sent",
+     "toks": [
+      "형이",
+      "운동해요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-5",
+   "title": "Short verbs",
+   "learn": [
+    {
+     "h": "Vowels squeeze together",
+     "p": "Some verbs shorten: 보 + 아요 → <b>봐요</b>, 주 + 어요 → <b>줘요</b>, 배우 + 어요 → <b>배워요</b>.",
+     "ex": [
+      "ko-봐요",
+      "ko-배워요"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-봐요",
+     "w": "봐요",
+     "r": "bwayo",
+     "m": "see / watch",
+     "kind": "word"
+    },
+    {
+     "id": "ko-줘요",
+     "w": "줘요",
+     "r": "jwoyo",
+     "m": "give",
+     "kind": "word"
+    },
+    {
+     "id": "ko-배워요",
+     "w": "배워요",
+     "r": "baewoyo",
+     "m": "learn",
+     "kind": "word"
+    },
+    {
+     "id": "ko-텔레비전",
+     "w": "텔레비전",
+     "r": "tellebijeon",
+     "m": "TV",
+     "kind": "word"
+    },
+    {
+     "id": "ko-텔레비전을 봐요.",
+     "w": "텔레비전을 봐요.",
+     "r": "tellebijeoneul bwayo.",
+     "m": "I watch TV.",
+     "kind": "sent",
+     "toks": [
+      "텔레비전을",
+      "봐요"
+     ]
+    },
+    {
+     "id": "ko-한국어를 배워요.",
+     "w": "한국어를 배워요.",
+     "r": "hangugeoreul baewoyo.",
+     "m": "I learn Korean.",
+     "kind": "sent",
+     "toks": [
+      "한국어를",
+      "배워요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "배우다 → 배워요 (vowels merge)",
+     "ex": "ko-한국어를 배워요.",
+     "parts": [
+      {
+       "w": "한국어",
+       "m": "Korean",
+       "r": "n"
+      },
+      {
+       "w": "를",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "을",
+        "가"
+       ]
+      },
+      {
+       "w": "배워요",
+       "m": "learn",
+       "r": "v",
+       "alt": [
+        "배와요"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-6",
+   "title": "Where you do things",
+   "unit": "Unit 2 · Where",
+   "learn": [
+    {
+     "h": "에 vs 에서",
+     "p": "<b>에</b> marks where something <i>is</i> or where you <i>go</i>. <b>에서</b> marks where an action <i>happens</i>: 도서관에서 공부해요 = I study at the library.",
+     "ex": [
+      "ko-도서관에서 공부해요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-도서관",
+     "w": "도서관",
+     "r": "doseogwan",
+     "m": "library",
+     "kind": "word"
+    },
+    {
+     "id": "ko-식당",
+     "w": "식당",
+     "r": "sikdang",
+     "m": "restaurant",
+     "kind": "word"
+    },
+    {
+     "id": "ko-카페",
+     "w": "카페",
+     "r": "kape",
+     "m": "cafe",
+     "kind": "word"
+    },
+    {
+     "id": "ko-도서관에서 공부해요.",
+     "w": "도서관에서 공부해요.",
+     "r": "doseogwaneseo gongbuhaeyo.",
+     "m": "I study at the library.",
+     "kind": "sent",
+     "toks": [
+      "도서관에서",
+      "공부해요"
+     ]
+    },
+    {
+     "id": "ko-식당에서 밥을 먹어요.",
+     "w": "식당에서 밥을 먹어요.",
+     "r": "sikdangeseo babeul meogeoyo.",
+     "m": "I eat at a restaurant.",
+     "kind": "sent",
+     "toks": [
+      "식당에서",
+      "밥을",
+      "먹어요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[place] 에서 + action",
+     "ex": "ko-도서관에서 공부해요.",
+     "parts": [
+      {
+       "w": "도서관",
+       "m": "library",
+       "r": "t"
+      },
+      {
+       "w": "에서",
+       "m": "at (where an action happens)",
+       "r": "p",
+       "alt": [
+        "에",
+        "를"
+       ]
+      },
+      {
+       "w": "공부해요",
+       "m": "study",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-7",
+   "title": "Getting around",
+   "learn": [
+    {
+     "h": "By bus, by subway",
+     "p": "<b>(으)로</b> means “by means of”: 지하철로 가요 = I go by subway. You ride (<b>타요</b>) a bus or train.",
+     "ex": [
+      "ko-지하철로 가요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-버스",
+     "w": "버스",
+     "r": "beoseu",
+     "m": "bus",
+     "kind": "word"
+    },
+    {
+     "id": "ko-지하철",
+     "w": "지하철",
+     "r": "jihacheol",
+     "m": "subway",
+     "kind": "word"
+    },
+    {
+     "id": "ko-택시",
+     "w": "택시",
+     "r": "taeksi",
+     "m": "taxi",
+     "kind": "word"
+    },
+    {
+     "id": "ko-타요",
+     "w": "타요",
+     "r": "tayo",
+     "m": "ride / take",
+     "kind": "word"
+    },
+    {
+     "id": "ko-버스를 타요.",
+     "w": "버스를 타요.",
+     "r": "beoseureul tayo.",
+     "m": "I take the bus.",
+     "kind": "sent",
+     "toks": [
+      "버스를",
+      "타요"
+     ]
+    },
+    {
+     "id": "ko-지하철로 가요.",
+     "w": "지하철로 가요.",
+     "r": "jihacheollo gayo.",
+     "m": "I go by subway.",
+     "kind": "sent",
+     "toks": [
+      "지하철로",
+      "가요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[transport] 로 가요",
+     "ex": "ko-지하철로 가요.",
+     "parts": [
+      {
+       "w": "지하철",
+       "m": "subway",
+       "r": "n"
+      },
+      {
+       "w": "로",
+       "m": "by (means of)",
+       "r": "p",
+       "alt": [
+        "에서",
+        "를"
+       ]
+      },
+      {
+       "w": "가요",
+       "m": "go",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-8",
+   "title": "Here and there",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-여기",
+     "w": "여기",
+     "r": "yeogi",
+     "m": "here",
+     "kind": "word"
+    },
+    {
+     "id": "ko-거기",
+     "w": "거기",
+     "r": "geogi",
+     "m": "there (near you)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-저기",
+     "w": "저기",
+     "r": "jeogi",
+     "m": "over there",
+     "kind": "word"
+    },
+    {
+     "id": "ko-은행",
+     "w": "은행",
+     "r": "eunhaeng",
+     "m": "bank",
+     "kind": "word"
+    },
+    {
+     "id": "ko-오른쪽",
+     "w": "오른쪽",
+     "r": "oreunjjok",
+     "m": "right side",
+     "kind": "word"
+    },
+    {
+     "id": "ko-왼쪽",
+     "w": "왼쪽",
+     "r": "oenjjok",
+     "m": "left side",
+     "kind": "word"
+    },
+    {
+     "id": "ko-은행이 어디예요?",
+     "w": "은행이 어디예요?",
+     "r": "eunhaengi eodiyeyo?",
+     "m": "Where is the bank?",
+     "kind": "sent",
+     "toks": [
+      "은행이",
+      "어디예요"
+     ]
+    },
+    {
+     "id": "ko-저기 있어요.",
+     "w": "저기 있어요.",
+     "r": "jeogi isseoyo.",
+     "m": "It's over there.",
+     "kind": "sent",
+     "toks": [
+      "저기",
+      "있어요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-9",
+   "title": "In front, behind, inside",
+   "learn": [
+    {
+     "h": "Position words",
+     "p": "Put the position word after the thing, then <b>에</b>: 은행 옆에 = next to the bank, 가방 안에 = inside the bag.",
+     "ex": [
+      "ko-은행 옆에 있어요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-앞",
+     "w": "앞",
+     "r": "ap",
+     "m": "front",
+     "kind": "word"
+    },
+    {
+     "id": "ko-뒤",
+     "w": "뒤",
+     "r": "dwi",
+     "m": "back / behind",
+     "kind": "word"
+    },
+    {
+     "id": "ko-옆",
+     "w": "옆",
+     "r": "yeop",
+     "m": "side / next to",
+     "kind": "word"
+    },
+    {
+     "id": "ko-안",
+     "w": "안",
+     "r": "an",
+     "m": "inside",
+     "kind": "word"
+    },
+    {
+     "id": "ko-밖",
+     "w": "밖",
+     "r": "bak",
+     "m": "outside",
+     "kind": "word"
+    },
+    {
+     "id": "ko-은행 옆에 있어요.",
+     "w": "은행 옆에 있어요.",
+     "r": "eunhaeng yeope isseoyo.",
+     "m": "It's next to the bank.",
+     "kind": "sent",
+     "toks": [
+      "은행",
+      "옆에",
+      "있어요"
+     ]
+    },
+    {
+     "id": "ko-가방 안에 있어요.",
+     "w": "가방 안에 있어요.",
+     "r": "gabang ane isseoyo.",
+     "m": "It's inside the bag.",
+     "kind": "sent",
+     "toks": [
+      "가방",
+      "안에",
+      "있어요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] 옆에 있어요",
+     "ex": "ko-은행 옆에 있어요.",
+     "parts": [
+      {
+       "w": "은행",
+       "m": "bank",
+       "r": "n"
+      },
+      {
+       "w": "옆",
+       "m": "next to",
+       "r": "t"
+      },
+      {
+       "w": "에",
+       "m": "at",
+       "r": "p",
+       "alt": [
+        "에서",
+        "를"
+       ]
+      },
+      {
+       "w": "있어요",
+       "m": "is (located)",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-10",
+   "title": "Saying no with 안",
+   "learn": [
+    {
+     "h": "안 + verb",
+     "p": "Put <b>안</b> right before a verb to make it negative: 안 가요 = I don't go. For 하다 verbs it goes before 해요: 공부 안 해요.",
+     "ex": [
+      "ko-안 가요.",
+      "ko-공부 안 해요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-별로",
+     "w": "별로",
+     "r": "byeollo",
+     "m": "not really / not much",
+     "kind": "word"
+    },
+    {
+     "id": "ko-안 가요.",
+     "w": "안 가요.",
+     "r": "an gayo.",
+     "m": "I'm not going.",
+     "kind": "sent",
+     "toks": [
+      "안",
+      "가요"
+     ]
+    },
+    {
+     "id": "ko-안 먹어요.",
+     "w": "안 먹어요.",
+     "r": "an meogeoyo.",
+     "m": "I don't eat (it).",
+     "kind": "sent",
+     "toks": [
+      "안",
+      "먹어요"
+     ]
+    },
+    {
+     "id": "ko-커피를 안 마셔요.",
+     "w": "커피를 안 마셔요.",
+     "r": "keopireul an masyeoyo.",
+     "m": "I don't drink coffee.",
+     "kind": "sent",
+     "toks": [
+      "커피를",
+      "안",
+      "마셔요"
+     ]
+    },
+    {
+     "id": "ko-공부 안 해요.",
+     "w": "공부 안 해요.",
+     "r": "gongbu an haeyo.",
+     "m": "I don't study.",
+     "kind": "sent",
+     "toks": [
+      "공부",
+      "안",
+      "해요"
+     ]
+    },
+    {
+     "id": "ko-별로 안 좋아해요.",
+     "w": "별로 안 좋아해요.",
+     "r": "byeollo an joahaeyo.",
+     "m": "I don't really like it.",
+     "kind": "sent",
+     "toks": [
+      "별로",
+      "안",
+      "좋아해요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "안 + verb = not",
+     "ex": "ko-커피를 안 마셔요.",
+     "parts": [
+      {
+       "w": "커피",
+       "m": "coffee",
+       "r": "n"
+      },
+      {
+       "w": "를",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "을"
+       ]
+      },
+      {
+       "w": "안",
+       "m": "not",
+       "r": "m",
+       "alt": [
+        "못해"
+       ]
+      },
+      {
+       "w": "마셔요",
+       "m": "drink",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-11",
+   "title": "Morning, noon and night",
+   "unit": "Unit 3 · Time",
+   "learn": [
+    {
+     "h": "Meals are times of day",
+     "p": "<b>아침</b> means both “morning” and “breakfast”, <b>점심</b> is “noon / lunch”, <b>저녁</b> is “evening / dinner”."
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-아침",
+     "w": "아침",
+     "r": "achim",
+     "m": "morning / breakfast",
+     "kind": "word"
+    },
+    {
+     "id": "ko-점심",
+     "w": "점심",
+     "r": "jeomsim",
+     "m": "lunch / midday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-저녁",
+     "w": "저녁",
+     "r": "jeonyeok",
+     "m": "evening / dinner",
+     "kind": "word"
+    },
+    {
+     "id": "ko-아침을 먹어요.",
+     "w": "아침을 먹어요.",
+     "r": "achimeul meogeoyo.",
+     "m": "I eat breakfast.",
+     "kind": "sent",
+     "toks": [
+      "아침을",
+      "먹어요"
+     ]
+    },
+    {
+     "id": "ko-저녁에 운동해요.",
+     "w": "저녁에 운동해요.",
+     "r": "jeonyeoge undonghaeyo.",
+     "m": "I exercise in the evening.",
+     "kind": "sent",
+     "toks": [
+      "저녁에",
+      "운동해요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[time] 에 + action",
+     "ex": "ko-저녁에 운동해요.",
+     "parts": [
+      {
+       "w": "저녁",
+       "m": "evening",
+       "r": "t"
+      },
+      {
+       "w": "에",
+       "m": "at / in (time)",
+       "r": "p",
+       "alt": [
+        "에서",
+        "를"
+       ]
+      },
+      {
+       "w": "운동해요",
+       "m": "exercise",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-12",
+   "title": "Days of the week",
+   "learn": [
+    {
+     "h": "Days named after nature",
+     "p": "The days are moon (<b>월</b>), fire (<b>화</b>), water (<b>수</b>), wood (<b>목</b>), gold (<b>금</b>), earth (<b>토</b>), sun (<b>일</b>) + 요일 (day of the week). Japanese uses the same pattern!"
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-월요일",
+     "w": "월요일",
+     "r": "woryoil",
+     "m": "Monday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-화요일",
+     "w": "화요일",
+     "r": "hwayoil",
+     "m": "Tuesday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-수요일",
+     "w": "수요일",
+     "r": "suyoil",
+     "m": "Wednesday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-목요일",
+     "w": "목요일",
+     "r": "mogyoil",
+     "m": "Thursday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-금요일",
+     "w": "금요일",
+     "r": "geumyoil",
+     "m": "Friday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-토요일",
+     "w": "토요일",
+     "r": "toyoil",
+     "m": "Saturday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-일요일",
+     "w": "일요일",
+     "r": "iryoil",
+     "m": "Sunday",
+     "kind": "word"
+    },
+    {
+     "id": "ko-요일",
+     "w": "요일",
+     "r": "yoil",
+     "m": "day of the week",
+     "kind": "word"
+    },
+    {
+     "id": "ko-오늘은 월요일이에요.",
+     "w": "오늘은 월요일이에요.",
+     "r": "oneureun woryoirieyo.",
+     "m": "Today is Monday.",
+     "kind": "sent",
+     "toks": [
+      "오늘은",
+      "월요일이에요"
+     ]
+    },
+    {
+     "id": "ko-내일은 토요일이에요.",
+     "w": "내일은 토요일이에요.",
+     "r": "naeireun toyoirieyo.",
+     "m": "Tomorrow is Saturday.",
+     "kind": "sent",
+     "toks": [
+      "내일은",
+      "토요일이에요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-13",
+   "title": "The week",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-무슨",
+     "w": "무슨",
+     "r": "museun",
+     "m": "what (kind of)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-주말",
+     "w": "주말",
+     "r": "jumal",
+     "m": "weekend",
+     "kind": "word"
+    },
+    {
+     "id": "ko-매일",
+     "w": "매일",
+     "r": "maeil",
+     "m": "every day",
+     "kind": "word"
+    },
+    {
+     "id": "ko-쉬어요",
+     "w": "쉬어요",
+     "r": "swieoyo",
+     "m": "rest",
+     "kind": "word"
+    },
+    {
+     "id": "ko-무슨 요일이에요?",
+     "w": "무슨 요일이에요?",
+     "r": "museun yoirieyo?",
+     "m": "What day is it?",
+     "kind": "sent",
+     "toks": [
+      "무슨",
+      "요일이에요"
+     ]
+    },
+    {
+     "id": "ko-오늘은 금요일이에요.",
+     "w": "오늘은 금요일이에요.",
+     "r": "oneureun geumyoirieyo.",
+     "m": "Today is Friday.",
+     "kind": "sent",
+     "toks": [
+      "오늘은",
+      "금요일이에요"
+     ]
+    },
+    {
+     "id": "ko-주말에 쉬어요.",
+     "w": "주말에 쉬어요.",
+     "r": "jumare swieoyo.",
+     "m": "I rest on the weekend.",
+     "kind": "sent",
+     "toks": [
+      "주말에",
+      "쉬어요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-14",
+   "title": "What time is it?",
+   "learn": [
+    {
+     "h": "Hours use native numbers",
+     "p": "Hours use native Korean numbers + <b>시</b>: 한 시 (1:00), 세 시 (3:00), 열두 시 (12:00).",
+     "ex": [
+      "ko-세 시예요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-시",
+     "w": "시",
+     "r": "si",
+     "m": "o'clock",
+     "kind": "word"
+    },
+    {
+     "id": "ko-한 시",
+     "w": "한 시",
+     "r": "han si",
+     "m": "one o'clock",
+     "kind": "sent",
+     "toks": [
+      "한",
+      "시"
+     ]
+    },
+    {
+     "id": "ko-열두 시",
+     "w": "열두 시",
+     "r": "yeoldu si",
+     "m": "twelve o'clock",
+     "kind": "sent",
+     "toks": [
+      "열두",
+      "시"
+     ]
+    },
+    {
+     "id": "ko-몇 시예요?",
+     "w": "몇 시예요?",
+     "r": "myeot siyeyo?",
+     "m": "What time is it?",
+     "kind": "sent",
+     "toks": [
+      "몇",
+      "시예요"
+     ]
+    },
+    {
+     "id": "ko-세 시예요.",
+     "w": "세 시예요.",
+     "r": "se siyeyo.",
+     "m": "It's three o'clock.",
+     "kind": "sent",
+     "toks": [
+      "세",
+      "시예요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "native number + 시",
+     "ex": "ko-세 시예요.",
+     "parts": [
+      {
+       "w": "세",
+       "m": "three (native)",
+       "r": "m",
+       "alt": [
+        "삼"
+       ]
+      },
+      {
+       "w": "시",
+       "m": "o'clock",
+       "r": "n"
+      },
+      {
+       "w": "예요",
+       "m": "it is",
+       "r": "e",
+       "alt": [
+        "이에요"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-15",
+   "title": "Minutes and half past",
+   "learn": [
+    {
+     "h": "Minutes use Sino numbers",
+     "p": "Minutes use Sino-Korean numbers + <b>분</b>: 십 분 (10 minutes). <b>반</b> = half past: 두 시 반 = 2:30.",
+     "ex": [
+      "ko-두 시 반이에요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-분",
+     "w": "분",
+     "r": "bun",
+     "m": "minute",
+     "kind": "word"
+    },
+    {
+     "id": "ko-반",
+     "w": "반",
+     "r": "ban",
+     "m": "half (past)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-시간",
+     "w": "시간",
+     "r": "sigan",
+     "m": "time / hour",
+     "kind": "word"
+    },
+    {
+     "id": "ko-두 시 반이에요.",
+     "w": "두 시 반이에요.",
+     "r": "du si banieyo.",
+     "m": "It's two thirty.",
+     "kind": "sent",
+     "toks": [
+      "두",
+      "시",
+      "반이에요"
+     ]
+    },
+    {
+     "id": "ko-세 시 십 분이에요.",
+     "w": "세 시 십 분이에요.",
+     "r": "se si sip bunieyo.",
+     "m": "It's ten past three.",
+     "kind": "sent",
+     "toks": [
+      "세",
+      "시",
+      "십",
+      "분이에요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "native hour + 시 + 반",
+     "ex": "ko-두 시 반이에요.",
+     "parts": [
+      {
+       "w": "두",
+       "m": "two (native)",
+       "r": "m",
+       "alt": [
+        "이"
+       ]
+      },
+      {
+       "w": "시",
+       "m": "o'clock",
+       "r": "n"
+      },
+      {
+       "w": "반",
+       "m": "half",
+       "r": "n"
+      },
+      {
+       "w": "이에요",
+       "m": "it is",
+       "r": "e",
+       "alt": [
+        "예요"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-16",
+   "title": "How much is it?",
+   "unit": "Unit 4 · Shopping",
+   "learn": [
+    {
+     "h": "Korean money",
+     "p": "Prices use Sino numbers + <b>원</b> (won). Korean counts big numbers in ten-thousands: <b>만</b> = 10,000.",
+     "ex": [
+      "ko-오천 원이에요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-원",
+     "w": "원",
+     "r": "won",
+     "m": "won (Korean money)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-천",
+     "w": "천",
+     "r": "cheon",
+     "m": "thousand",
+     "kind": "word"
+    },
+    {
+     "id": "ko-만",
+     "w": "만",
+     "r": "man",
+     "m": "ten thousand",
+     "kind": "word"
+    },
+    {
+     "id": "ko-얼마예요",
+     "w": "얼마예요",
+     "r": "eolmayeyo",
+     "m": "how much is it?",
+     "kind": "word"
+    },
+    {
+     "id": "ko-오천 원이에요.",
+     "w": "오천 원이에요.",
+     "r": "ocheon wonieyo.",
+     "m": "It's 5,000 won.",
+     "kind": "sent",
+     "toks": [
+      "오천",
+      "원이에요"
+     ]
+    },
+    {
+     "id": "ko-만 원",
+     "w": "만 원",
+     "r": "man won",
+     "m": "10,000 won",
+     "kind": "sent",
+     "toks": [
+      "만",
+      "원"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-17",
+   "title": "At the shop",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-비싸요",
+     "w": "비싸요",
+     "r": "bissayo",
+     "m": "it's expensive",
+     "kind": "word"
+    },
+    {
+     "id": "ko-싸요",
+     "w": "싸요",
+     "r": "ssayo",
+     "m": "it's cheap",
+     "kind": "word"
+    },
+    {
+     "id": "ko-너무",
+     "w": "너무",
+     "r": "neomu",
+     "m": "too (much)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-이거 얼마예요?",
+     "w": "이거 얼마예요?",
+     "r": "igeo eolmayeyo?",
+     "m": "How much is this?",
+     "kind": "sent",
+     "toks": [
+      "이거",
+      "얼마예요"
+     ]
+    },
+    {
+     "id": "ko-너무 비싸요.",
+     "w": "너무 비싸요.",
+     "r": "neomu bissayo.",
+     "m": "It's too expensive.",
+     "kind": "sent",
+     "toks": [
+      "너무",
+      "비싸요"
+     ]
+    },
+    {
+     "id": "ko-깎아 주세요.",
+     "w": "깎아 주세요.",
+     "r": "kkakka juseyo.",
+     "m": "Please give me a discount.",
+     "kind": "sent",
+     "toks": [
+      "깎아",
+      "주세요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-18",
+   "title": "Clothes",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-바지",
+     "w": "바지",
+     "r": "baji",
+     "m": "pants",
+     "kind": "word"
+    },
+    {
+     "id": "ko-치마",
+     "w": "치마",
+     "r": "chima",
+     "m": "skirt",
+     "kind": "word"
+    },
+    {
+     "id": "ko-신발",
+     "w": "신발",
+     "r": "sinbal",
+     "m": "shoes",
+     "kind": "word"
+    },
+    {
+     "id": "ko-모자",
+     "w": "모자",
+     "r": "moja",
+     "m": "hat",
+     "kind": "word"
+    },
+    {
+     "id": "ko-사요",
+     "w": "사요",
+     "r": "sayo",
+     "m": "buy",
+     "kind": "word"
+    },
+    {
+     "id": "ko-신발을 사요.",
+     "w": "신발을 사요.",
+     "r": "sinbareul sayo.",
+     "m": "I'm buying shoes.",
+     "kind": "sent",
+     "toks": [
+      "신발을",
+      "사요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-19",
+   "title": "Trying things on",
+   "learn": [
+    {
+     "h": "Two kinds of wearing",
+     "p": "Clothes you put on your body are <b>입어요</b>; shoes and socks are <b>신어요</b>; hats are <b>써요</b>.",
+     "ex": [
+      "ko-바지를 입어요.",
+      "ko-신발을 신어요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-입어요",
+     "w": "입어요",
+     "r": "ibeoyo",
+     "m": "wear (clothes)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-신어요",
+     "w": "신어요",
+     "r": "sineoyo",
+     "m": "wear (shoes)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-좀",
+     "w": "좀",
+     "r": "jom",
+     "m": "a little / please",
+     "kind": "word"
+    },
+    {
+     "id": "ko-큰",
+     "w": "큰",
+     "r": "keun",
+     "m": "big (before a noun)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-거",
+     "w": "거",
+     "r": "geo",
+     "m": "thing / one",
+     "kind": "word"
+    },
+    {
+     "id": "ko-바지를 입어요.",
+     "w": "바지를 입어요.",
+     "r": "bajireul ibeoyo.",
+     "m": "I put on pants.",
+     "kind": "sent",
+     "toks": [
+      "바지를",
+      "입어요"
+     ]
+    },
+    {
+     "id": "ko-신발을 신어요.",
+     "w": "신발을 신어요.",
+     "r": "sinbareul sineoyo.",
+     "m": "I put on shoes.",
+     "kind": "sent",
+     "toks": [
+      "신발을",
+      "신어요"
+     ]
+    },
+    {
+     "id": "ko-큰 거 있어요?",
+     "w": "큰 거 있어요?",
+     "r": "keun geo isseoyo?",
+     "m": "Do you have a bigger one?",
+     "kind": "sent",
+     "toks": [
+      "큰",
+      "거",
+      "있어요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "clothes 입어요, shoes 신어요",
+     "ex": "ko-바지를 입어요.",
+     "parts": [
+      {
+       "w": "바지",
+       "m": "pants",
+       "r": "n"
+      },
+      {
+       "w": "를",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "을"
+       ]
+      },
+      {
+       "w": "입어요",
+       "m": "put on (clothes)",
+       "r": "v",
+       "alt": [
+        "신어요"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-20",
+   "title": "Ordering coffee",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-라테",
+     "w": "라테",
+     "r": "rate",
+     "m": "latte",
+     "kind": "word"
+    },
+    {
+     "id": "ko-따뜻한",
+     "w": "따뜻한",
+     "r": "ttatteutan",
+     "m": "hot / warm (before a noun)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-카드",
+     "w": "카드",
+     "r": "kadeu",
+     "m": "card",
+     "kind": "word"
+    },
+    {
+     "id": "ko-돼요",
+     "w": "돼요",
+     "r": "dwaeyo",
+     "m": "it's OK / it works",
+     "kind": "word"
+    },
+    {
+     "id": "ko-아이스 아메리카노",
+     "w": "아이스 아메리카노",
+     "r": "aiseu amerikano",
+     "m": "iced americano",
+     "kind": "sent",
+     "toks": [
+      "아이스",
+      "아메리카노"
+     ]
+    },
+    {
+     "id": "ko-따뜻한 라테 하나 주세요.",
+     "w": "따뜻한 라테 하나 주세요.",
+     "r": "ttatteutan rate hana juseyo.",
+     "m": "One hot latte, please.",
+     "kind": "sent",
+     "toks": [
+      "따뜻한",
+      "라테",
+      "하나",
+      "주세요"
+     ]
+    },
+    {
+     "id": "ko-여기서 드세요?",
+     "w": "여기서 드세요?",
+     "r": "yeogiseo deuseyo?",
+     "m": "For here?",
+     "kind": "sent",
+     "toks": [
+      "여기서",
+      "드세요"
+     ]
+    },
+    {
+     "id": "ko-가져갈게요",
+     "w": "가져갈게요",
+     "r": "gajyeogalgeyo",
+     "m": "I'll take it to go",
+     "kind": "word"
+    },
+    {
+     "id": "ko-카드 돼요?",
+     "w": "카드 돼요?",
+     "r": "kadeu dwaeyo?",
+     "m": "Can I pay by card?",
+     "kind": "sent",
+     "toks": [
+      "카드",
+      "돼요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-21",
+   "title": "Morning routine",
+   "unit": "Unit 5 · My day",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-일어나요",
+     "w": "일어나요",
+     "r": "ireonayo",
+     "m": "get up",
+     "kind": "word"
+    },
+    {
+     "id": "ko-씻어요",
+     "w": "씻어요",
+     "r": "ssiseoyo",
+     "m": "wash up",
+     "kind": "word"
+    },
+    {
+     "id": "ko-자요",
+     "w": "자요",
+     "r": "jayo",
+     "m": "sleep",
+     "kind": "word"
+    },
+    {
+     "id": "ko-일곱 시에 일어나요.",
+     "w": "일곱 시에 일어나요.",
+     "r": "ilgop sie ireonayo.",
+     "m": "I get up at seven.",
+     "kind": "sent",
+     "toks": [
+      "일곱",
+      "시에",
+      "일어나요"
+     ]
+    },
+    {
+     "id": "ko-열한 시에 자요.",
+     "w": "열한 시에 자요.",
+     "r": "yeolhan sie jayo.",
+     "m": "I go to bed at eleven.",
+     "kind": "sent",
+     "toks": [
+      "열한",
+      "시에",
+      "자요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[time] 에 + action",
+     "ex": "ko-일곱 시에 일어나요.",
+     "parts": [
+      {
+       "w": "일곱",
+       "m": "seven (native)",
+       "r": "m",
+       "alt": [
+        "칠"
+       ]
+      },
+      {
+       "w": "시",
+       "m": "o'clock",
+       "r": "n"
+      },
+      {
+       "w": "에",
+       "m": "at",
+       "r": "p",
+       "alt": [
+        "에서"
+       ]
+      },
+      {
+       "w": "일어나요",
+       "m": "get up",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-22",
+   "title": "School and work",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-회사원",
+     "w": "회사원",
+     "r": "hoesawon",
+     "m": "office worker",
+     "kind": "word"
+    },
+    {
+     "id": "ko-수업",
+     "w": "수업",
+     "r": "sueop",
+     "m": "class",
+     "kind": "word"
+    },
+    {
+     "id": "ko-숙제",
+     "w": "숙제",
+     "r": "sukje",
+     "m": "homework",
+     "kind": "word"
+    },
+    {
+     "id": "ko-숙제를 해요.",
+     "w": "숙제를 해요.",
+     "r": "sukjereul haeyo.",
+     "m": "I do homework.",
+     "kind": "sent",
+     "toks": [
+      "숙제를",
+      "해요"
+     ]
+    },
+    {
+     "id": "ko-아홉 시에 수업이 있어요.",
+     "w": "아홉 시에 수업이 있어요.",
+     "r": "ahop sie sueobi isseoyo.",
+     "m": "I have class at nine.",
+     "kind": "sent",
+     "toks": [
+      "아홉",
+      "시에",
+      "수업이",
+      "있어요"
+     ]
+    },
+    {
+     "id": "ko-저는 회사원이에요.",
+     "w": "저는 회사원이에요.",
+     "r": "jeoneun hoesawonieyo.",
+     "m": "I'm an office worker.",
+     "kind": "sent",
+     "toks": [
+      "저는",
+      "회사원이에요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-23",
+   "title": "Hobbies",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-취미",
+     "w": "취미",
+     "r": "chwimi",
+     "m": "hobby",
+     "kind": "word"
+    },
+    {
+     "id": "ko-영화",
+     "w": "영화",
+     "r": "yeonghwa",
+     "m": "movie",
+     "kind": "word"
+    },
+    {
+     "id": "ko-게임",
+     "w": "게임",
+     "r": "geim",
+     "m": "game",
+     "kind": "word"
+    },
+    {
+     "id": "ko-노래해요",
+     "w": "노래해요",
+     "r": "noraehaeyo",
+     "m": "sing",
+     "kind": "word"
+    },
+    {
+     "id": "ko-취미가 뭐예요?",
+     "w": "취미가 뭐예요?",
+     "r": "chwimiga mwoyeyo?",
+     "m": "What's your hobby?",
+     "kind": "sent",
+     "toks": [
+      "취미가",
+      "뭐예요"
+     ]
+    },
+    {
+     "id": "ko-영화를 봐요.",
+     "w": "영화를 봐요.",
+     "r": "yeonghwareul bwayo.",
+     "m": "I watch movies.",
+     "kind": "sent",
+     "toks": [
+      "영화를",
+      "봐요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-24",
+   "title": "Sports",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-축구",
+     "w": "축구",
+     "r": "chukgu",
+     "m": "soccer",
+     "kind": "word"
+    },
+    {
+     "id": "ko-수영",
+     "w": "수영",
+     "r": "suyeong",
+     "m": "swimming",
+     "kind": "word"
+    },
+    {
+     "id": "ko-테니스",
+     "w": "테니스",
+     "r": "teniseu",
+     "m": "tennis",
+     "kind": "word"
+    },
+    {
+     "id": "ko-축구를 해요.",
+     "w": "축구를 해요.",
+     "r": "chukgureul haeyo.",
+     "m": "I play soccer.",
+     "kind": "sent",
+     "toks": [
+      "축구를",
+      "해요"
+     ]
+    },
+    {
+     "id": "ko-수영을 좋아해요.",
+     "w": "수영을 좋아해요.",
+     "r": "suyeongeul joahaeyo.",
+     "m": "I like swimming.",
+     "kind": "sent",
+     "toks": [
+      "수영을",
+      "좋아해요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-25",
+   "title": "Together or alone",
+   "learn": [
+    {
+     "h": "하고 = with / and",
+     "p": "<b>하고</b> after a person means “with”: 친구하고 = with a friend. <b>같이</b> = together, <b>혼자</b> = alone.",
+     "ex": [
+      "ko-친구하고 같이 가요."
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-같이",
+     "w": "같이",
+     "r": "gachi",
+     "m": "together",
+     "kind": "word"
+    },
+    {
+     "id": "ko-혼자",
+     "w": "혼자",
+     "r": "honja",
+     "m": "alone",
+     "kind": "word"
+    },
+    {
+     "id": "ko-친구하고 같이 가요.",
+     "w": "친구하고 같이 가요.",
+     "r": "chinguhago gachi gayo.",
+     "m": "I'm going with a friend.",
+     "kind": "sent",
+     "toks": [
+      "친구하고",
+      "같이",
+      "가요"
+     ]
+    },
+    {
+     "id": "ko-혼자 살아요.",
+     "w": "혼자 살아요.",
+     "r": "honja sarayo.",
+     "m": "I live alone.",
+     "kind": "sent",
+     "toks": [
+      "혼자",
+      "살아요"
+     ]
+    },
+    {
+     "id": "ko-같이 먹어요!",
+     "w": "같이 먹어요!",
+     "r": "gachi meogeoyo!",
+     "m": "Let's eat together!",
+     "kind": "sent",
+     "toks": [
+      "같이",
+      "먹어요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[person] 하고 같이 + verb",
+     "ex": "ko-친구하고 같이 가요.",
+     "parts": [
+      {
+       "w": "친구",
+       "m": "friend",
+       "r": "n"
+      },
+      {
+       "w": "하고",
+       "m": "with",
+       "r": "p",
+       "alt": [
+        "를",
+        "에"
+       ]
+      },
+      {
+       "w": "같이",
+       "m": "together",
+       "r": "m"
+      },
+      {
+       "w": "가요",
+       "m": "go",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-26",
+   "title": "When and why",
+   "unit": "Unit 6 · Questions",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-언제",
+     "w": "언제",
+     "r": "eonje",
+     "m": "when",
+     "kind": "word"
+    },
+    {
+     "id": "ko-왜",
+     "w": "왜",
+     "r": "wae",
+     "m": "why",
+     "kind": "word"
+    },
+    {
+     "id": "ko-어떻게",
+     "w": "어떻게",
+     "r": "eotteoke",
+     "m": "how",
+     "kind": "word"
+    },
+    {
+     "id": "ko-누가",
+     "w": "누가",
+     "r": "nuga",
+     "m": "who (as subject)",
+     "kind": "word"
+    },
+    {
+     "id": "ko-언제 와요?",
+     "w": "언제 와요?",
+     "r": "eonje wayo?",
+     "m": "When are you coming?",
+     "kind": "sent",
+     "toks": [
+      "언제",
+      "와요"
+     ]
+    },
+    {
+     "id": "ko-왜 안 와요?",
+     "w": "왜 안 와요?",
+     "r": "wae an wayo?",
+     "m": "Why aren't you coming?",
+     "kind": "sent",
+     "toks": [
+      "왜",
+      "안",
+      "와요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "왜 안 + verb?",
+     "ex": "ko-왜 안 와요?",
+     "parts": [
+      {
+       "w": "왜",
+       "m": "why",
+       "r": "q",
+       "alt": [
+        "어디"
+       ]
+      },
+      {
+       "w": "안",
+       "m": "not",
+       "r": "m"
+      },
+      {
+       "w": "와요",
+       "m": "come",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-27",
+   "title": "Which one?",
+   "learn": [
+    {
+     "h": "무슨 and 어느",
+     "p": "<b>무슨</b> = what kind of (무슨 음식 = what food). <b>어느</b> = which (어느 나라 = which country).",
+     "ex": [
+      "ko-어느 나라 사람이에요?"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ko-어느",
+     "w": "어느",
+     "r": "eoneu",
+     "m": "which",
+     "kind": "word"
+    },
+    {
+     "id": "ko-나라",
+     "w": "나라",
+     "r": "nara",
+     "m": "country",
+     "kind": "word"
+    },
+    {
+     "id": "ko-음식",
+     "w": "음식",
+     "r": "eumsik",
+     "m": "food",
+     "kind": "word"
+    },
+    {
+     "id": "ko-어느 나라 사람이에요?",
+     "w": "어느 나라 사람이에요?",
+     "r": "eoneu nara saramieyo?",
+     "m": "Which country are you from?",
+     "kind": "sent",
+     "toks": [
+      "어느",
+      "나라",
+      "사람이에요"
+     ]
+    },
+    {
+     "id": "ko-무슨 음식을 좋아해요?",
+     "w": "무슨 음식을 좋아해요?",
+     "r": "museun eumsigeul joahaeyo?",
+     "m": "What food do you like?",
+     "kind": "sent",
+     "toks": [
+      "무슨",
+      "음식을",
+      "좋아해요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-28",
+   "title": "How is it?",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-어때요",
+     "w": "어때요",
+     "r": "eottaeyo",
+     "m": "how is it?",
+     "kind": "word"
+    },
+    {
+     "id": "ko-재미있어요",
+     "w": "재미있어요",
+     "r": "jaemiisseoyo",
+     "m": "it's fun / interesting",
+     "kind": "word"
+    },
+    {
+     "id": "ko-재미없어요",
+     "w": "재미없어요",
+     "r": "jaemieopseoyo",
+     "m": "it's boring",
+     "kind": "word"
+    },
+    {
+     "id": "ko-어려워요",
+     "w": "어려워요",
+     "r": "eoryeowoyo",
+     "m": "it's difficult",
+     "kind": "word"
+    },
+    {
+     "id": "ko-쉬워요",
+     "w": "쉬워요",
+     "r": "swiwoyo",
+     "m": "it's easy",
+     "kind": "word"
+    },
+    {
+     "id": "ko-영화 어때요?",
+     "w": "영화 어때요?",
+     "r": "yeonghwa eottaeyo?",
+     "m": "How's the movie?",
+     "kind": "sent",
+     "toks": [
+      "영화",
+      "어때요"
+     ]
+    },
+    {
+     "id": "ko-한국어가 재미있어요.",
+     "w": "한국어가 재미있어요.",
+     "r": "hangugeoga jaemiisseoyo.",
+     "m": "Korean is fun.",
+     "kind": "sent",
+     "toks": [
+      "한국어가",
+      "재미있어요"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] 이/가 + describing verb",
+     "ex": "ko-한국어가 재미있어요.",
+     "parts": [
+      {
+       "w": "한국어",
+       "m": "Korean",
+       "r": "n"
+      },
+      {
+       "w": "가",
+       "m": "subject marker",
+       "r": "p",
+       "alt": [
+        "이",
+        "를"
+       ]
+      },
+      {
+       "w": "재미있어요",
+       "m": "is fun",
+       "r": "a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-29",
+   "title": "Phone numbers",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-전화번호",
+     "w": "전화번호",
+     "r": "jeonhwabeonho",
+     "m": "phone number",
+     "kind": "word"
+    },
+    {
+     "id": "ko-핸드폰",
+     "w": "핸드폰",
+     "r": "haendeupon",
+     "m": "cell phone",
+     "kind": "word"
+    },
+    {
+     "id": "ko-문자",
+     "w": "문자",
+     "r": "munja",
+     "m": "text message",
+     "kind": "word"
+    },
+    {
+     "id": "ko-보내요",
+     "w": "보내요",
+     "r": "bonaeyo",
+     "m": "send",
+     "kind": "word"
+    },
+    {
+     "id": "ko-전화번호가 뭐예요?",
+     "w": "전화번호가 뭐예요?",
+     "r": "jeonhwabeonhoga mwoyeyo?",
+     "m": "What's your phone number?",
+     "kind": "sent",
+     "toks": [
+      "전화번호가",
+      "뭐예요"
+     ]
+    },
+    {
+     "id": "ko-문자 보내요.",
+     "w": "문자 보내요.",
+     "r": "munja bonaeyo.",
+     "m": "I'll send a text.",
+     "kind": "sent",
+     "toks": [
+      "문자",
+      "보내요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-30",
+   "title": "Feelings",
+   "learn": [],
+   "items": [
+    {
+     "id": "ko-행복해요",
+     "w": "행복해요",
+     "r": "haengbokaeyo",
+     "m": "I'm happy",
+     "kind": "word"
+    },
+    {
+     "id": "ko-피곤해요",
+     "w": "피곤해요",
+     "r": "pigonhaeyo",
+     "m": "I'm tired",
+     "kind": "word"
+    },
+    {
+     "id": "ko-배고파요",
+     "w": "배고파요",
+     "r": "baegopayo",
+     "m": "I'm hungry",
+     "kind": "word"
+    },
+    {
+     "id": "ko-바빠요",
+     "w": "바빠요",
+     "r": "bappayo",
+     "m": "I'm busy",
+     "kind": "word"
+    },
+    {
+     "id": "ko-오늘 너무 피곤해요.",
+     "w": "오늘 너무 피곤해요.",
+     "r": "oneul neomu pigonhaeyo.",
+     "m": "I'm so tired today.",
+     "kind": "sent",
+     "toks": [
+      "오늘",
+      "너무",
+      "피곤해요"
+     ]
+    },
+    {
+     "id": "ko-지금 배고파요?",
+     "w": "지금 배고파요?",
+     "r": "jigeum baegopayo?",
+     "m": "Are you hungry now?",
+     "kind": "sent",
+     "toks": [
+      "지금",
+      "배고파요"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ko2-R",
+   "title": "Tier 2 review",
+   "review": true
+  }
+ ]
+}

@@ -1,0 +1,2373 @@
+{
+ "lang": "zh",
+ "tier": 3,
+ "name": "Upper elementary",
+ "sub": "了 and 过, plans, comparisons, travel and polite requests (≈ HSK 2)",
+ "lessons": [
+  {
+   "id": "zh3-1",
+   "title": "Done: 了",
+   "unit": "Unit 1 · Done and experienced",
+   "learn": [
+    {
+     "h": "了 after a verb",
+     "p": "<b>了</b> (le) right after a verb means the action is done: 我吃了 = I ate / I've eaten. There's no other past tense to learn!",
+     "ex": [
+      "zh-我吃了。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-了",
+     "w": "了",
+     "r": "le",
+     "m": "(marks a completed action)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-北京",
+     "w": "北京",
+     "r": "Běijīng",
+     "m": "Beijing",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我吃了。",
+     "w": "我吃了。",
+     "r": "wǒ chī le.",
+     "m": "I've eaten.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "吃",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-他去了北京。",
+     "w": "他去了北京。",
+     "r": "tā qù le Běijīng.",
+     "m": "He went to Beijing.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "去",
+      "了",
+      "北京"
+     ]
+    },
+    {
+     "id": "zh-你买了什么？",
+     "w": "你买了什么？",
+     "r": "nǐ mǎi le shénme?",
+     "m": "What did you buy?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "买",
+      "了",
+      "什么"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "verb + 了 = done",
+     "ex": "zh-他去了北京。",
+     "parts": [
+      {
+       "w": "他",
+       "m": "he",
+       "r": "n"
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      },
+      {
+       "w": "了",
+       "m": "(done)",
+       "r": "p",
+       "alt": [
+        "吗"
+       ]
+      },
+      {
+       "w": "北京",
+       "m": "Beijing",
+       "r": "t"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-2",
+   "title": "Not yet",
+   "learn": [
+    {
+     "h": "没 for the past",
+     "p": "A past action that didn't happen uses <b>没</b> and drops 了: 我没吃早饭 = I didn't eat breakfast. <b>还没</b> = not yet.",
+     "ex": [
+      "zh-他还没来。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-还",
+     "w": "还",
+     "r": "hái",
+     "m": "still / yet",
+     "kind": "char"
+    },
+    {
+     "id": "zh-已经",
+     "w": "已经",
+     "r": "yǐjīng",
+     "m": "already",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我没吃早饭。",
+     "w": "我没吃早饭。",
+     "r": "wǒ méi chī zǎofàn.",
+     "m": "I didn't eat breakfast.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "没",
+      "吃",
+      "早饭"
+     ]
+    },
+    {
+     "id": "zh-他还没来。",
+     "w": "他还没来。",
+     "r": "tā hái méi lái.",
+     "m": "He hasn't come yet.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "还",
+      "没",
+      "来"
+     ]
+    },
+    {
+     "id": "zh-我已经吃了。",
+     "w": "我已经吃了。",
+     "r": "wǒ yǐjīng chī le.",
+     "m": "I've already eaten.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "已经",
+      "吃",
+      "了"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "还 没 + verb = not yet",
+     "ex": "zh-他还没来。",
+     "parts": [
+      {
+       "w": "他",
+       "m": "he",
+       "r": "n"
+      },
+      {
+       "w": "还",
+       "m": "still",
+       "r": "m"
+      },
+      {
+       "w": "没",
+       "m": "not (yet)",
+       "r": "m",
+       "alt": [
+        "不"
+       ]
+      },
+      {
+       "w": "来",
+       "m": "come",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-3",
+   "title": "Have you ever…?",
+   "learn": [
+    {
+     "h": "过 = ever",
+     "p": "Verb + <b>过</b> (guo) means you've had the experience: 我去过中国 = I've been to China.",
+     "ex": [
+      "zh-你去过中国吗？"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-烤鸭",
+     "w": "烤鸭",
+     "r": "kǎoyā",
+     "m": "roast duck",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你去过中国吗？",
+     "w": "你去过中国吗？",
+     "r": "nǐ qùguo Zhōngguó ma?",
+     "m": "Have you been to China?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "去过",
+      "中国",
+      "吗"
+     ]
+    },
+    {
+     "id": "zh-我没去过。",
+     "w": "我没去过。",
+     "r": "wǒ méi qùguo.",
+     "m": "I've never been.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "没",
+      "去过"
+     ]
+    },
+    {
+     "id": "zh-我吃过北京烤鸭。",
+     "w": "我吃过北京烤鸭。",
+     "r": "wǒ chīguo Běijīng kǎoyā.",
+     "m": "I've had Peking duck.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "吃过",
+      "北京",
+      "烤鸭"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-4",
+   "title": "Things have changed",
+   "learn": [
+    {
+     "h": "了 at the end",
+     "p": "<b>了</b> at the end of a sentence means something new has happened: 下雨了 = it's started raining. 我饿了 = I'm hungry now.",
+     "ex": [
+      "zh-下雨了。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-黑",
+     "w": "黑",
+     "r": "hēi",
+     "m": "dark / black",
+     "kind": "char"
+    },
+    {
+     "id": "zh-天",
+     "w": "天",
+     "r": "tiān",
+     "m": "sky / day",
+     "kind": "char"
+    },
+    {
+     "id": "zh-春天",
+     "w": "春天",
+     "r": "chūntiān",
+     "m": "spring",
+     "kind": "word"
+    },
+    {
+     "id": "zh-下雨了。",
+     "w": "下雨了。",
+     "r": "xiàyǔ le.",
+     "m": "It's started raining.",
+     "kind": "sent",
+     "toks": [
+      "下雨",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-天黑了。",
+     "w": "天黑了。",
+     "r": "tiān hēi le.",
+     "m": "It's getting dark.",
+     "kind": "sent",
+     "toks": [
+      "天",
+      "黑",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-我饿了。",
+     "w": "我饿了。",
+     "r": "wǒ è le.",
+     "m": "I'm hungry now.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "饿",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-春天来了。",
+     "w": "春天来了。",
+     "r": "chūntiān lái le.",
+     "m": "Spring has come.",
+     "kind": "sent",
+     "toks": [
+      "春天",
+      "来",
+      "了"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "… 了 at the end = something changed",
+     "ex": "zh-下雨了。",
+     "parts": [
+      {
+       "w": "下雨",
+       "m": "rain",
+       "r": "v"
+      },
+      {
+       "w": "了",
+       "m": "(it's started)",
+       "r": "p",
+       "alt": [
+        "吗"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-5",
+   "title": "Last year, next week",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-去年",
+     "w": "去年",
+     "r": "qùnián",
+     "m": "last year",
+     "kind": "word"
+    },
+    {
+     "id": "zh-今年",
+     "w": "今年",
+     "r": "jīnnián",
+     "m": "this year",
+     "kind": "word"
+    },
+    {
+     "id": "zh-明年",
+     "w": "明年",
+     "r": "míngnián",
+     "m": "next year",
+     "kind": "word"
+    },
+    {
+     "id": "zh-上个星期",
+     "w": "上个星期",
+     "r": "shàng ge xīngqī",
+     "m": "last week",
+     "kind": "word"
+    },
+    {
+     "id": "zh-下个星期",
+     "w": "下个星期",
+     "r": "xià ge xīngqī",
+     "m": "next week",
+     "kind": "word"
+    },
+    {
+     "id": "zh-上海",
+     "w": "上海",
+     "r": "Shànghǎi",
+     "m": "Shanghai",
+     "kind": "word"
+    },
+    {
+     "id": "zh-去年我去了上海。",
+     "w": "去年我去了上海。",
+     "r": "qùnián wǒ qù le Shànghǎi.",
+     "m": "I went to Shanghai last year.",
+     "kind": "sent",
+     "toks": [
+      "去年",
+      "我",
+      "去",
+      "了",
+      "上海"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-6",
+   "title": "Doing it right now",
+   "unit": "Unit 2 · Now and later",
+   "learn": [
+    {
+     "h": "在 + verb",
+     "p": "<b>在</b> (or 正在) before a verb means it's happening right now: 我在看电视 = I'm watching TV.",
+     "ex": [
+      "zh-我在看电视。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-正在",
+     "w": "正在",
+     "r": "zhèngzài",
+     "m": "in the middle of",
+     "kind": "word"
+    },
+    {
+     "id": "zh-电视",
+     "w": "电视",
+     "r": "diànshì",
+     "m": "TV",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你在做什么？",
+     "w": "你在做什么？",
+     "r": "nǐ zài zuò shénme?",
+     "m": "What are you doing?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "在",
+      "做",
+      "什么"
+     ]
+    },
+    {
+     "id": "zh-我在看电视。",
+     "w": "我在看电视。",
+     "r": "wǒ zài kàn diànshì.",
+     "m": "I'm watching TV.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "在",
+      "看",
+      "电视"
+     ]
+    },
+    {
+     "id": "zh-他正在睡觉。",
+     "w": "他正在睡觉。",
+     "r": "tā zhèngzài shuìjiào.",
+     "m": "He's sleeping right now.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "正在",
+      "睡觉"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "在 + verb = doing right now",
+     "ex": "zh-我在看电视。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "在",
+       "m": "(right now)",
+       "r": "m",
+       "alt": [
+        "了"
+       ]
+      },
+      {
+       "w": "看",
+       "m": "watch",
+       "r": "v"
+      },
+      {
+       "w": "电视",
+       "m": "TV",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-7",
+   "title": "Plans",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-打算",
+     "w": "打算",
+     "r": "dǎsuàn",
+     "m": "to plan to",
+     "kind": "word"
+    },
+    {
+     "id": "zh-旅游",
+     "w": "旅游",
+     "r": "lǚyóu",
+     "m": "to travel (for fun)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-将来",
+     "w": "将来",
+     "r": "jiānglái",
+     "m": "the future",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我打算去旅游。",
+     "w": "我打算去旅游。",
+     "r": "wǒ dǎsuàn qù lǚyóu.",
+     "m": "I'm planning to travel.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "打算",
+      "去",
+      "旅游"
+     ]
+    },
+    {
+     "id": "zh-明天会下雨。",
+     "w": "明天会下雨。",
+     "r": "míngtiān huì xiàyǔ.",
+     "m": "It will rain tomorrow.",
+     "kind": "sent",
+     "toks": [
+      "明天",
+      "会",
+      "下雨"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-8",
+   "title": "Want and need",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-需要",
+     "w": "需要",
+     "r": "xūyào",
+     "m": "to need",
+     "kind": "word"
+    },
+    {
+     "id": "zh-帮助",
+     "w": "帮助",
+     "r": "bāngzhù",
+     "m": "help",
+     "kind": "word"
+    },
+    {
+     "id": "zh-想要",
+     "w": "想要",
+     "r": "xiǎngyào",
+     "m": "to want",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我想去中国。",
+     "w": "我想去中国。",
+     "r": "wǒ xiǎng qù Zhōngguó.",
+     "m": "I want to go to China.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "想",
+      "去",
+      "中国"
+     ]
+    },
+    {
+     "id": "zh-我需要帮助。",
+     "w": "我需要帮助。",
+     "r": "wǒ xūyào bāngzhù.",
+     "m": "I need help.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "需要",
+      "帮助"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-9",
+   "title": "Three kinds of “can”",
+   "learn": [
+    {
+     "h": "会, 能, 可以",
+     "p": "<b>会</b> = can (a learned skill: 会开车). <b>能</b> = can (able to, possible). <b>可以</b> = may (permission: 可以拍照吗？)."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-能",
+     "w": "能",
+     "r": "néng",
+     "m": "can / be able to",
+     "kind": "char"
+    },
+    {
+     "id": "zh-拍照",
+     "w": "拍照",
+     "r": "pāizhào",
+     "m": "to take photos",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我会开车。",
+     "w": "我会开车。",
+     "r": "wǒ huì kāichē.",
+     "m": "I can drive.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "会",
+      "开车"
+     ]
+    },
+    {
+     "id": "zh-你能来吗？",
+     "w": "你能来吗？",
+     "r": "nǐ néng lái ma?",
+     "m": "Can you come?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "能",
+      "来",
+      "吗"
+     ]
+    },
+    {
+     "id": "zh-这里可以拍照吗？",
+     "w": "这里可以拍照吗？",
+     "r": "zhèlǐ kěyǐ pāizhào ma?",
+     "m": "May I take photos here?",
+     "kind": "sent",
+     "toks": [
+      "这里",
+      "可以",
+      "拍照",
+      "吗"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "会 = can (a learned skill)",
+     "ex": "zh-我会开车。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "会",
+       "m": "can (skill)",
+       "r": "m",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "开车",
+       "m": "drive",
+       "r": "v"
+      }
+     ]
+    },
+    {
+     "f": "可以 = may (permission)",
+     "ex": "zh-这里可以拍照吗？",
+     "parts": [
+      {
+       "w": "这里",
+       "m": "here",
+       "r": "t"
+      },
+      {
+       "w": "可以",
+       "m": "may",
+       "r": "m",
+       "alt": [
+        "会"
+       ]
+      },
+      {
+       "w": "拍照",
+       "m": "take photos",
+       "r": "v"
+      },
+      {
+       "w": "吗",
+       "m": "question",
+       "r": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-10",
+   "title": "Let's do it",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-主意",
+     "w": "主意",
+     "r": "zhǔyi",
+     "m": "idea",
+     "kind": "word"
+    },
+    {
+     "id": "zh-走路",
+     "w": "走路",
+     "r": "zǒulù",
+     "m": "to walk",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我们一起吃饭吧。",
+     "w": "我们一起吃饭吧。",
+     "r": "wǒmen yìqǐ chīfàn ba.",
+     "m": "Let's eat together.",
+     "kind": "sent",
+     "toks": [
+      "我们",
+      "一起",
+      "吃饭",
+      "吧"
+     ]
+    },
+    {
+     "id": "zh-好主意！",
+     "w": "好主意！",
+     "r": "hǎo zhǔyi!",
+     "m": "Good idea!",
+     "kind": "sent",
+     "toks": [
+      "好",
+      "主意"
+     ]
+    },
+    {
+     "id": "zh-怎么去？",
+     "w": "怎么去？",
+     "r": "zěnme qù?",
+     "m": "How do we get there?",
+     "kind": "sent",
+     "toks": [
+      "怎么",
+      "去"
+     ]
+    },
+    {
+     "id": "zh-我们走路去吧。",
+     "w": "我们走路去吧。",
+     "r": "wǒmen zǒulù qù ba.",
+     "m": "Let's walk there.",
+     "kind": "sent",
+     "toks": [
+      "我们",
+      "走路",
+      "去",
+      "吧"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "一起 + verb + 吧",
+     "ex": "zh-我们一起吃饭吧。",
+     "parts": [
+      {
+       "w": "我们",
+       "m": "we",
+       "r": "n"
+      },
+      {
+       "w": "一起",
+       "m": "together",
+       "r": "m"
+      },
+      {
+       "w": "吃饭",
+       "m": "eat",
+       "r": "v"
+      },
+      {
+       "w": "吧",
+       "m": "(let's)",
+       "r": "p",
+       "alt": [
+        "吗"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-11",
+   "title": "Taller than",
+   "unit": "Unit 3 · Comparing",
+   "learn": [
+    {
+     "h": "A 比 B + adjective",
+     "p": "<b>A 比 B 高</b> = A is taller than B. No 很 in comparisons!",
+     "ex": [
+      "zh-我比他高。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-比",
+     "w": "比",
+     "r": "bǐ",
+     "m": "than (comparing)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-高",
+     "w": "高",
+     "r": "gāo",
+     "m": "tall / high",
+     "kind": "char"
+    },
+    {
+     "id": "zh-矮",
+     "w": "矮",
+     "r": "ǎi",
+     "m": "short (height)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我比他高。",
+     "w": "我比他高。",
+     "r": "wǒ bǐ tā gāo.",
+     "m": "I'm taller than him.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "比",
+      "他",
+      "高"
+     ]
+    },
+    {
+     "id": "zh-今天比昨天冷。",
+     "w": "今天比昨天冷。",
+     "r": "jīntiān bǐ zuótiān lěng.",
+     "m": "Today is colder than yesterday.",
+     "kind": "sent",
+     "toks": [
+      "今天",
+      "比",
+      "昨天",
+      "冷"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "A 比 B + adjective",
+     "ex": "zh-我比他高。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "比",
+       "m": "than",
+       "r": "p",
+       "alt": [
+        "很"
+       ]
+      },
+      {
+       "w": "他",
+       "m": "him",
+       "r": "n"
+      },
+      {
+       "w": "高",
+       "m": "tall",
+       "r": "a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-12",
+   "title": "The most",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-更",
+     "w": "更",
+     "r": "gèng",
+     "m": "even more",
+     "kind": "char"
+    },
+    {
+     "id": "zh-最",
+     "w": "最",
+     "r": "zuì",
+     "m": "most",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一样",
+     "w": "一样",
+     "r": "yíyàng",
+     "m": "the same",
+     "kind": "word"
+    },
+    {
+     "id": "zh-他最高。",
+     "w": "他最高。",
+     "r": "tā zuì gāo.",
+     "m": "He's the tallest.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "最",
+      "高"
+     ]
+    },
+    {
+     "id": "zh-这个更好。",
+     "w": "这个更好。",
+     "r": "zhège gèng hǎo.",
+     "m": "This one is even better.",
+     "kind": "sent",
+     "toks": [
+      "这个",
+      "更",
+      "好"
+     ]
+    },
+    {
+     "id": "zh-我们一样高。",
+     "w": "我们一样高。",
+     "r": "wǒmen yíyàng gāo.",
+     "m": "We're the same height.",
+     "kind": "sent",
+     "toks": [
+      "我们",
+      "一样",
+      "高"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "最 + adjective = the most",
+     "ex": "zh-他最高。",
+     "parts": [
+      {
+       "w": "他",
+       "m": "he",
+       "r": "n"
+      },
+      {
+       "w": "最",
+       "m": "most",
+       "r": "m",
+       "alt": [
+        "比"
+       ]
+      },
+      {
+       "w": "高",
+       "m": "tall",
+       "r": "a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-13",
+   "title": "Opposites",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-长",
+     "w": "长",
+     "r": "cháng",
+     "m": "long",
+     "kind": "char"
+    },
+    {
+     "id": "zh-短",
+     "w": "短",
+     "r": "duǎn",
+     "m": "short (length)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-快",
+     "w": "快",
+     "r": "kuài",
+     "m": "fast",
+     "kind": "char"
+    },
+    {
+     "id": "zh-慢",
+     "w": "慢",
+     "r": "màn",
+     "m": "slow",
+     "kind": "char"
+    },
+    {
+     "id": "zh-远",
+     "w": "远",
+     "r": "yuǎn",
+     "m": "far",
+     "kind": "char"
+    },
+    {
+     "id": "zh-近",
+     "w": "近",
+     "r": "jìn",
+     "m": "near",
+     "kind": "char"
+    },
+    {
+     "id": "zh-地铁很快。",
+     "w": "地铁很快。",
+     "r": "dìtiě hěn kuài.",
+     "m": "The subway is fast.",
+     "kind": "sent",
+     "toks": [
+      "地铁",
+      "很",
+      "快"
+     ]
+    },
+    {
+     "id": "zh-学校很近。",
+     "w": "学校很近。",
+     "r": "xuéxiào hěn jìn.",
+     "m": "The school is close.",
+     "kind": "sent",
+     "toks": [
+      "学校",
+      "很",
+      "近"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-14",
+   "title": "How old are you?",
+   "learn": [
+    {
+     "h": "Asking age",
+     "p": "Ask a child <b>你几岁？</b>, an adult <b>你多大？</b>, and an elder <b>您多大年纪？</b>"
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-您",
+     "w": "您",
+     "r": "nín",
+     "m": "you (polite)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-岁",
+     "w": "岁",
+     "r": "suì",
+     "m": "years old",
+     "kind": "char"
+    },
+    {
+     "id": "zh-多大",
+     "w": "多大",
+     "r": "duō dà",
+     "m": "how old (adults)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-年纪",
+     "w": "年纪",
+     "r": "niánjì",
+     "m": "age (of elders)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你几岁？",
+     "w": "你几岁？",
+     "r": "nǐ jǐ suì?",
+     "m": "How old are you? (to a child)",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "几",
+      "岁"
+     ]
+    },
+    {
+     "id": "zh-我二十岁。",
+     "w": "我二十岁。",
+     "r": "wǒ èrshí suì.",
+     "m": "I'm twenty.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "二十",
+      "岁"
+     ]
+    },
+    {
+     "id": "zh-您多大年纪？",
+     "w": "您多大年纪？",
+     "r": "nín duō dà niánjì?",
+     "m": "How old are you? (to an elder)",
+     "kind": "sent",
+     "toks": [
+      "您",
+      "多大",
+      "年纪"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-15",
+   "title": "Dates",
+   "learn": [
+    {
+     "h": "月 and 号",
+     "p": "Months are just numbers + <b>月</b> (moon): 五月 = May. The day is number + <b>号</b>: 五月一号 = May 1st.",
+     "ex": [
+      "zh-五月一号"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-年",
+     "w": "年",
+     "r": "nián",
+     "m": "year",
+     "kind": "char"
+    },
+    {
+     "id": "zh-号",
+     "w": "号",
+     "r": "hào",
+     "m": "day (of the month) / number",
+     "kind": "char"
+    },
+    {
+     "id": "zh-生日",
+     "w": "生日",
+     "r": "shēngrì",
+     "m": "birthday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-五月一号",
+     "w": "五月一号",
+     "r": "wǔ yuè yī hào",
+     "m": "May 1st",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你的生日是几月几号？",
+     "w": "你的生日是几月几号？",
+     "r": "nǐ de shēngrì shì jǐ yuè jǐ hào?",
+     "m": "When is your birthday?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "的",
+      "生日",
+      "是",
+      "几",
+      "月",
+      "几",
+      "号"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-16",
+   "title": "At the airport",
+   "unit": "Unit 4 · Travel",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-机场",
+     "w": "机场",
+     "r": "jīchǎng",
+     "m": "airport",
+     "kind": "word"
+    },
+    {
+     "id": "zh-飞机",
+     "w": "飞机",
+     "r": "fēijī",
+     "m": "airplane",
+     "kind": "word"
+    },
+    {
+     "id": "zh-护照",
+     "w": "护照",
+     "r": "hùzhào",
+     "m": "passport",
+     "kind": "word"
+    },
+    {
+     "id": "zh-票",
+     "w": "票",
+     "r": "piào",
+     "m": "ticket",
+     "kind": "char"
+    },
+    {
+     "id": "zh-张",
+     "w": "张",
+     "r": "zhāng",
+     "m": "(measure word for flat things)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我要买一张票。",
+     "w": "我要买一张票。",
+     "r": "wǒ yào mǎi yì zhāng piào.",
+     "m": "I'd like to buy a ticket.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "要",
+      "买",
+      "一",
+      "张",
+      "票"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "一 张 + ticket",
+     "ex": "zh-我要买一张票。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "要",
+       "m": "want to",
+       "r": "m"
+      },
+      {
+       "w": "买",
+       "m": "buy",
+       "r": "v",
+       "alt": [
+        "卖"
+       ]
+      },
+      {
+       "w": "一",
+       "m": "one",
+       "r": "m"
+      },
+      {
+       "w": "张",
+       "m": "(measure word: flat things)",
+       "r": "p",
+       "alt": [
+        "只",
+        "本"
+       ]
+      },
+      {
+       "w": "票",
+       "m": "ticket",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-17",
+   "title": "At the hotel",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-酒店",
+     "w": "酒店",
+     "r": "jiǔdiàn",
+     "m": "hotel",
+     "kind": "word"
+    },
+    {
+     "id": "zh-房间",
+     "w": "房间",
+     "r": "fángjiān",
+     "m": "room",
+     "kind": "word"
+    },
+    {
+     "id": "zh-预订",
+     "w": "预订",
+     "r": "yùdìng",
+     "m": "to reserve / book",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我预订了一个房间。",
+     "w": "我预订了一个房间。",
+     "r": "wǒ yùdìng le yí ge fángjiān.",
+     "m": "I booked a room.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "预订",
+      "了",
+      "一",
+      "个",
+      "房间"
+     ]
+    },
+    {
+     "id": "zh-有房间吗？",
+     "w": "有房间吗？",
+     "r": "yǒu fángjiān ma?",
+     "m": "Do you have a room?",
+     "kind": "sent",
+     "toks": [
+      "有",
+      "房间",
+      "吗"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-18",
+   "title": "From here to there",
+   "learn": [
+    {
+     "h": "从…到…",
+     "p": "<b>从</b> A <b>到</b> B = from A to B. Use it for places and times.",
+     "ex": [
+      "zh-从这儿到机场多远？"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-从",
+     "w": "从",
+     "r": "cóng",
+     "m": "from",
+     "kind": "char"
+    },
+    {
+     "id": "zh-到",
+     "w": "到",
+     "r": "dào",
+     "m": "to / arrive",
+     "kind": "char"
+    },
+    {
+     "id": "zh-小时",
+     "w": "小时",
+     "r": "xiǎoshí",
+     "m": "hour",
+     "kind": "word"
+    },
+    {
+     "id": "zh-从这儿到机场多远？",
+     "w": "从这儿到机场多远？",
+     "r": "cóng zhèr dào jīchǎng duō yuǎn?",
+     "m": "How far is it from here to the airport?",
+     "kind": "sent",
+     "toks": [
+      "从",
+      "这儿",
+      "到",
+      "机场",
+      "多",
+      "远"
+     ]
+    },
+    {
+     "id": "zh-要多长时间？",
+     "w": "要多长时间？",
+     "r": "yào duō cháng shíjiān?",
+     "m": "How long does it take?",
+     "kind": "sent",
+     "toks": [
+      "要",
+      "多",
+      "长",
+      "时间"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "从 A 到 B",
+     "ex": "zh-从这儿到机场多远？",
+     "parts": [
+      {
+       "w": "从",
+       "m": "from",
+       "r": "p",
+       "alt": [
+        "到"
+       ]
+      },
+      {
+       "w": "这儿",
+       "m": "here",
+       "r": "t"
+      },
+      {
+       "w": "到",
+       "m": "to",
+       "r": "p",
+       "alt": [
+        "从"
+       ]
+      },
+      {
+       "w": "机场",
+       "m": "airport",
+       "r": "t"
+      },
+      {
+       "w": "多",
+       "m": "how",
+       "r": "q"
+      },
+      {
+       "w": "远",
+       "m": "far",
+       "r": "a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-19",
+   "title": "Trains",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-火车",
+     "w": "火车",
+     "r": "huǒchē",
+     "m": "train",
+     "kind": "word"
+    },
+    {
+     "id": "zh-火车站",
+     "w": "火车站",
+     "r": "huǒchēzhàn",
+     "m": "train station",
+     "kind": "word"
+    },
+    {
+     "id": "zh-站",
+     "w": "站",
+     "r": "zhàn",
+     "m": "station / stop",
+     "kind": "char"
+    },
+    {
+     "id": "zh-换车",
+     "w": "换车",
+     "r": "huànchē",
+     "m": "to change trains",
+     "kind": "word"
+    },
+    {
+     "id": "zh-在哪儿换车？",
+     "w": "在哪儿换车？",
+     "r": "zài nǎr huànchē?",
+     "m": "Where do I change trains?",
+     "kind": "sent",
+     "toks": [
+      "在",
+      "哪儿",
+      "换车"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-20",
+   "title": "Asking for help",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-帮",
+     "w": "帮",
+     "r": "bāng",
+     "m": "to help",
+     "kind": "char"
+    },
+    {
+     "id": "zh-迷路",
+     "w": "迷路",
+     "r": "mílù",
+     "m": "to get lost",
+     "kind": "word"
+    },
+    {
+     "id": "zh-警察",
+     "w": "警察",
+     "r": "jǐngchá",
+     "m": "police",
+     "kind": "word"
+    },
+    {
+     "id": "zh-救命",
+     "w": "救命",
+     "r": "jiùmìng",
+     "m": "help! (emergency)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-请帮我。",
+     "w": "请帮我。",
+     "r": "qǐng bāng wǒ.",
+     "m": "Please help me.",
+     "kind": "sent",
+     "toks": [
+      "请",
+      "帮",
+      "我"
+     ]
+    },
+    {
+     "id": "zh-我迷路了。",
+     "w": "我迷路了。",
+     "r": "wǒ mílù le.",
+     "m": "I'm lost.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "迷路",
+      "了"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "verb + 了 = it happened",
+     "ex": "zh-我迷路了。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "迷路",
+       "m": "get lost",
+       "r": "v"
+      },
+      {
+       "w": "了",
+       "m": "(it happened)",
+       "r": "p",
+       "alt": [
+        "吗"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-21",
+   "title": "Weather",
+   "unit": "Unit 5 · Daily life",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-下雪",
+     "w": "下雪",
+     "r": "xiàxuě",
+     "m": "to snow",
+     "kind": "word"
+    },
+    {
+     "id": "zh-刮风",
+     "w": "刮风",
+     "r": "guāfēng",
+     "m": "to be windy",
+     "kind": "word"
+    },
+    {
+     "id": "zh-晴天",
+     "w": "晴天",
+     "r": "qíngtiān",
+     "m": "sunny day",
+     "kind": "word"
+    },
+    {
+     "id": "zh-阴天",
+     "w": "阴天",
+     "r": "yīntiān",
+     "m": "cloudy day",
+     "kind": "word"
+    },
+    {
+     "id": "zh-外面",
+     "w": "外面",
+     "r": "wàimiàn",
+     "m": "outside",
+     "kind": "word"
+    },
+    {
+     "id": "zh-外面在下雪。",
+     "w": "外面在下雪。",
+     "r": "wàimiàn zài xiàxuě.",
+     "m": "It's snowing outside.",
+     "kind": "sent",
+     "toks": [
+      "外面",
+      "在",
+      "下雪"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-22",
+   "title": "Seasons",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-夏天",
+     "w": "夏天",
+     "r": "xiàtiān",
+     "m": "summer",
+     "kind": "word"
+    },
+    {
+     "id": "zh-秋天",
+     "w": "秋天",
+     "r": "qiūtiān",
+     "m": "autumn",
+     "kind": "word"
+    },
+    {
+     "id": "zh-冬天",
+     "w": "冬天",
+     "r": "dōngtiān",
+     "m": "winter",
+     "kind": "word"
+    },
+    {
+     "id": "zh-季节",
+     "w": "季节",
+     "r": "jìjié",
+     "m": "season",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你最喜欢哪个季节？",
+     "w": "你最喜欢哪个季节？",
+     "r": "nǐ zuì xǐhuan nǎge jìjié?",
+     "m": "Which season do you like best?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "最",
+      "喜欢",
+      "哪个",
+      "季节"
+     ]
+    },
+    {
+     "id": "zh-冬天很冷。",
+     "w": "冬天很冷。",
+     "r": "dōngtiān hěn lěng.",
+     "m": "Winter is cold.",
+     "kind": "sent",
+     "toks": [
+      "冬天",
+      "很",
+      "冷"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-23",
+   "title": "At the doctor",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-感冒",
+     "w": "感冒",
+     "r": "gǎnmào",
+     "m": "a cold / to catch a cold",
+     "kind": "word"
+    },
+    {
+     "id": "zh-药",
+     "w": "药",
+     "r": "yào",
+     "m": "medicine",
+     "kind": "char"
+    },
+    {
+     "id": "zh-发烧",
+     "w": "发烧",
+     "r": "fāshāo",
+     "m": "to have a fever",
+     "kind": "word"
+    },
+    {
+     "id": "zh-应该",
+     "w": "应该",
+     "r": "yīnggāi",
+     "m": "should",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我感冒了。",
+     "w": "我感冒了。",
+     "r": "wǒ gǎnmào le.",
+     "m": "I've caught a cold.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "感冒",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-你应该去医院。",
+     "w": "你应该去医院。",
+     "r": "nǐ yīnggāi qù yīyuàn.",
+     "m": "You should go to the hospital.",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "应该",
+      "去",
+      "医院"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "应该 + verb = should",
+     "ex": "zh-你应该去医院。",
+     "parts": [
+      {
+       "w": "你",
+       "m": "you",
+       "r": "n"
+      },
+      {
+       "w": "应该",
+       "m": "should",
+       "r": "m"
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      },
+      {
+       "w": "医院",
+       "m": "hospital",
+       "r": "t"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-24",
+   "title": "At home",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-厨房",
+     "w": "厨房",
+     "r": "chúfáng",
+     "m": "kitchen",
+     "kind": "word"
+    },
+    {
+     "id": "zh-床",
+     "w": "床",
+     "r": "chuáng",
+     "m": "bed",
+     "kind": "char"
+    },
+    {
+     "id": "zh-窗户",
+     "w": "窗户",
+     "r": "chuānghu",
+     "m": "window",
+     "kind": "word"
+    },
+    {
+     "id": "zh-打扫",
+     "w": "打扫",
+     "r": "dǎsǎo",
+     "m": "to clean",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我打扫房间。",
+     "w": "我打扫房间。",
+     "r": "wǒ dǎsǎo fángjiān.",
+     "m": "I clean my room.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "打扫",
+      "房间"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-25",
+   "title": "Because and but",
+   "learn": [
+    {
+     "h": "Pairs of linking words",
+     "p": "Chinese links ideas in pairs: <b>因为</b>…<b>所以</b>… (because…so…). <b>但是</b> = but.",
+     "ex": [
+      "zh-因为下雨，所以我不去。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-因为",
+     "w": "因为",
+     "r": "yīnwèi",
+     "m": "because",
+     "kind": "word"
+    },
+    {
+     "id": "zh-所以",
+     "w": "所以",
+     "r": "suǒyǐ",
+     "m": "so / therefore",
+     "kind": "word"
+    },
+    {
+     "id": "zh-但是",
+     "w": "但是",
+     "r": "dànshì",
+     "m": "but",
+     "kind": "word"
+    },
+    {
+     "id": "zh-因为下雨，所以我不去。",
+     "w": "因为下雨，所以我不去。",
+     "r": "yīnwèi xiàyǔ, suǒyǐ wǒ bú qù.",
+     "m": "It's raining, so I'm not going.",
+     "kind": "sent",
+     "toks": [
+      "因为",
+      "下雨",
+      "所以",
+      "我",
+      "不",
+      "去"
+     ]
+    },
+    {
+     "id": "zh-很好吃，但是很贵。",
+     "w": "很好吃，但是很贵。",
+     "r": "hěn hǎochī, dànshì hěn guì.",
+     "m": "It's tasty, but expensive.",
+     "kind": "sent",
+     "toks": [
+      "很",
+      "好吃",
+      "但是",
+      "很",
+      "贵"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "因为 …， 所以 …",
+     "ex": "zh-因为下雨，所以我不去。",
+     "parts": [
+      {
+       "w": "因为",
+       "m": "because",
+       "r": "p",
+       "alt": [
+        "但是"
+       ]
+      },
+      {
+       "w": "下雨",
+       "m": "it's raining",
+       "r": "v"
+      },
+      {
+       "w": "所以",
+       "m": "so",
+       "r": "p",
+       "alt": [
+        "因为"
+       ]
+      },
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "不",
+       "m": "not",
+       "r": "m"
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-26",
+   "title": "Please come in",
+   "unit": "Unit 6 · Being polite",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-进",
+     "w": "进",
+     "r": "jìn",
+     "m": "to enter",
+     "kind": "char"
+    },
+    {
+     "id": "zh-等",
+     "w": "等",
+     "r": "děng",
+     "m": "to wait",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一下",
+     "w": "一下",
+     "r": "yíxià",
+     "m": "a moment / a little",
+     "kind": "word"
+    },
+    {
+     "id": "zh-请坐。",
+     "w": "请坐。",
+     "r": "qǐng zuò.",
+     "m": "Please sit down.",
+     "kind": "sent",
+     "toks": [
+      "请",
+      "坐"
+     ]
+    },
+    {
+     "id": "zh-请进。",
+     "w": "请进。",
+     "r": "qǐng jìn.",
+     "m": "Please come in.",
+     "kind": "sent",
+     "toks": [
+      "请",
+      "进"
+     ]
+    },
+    {
+     "id": "zh-请等一下。",
+     "w": "请等一下。",
+     "r": "qǐng děng yíxià.",
+     "m": "Please wait a moment.",
+     "kind": "sent",
+     "toks": [
+      "请",
+      "等",
+      "一下"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-27",
+   "title": "Don't",
+   "learn": [
+    {
+     "h": "别 = don't",
+     "p": "<b>别</b> (bié) before a verb means “don't”: 别担心 = don't worry. 不能 = can't / not allowed.",
+     "ex": [
+      "zh-别担心。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-别",
+     "w": "别",
+     "r": "bié",
+     "m": "don't",
+     "kind": "char"
+    },
+    {
+     "id": "zh-担心",
+     "w": "担心",
+     "r": "dānxīn",
+     "m": "to worry",
+     "kind": "word"
+    },
+    {
+     "id": "zh-抽烟",
+     "w": "抽烟",
+     "r": "chōuyān",
+     "m": "to smoke",
+     "kind": "word"
+    },
+    {
+     "id": "zh-别担心。",
+     "w": "别担心。",
+     "r": "bié dānxīn.",
+     "m": "Don't worry.",
+     "kind": "sent",
+     "toks": [
+      "别",
+      "担心"
+     ]
+    },
+    {
+     "id": "zh-这里不能抽烟。",
+     "w": "这里不能抽烟。",
+     "r": "zhèlǐ bù néng chōuyān.",
+     "m": "No smoking here.",
+     "kind": "sent",
+     "toks": [
+      "这里",
+      "不",
+      "能",
+      "抽烟"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "别 + verb = don't",
+     "ex": "zh-别担心。",
+     "parts": [
+      {
+       "w": "别",
+       "m": "don't",
+       "r": "m",
+       "alt": [
+        "很"
+       ]
+      },
+      {
+       "w": "担心",
+       "m": "worry",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-28",
+   "title": "Polite phrases",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-麻烦",
+     "w": "麻烦",
+     "r": "máfan",
+     "m": "trouble / bother",
+     "kind": "word"
+    },
+    {
+     "id": "zh-辛苦",
+     "w": "辛苦",
+     "r": "xīnkǔ",
+     "m": "hard work / toil",
+     "kind": "word"
+    },
+    {
+     "id": "zh-请问",
+     "w": "请问",
+     "r": "qǐngwèn",
+     "m": "excuse me, may I ask…",
+     "kind": "word"
+    },
+    {
+     "id": "zh-欢迎",
+     "w": "欢迎",
+     "r": "huānyíng",
+     "m": "welcome",
+     "kind": "word"
+    },
+    {
+     "id": "zh-麻烦你了。",
+     "w": "麻烦你了。",
+     "r": "máfan nǐ le.",
+     "m": "Sorry to trouble you.",
+     "kind": "sent",
+     "toks": [
+      "麻烦",
+      "你",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-辛苦了！",
+     "w": "辛苦了！",
+     "r": "xīnkǔ le!",
+     "m": "Thanks for your hard work!",
+     "kind": "sent",
+     "toks": [
+      "辛苦",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-慢慢吃。",
+     "w": "慢慢吃。",
+     "r": "mànmàn chī.",
+     "m": "Take your time and enjoy (the food).",
+     "kind": "sent",
+     "toks": [
+      "慢慢",
+      "吃"
+     ]
+    },
+    {
+     "id": "zh-欢迎光临！",
+     "w": "欢迎光临！",
+     "r": "huānyíng guānglín!",
+     "m": "Welcome! (in shops)",
+     "kind": "sent",
+     "toks": [
+      "欢迎",
+      "光临"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-29",
+   "title": "Celebrations",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-快乐",
+     "w": "快乐",
+     "r": "kuàilè",
+     "m": "happy (on occasions)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-新年",
+     "w": "新年",
+     "r": "xīnnián",
+     "m": "New Year",
+     "kind": "word"
+    },
+    {
+     "id": "zh-春节",
+     "w": "春节",
+     "r": "Chūnjié",
+     "m": "Spring Festival",
+     "kind": "word"
+    },
+    {
+     "id": "zh-祝",
+     "w": "祝",
+     "r": "zhù",
+     "m": "to wish",
+     "kind": "char"
+    },
+    {
+     "id": "zh-好运",
+     "w": "好运",
+     "r": "hǎoyùn",
+     "m": "good luck",
+     "kind": "word"
+    },
+    {
+     "id": "zh-生日快乐！",
+     "w": "生日快乐！",
+     "r": "shēngrì kuàilè!",
+     "m": "Happy birthday!",
+     "kind": "sent",
+     "toks": [
+      "生日",
+      "快乐"
+     ]
+    },
+    {
+     "id": "zh-新年快乐！",
+     "w": "新年快乐！",
+     "r": "xīnnián kuàilè!",
+     "m": "Happy New Year!",
+     "kind": "sent",
+     "toks": [
+      "新年",
+      "快乐"
+     ]
+    },
+    {
+     "id": "zh-祝你好运！",
+     "w": "祝你好运！",
+     "r": "zhù nǐ hǎoyùn!",
+     "m": "Good luck!",
+     "kind": "sent",
+     "toks": [
+      "祝",
+      "你",
+      "好运"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-30",
+   "title": "Of course, maybe",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-当然",
+     "w": "当然",
+     "r": "dāngrán",
+     "m": "of course",
+     "kind": "word"
+    },
+    {
+     "id": "zh-可能",
+     "w": "可能",
+     "r": "kěnéng",
+     "m": "maybe / possibly",
+     "kind": "word"
+    },
+    {
+     "id": "zh-一定",
+     "w": "一定",
+     "r": "yídìng",
+     "m": "definitely",
+     "kind": "word"
+    },
+    {
+     "id": "zh-没问题",
+     "w": "没问题",
+     "r": "méi wèntí",
+     "m": "no problem",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我一定会去。",
+     "w": "我一定会去。",
+     "r": "wǒ yídìng huì qù.",
+     "m": "I'll definitely go.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "一定",
+      "会",
+      "去"
+     ]
+    },
+    {
+     "id": "zh-可能会下雨。",
+     "w": "可能会下雨。",
+     "r": "kěnéng huì xiàyǔ.",
+     "m": "It might rain.",
+     "kind": "sent",
+     "toks": [
+      "可能",
+      "会",
+      "下雨"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh3-R",
+   "title": "Tier 3 review",
+   "review": true
+  }
+ ]
+}

@@ -1,0 +1,2511 @@
+{
+ "lang": "ja",
+ "tier": 1,
+ "name": "Kindergarten",
+ "sub": "Greetings, numbers, family, food and your first sentences",
+ "lessons": [
+  {
+   "id": "ja1-1",
+   "title": "Greetings",
+   "unit": "Unit 1 · Hello",
+   "learn": [
+    {
+     "h": "Polite add-ons",
+     "p": "Adding <b>ございます</b> makes a greeting polite: おはよう (morning, casual) → おはよう ございます (good morning, polite). Use the polite form with anyone you don't know well.",
+     "ex": [
+      "ja-おはよう ございます"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-おはよう ございます",
+     "w": "おはよう ございます",
+     "r": "ohayō gozaimasu",
+     "m": "good morning (polite)",
+     "kind": "sent",
+     "say": "おはようございます",
+     "toks": [
+      "おはよう",
+      "ございます"
+     ]
+    },
+    {
+     "id": "ja-こんばんは",
+     "w": "こんばんは",
+     "r": "konbanwa",
+     "m": "good evening",
+     "kind": "word",
+     "say": "こんばんわ"
+    },
+    {
+     "id": "ja-おやすみなさい",
+     "w": "おやすみなさい",
+     "r": "oyasuminasai",
+     "m": "good night",
+     "kind": "word"
+    },
+    {
+     "id": "ja-すみません",
+     "w": "すみません",
+     "r": "sumimasen",
+     "m": "excuse me / sorry",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ありがとう ございます",
+     "w": "ありがとう ございます",
+     "r": "arigatō gozaimasu",
+     "m": "thank you (polite)",
+     "kind": "sent",
+     "say": "ありがとうございます",
+     "toks": [
+      "ありがとう",
+      "ございます"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-2",
+   "title": "Nice to meet you",
+   "learn": [
+    {
+     "h": "A は B です",
+     "p": "<b>[A] は [B] です</b> means “A is B”. Remember: the particle は is read <b>wa</b>. わたし は マリア です = I am Maria.",
+     "ex": [
+      "ja-わたし は マリア です。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-はじめまして",
+     "w": "はじめまして",
+     "r": "hajimemashite",
+     "m": "nice to meet you (first meeting)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-よろしく おねがいします",
+     "w": "よろしく おねがいします",
+     "r": "yoroshiku onegaishimasu",
+     "m": "pleased to meet you",
+     "kind": "sent",
+     "say": "よろしくおねがいします",
+     "toks": [
+      "よろしく",
+      "おねがいします"
+     ]
+    },
+    {
+     "id": "ja-わたし",
+     "w": "わたし",
+     "r": "watashi",
+     "m": "I / me",
+     "kind": "word"
+    },
+    {
+     "id": "ja-なまえ",
+     "w": "なまえ",
+     "r": "namae",
+     "m": "name",
+     "kind": "word"
+    },
+    {
+     "id": "ja-わたし は マリア です。",
+     "w": "わたし は マリア です。",
+     "r": "watashi wa Maria desu.",
+     "m": "I am Maria.",
+     "kind": "sent",
+     "say": "わたしわマリアです。",
+     "toks": [
+      "わたし",
+      "は",
+      "マリア",
+      "です"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[A] は [B] です",
+     "ex": "ja-わたし は マリア です。",
+     "parts": [
+      {
+       "w": "わたし",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "は",
+       "m": "topic marker (said wa)",
+       "r": "p",
+       "alt": [
+        "を",
+        "に"
+       ]
+      },
+      {
+       "w": "マリア",
+       "m": "Maria",
+       "r": "n"
+      },
+      {
+       "w": "です",
+       "m": "am / is",
+       "r": "e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-3",
+   "title": "I am a student",
+   "learn": [
+    {
+     "h": "か makes a question",
+     "p": "Put <b>か</b> at the end of a sentence to make it a question. No change in word order: せんせい です か = Are you a teacher?",
+     "ex": [
+      "ja-せんせい です か。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-がくせい",
+     "w": "がくせい",
+     "r": "gakusei",
+     "m": "student",
+     "kind": "word"
+    },
+    {
+     "id": "ja-せんせい",
+     "w": "せんせい",
+     "r": "sensei",
+     "m": "teacher",
+     "kind": "word"
+    },
+    {
+     "id": "ja-かいしゃいん",
+     "w": "かいしゃいん",
+     "r": "kaishain",
+     "m": "office worker",
+     "kind": "word"
+    },
+    {
+     "id": "ja-わたし は がくせい です。",
+     "w": "わたし は がくせい です。",
+     "r": "watashi wa gakusei desu.",
+     "m": "I am a student.",
+     "kind": "sent",
+     "say": "わたしわがくせいです。",
+     "toks": [
+      "わたし",
+      "は",
+      "がくせい",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-せんせい です か。",
+     "w": "せんせい です か。",
+     "r": "sensei desu ka.",
+     "m": "Are you a teacher?",
+     "kind": "sent",
+     "say": "せんせいですか。",
+     "toks": [
+      "せんせい",
+      "です",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "… です か = question",
+     "ex": "ja-せんせい です か。",
+     "parts": [
+      {
+       "w": "せんせい",
+       "m": "teacher",
+       "r": "n"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      },
+      {
+       "w": "か",
+       "m": "question marker",
+       "r": "p",
+       "alt": [
+        "を",
+        "に"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-4",
+   "title": "Is not",
+   "learn": [
+    {
+     "h": "じゃ ありません",
+     "p": "To say “is not”, swap です for <b>じゃ ありません</b>. Tip: Japanese people rarely say あなた (you); they use your name instead."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-ちがいます",
+     "w": "ちがいます",
+     "r": "chigaimasu",
+     "m": "that's wrong / it's different",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あなた",
+     "w": "あなた",
+     "r": "anata",
+     "m": "you",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いしゃ",
+     "w": "いしゃ",
+     "r": "isha",
+     "m": "doctor",
+     "kind": "word"
+    },
+    {
+     "id": "ja-わたし は せんせい じゃ ありません。",
+     "w": "わたし は せんせい じゃ ありません。",
+     "r": "watashi wa sensei ja arimasen.",
+     "m": "I'm not a teacher.",
+     "kind": "sent",
+     "say": "わたしわせんせいじゃありません。",
+     "toks": [
+      "わたし",
+      "は",
+      "せんせい",
+      "じゃ",
+      "ありません"
+     ]
+    },
+    {
+     "id": "ja-あなた は いしゃ です か。",
+     "w": "あなた は いしゃ です か。",
+     "r": "anata wa isha desu ka.",
+     "m": "Are you a doctor?",
+     "kind": "sent",
+     "say": "あなたわいしゃですか。",
+     "toks": [
+      "あなた",
+      "は",
+      "いしゃ",
+      "です",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-いいえ、 ちがいます。",
+     "w": "いいえ、 ちがいます。",
+     "r": "iie, chigaimasu.",
+     "m": "No, that's not right.",
+     "kind": "sent",
+     "say": "いいえ、ちがいます。",
+     "toks": [
+      "いいえ",
+      "ちがいます"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[A] は [B] じゃ ありません",
+     "ex": "ja-わたし は せんせい じゃ ありません。",
+     "parts": [
+      {
+       "w": "わたし",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "は",
+       "m": "topic marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "せんせい",
+       "m": "teacher",
+       "r": "n"
+      },
+      {
+       "w": "じゃ ありません",
+       "m": "am not",
+       "r": "e",
+       "alt": [
+        "です"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-5",
+   "title": "Where are you from?",
+   "learn": [
+    {
+     "h": "Country + じん",
+     "p": "Add <b>じん</b> (person) to a country: アメリカじん = an American, にほんじん = a Japanese person.",
+     "ex": [
+      "ja-アメリカじん"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-にほん",
+     "w": "にほん",
+     "r": "nihon",
+     "m": "Japan",
+     "kind": "word"
+    },
+    {
+     "id": "ja-アメリカ",
+     "w": "アメリカ",
+     "r": "amerika",
+     "m": "America",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ちゅうごく",
+     "w": "ちゅうごく",
+     "r": "chūgoku",
+     "m": "China",
+     "kind": "word"
+    },
+    {
+     "id": "ja-かんこく",
+     "w": "かんこく",
+     "r": "kankoku",
+     "m": "Korea",
+     "kind": "word"
+    },
+    {
+     "id": "ja-アメリカじん",
+     "w": "アメリカじん",
+     "r": "amerikajin",
+     "m": "an American",
+     "kind": "word"
+    },
+    {
+     "id": "ja-わたし は アメリカじん です。",
+     "w": "わたし は アメリカじん です。",
+     "r": "watashi wa amerikajin desu.",
+     "m": "I'm American.",
+     "kind": "sent",
+     "say": "わたしわアメリカじんです。",
+     "toks": [
+      "わたし",
+      "は",
+      "アメリカじん",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-にほんじん です か。",
+     "w": "にほんじん です か。",
+     "r": "nihonjin desu ka.",
+     "m": "Are you Japanese?",
+     "kind": "sent",
+     "say": "にほんじんですか。",
+     "toks": [
+      "にほんじん",
+      "です",
+      "か"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-6",
+   "title": "Numbers 1 to 5",
+   "unit": "Unit 2 · Numbers",
+   "learn": [
+    {
+     "h": "Kanji numbers",
+     "p": "Japanese numbers come from Chinese, and they're written with the same kanji: 一 二 三. Four is usually <b>よん</b>, because its other reading し sounds like the word for “death”.",
+     "ex": [
+      "ja-四"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-一",
+     "w": "一",
+     "r": "ichi",
+     "m": "one (1)",
+     "kind": "word",
+     "k": "いち",
+     "say": "いち"
+    },
+    {
+     "id": "ja-二",
+     "w": "二",
+     "r": "ni",
+     "m": "two (2)",
+     "kind": "word",
+     "k": "に",
+     "say": "に"
+    },
+    {
+     "id": "ja-三",
+     "w": "三",
+     "r": "san",
+     "m": "three (3)",
+     "kind": "word",
+     "k": "さん",
+     "say": "さん"
+    },
+    {
+     "id": "ja-四",
+     "w": "四",
+     "r": "yon",
+     "m": "four (4)",
+     "kind": "word",
+     "k": "よん",
+     "say": "よん"
+    },
+    {
+     "id": "ja-五",
+     "w": "五",
+     "r": "go",
+     "m": "five (5)",
+     "kind": "word",
+     "k": "ご",
+     "say": "ご"
+    },
+    {
+     "id": "ja-一、 二、 三、 四、 五",
+     "w": "一、 二、 三、 四、 五",
+     "r": "ichi, ni, san, yon, go",
+     "m": "one, two, three, four, five",
+     "kind": "sent",
+     "k": "いち、 に、 さん、 よん、 ご",
+     "say": "いち、に、さん、よん、ご",
+     "toks": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-7",
+   "title": "Numbers 6 to 10",
+   "learn": [
+    {
+     "h": "Two readings again",
+     "p": "Seven is usually <b>なな</b> (also しち) and nine is <b>きゅう</b> (also く)."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-六",
+     "w": "六",
+     "r": "roku",
+     "m": "six (6)",
+     "kind": "word",
+     "k": "ろく",
+     "say": "ろく"
+    },
+    {
+     "id": "ja-七",
+     "w": "七",
+     "r": "nana",
+     "m": "seven (7)",
+     "kind": "word",
+     "k": "なな",
+     "say": "なな"
+    },
+    {
+     "id": "ja-八",
+     "w": "八",
+     "r": "hachi",
+     "m": "eight (8)",
+     "kind": "word",
+     "k": "はち",
+     "say": "はち"
+    },
+    {
+     "id": "ja-九",
+     "w": "九",
+     "r": "kyū",
+     "m": "nine (9)",
+     "kind": "word",
+     "k": "きゅう",
+     "say": "きゅう"
+    },
+    {
+     "id": "ja-十",
+     "w": "十",
+     "r": "jū",
+     "m": "ten (10)",
+     "kind": "word",
+     "k": "じゅう",
+     "say": "じゅう"
+    },
+    {
+     "id": "ja-六、 七、 八、 九、 十",
+     "w": "六、 七、 八、 九、 十",
+     "r": "roku, nana, hachi, kyū, jū",
+     "m": "six, seven, eight, nine, ten",
+     "kind": "sent",
+     "k": "ろく、 なな、 はち、 きゅう、 じゅう",
+     "say": "ろく、なな、はち、きゅう、じゅう",
+     "toks": [
+      "六",
+      "七",
+      "八",
+      "九",
+      "十"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-8",
+   "title": "Bigger numbers",
+   "learn": [
+    {
+     "h": "Building blocks",
+     "p": "Numbers stack like Chinese and Korean: じゅういち = ten-one = 11, にじゅう = two-ten = 20. Japanese also counts in ten-thousands: <b>まん</b>."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-じゅういち",
+     "w": "じゅういち",
+     "r": "jūichi",
+     "m": "eleven (11)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-にじゅう",
+     "w": "にじゅう",
+     "r": "nijū",
+     "m": "twenty (20)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ひゃく",
+     "w": "ひゃく",
+     "r": "hyaku",
+     "m": "hundred (100)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-せん",
+     "w": "せん",
+     "r": "sen",
+     "m": "thousand (1,000)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まん",
+     "w": "まん",
+     "r": "man",
+     "m": "ten thousand (10,000)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-じゅう、 にじゅう、 ひゃく、 せん、 まん",
+     "w": "じゅう、 にじゅう、 ひゃく、 せん、 まん",
+     "r": "jū, nijū, hyaku, sen, man",
+     "m": "ten, twenty, a hundred, a thousand, ten thousand",
+     "kind": "sent",
+     "say": "じゅう、にじゅう、ひゃく、せん、まん",
+     "toks": [
+      "じゅう",
+      "にじゅう",
+      "ひゃく",
+      "せん",
+      "まん"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-9",
+   "title": "Counting things",
+   "learn": [
+    {
+     "h": "Native counting",
+     "p": "For counting everyday objects, Japanese has its own set: <b>ひとつ, ふたつ, みっつ</b>… It works like Korean 하나, 둘, 셋.",
+     "ex": [
+      "ja-ひとつ",
+      "ja-ふたつ"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-りんご",
+     "w": "りんご",
+     "r": "ringo",
+     "m": "apple",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ください",
+     "w": "ください",
+     "r": "kudasai",
+     "m": "please (give me)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ひとつ",
+     "w": "ひとつ",
+     "r": "hitotsu",
+     "m": "one (thing)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ふたつ",
+     "w": "ふたつ",
+     "r": "futatsu",
+     "m": "two (things)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みっつ",
+     "w": "みっつ",
+     "r": "mittsu",
+     "m": "three (things)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いくつ",
+     "w": "いくつ",
+     "r": "ikutsu",
+     "m": "how many?",
+     "kind": "word"
+    },
+    {
+     "id": "ja-りんご を ふたつ ください。",
+     "w": "りんご を ふたつ ください。",
+     "r": "ringo o futatsu kudasai.",
+     "m": "Two apples, please.",
+     "kind": "sent",
+     "say": "りんごおふたつください。",
+     "toks": [
+      "りんご",
+      "を",
+      "ふたつ",
+      "ください"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] を [number] ください",
+     "ex": "ja-りんご を ふたつ ください。",
+     "parts": [
+      {
+       "w": "りんご",
+       "m": "apples",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker (said o)",
+       "r": "p",
+       "alt": [
+        "は",
+        "に"
+       ]
+      },
+      {
+       "w": "ふたつ",
+       "m": "two (things)",
+       "r": "m",
+       "alt": [
+        "にじゅう"
+       ]
+      },
+      {
+       "w": "ください",
+       "m": "please give",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-10",
+   "title": "How much is it?",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-これ",
+     "w": "これ",
+     "r": "kore",
+     "m": "this",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いくら",
+     "w": "いくら",
+     "r": "ikura",
+     "m": "how much",
+     "kind": "word"
+    },
+    {
+     "id": "ja-えん",
+     "w": "えん",
+     "r": "en",
+     "m": "yen",
+     "kind": "word"
+    },
+    {
+     "id": "ja-これ は いくら です か。",
+     "w": "これ は いくら です か。",
+     "r": "kore wa ikura desu ka.",
+     "m": "How much is this?",
+     "kind": "sent",
+     "say": "これわいくらですか。",
+     "toks": [
+      "これ",
+      "は",
+      "いくら",
+      "です",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-ひゃく えん です。",
+     "w": "ひゃく えん です。",
+     "r": "hyaku en desu.",
+     "m": "It's 100 yen.",
+     "kind": "sent",
+     "say": "ひゃくえんです。",
+     "toks": [
+      "ひゃく",
+      "えん",
+      "です"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "これ は いくら です か",
+     "ex": "ja-これ は いくら です か。",
+     "parts": [
+      {
+       "w": "これ",
+       "m": "this",
+       "r": "n",
+       "alt": [
+        "この"
+       ]
+      },
+      {
+       "w": "は",
+       "m": "topic marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "いくら",
+       "m": "how much",
+       "r": "q"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      },
+      {
+       "w": "か",
+       "m": "question",
+       "r": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-11",
+   "title": "My family",
+   "unit": "Unit 3 · Family",
+   "learn": [
+    {
+     "h": "Humble words for your family",
+     "p": "Japanese uses different words for <i>your own</i> family (humble) and <i>someone else's</i> (polite). My mother = <b>はは</b>, your mother = おかあさん."
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-かぞく",
+     "w": "かぞく",
+     "r": "kazoku",
+     "m": "family",
+     "kind": "word"
+    },
+    {
+     "id": "ja-はは",
+     "w": "はは",
+     "r": "haha",
+     "m": "(my) mother",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ちち",
+     "w": "ちち",
+     "r": "chichi",
+     "m": "(my) father",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あに",
+     "w": "あに",
+     "r": "ani",
+     "m": "(my) older brother",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あね",
+     "w": "あね",
+     "r": "ane",
+     "m": "(my) older sister",
+     "kind": "word"
+    },
+    {
+     "id": "ja-はは です。",
+     "w": "はは です。",
+     "r": "haha desu.",
+     "m": "This is my mother.",
+     "kind": "sent",
+     "say": "ははです。",
+     "toks": [
+      "はは",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-ちち は かいしゃいん です。",
+     "w": "ちち は かいしゃいん です。",
+     "r": "chichi wa kaishain desu.",
+     "m": "My father is an office worker.",
+     "kind": "sent",
+     "say": "ちちわかいしゃいんです。",
+     "toks": [
+      "ちち",
+      "は",
+      "かいしゃいん",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-12",
+   "title": "Other people's families",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-おかあさん",
+     "w": "おかあさん",
+     "r": "okāsan",
+     "m": "mother / mom",
+     "kind": "word"
+    },
+    {
+     "id": "ja-おとうさん",
+     "w": "おとうさん",
+     "r": "otōsan",
+     "m": "father / dad",
+     "kind": "word"
+    },
+    {
+     "id": "ja-おにいさん",
+     "w": "おにいさん",
+     "r": "onīsan",
+     "m": "older brother",
+     "kind": "word"
+    },
+    {
+     "id": "ja-おねえさん",
+     "w": "おねえさん",
+     "r": "onēsan",
+     "m": "older sister",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いもうと",
+     "w": "いもうと",
+     "r": "imōto",
+     "m": "younger sister",
+     "kind": "word"
+    },
+    {
+     "id": "ja-おとうと",
+     "w": "おとうと",
+     "r": "otōto",
+     "m": "younger brother",
+     "kind": "word"
+    },
+    {
+     "id": "ja-おかあさん です か。",
+     "w": "おかあさん です か。",
+     "r": "okāsan desu ka.",
+     "m": "Is that your mother?",
+     "kind": "sent",
+     "say": "おかあさんですか。",
+     "toks": [
+      "おかあさん",
+      "です",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-いもうと は がくせい です。",
+     "w": "いもうと は がくせい です。",
+     "r": "imōto wa gakusei desu.",
+     "m": "My younger sister is a student.",
+     "kind": "sent",
+     "say": "いもうとわがくせいです。",
+     "toks": [
+      "いもうと",
+      "は",
+      "がくせい",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-13",
+   "title": "There is, I have",
+   "learn": [
+    {
+     "h": "います vs あります",
+     "p": "Use <b>います</b> for living things (people, animals) and <b>あります</b> for objects. The thing that exists takes <b>が</b>.",
+     "ex": [
+      "ja-いぬ が います。",
+      "ja-くるま が あります。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-います",
+     "w": "います",
+     "r": "imasu",
+     "m": "there is (living things)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あります",
+     "w": "あります",
+     "r": "arimasu",
+     "m": "there is (things)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きょうだい",
+     "w": "きょうだい",
+     "r": "kyōdai",
+     "m": "siblings",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きょうだい が います。",
+     "w": "きょうだい が います。",
+     "r": "kyōdai ga imasu.",
+     "m": "I have siblings.",
+     "kind": "sent",
+     "say": "きょうだいがいます。",
+     "toks": [
+      "きょうだい",
+      "が",
+      "います"
+     ]
+    },
+    {
+     "id": "ja-いぬ が います。",
+     "w": "いぬ が います。",
+     "r": "inu ga imasu.",
+     "m": "There's a dog.",
+     "kind": "sent",
+     "say": "いぬがいます。",
+     "toks": [
+      "いぬ",
+      "が",
+      "います"
+     ]
+    },
+    {
+     "id": "ja-くるま が あります。",
+     "w": "くるま が あります。",
+     "r": "kuruma ga arimasu.",
+     "m": "I have a car.",
+     "kind": "sent",
+     "say": "くるまがあります。",
+     "toks": [
+      "くるま",
+      "が",
+      "あります"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "living things: が います",
+     "ex": "ja-いぬ が います。",
+     "parts": [
+      {
+       "w": "いぬ",
+       "m": "dog",
+       "r": "n"
+      },
+      {
+       "w": "が",
+       "m": "subject marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "います",
+       "m": "there is (living)",
+       "r": "v",
+       "alt": [
+        "あります"
+       ]
+      }
+     ]
+    },
+    {
+     "f": "objects: が あります",
+     "ex": "ja-くるま が あります。",
+     "parts": [
+      {
+       "w": "くるま",
+       "m": "car",
+       "r": "n"
+      },
+      {
+       "w": "が",
+       "m": "subject marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "あります",
+       "m": "there is (things)",
+       "r": "v",
+       "alt": [
+        "います"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-14",
+   "title": "People",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-おとこ",
+     "w": "おとこ",
+     "r": "otoko",
+     "m": "man / male",
+     "kind": "word"
+    },
+    {
+     "id": "ja-おんな",
+     "w": "おんな",
+     "r": "onna",
+     "m": "woman / female",
+     "kind": "word"
+    },
+    {
+     "id": "ja-こども",
+     "w": "こども",
+     "r": "kodomo",
+     "m": "child",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あかちゃん",
+     "w": "あかちゃん",
+     "r": "akachan",
+     "m": "baby",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ともだち",
+     "w": "ともだち",
+     "r": "tomodachi",
+     "m": "friend",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あかちゃん が います か。",
+     "w": "あかちゃん が います か。",
+     "r": "akachan ga imasu ka.",
+     "m": "Do you have a baby?",
+     "kind": "sent",
+     "say": "あかちゃんがいますか。",
+     "toks": [
+      "あかちゃん",
+      "が",
+      "います",
+      "か"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-15",
+   "title": "This and that",
+   "learn": [
+    {
+     "h": "こ・そ・あ・ど",
+     "p": "<b>これ</b> = this (near me), <b>それ</b> = that (near you), <b>あれ</b> = that over there, <b>どれ</b> = which one. Korean has the same three-way split!",
+     "ex": [
+      "ja-それ は なん です か。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-それ",
+     "w": "それ",
+     "r": "sore",
+     "m": "that (near you)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あれ",
+     "w": "あれ",
+     "r": "are",
+     "m": "that (over there)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-どれ",
+     "w": "どれ",
+     "r": "dore",
+     "m": "which one",
+     "kind": "word"
+    },
+    {
+     "id": "ja-それ は なん です か。",
+     "w": "それ は なん です か。",
+     "r": "sore wa nan desu ka.",
+     "m": "What is that?",
+     "kind": "sent",
+     "say": "それわなんですか。",
+     "toks": [
+      "それ",
+      "は",
+      "なん",
+      "です",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-あれ は がっこう です。",
+     "w": "あれ は がっこう です。",
+     "r": "are wa gakkō desu.",
+     "m": "That is a school.",
+     "kind": "sent",
+     "say": "あれわがっこうです。",
+     "toks": [
+      "あれ",
+      "は",
+      "がっこう",
+      "です"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "それ は なん です か",
+     "ex": "ja-それ は なん です か。",
+     "parts": [
+      {
+       "w": "それ",
+       "m": "that",
+       "r": "n",
+       "alt": [
+        "その"
+       ]
+      },
+      {
+       "w": "は",
+       "m": "topic marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "なん",
+       "m": "what",
+       "r": "q"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      },
+      {
+       "w": "か",
+       "m": "question",
+       "r": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-16",
+   "title": "Food",
+   "unit": "Unit 4 · Food",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-ごはん",
+     "w": "ごはん",
+     "r": "gohan",
+     "m": "rice / a meal",
+     "kind": "word"
+    },
+    {
+     "id": "ja-さかな",
+     "w": "さかな",
+     "r": "sakana",
+     "m": "fish",
+     "kind": "word"
+    },
+    {
+     "id": "ja-にく",
+     "w": "にく",
+     "r": "niku",
+     "m": "meat",
+     "kind": "word"
+    },
+    {
+     "id": "ja-やさい",
+     "w": "やさい",
+     "r": "yasai",
+     "m": "vegetables",
+     "kind": "word"
+    },
+    {
+     "id": "ja-くだもの",
+     "w": "くだもの",
+     "r": "kudamono",
+     "m": "fruit",
+     "kind": "word"
+    },
+    {
+     "id": "ja-さかな です か。",
+     "w": "さかな です か。",
+     "r": "sakana desu ka.",
+     "m": "Is it fish?",
+     "kind": "sent",
+     "say": "さかなですか。",
+     "toks": [
+      "さかな",
+      "です",
+      "か"
+     ]
+    },
+    {
+     "id": "ja-にく じゃ ありません。",
+     "w": "にく じゃ ありません。",
+     "r": "niku ja arimasen.",
+     "m": "It's not meat.",
+     "kind": "sent",
+     "say": "にくじゃありません。",
+     "toks": [
+      "にく",
+      "じゃ",
+      "ありません"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-17",
+   "title": "Drinks",
+   "learn": [
+    {
+     "h": "Please give me",
+     "p": "<b>[thing] を ください</b> = “[thing], please”. を is read <b>o</b>.",
+     "ex": [
+      "ja-おちゃ を ください。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-おちゃ",
+     "w": "おちゃ",
+     "r": "ocha",
+     "m": "(green) tea",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ジュース",
+     "w": "ジュース",
+     "r": "jūsu",
+     "m": "juice",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ぎゅうにゅう",
+     "w": "ぎゅうにゅう",
+     "r": "gyūnyū",
+     "m": "milk",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ビール",
+     "w": "ビール",
+     "r": "bīru",
+     "m": "beer",
+     "kind": "word"
+    },
+    {
+     "id": "ja-おちゃ を ください。",
+     "w": "おちゃ を ください。",
+     "r": "ocha o kudasai.",
+     "m": "Tea, please.",
+     "kind": "sent",
+     "say": "おちゃおください。",
+     "toks": [
+      "おちゃ",
+      "を",
+      "ください"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] を ください",
+     "ex": "ja-おちゃ を ください。",
+     "parts": [
+      {
+       "w": "おちゃ",
+       "m": "tea",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "は",
+        "に"
+       ]
+      },
+      {
+       "w": "ください",
+       "m": "please give",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-18",
+   "title": "Eating and drinking",
+   "learn": [
+    {
+     "h": "Verb goes last",
+     "p": "Like Korean, Japanese puts the verb at the end: “rice eat”. The thing you eat takes <b>を</b> (o): ごはん を たべます.",
+     "ex": [
+      "ja-ごはん を たべます。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-たべます",
+     "w": "たべます",
+     "r": "tabemasu",
+     "m": "eat",
+     "kind": "word"
+    },
+    {
+     "id": "ja-のみます",
+     "w": "のみます",
+     "r": "nomimasu",
+     "m": "drink",
+     "kind": "word"
+    },
+    {
+     "id": "ja-なに",
+     "w": "なに",
+     "r": "nani",
+     "m": "what",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ごはん を たべます。",
+     "w": "ごはん を たべます。",
+     "r": "gohan o tabemasu.",
+     "m": "I eat rice.",
+     "kind": "sent",
+     "say": "ごはんおたべます。",
+     "toks": [
+      "ごはん",
+      "を",
+      "たべます"
+     ]
+    },
+    {
+     "id": "ja-みず を のみます。",
+     "w": "みず を のみます。",
+     "r": "mizu o nomimasu.",
+     "m": "I drink water.",
+     "kind": "sent",
+     "say": "みずおのみます。",
+     "toks": [
+      "みず",
+      "を",
+      "のみます"
+     ]
+    },
+    {
+     "id": "ja-なに を たべます か。",
+     "w": "なに を たべます か。",
+     "r": "nani o tabemasu ka.",
+     "m": "What will you eat?",
+     "kind": "sent",
+     "say": "なにおたべますか。",
+     "toks": [
+      "なに",
+      "を",
+      "たべます",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] を + verb",
+     "ex": "ja-ごはん を たべます。",
+     "parts": [
+      {
+       "w": "ごはん",
+       "m": "rice",
+       "r": "n"
+      },
+      {
+       "w": "を",
+       "m": "object marker",
+       "r": "p",
+       "alt": [
+        "に",
+        "が"
+       ]
+      },
+      {
+       "w": "たべます",
+       "m": "eat",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-19",
+   "title": "How does it taste?",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-おいしい",
+     "w": "おいしい",
+     "r": "oishii",
+     "m": "delicious",
+     "kind": "word"
+    },
+    {
+     "id": "ja-まずい",
+     "w": "まずい",
+     "r": "mazui",
+     "m": "tastes bad",
+     "kind": "word"
+    },
+    {
+     "id": "ja-からい",
+     "w": "からい",
+     "r": "karai",
+     "m": "spicy",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あまい",
+     "w": "あまい",
+     "r": "amai",
+     "m": "sweet",
+     "kind": "word"
+    },
+    {
+     "id": "ja-この ケーキ は あまい です。",
+     "w": "この ケーキ は あまい です。",
+     "r": "kono kēki wa amai desu.",
+     "m": "This cake is sweet.",
+     "kind": "sent",
+     "say": "このケーキわあまいです。",
+     "toks": [
+      "この",
+      "ケーキ",
+      "は",
+      "あまい",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-すし は おいしい です。",
+     "w": "すし は おいしい です。",
+     "r": "sushi wa oishii desu.",
+     "m": "Sushi is delicious.",
+     "kind": "sent",
+     "say": "すしわおいしいです。",
+     "toks": [
+      "すし",
+      "は",
+      "おいしい",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-20",
+   "title": "I like it",
+   "learn": [
+    {
+     "h": "すき です",
+     "p": "“Like” is <b>すき</b>, and the thing you like takes <b>が</b>: ねこ が すき です = I like cats. だいすき = love.",
+     "ex": [
+      "ja-ねこ が すき です。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-すき",
+     "w": "すき",
+     "r": "suki",
+     "m": "like",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きらい",
+     "w": "きらい",
+     "r": "kirai",
+     "m": "dislike",
+     "kind": "word"
+    },
+    {
+     "id": "ja-だいすき",
+     "w": "だいすき",
+     "r": "daisuki",
+     "m": "love / really like",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ねこ が すき です。",
+     "w": "ねこ が すき です。",
+     "r": "neko ga suki desu.",
+     "m": "I like cats.",
+     "kind": "sent",
+     "say": "ねこがすきです。",
+     "toks": [
+      "ねこ",
+      "が",
+      "すき",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-なに が すき です か。",
+     "w": "なに が すき です か。",
+     "r": "nani ga suki desu ka.",
+     "m": "What do you like?",
+     "kind": "sent",
+     "say": "なにがすきですか。",
+     "toks": [
+      "なに",
+      "が",
+      "すき",
+      "です",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] が すき です",
+     "ex": "ja-ねこ が すき です。",
+     "parts": [
+      {
+       "w": "ねこ",
+       "m": "cats",
+       "r": "n"
+      },
+      {
+       "w": "が",
+       "m": "(the thing you like)",
+       "r": "p",
+       "alt": [
+        "を",
+        "に"
+       ]
+      },
+      {
+       "w": "すき",
+       "m": "like",
+       "r": "a"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-21",
+   "title": "Colors",
+   "unit": "Unit 5 · Things around you",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-あか",
+     "w": "あか",
+     "r": "aka",
+     "m": "red",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あお",
+     "w": "あお",
+     "r": "ao",
+     "m": "blue",
+     "kind": "word"
+    },
+    {
+     "id": "ja-しろ",
+     "w": "しろ",
+     "r": "shiro",
+     "m": "white",
+     "kind": "word"
+    },
+    {
+     "id": "ja-くろ",
+     "w": "くろ",
+     "r": "kuro",
+     "m": "black",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きいろ",
+     "w": "きいろ",
+     "r": "kiiro",
+     "m": "yellow",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みどり",
+     "w": "みどり",
+     "r": "midori",
+     "m": "green",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あお が すき です。",
+     "w": "あお が すき です。",
+     "r": "ao ga suki desu.",
+     "m": "I like blue.",
+     "kind": "sent",
+     "say": "あおがすきです。",
+     "toks": [
+      "あお",
+      "が",
+      "すき",
+      "です"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-22",
+   "title": "Big and small",
+   "learn": [
+    {
+     "h": "い-adjectives",
+     "p": "Many describing words end in <b>い</b>: おおきい (big), ちいさい (small). Add です to be polite: おおきい です.",
+     "ex": [
+      "ja-おおきい",
+      "ja-ちいさい"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-おおきい",
+     "w": "おおきい",
+     "r": "ōkii",
+     "m": "big",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ちいさい",
+     "w": "ちいさい",
+     "r": "chiisai",
+     "m": "small",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あたらしい",
+     "w": "あたらしい",
+     "r": "atarashii",
+     "m": "new",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ふるい",
+     "w": "ふるい",
+     "r": "furui",
+     "m": "old (things)",
+     "kind": "word"
+    },
+    {
+     "id": "ja-かわいい",
+     "w": "かわいい",
+     "r": "kawaii",
+     "m": "cute",
+     "kind": "word"
+    },
+    {
+     "id": "ja-この かばん は おおきい です。",
+     "w": "この かばん は おおきい です。",
+     "r": "kono kaban wa ōkii desu.",
+     "m": "This bag is big.",
+     "kind": "sent",
+     "say": "このかばんわおおきいです。",
+     "toks": [
+      "この",
+      "かばん",
+      "は",
+      "おおきい",
+      "です"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "この [thing] は [adjective] です",
+     "ex": "ja-この かばん は おおきい です。",
+     "parts": [
+      {
+       "w": "この",
+       "m": "this",
+       "r": "m",
+       "alt": [
+        "これ"
+       ]
+      },
+      {
+       "w": "かばん",
+       "m": "bag",
+       "r": "n"
+      },
+      {
+       "w": "は",
+       "m": "topic marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "おおきい",
+       "m": "big",
+       "r": "a"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-23",
+   "title": "Body",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-目",
+     "w": "目",
+     "r": "me",
+     "m": "eye",
+     "kind": "word",
+     "k": "め",
+     "say": "め"
+    },
+    {
+     "id": "ja-手",
+     "w": "手",
+     "r": "te",
+     "m": "hand",
+     "kind": "word",
+     "k": "て",
+     "say": "て"
+    },
+    {
+     "id": "ja-口",
+     "w": "口",
+     "r": "kuchi",
+     "m": "mouth",
+     "kind": "word",
+     "k": "くち",
+     "say": "くち"
+    },
+    {
+     "id": "ja-あたま",
+     "w": "あたま",
+     "r": "atama",
+     "m": "head",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あし",
+     "w": "あし",
+     "r": "ashi",
+     "m": "leg / foot",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いたい",
+     "w": "いたい",
+     "r": "itai",
+     "m": "it hurts",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あたま が いたい です。",
+     "w": "あたま が いたい です。",
+     "r": "atama ga itai desu.",
+     "m": "I have a headache.",
+     "kind": "sent",
+     "say": "あたまがいたいです。",
+     "toks": [
+      "あたま",
+      "が",
+      "いたい",
+      "です"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[body part] が いたい",
+     "ex": "ja-あたま が いたい です。",
+     "parts": [
+      {
+       "w": "あたま",
+       "m": "head",
+       "r": "n"
+      },
+      {
+       "w": "が",
+       "m": "subject marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "いたい",
+       "m": "hurts",
+       "r": "a"
+      },
+      {
+       "w": "です",
+       "m": "(polite)",
+       "r": "e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-24",
+   "title": "Animals",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-いぬ",
+     "w": "いぬ",
+     "r": "inu",
+     "m": "dog",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ねこ",
+     "w": "ねこ",
+     "r": "neko",
+     "m": "cat",
+     "kind": "word"
+    },
+    {
+     "id": "ja-とり",
+     "w": "とり",
+     "r": "tori",
+     "m": "bird",
+     "kind": "word"
+    },
+    {
+     "id": "ja-うま",
+     "w": "うま",
+     "r": "uma",
+     "m": "horse",
+     "kind": "word"
+    },
+    {
+     "id": "ja-うさぎ",
+     "w": "うさぎ",
+     "r": "usagi",
+     "m": "rabbit",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ねこ が います。",
+     "w": "ねこ が います。",
+     "r": "neko ga imasu.",
+     "m": "There's a cat.",
+     "kind": "sent",
+     "say": "ねこがいます。",
+     "toks": [
+      "ねこ",
+      "が",
+      "います"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-25",
+   "title": "In the classroom",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-ほん",
+     "w": "ほん",
+     "r": "hon",
+     "m": "book",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ノート",
+     "w": "ノート",
+     "r": "nōto",
+     "m": "notebook",
+     "kind": "word"
+    },
+    {
+     "id": "ja-えんぴつ",
+     "w": "えんぴつ",
+     "r": "enpitsu",
+     "m": "pencil",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いす",
+     "w": "いす",
+     "r": "isu",
+     "m": "chair",
+     "kind": "word"
+    },
+    {
+     "id": "ja-つくえ",
+     "w": "つくえ",
+     "r": "tsukue",
+     "m": "desk",
+     "kind": "word"
+    },
+    {
+     "id": "ja-ほん が あります。",
+     "w": "ほん が あります。",
+     "r": "hon ga arimasu.",
+     "m": "There's a book.",
+     "kind": "sent",
+     "say": "ほんがあります。",
+     "toks": [
+      "ほん",
+      "が",
+      "あります"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-26",
+   "title": "Places",
+   "unit": "Unit 6 · Places and time",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-うち",
+     "w": "うち",
+     "r": "uchi",
+     "m": "home",
+     "kind": "word"
+    },
+    {
+     "id": "ja-えき",
+     "w": "えき",
+     "r": "eki",
+     "m": "station",
+     "kind": "word"
+    },
+    {
+     "id": "ja-みせ",
+     "w": "みせ",
+     "r": "mise",
+     "m": "shop",
+     "kind": "word"
+    },
+    {
+     "id": "ja-トイレ",
+     "w": "トイレ",
+     "r": "toire",
+     "m": "toilet",
+     "kind": "word"
+    },
+    {
+     "id": "ja-どこ",
+     "w": "どこ",
+     "r": "doko",
+     "m": "where",
+     "kind": "word"
+    },
+    {
+     "id": "ja-トイレ は どこ です か。",
+     "w": "トイレ は どこ です か。",
+     "r": "toire wa doko desu ka.",
+     "m": "Where is the toilet?",
+     "kind": "sent",
+     "say": "トイレわどこですか。",
+     "toks": [
+      "トイレ",
+      "は",
+      "どこ",
+      "です",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] は どこ です か",
+     "ex": "ja-トイレ は どこ です か。",
+     "parts": [
+      {
+       "w": "トイレ",
+       "m": "toilet",
+       "r": "n"
+      },
+      {
+       "w": "は",
+       "m": "topic marker",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "どこ",
+       "m": "where",
+       "r": "q"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      },
+      {
+       "w": "か",
+       "m": "question",
+       "r": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-27",
+   "title": "Going and coming",
+   "learn": [
+    {
+     "h": "に = to",
+     "p": "<b>[place] に いきます</b> = I go to [place]. に marks the destination, like Korean 에.",
+     "ex": [
+      "ja-がっこう に いきます。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-いきます",
+     "w": "いきます",
+     "r": "ikimasu",
+     "m": "go",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きます",
+     "w": "きます",
+     "r": "kimasu",
+     "m": "come",
+     "kind": "word"
+    },
+    {
+     "id": "ja-かえります",
+     "w": "かえります",
+     "r": "kaerimasu",
+     "m": "go home / return",
+     "kind": "word"
+    },
+    {
+     "id": "ja-がっこう に いきます。",
+     "w": "がっこう に いきます。",
+     "r": "gakkō ni ikimasu.",
+     "m": "I go to school.",
+     "kind": "sent",
+     "say": "がっこうにいきます。",
+     "toks": [
+      "がっこう",
+      "に",
+      "いきます"
+     ]
+    },
+    {
+     "id": "ja-どこ に いきます か。",
+     "w": "どこ に いきます か。",
+     "r": "doko ni ikimasu ka.",
+     "m": "Where are you going?",
+     "kind": "sent",
+     "say": "どこにいきますか。",
+     "toks": [
+      "どこ",
+      "に",
+      "いきます",
+      "か"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[place] に いきます",
+     "ex": "ja-がっこう に いきます。",
+     "parts": [
+      {
+       "w": "がっこう",
+       "m": "school",
+       "r": "t"
+      },
+      {
+       "w": "に",
+       "m": "to (destination)",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      },
+      {
+       "w": "いきます",
+       "m": "go",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-28",
+   "title": "Today and tomorrow",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-きょう",
+     "w": "きょう",
+     "r": "kyō",
+     "m": "today",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あした",
+     "w": "あした",
+     "r": "ashita",
+     "m": "tomorrow",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きのう",
+     "w": "きのう",
+     "r": "kinō",
+     "m": "yesterday",
+     "kind": "word"
+    },
+    {
+     "id": "ja-いま",
+     "w": "いま",
+     "r": "ima",
+     "m": "now",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あした えき に いきます。",
+     "w": "あした えき に いきます。",
+     "r": "ashita eki ni ikimasu.",
+     "m": "I'll go to the station tomorrow.",
+     "kind": "sent",
+     "say": "あしたえきにいきます。",
+     "toks": [
+      "あした",
+      "えき",
+      "に",
+      "いきます"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-29",
+   "title": "Weather",
+   "learn": [
+    {
+     "h": "ね = isn't it?",
+     "p": "<b>ね</b> at the end invites agreement, like “isn't it?”: いい てんき です ね = nice weather, isn't it?",
+     "ex": [
+      "ja-いい てんき です ね。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "ja-てんき",
+     "w": "てんき",
+     "r": "tenki",
+     "m": "weather",
+     "kind": "word"
+    },
+    {
+     "id": "ja-さむい",
+     "w": "さむい",
+     "r": "samui",
+     "m": "cold",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あつい",
+     "w": "あつい",
+     "r": "atsui",
+     "m": "hot",
+     "kind": "word"
+    },
+    {
+     "id": "ja-あめ",
+     "w": "あめ",
+     "r": "ame",
+     "m": "rain",
+     "kind": "word"
+    },
+    {
+     "id": "ja-きょう は さむい です。",
+     "w": "きょう は さむい です。",
+     "r": "kyō wa samui desu.",
+     "m": "It's cold today.",
+     "kind": "sent",
+     "say": "きょうわさむいです。",
+     "toks": [
+      "きょう",
+      "は",
+      "さむい",
+      "です"
+     ]
+    },
+    {
+     "id": "ja-いい てんき です ね。",
+     "w": "いい てんき です ね。",
+     "r": "ii tenki desu ne.",
+     "m": "Nice weather, isn't it?",
+     "kind": "sent",
+     "say": "いいてんきですね。",
+     "toks": [
+      "いい",
+      "てんき",
+      "です",
+      "ね"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "… ね = isn't it?",
+     "ex": "ja-いい てんき です ね。",
+     "parts": [
+      {
+       "w": "いい",
+       "m": "good",
+       "r": "a"
+      },
+      {
+       "w": "てんき",
+       "m": "weather",
+       "r": "n"
+      },
+      {
+       "w": "です",
+       "m": "is",
+       "r": "e"
+      },
+      {
+       "w": "ね",
+       "m": "isn't it?",
+       "r": "p",
+       "alt": [
+        "を"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-30",
+   "title": "Speaking Japanese",
+   "learn": [],
+   "items": [
+    {
+     "id": "ja-ゆっくり",
+     "w": "ゆっくり",
+     "r": "yukkuri",
+     "m": "slowly",
+     "kind": "word"
+    },
+    {
+     "id": "ja-とても",
+     "w": "とても",
+     "r": "totemo",
+     "m": "very",
+     "kind": "word"
+    },
+    {
+     "id": "ja-すこし",
+     "w": "すこし",
+     "r": "sukoshi",
+     "m": "a little",
+     "kind": "word"
+    },
+    {
+     "id": "ja-にほんご",
+     "w": "にほんご",
+     "r": "nihongo",
+     "m": "the Japanese language",
+     "kind": "word"
+    },
+    {
+     "id": "ja-はなします",
+     "w": "はなします",
+     "r": "hanashimasu",
+     "m": "speak",
+     "kind": "word"
+    },
+    {
+     "id": "ja-にほんご を すこし はなします。",
+     "w": "にほんご を すこし はなします。",
+     "r": "nihongo o sukoshi hanashimasu.",
+     "m": "I speak a little Japanese.",
+     "kind": "sent",
+     "say": "にほんごおすこしはなします。",
+     "toks": [
+      "にほんご",
+      "を",
+      "すこし",
+      "はなします"
+     ]
+    },
+    {
+     "id": "ja-ゆっくり はなして ください。",
+     "w": "ゆっくり はなして ください。",
+     "r": "yukkuri hanashite kudasai.",
+     "m": "Please speak slowly.",
+     "kind": "sent",
+     "say": "ゆっくりはなしてください。",
+     "toks": [
+      "ゆっくり",
+      "はなして",
+      "ください"
+     ]
+    },
+    {
+     "id": "ja-もう いちど",
+     "w": "もう いちど",
+     "r": "mō ichido",
+     "m": "once more, please",
+     "kind": "sent",
+     "say": "もういちど",
+     "toks": [
+      "もう",
+      "いちど"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ja1-R",
+   "title": "Tier 1 review",
+   "review": true
+  }
+ ]
+}

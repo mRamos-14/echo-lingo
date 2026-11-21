@@ -1,0 +1,283 @@
+{
+  "lang": "ja",
+  "tier": 0,
+  "name": "Sounds",
+  "sub": "Hiragana, katakana and the first words",
+  "lessons": [
+    {
+      "id": "ja0-1",
+      "title": "Five vowels",
+      "learn": [
+        {"h": "Three scripts", "p": "Japanese mixes three scripts. <b>Hiragana</b> (ひらがな) writes native words and grammar. <b>Katakana</b> (カタカナ) writes foreign words like コーヒー (coffee). <b>Kanji</b> (漢字) are Chinese characters that carry meaning. You start with hiragana: 46 basic symbols, each one a whole syllable."},
+        {"h": "Five pure vowels", "p": "Japanese has only 5 vowels and they never change: <b>a, i, u, e, o</b>, like “ah, ee, oo, eh, oh” but short and crisp. Every other kana is a consonant + one of these.", "ex": ["ja-a", "ja-i", "ja-u", "ja-e", "ja-o"]}
+      ],
+      "items": [
+        {"id": "ja-a", "w": "あ", "r": "a", "kind": "letter", "hint": "ah, short"},
+        {"id": "ja-i", "w": "い", "r": "i", "kind": "letter", "hint": "ee, short"},
+        {"id": "ja-u", "w": "う", "r": "u", "kind": "letter", "hint": "oo with relaxed, unrounded lips"},
+        {"id": "ja-e", "w": "え", "r": "e", "kind": "letter", "hint": "e as in “bed”"},
+        {"id": "ja-o", "w": "お", "r": "o", "kind": "letter", "hint": "o as in “go”, short"}
+      ],
+      "pairs": [["ja-a", "ja-o"], ["ja-u", "ja-o"], ["ja-e", "ja-i"]],
+      "build": [
+        {"w": "あい", "r": "ai", "m": "love"},
+        {"w": "うえ", "r": "ue", "m": "up / above"},
+        {"w": "いえ", "r": "ie", "m": "house"},
+        {"w": "あお", "r": "ao", "m": "blue"}
+      ]
+    },
+    {
+      "id": "ja0-2",
+      "title": "K and S rows",
+      "learn": [
+        {"h": "Rows of five", "p": "Kana come in rows: one consonant joined with each vowel. The k-row is <b>か き く け こ</b> (ka ki ku ke ko). The s-row is <b>さ し す せ そ</b>, but note that し is “shi”, not “si”.", "ex": ["ja-ka", "ja-shi"]}
+      ],
+      "items": [
+        {"id": "ja-ka", "w": "か", "r": "ka", "kind": "letter"},
+        {"id": "ja-ki", "w": "き", "r": "ki", "kind": "letter"},
+        {"id": "ja-ku", "w": "く", "r": "ku", "kind": "letter"},
+        {"id": "ja-ke", "w": "け", "r": "ke", "kind": "letter"},
+        {"id": "ja-ko", "w": "こ", "r": "ko", "kind": "letter"},
+        {"id": "ja-sa", "w": "さ", "r": "sa", "kind": "letter"},
+        {"id": "ja-shi", "w": "し", "r": "shi", "kind": "letter", "hint": "shi, not si"},
+        {"id": "ja-su", "w": "す", "r": "su", "say": "す。", "kind": "letter", "hint": "the u is often whispered"},
+        {"id": "ja-se", "w": "せ", "r": "se", "kind": "letter"},
+        {"id": "ja-so", "w": "そ", "r": "so", "kind": "letter"}
+      ],
+      "pairs": [["ja-ka", "ja-ko"], ["ja-ki", "ja-shi"], ["ja-su", "ja-so"], ["ja-ku", "ja-su"]],
+      "build": [
+        {"w": "あき", "r": "aki", "m": "autumn"},
+        {"w": "すし", "r": "sushi", "m": "sushi"},
+        {"w": "かさ", "r": "kasa", "m": "umbrella"},
+        {"w": "しお", "r": "shio", "m": "salt"},
+        {"w": "あさ", "r": "asa", "m": "morning"},
+        {"w": "せかい", "r": "sekai", "m": "world"}
+      ]
+    },
+    {
+      "id": "ja0-3",
+      "title": "T and N rows",
+      "learn": [
+        {"h": "Two surprises in the t-row", "p": "<b>た ち つ て と</b> = ta, <b>chi</b>, <b>tsu</b>, te, to. ち is “chi” and つ is “tsu”, like the end of “cats”.", "ex": ["ja-chi", "ja-tsu"]},
+        {"h": "The n-row", "p": "<b>な に ぬ ね の</b> = na ni nu ne no. No surprises here."}
+      ],
+      "items": [
+        {"id": "ja-ta", "w": "た", "r": "ta", "kind": "letter"},
+        {"id": "ja-chi", "w": "ち", "r": "chi", "kind": "letter", "hint": "chi, not ti"},
+        {"id": "ja-tsu", "w": "つ", "r": "tsu", "kind": "letter", "hint": "ts as in “cats” + u"},
+        {"id": "ja-te", "w": "て", "r": "te", "kind": "letter"},
+        {"id": "ja-to", "w": "と", "r": "to", "kind": "letter"},
+        {"id": "ja-na", "w": "な", "r": "na", "kind": "letter"},
+        {"id": "ja-ni", "w": "に", "r": "ni", "kind": "letter"},
+        {"id": "ja-nu", "w": "ぬ", "r": "nu", "kind": "letter"},
+        {"id": "ja-ne", "w": "ね", "r": "ne", "kind": "letter"},
+        {"id": "ja-no", "w": "の", "r": "no", "kind": "letter"}
+      ],
+      "pairs": [["ja-tsu", "ja-su"], ["ja-chi", "ja-shi"], ["ja-to", "ja-no"]],
+      "build": [
+        {"w": "いぬ", "r": "inu", "m": "dog"},
+        {"w": "ねこ", "r": "neko", "m": "cat"},
+        {"w": "くち", "r": "kuchi", "m": "mouth"},
+        {"w": "つくえ", "r": "tsukue", "m": "desk"},
+        {"w": "なつ", "r": "natsu", "m": "summer"},
+        {"w": "した", "r": "shita", "m": "below"}
+      ]
+    },
+    {
+      "id": "ja0-4",
+      "title": "H and M rows",
+      "learn": [
+        {"h": "The h-row", "p": "<b>は ひ ふ へ ほ</b> = ha hi <b>fu</b> he ho. ふ is a soft “fu”, blowing gently through your lips without touching your teeth.", "ex": ["ja-fu"]},
+        {"h": "Heads-up: は as “wa”", "p": "When は is used as a grammar particle it's read <b>wa</b>. That's why こんにちは (hello) ends in “wa”. You'll meet this properly in Tier 2."},
+        {"h": "The m-row", "p": "<b>ま み む め も</b> = ma mi mu me mo."}
+      ],
+      "items": [
+        {"id": "ja-ha", "w": "は", "r": "ha", "kind": "letter"},
+        {"id": "ja-hi", "w": "ひ", "r": "hi", "kind": "letter"},
+        {"id": "ja-fu", "w": "ふ", "r": "fu", "kind": "letter", "hint": "a soft blow, between h and f"},
+        {"id": "ja-he", "w": "へ", "r": "he", "kind": "letter"},
+        {"id": "ja-ho", "w": "ほ", "r": "ho", "kind": "letter"},
+        {"id": "ja-ma", "w": "ま", "r": "ma", "kind": "letter"},
+        {"id": "ja-mi", "w": "み", "r": "mi", "say": "み。", "kind": "letter"},
+        {"id": "ja-mu", "w": "む", "r": "mu", "kind": "letter"},
+        {"id": "ja-me", "w": "め", "r": "me", "kind": "letter"},
+        {"id": "ja-mo", "w": "も", "r": "mo", "kind": "letter"}
+      ],
+      "pairs": [["ja-hi", "ja-shi"], ["ja-ma", "ja-na"], ["ja-me", "ja-ne"], ["ja-ho", "ja-mo"]],
+      "build": [
+        {"w": "はな", "r": "hana", "m": "flower / nose"},
+        {"w": "ひと", "r": "hito", "m": "person"},
+        {"w": "ふね", "r": "fune", "m": "boat"},
+        {"w": "ほし", "r": "hoshi", "m": "star"},
+        {"w": "みみ", "r": "mimi", "m": "ear"},
+        {"w": "あめ", "r": "ame", "m": "rain"},
+        {"w": "もも", "r": "momo", "m": "peach"}
+      ]
+    },
+    {
+      "id": "ja0-5",
+      "title": "Y, R, W and ん",
+      "learn": [
+        {"h": "Only three y-kana", "p": "<b>や ゆ よ</b> = ya yu yo."},
+        {"h": "The tapped r", "p": "<b>ら り る れ ろ</b> use a light tap of the tongue, somewhere between English r, l and d.", "ex": ["ja-ra", "ja-ri"]},
+        {"h": "The last three", "p": "<b>わ</b> is wa. <b>を</b> is said “o” and is only used as a grammar particle. <b>ん</b> is the only kana that's just a consonant: n.", "ex": ["ja-wa", "ja-n"]}
+      ],
+      "items": [
+        {"id": "ja-ya", "w": "や", "r": "ya", "kind": "letter"},
+        {"id": "ja-yu", "w": "ゆ", "r": "yu", "kind": "letter"},
+        {"id": "ja-yo", "w": "よ", "r": "yo", "kind": "letter"},
+        {"id": "ja-ra", "w": "ら", "r": "ra", "kind": "letter", "hint": "a light tap, between r, l and d"},
+        {"id": "ja-ri", "w": "り", "r": "ri", "kind": "letter"},
+        {"id": "ja-ru", "w": "る", "r": "ru", "kind": "letter"},
+        {"id": "ja-re", "w": "れ", "r": "re", "kind": "letter"},
+        {"id": "ja-ro", "w": "ろ", "r": "ro", "kind": "letter"},
+        {"id": "ja-wa", "w": "わ", "r": "wa", "kind": "letter"},
+        {"id": "ja-wo", "w": "を", "r": "o", "say": "お", "snd": "ja-o", "kind": "letter", "hint": "said “o”; only used as a grammar particle"},
+        {"id": "ja-n", "w": "ん", "r": "n", "say": "ほん", "nopick": true, "kind": "letter", "hint": "just n; you hear it at the end of ほん (hon, book)"}
+      ],
+      "pairs": [["ja-ru", "ja-ro"], ["ja-yu", "ja-yo"], ["ja-ri", "ja-ni"], ["ja-ra", "ja-wa"]],
+      "build": [
+        {"w": "やま", "r": "yama", "m": "mountain"},
+        {"w": "ゆき", "r": "yuki", "m": "snow"},
+        {"w": "よる", "r": "yoru", "m": "night"},
+        {"w": "そら", "r": "sora", "m": "sky"},
+        {"w": "くるま", "r": "kuruma", "m": "car"},
+        {"w": "わたし", "r": "watashi", "m": "I / me"},
+        {"w": "みかん", "r": "mikan", "m": "mandarin orange"}
+      ]
+    },
+    {
+      "id": "ja0-6",
+      "title": "Voiced marks",
+      "learn": [
+        {"h": "Two little dashes", "p": "Two dashes (<b>゛</b>) make a sound “voiced”: か → <b>が</b> (ga), さ → <b>ざ</b> (za), た → <b>だ</b> (da), は → <b>ば</b> (ba). Watch out: し → じ is “ji”.", "ex": ["ja-ka", "ja-ga"]},
+        {"h": "A small circle", "p": "A small circle (<b>゜</b>) turns the h-row into p: は → <b>ぱ</b> (pa), ほ → <b>ぽ</b> (po).", "ex": ["ja-ha", "ja-ba", "ja-pa"]}
+      ],
+      "items": [
+        {"id": "ja-ga", "w": "が", "r": "ga", "kind": "letter"},
+        {"id": "ja-gi", "w": "ぎ", "r": "gi", "kind": "letter"},
+        {"id": "ja-za", "w": "ざ", "r": "za", "kind": "letter"},
+        {"id": "ja-ji", "w": "じ", "r": "ji", "kind": "letter"},
+        {"id": "ja-da", "w": "だ", "r": "da", "kind": "letter"},
+        {"id": "ja-de", "w": "で", "r": "de", "kind": "letter"},
+        {"id": "ja-ba", "w": "ば", "r": "ba", "kind": "letter"},
+        {"id": "ja-bu", "w": "ぶ", "r": "bu", "kind": "letter"},
+        {"id": "ja-pa", "w": "ぱ", "r": "pa", "kind": "letter"},
+        {"id": "ja-po", "w": "ぽ", "r": "po", "kind": "letter"}
+      ],
+      "pairs": [["ja-ka", "ja-ga"], ["ja-sa", "ja-za"], ["ja-ta", "ja-da"], ["ja-ha", "ja-ba", "ja-pa"]],
+      "build": [
+        {"w": "かぎ", "r": "kagi", "m": "key"},
+        {"w": "ひざ", "r": "hiza", "m": "knee"},
+        {"w": "まど", "r": "mado", "m": "window"},
+        {"w": "かばん", "r": "kaban", "m": "bag"},
+        {"w": "でんわ", "r": "denwa", "m": "telephone"},
+        {"w": "ぶた", "r": "buta", "m": "pig"}
+      ]
+    },
+    {
+      "id": "ja0-7",
+      "title": "Small kana and long sounds",
+      "learn": [
+        {"h": "Small ゃ ゅ ょ", "p": "A small ゃ, ゅ or ょ after an i-kana merges into one beat: き + ゃ = <b>きゃ</b> (kya), し + ゅ = <b>しゅ</b> (shu), ち + ょ = <b>ちょ</b> (cho).", "ex": ["ja-kya", "ja-shu", "ja-cho"]},
+        {"h": "Small っ is a tiny pause", "p": "A small <b>っ</b> doubles the next consonant with a short stop: きて (kite, “come”) vs <b>きって</b> (kitte, “stamp”).", "ex": ["ja-kite", "ja-kitte"]},
+        {"h": "Long vowels count double", "p": "Every beat in Japanese takes the same time, so a long vowel is a whole extra beat: おばさん (obasan, aunt) vs <b>おばあさん</b> (obāsan, grandma). Getting the length wrong changes the word!", "ex": ["ja-obasan", "ja-obaasan"]}
+      ],
+      "items": [
+        {"id": "ja-kya", "w": "きゃ", "r": "kya", "kind": "letter"},
+        {"id": "ja-shu", "w": "しゅ", "r": "shu", "kind": "letter"},
+        {"id": "ja-cho", "w": "ちょ", "r": "cho", "kind": "letter"},
+        {"id": "ja-kite", "w": "きて", "r": "kite", "m": "come (please)", "kind": "word"},
+        {"id": "ja-kitte", "w": "きって", "r": "kitte", "m": "postage stamp", "kind": "word"},
+        {"id": "ja-obasan", "w": "おばさん", "r": "obasan", "m": "aunt", "kind": "word"},
+        {"id": "ja-obaasan", "w": "おばあさん", "r": "obāsan", "m": "grandmother", "kind": "word"},
+        {"id": "ja-ojisan", "w": "おじさん", "r": "ojisan", "m": "uncle", "kind": "word"},
+        {"id": "ja-ojiisan", "w": "おじいさん", "r": "ojīsan", "m": "grandfather", "kind": "word"}
+      ],
+      "pairs": [["ja-kite", "ja-kitte"], ["ja-obasan", "ja-obaasan"], ["ja-ojisan", "ja-ojiisan"]],
+      "build": [
+        {"w": "きっぷ", "r": "kippu", "m": "ticket"},
+        {"w": "ちょっと", "r": "chotto", "m": "a little"},
+        {"w": "しゃしん", "r": "shashin", "m": "photo"},
+        {"w": "きょう", "r": "kyō", "m": "today"},
+        {"w": "がっこう", "r": "gakkō", "m": "school"}
+      ]
+    },
+    {
+      "id": "ja0-8",
+      "title": "Katakana I",
+      "learn": [
+        {"h": "Same sounds, sharper shapes", "p": "Katakana has exactly the same sounds as hiragana, written with straighter, angular strokes: あ = <b>ア</b>, か = <b>カ</b>. It's used for foreign words, names and emphasis.", "ex": ["ja-ka-a", "ja-ka-ka"]},
+        {"h": "The long dash", "p": "In katakana a long sound is written with a dash <b>ー</b>: ケーキ (kēki, cake)."}
+      ],
+      "items": [
+        {"id": "ja-ka-a", "w": "ア", "r": "a", "say": "あ", "kind": "kata"},
+        {"id": "ja-ka-i", "w": "イ", "r": "i", "say": "い", "kind": "kata"},
+        {"id": "ja-ka-u", "w": "ウ", "r": "u", "say": "う", "kind": "kata"},
+        {"id": "ja-ka-e", "w": "エ", "r": "e", "say": "え", "kind": "kata"},
+        {"id": "ja-ka-o", "w": "オ", "r": "o", "say": "お", "kind": "kata"},
+        {"id": "ja-ka-ka", "w": "カ", "r": "ka", "say": "か", "kind": "kata"},
+        {"id": "ja-ka-ki", "w": "キ", "r": "ki", "say": "き", "kind": "kata"},
+        {"id": "ja-ka-ku", "w": "ク", "r": "ku", "say": "く", "kind": "kata"},
+        {"id": "ja-ka-ke", "w": "ケ", "r": "ke", "say": "け", "kind": "kata"},
+        {"id": "ja-ka-ko", "w": "コ", "r": "ko", "say": "こ", "kind": "kata"}
+      ],
+      "pairs": [["ja-ka-a", "ja-ka-o"], ["ja-ka-ki", "ja-ka-ko"], ["ja-ka-u", "ja-ka-e"]],
+      "build": [
+        {"w": "ケーキ", "r": "kēki", "m": "cake"},
+        {"w": "ココア", "r": "kokoa", "m": "cocoa"},
+        {"w": "カカオ", "r": "kakao", "m": "cacao"},
+        {"w": "キウイ", "r": "kiui", "m": "kiwi"}
+      ]
+    },
+    {
+      "id": "ja0-9",
+      "title": "Katakana words",
+      "learn": [
+        {"h": "English in disguise", "p": "Most katakana words are borrowed from English (or other languages) and reshaped into Japanese sounds. Every consonant gets a vowel after it, so “television” became <b>テレビ</b> (terebi) and “taxi” became <b>タクシー</b> (takushī). Say them out loud and you can often guess the meaning!", "ex": ["ja-terebi", "ja-takushii"]}
+      ],
+      "items": [
+        {"id": "ja-koohii", "w": "コーヒー", "r": "kōhī", "m": "coffee", "kind": "word"},
+        {"id": "ja-terebi", "w": "テレビ", "r": "terebi", "m": "TV", "kind": "word"},
+        {"id": "ja-kamera", "w": "カメラ", "r": "kamera", "m": "camera", "kind": "word"},
+        {"id": "ja-pan", "w": "パン", "r": "pan", "m": "bread", "kind": "word"},
+        {"id": "ja-keeki", "w": "ケーキ", "r": "kēki", "m": "cake", "kind": "word"},
+        {"id": "ja-aisu", "w": "アイス", "r": "aisu", "m": "ice cream", "kind": "word"},
+        {"id": "ja-takushii", "w": "タクシー", "r": "takushī", "m": "taxi", "kind": "word"}
+      ],
+      "build": [
+        {"w": "ホテル", "r": "hoteru", "m": "hotel"},
+        {"w": "バス", "r": "basu", "m": "bus"},
+        {"w": "トマト", "r": "tomato", "m": "tomato"}
+      ]
+    },
+    {
+      "id": "ja0-10",
+      "title": "First words",
+      "learn": [
+        {"h": "High and low pitch", "p": "Instead of English-style stress, Japanese words have a <b>pitch melody</b> of high and low beats. はし can mean “chopsticks” or “bridge” depending on the melody. For now, just copy the melody you hear."},
+        {"h": "Kanji preview", "p": "Many words are written with kanji: <b>山</b> (やま yama, mountain), <b>人</b> (ひと hito, person). The same characters exist in Chinese with the same meanings, a head start for both languages!", "ex": ["ja-yama", "ja-hito"]}
+      ],
+      "items": [
+        {"id": "ja-konnichiwa", "w": "こんにちは", "r": "konnichiwa", "say": "こんにちわ", "m": "hello", "kind": "word", "hint": "the final は is read “wa”"},
+        {"id": "ja-arigatou", "w": "ありがとう", "r": "arigatō", "m": "thank you", "kind": "word"},
+        {"id": "ja-sayounara", "w": "さようなら", "r": "sayōnara", "m": "goodbye", "kind": "word"},
+        {"id": "ja-hai", "w": "はい", "r": "hai", "m": "yes", "kind": "word"},
+        {"id": "ja-iie", "w": "いいえ", "r": "iie", "m": "no", "kind": "word"},
+        {"id": "ja-mizu", "w": "みず", "r": "mizu", "m": "water", "kind": "word"},
+        {"id": "ja-yama", "w": "山", "k": "やま", "r": "yama", "m": "mountain", "kind": "word", "cousin": "Chinese 山 shān · Korean 산 san"},
+        {"id": "ja-hito", "w": "人", "k": "ひと", "r": "hito", "m": "person", "kind": "word", "cousin": "Chinese 人 rén"}
+      ],
+      "build": [
+        {"w": "おはよう", "r": "ohayō", "m": "good morning"},
+        {"w": "すみません", "r": "sumimasen", "m": "excuse me / sorry"},
+        {"w": "おいしい", "r": "oishii", "m": "delicious"}
+      ]
+    },
+    {
+      "id": "ja0-R",
+      "title": "Tier 0 review",
+      "review": true
+    }
+  ]
+}

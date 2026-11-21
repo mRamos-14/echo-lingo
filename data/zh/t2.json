@@ -1,0 +1,2364 @@
+{
+ "lang": "zh",
+ "tier": 2,
+ "name": "Lower elementary",
+ "sub": "Everyday verbs, places, time, shopping and daily life (≈ HSK 1)",
+ "lessons": [
+  {
+   "id": "zh2-1",
+   "title": "Everyday verbs",
+   "unit": "Unit 1 · Doing things",
+   "learn": [
+    {
+     "h": "Verbs never change",
+     "p": "Chinese verbs have no endings: 我听, 他听, 我们听 all use the same 听. Time words and little helper words show when things happen."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-听",
+     "w": "听",
+     "r": "tīng",
+     "m": "to listen",
+     "kind": "char"
+    },
+    {
+     "id": "zh-写",
+     "w": "写",
+     "r": "xiě",
+     "m": "to write",
+     "kind": "char"
+    },
+    {
+     "id": "zh-读",
+     "w": "读",
+     "r": "dú",
+     "m": "to read aloud",
+     "kind": "char"
+    },
+    {
+     "id": "zh-学习",
+     "w": "学习",
+     "r": "xuéxí",
+     "m": "to study",
+     "kind": "word"
+    },
+    {
+     "id": "zh-音乐",
+     "w": "音乐",
+     "r": "yīnyuè",
+     "m": "music",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我学习汉语。",
+     "w": "我学习汉语。",
+     "r": "wǒ xuéxí Hànyǔ.",
+     "m": "I study Chinese.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "学习",
+      "汉语"
+     ]
+    },
+    {
+     "id": "zh-他听音乐。",
+     "w": "他听音乐。",
+     "r": "tā tīng yīnyuè.",
+     "m": "He listens to music.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "听",
+      "音乐"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-2",
+   "title": "不 and 没",
+   "learn": [
+    {
+     "h": "Two kinds of “not”",
+     "p": "<b>不</b> (bù) = don't / won't (habits, the future). <b>没</b> (méi) = didn't / haven't (the past). 我不去 = I'm not going. 我没去 = I didn't go.",
+     "ex": [
+      "zh-我不去。",
+      "zh-我没去。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-不",
+     "w": "不",
+     "r": "bù",
+     "m": "not / don't",
+     "kind": "char"
+    },
+    {
+     "id": "zh-没",
+     "w": "没",
+     "r": "méi",
+     "m": "didn't / haven't",
+     "kind": "char"
+    },
+    {
+     "id": "zh-酒",
+     "w": "酒",
+     "r": "jiǔ",
+     "m": "alcohol",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我不去。",
+     "w": "我不去。",
+     "r": "wǒ bú qù.",
+     "m": "I'm not going.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "不",
+      "去"
+     ]
+    },
+    {
+     "id": "zh-我没去。",
+     "w": "我没去。",
+     "r": "wǒ méi qù.",
+     "m": "I didn't go.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "没",
+      "去"
+     ]
+    },
+    {
+     "id": "zh-他不喝酒。",
+     "w": "他不喝酒。",
+     "r": "tā bù hē jiǔ.",
+     "m": "He doesn't drink alcohol.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "不",
+      "喝",
+      "酒"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "没 + verb = didn't",
+     "ex": "zh-我没去。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "没",
+       "m": "didn't",
+       "r": "m",
+       "alt": [
+        "不"
+       ]
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      }
+     ]
+    },
+    {
+     "f": "不 + verb = won't / don't",
+     "ex": "zh-我不去。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "不",
+       "m": "not (won't)",
+       "r": "m",
+       "alt": [
+        "没"
+       ]
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-3",
+   "title": "Work",
+   "learn": [
+    {
+     "h": "在 + place + verb",
+     "p": "To say where you do something, put <b>在 + place</b> before the verb: 我在公司工作 = I work at a company.",
+     "ex": [
+      "zh-我在公司工作。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-工作",
+     "w": "工作",
+     "r": "gōngzuò",
+     "m": "to work / job",
+     "kind": "word"
+    },
+    {
+     "id": "zh-上班",
+     "w": "上班",
+     "r": "shàngbān",
+     "m": "go to work",
+     "kind": "word"
+    },
+    {
+     "id": "zh-下班",
+     "w": "下班",
+     "r": "xiàbān",
+     "m": "get off work",
+     "kind": "word"
+    },
+    {
+     "id": "zh-公司",
+     "w": "公司",
+     "r": "gōngsī",
+     "m": "company",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我在公司工作。",
+     "w": "我在公司工作。",
+     "r": "wǒ zài gōngsī gōngzuò.",
+     "m": "I work at a company.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "在",
+      "公司",
+      "工作"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "在 + place + verb",
+     "ex": "zh-我在公司工作。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "在",
+       "m": "at",
+       "r": "p",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "公司",
+       "m": "company",
+       "r": "t"
+      },
+      {
+       "w": "工作",
+       "m": "work",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-4",
+   "title": "Library and cafe",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-图书馆",
+     "w": "图书馆",
+     "r": "túshūguǎn",
+     "m": "library",
+     "kind": "word"
+    },
+    {
+     "id": "zh-饭馆",
+     "w": "饭馆",
+     "r": "fànguǎn",
+     "m": "restaurant",
+     "kind": "word"
+    },
+    {
+     "id": "zh-咖啡馆",
+     "w": "咖啡馆",
+     "r": "kāfēiguǎn",
+     "m": "cafe",
+     "kind": "word"
+    },
+    {
+     "id": "zh-看书",
+     "w": "看书",
+     "r": "kàn shū",
+     "m": "to read (books)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-他在图书馆看书。",
+     "w": "他在图书馆看书。",
+     "r": "tā zài túshūguǎn kàn shū.",
+     "m": "He reads at the library.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "在",
+      "图书馆",
+      "看书"
+     ]
+    },
+    {
+     "id": "zh-我们在饭馆吃饭。",
+     "w": "我们在饭馆吃饭。",
+     "r": "wǒmen zài fànguǎn chīfàn.",
+     "m": "We eat at a restaurant.",
+     "kind": "sent",
+     "toks": [
+      "我们",
+      "在",
+      "饭馆",
+      "吃饭"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-5",
+   "title": "By subway",
+   "learn": [
+    {
+     "h": "坐 = take (transport)",
+     "p": "You “sit” on transport: <b>坐</b> 地铁 = take the subway. A car you drive: <b>开车</b>.",
+     "ex": [
+      "zh-我坐地铁去学校。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-坐",
+     "w": "坐",
+     "r": "zuò",
+     "m": "to sit / take (transport)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-开车",
+     "w": "开车",
+     "r": "kāichē",
+     "m": "to drive",
+     "kind": "word"
+    },
+    {
+     "id": "zh-地铁",
+     "w": "地铁",
+     "r": "dìtiě",
+     "m": "subway",
+     "kind": "word"
+    },
+    {
+     "id": "zh-公共汽车",
+     "w": "公共汽车",
+     "r": "gōnggòng qìchē",
+     "m": "bus",
+     "kind": "word"
+    },
+    {
+     "id": "zh-出租车",
+     "w": "出租车",
+     "r": "chūzūchē",
+     "m": "taxi",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我坐地铁去学校。",
+     "w": "我坐地铁去学校。",
+     "r": "wǒ zuò dìtiě qù xuéxiào.",
+     "m": "I take the subway to school.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "坐",
+      "地铁",
+      "去",
+      "学校"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "坐 + transport + 去 + place",
+     "ex": "zh-我坐地铁去学校。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "坐",
+       "m": "take (ride)",
+       "r": "v",
+       "alt": [
+        "开"
+       ]
+      },
+      {
+       "w": "地铁",
+       "m": "subway",
+       "r": "n"
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      },
+      {
+       "w": "学校",
+       "m": "school",
+       "r": "t"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-6",
+   "title": "Here and there",
+   "unit": "Unit 2 · Where",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-这儿",
+     "w": "这儿",
+     "r": "zhèr",
+     "m": "here",
+     "kind": "word"
+    },
+    {
+     "id": "zh-那儿",
+     "w": "那儿",
+     "r": "nàr",
+     "m": "there",
+     "kind": "word"
+    },
+    {
+     "id": "zh-银行",
+     "w": "银行",
+     "r": "yínháng",
+     "m": "bank",
+     "kind": "word"
+    },
+    {
+     "id": "zh-前面",
+     "w": "前面",
+     "r": "qiánmiàn",
+     "m": "in front",
+     "kind": "word"
+    },
+    {
+     "id": "zh-银行在那儿。",
+     "w": "银行在那儿。",
+     "r": "yínháng zài nàr.",
+     "m": "The bank is over there.",
+     "kind": "sent",
+     "toks": [
+      "银行",
+      "在",
+      "那儿"
+     ]
+    },
+    {
+     "id": "zh-银行在前面。",
+     "w": "银行在前面。",
+     "r": "yínháng zài qiánmiàn.",
+     "m": "The bank is up ahead.",
+     "kind": "sent",
+     "toks": [
+      "银行",
+      "在",
+      "前面"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-7",
+   "title": "On, under, inside",
+   "learn": [
+    {
+     "h": "Thing + position",
+     "p": "Position words go after the thing: 桌子上面 = on the table, 书包里面 = inside the schoolbag.",
+     "ex": [
+      "zh-书在桌子上面。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-上面",
+     "w": "上面",
+     "r": "shàngmiàn",
+     "m": "on top",
+     "kind": "word"
+    },
+    {
+     "id": "zh-下面",
+     "w": "下面",
+     "r": "xiàmiàn",
+     "m": "below",
+     "kind": "word"
+    },
+    {
+     "id": "zh-里面",
+     "w": "里面",
+     "r": "lǐmiàn",
+     "m": "inside",
+     "kind": "word"
+    },
+    {
+     "id": "zh-旁边",
+     "w": "旁边",
+     "r": "pángbiān",
+     "m": "beside",
+     "kind": "word"
+    },
+    {
+     "id": "zh-后面",
+     "w": "后面",
+     "r": "hòumiàn",
+     "m": "behind",
+     "kind": "word"
+    },
+    {
+     "id": "zh-书在桌子上面。",
+     "w": "书在桌子上面。",
+     "r": "shū zài zhuōzi shàngmiàn.",
+     "m": "The book is on the table.",
+     "kind": "sent",
+     "toks": [
+      "书",
+      "在",
+      "桌子",
+      "上面"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "[thing] 在 [place] 上面",
+     "ex": "zh-书在桌子上面。",
+     "parts": [
+      {
+       "w": "书",
+       "m": "book",
+       "r": "n"
+      },
+      {
+       "w": "在",
+       "m": "is at",
+       "r": "v",
+       "alt": [
+        "是"
+       ]
+      },
+      {
+       "w": "桌子",
+       "m": "table",
+       "r": "n"
+      },
+      {
+       "w": "上面",
+       "m": "on top",
+       "r": "t",
+       "alt": [
+        "下面"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-8",
+   "title": "Left and right",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-左边",
+     "w": "左边",
+     "r": "zuǒbian",
+     "m": "left side",
+     "kind": "word"
+    },
+    {
+     "id": "zh-右边",
+     "w": "右边",
+     "r": "yòubian",
+     "m": "right side",
+     "kind": "word"
+    },
+    {
+     "id": "zh-往",
+     "w": "往",
+     "r": "wǎng",
+     "m": "towards",
+     "kind": "char"
+    },
+    {
+     "id": "zh-左",
+     "w": "左",
+     "r": "zuǒ",
+     "m": "left",
+     "kind": "char"
+    },
+    {
+     "id": "zh-前",
+     "w": "前",
+     "r": "qián",
+     "m": "front / forward",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一直",
+     "w": "一直",
+     "r": "yìzhí",
+     "m": "straight / all the way",
+     "kind": "word"
+    },
+    {
+     "id": "zh-往左走。",
+     "w": "往左走。",
+     "r": "wǎng zuǒ zǒu.",
+     "m": "Go left.",
+     "kind": "sent",
+     "toks": [
+      "往",
+      "左",
+      "走"
+     ]
+    },
+    {
+     "id": "zh-一直往前走。",
+     "w": "一直往前走。",
+     "r": "yìzhí wǎng qián zǒu.",
+     "m": "Go straight ahead.",
+     "kind": "sent",
+     "toks": [
+      "一直",
+      "往",
+      "前",
+      "走"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-9",
+   "title": "Little sentence endings",
+   "learn": [
+    {
+     "h": "吧 and 呢",
+     "p": "<b>吧</b> (ba) softens a suggestion: 我们走吧 = let's go. <b>呢</b> (ne) asks “what about…?” or “where's…?”: 你的书呢？ = where's your book?",
+     "ex": [
+      "zh-我们走吧。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-吧",
+     "w": "吧",
+     "r": "ba",
+     "m": "(softens a suggestion)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-对",
+     "w": "对",
+     "r": "duì",
+     "m": "correct / right",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我们走吧。",
+     "w": "我们走吧。",
+     "r": "wǒmen zǒu ba.",
+     "m": "Let's go.",
+     "kind": "sent",
+     "toks": [
+      "我们",
+      "走",
+      "吧"
+     ]
+    },
+    {
+     "id": "zh-你的书呢？",
+     "w": "你的书呢？",
+     "r": "nǐ de shū ne?",
+     "m": "Where's your book?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "的",
+      "书",
+      "呢"
+     ]
+    },
+    {
+     "id": "zh-好吧。",
+     "w": "好吧。",
+     "r": "hǎo ba.",
+     "m": "Okay then.",
+     "kind": "sent",
+     "toks": [
+      "好",
+      "吧"
+     ]
+    },
+    {
+     "id": "zh-是吗？",
+     "w": "是吗？",
+     "r": "shì ma?",
+     "m": "Really?",
+     "kind": "sent",
+     "toks": [
+      "是",
+      "吗"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "… 吧 = let's",
+     "ex": "zh-我们走吧。",
+     "parts": [
+      {
+       "w": "我们",
+       "m": "we",
+       "r": "n"
+      },
+      {
+       "w": "走",
+       "m": "go",
+       "r": "v"
+      },
+      {
+       "w": "吧",
+       "m": "(let's)",
+       "r": "p",
+       "alt": [
+        "吗"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-10",
+   "title": "Also and all",
+   "learn": [
+    {
+     "h": "也 and 都 go before the verb",
+     "p": "<b>也</b> (also) and <b>都</b> (all) always sit right before the verb: 我们都是学生 = we are all students.",
+     "ex": [
+      "zh-我们都是学生。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-都",
+     "w": "都",
+     "r": "dōu",
+     "m": "all / both",
+     "kind": "char"
+    },
+    {
+     "id": "zh-大家",
+     "w": "大家",
+     "r": "dàjiā",
+     "m": "everyone",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我们都是学生。",
+     "w": "我们都是学生。",
+     "r": "wǒmen dōu shì xuésheng.",
+     "m": "We're all students.",
+     "kind": "sent",
+     "toks": [
+      "我们",
+      "都",
+      "是",
+      "学生"
+     ]
+    },
+    {
+     "id": "zh-他也喜欢猫。",
+     "w": "他也喜欢猫。",
+     "r": "tā yě xǐhuan māo.",
+     "m": "He likes cats too.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "也",
+      "喜欢",
+      "猫"
+     ]
+    },
+    {
+     "id": "zh-大家好！",
+     "w": "大家好！",
+     "r": "dàjiā hǎo!",
+     "m": "Hello, everyone!",
+     "kind": "sent",
+     "toks": [
+      "大家",
+      "好"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "都 goes before the verb",
+     "ex": "zh-我们都是学生。",
+     "parts": [
+      {
+       "w": "我们",
+       "m": "we",
+       "r": "n"
+      },
+      {
+       "w": "都",
+       "m": "all",
+       "r": "m",
+       "alt": [
+        "也"
+       ]
+      },
+      {
+       "w": "是",
+       "m": "are",
+       "r": "v"
+      },
+      {
+       "w": "学生",
+       "m": "students",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-11",
+   "title": "Times of day",
+   "unit": "Unit 3 · Time",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-早上",
+     "w": "早上",
+     "r": "zǎoshang",
+     "m": "morning",
+     "kind": "word"
+    },
+    {
+     "id": "zh-中午",
+     "w": "中午",
+     "r": "zhōngwǔ",
+     "m": "noon",
+     "kind": "word"
+    },
+    {
+     "id": "zh-下午",
+     "w": "下午",
+     "r": "xiàwǔ",
+     "m": "afternoon",
+     "kind": "word"
+    },
+    {
+     "id": "zh-晚上",
+     "w": "晚上",
+     "r": "wǎnshang",
+     "m": "evening",
+     "kind": "word"
+    },
+    {
+     "id": "zh-早饭",
+     "w": "早饭",
+     "r": "zǎofàn",
+     "m": "breakfast",
+     "kind": "word"
+    },
+    {
+     "id": "zh-午饭",
+     "w": "午饭",
+     "r": "wǔfàn",
+     "m": "lunch",
+     "kind": "word"
+    },
+    {
+     "id": "zh-晚饭",
+     "w": "晚饭",
+     "r": "wǎnfàn",
+     "m": "dinner",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我早上喝咖啡。",
+     "w": "我早上喝咖啡。",
+     "r": "wǒ zǎoshang hē kāfēi.",
+     "m": "I drink coffee in the morning.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "早上",
+      "喝",
+      "咖啡"
+     ]
+    },
+    {
+     "id": "zh-晚饭很好吃。",
+     "w": "晚饭很好吃。",
+     "r": "wǎnfàn hěn hǎochī.",
+     "m": "Dinner is tasty.",
+     "kind": "sent",
+     "toks": [
+      "晚饭",
+      "很",
+      "好吃"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-12",
+   "title": "Days of the week",
+   "learn": [
+    {
+     "h": "Just count!",
+     "p": "Days are <b>星期</b> (week) + a number: 星期一 = Monday, 星期二 = Tuesday… Sunday is 星期天."
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-星期一",
+     "w": "星期一",
+     "r": "xīngqīyī",
+     "m": "Monday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-星期二",
+     "w": "星期二",
+     "r": "xīngqī'èr",
+     "m": "Tuesday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-星期三",
+     "w": "星期三",
+     "r": "xīngqīsān",
+     "m": "Wednesday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-星期四",
+     "w": "星期四",
+     "r": "xīngqīsì",
+     "m": "Thursday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-星期五",
+     "w": "星期五",
+     "r": "xīngqīwǔ",
+     "m": "Friday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-星期六",
+     "w": "星期六",
+     "r": "xīngqīliù",
+     "m": "Saturday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-星期天",
+     "w": "星期天",
+     "r": "xīngqītiān",
+     "m": "Sunday",
+     "kind": "word"
+    },
+    {
+     "id": "zh-今天星期一。",
+     "w": "今天星期一。",
+     "r": "jīntiān xīngqīyī.",
+     "m": "Today is Monday.",
+     "kind": "sent",
+     "toks": [
+      "今天",
+      "星期一"
+     ]
+    },
+    {
+     "id": "zh-明天星期六。",
+     "w": "明天星期六。",
+     "r": "míngtiān xīngqīliù.",
+     "m": "Tomorrow is Saturday.",
+     "kind": "sent",
+     "toks": [
+      "明天",
+      "星期六"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-13",
+   "title": "The week",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-星期",
+     "w": "星期",
+     "r": "xīngqī",
+     "m": "week",
+     "kind": "word"
+    },
+    {
+     "id": "zh-周末",
+     "w": "周末",
+     "r": "zhōumò",
+     "m": "weekend",
+     "kind": "word"
+    },
+    {
+     "id": "zh-每天",
+     "w": "每天",
+     "r": "měitiān",
+     "m": "every day",
+     "kind": "word"
+    },
+    {
+     "id": "zh-休息",
+     "w": "休息",
+     "r": "xiūxi",
+     "m": "to rest",
+     "kind": "word"
+    },
+    {
+     "id": "zh-今天星期几？",
+     "w": "今天星期几？",
+     "r": "jīntiān xīngqī jǐ?",
+     "m": "What day is it today?",
+     "kind": "sent",
+     "toks": [
+      "今天",
+      "星期",
+      "几"
+     ]
+    },
+    {
+     "id": "zh-今天星期五。",
+     "w": "今天星期五。",
+     "r": "jīntiān xīngqīwǔ.",
+     "m": "Today is Friday.",
+     "kind": "sent",
+     "toks": [
+      "今天",
+      "星期五"
+     ]
+    },
+    {
+     "id": "zh-周末我休息。",
+     "w": "周末我休息。",
+     "r": "zhōumò wǒ xiūxi.",
+     "m": "I rest on weekends.",
+     "kind": "sent",
+     "toks": [
+      "周末",
+      "我",
+      "休息"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "星期 几？",
+     "ex": "zh-今天星期几？",
+     "parts": [
+      {
+       "w": "今天",
+       "m": "today",
+       "r": "t"
+      },
+      {
+       "w": "星期",
+       "m": "day of the week",
+       "r": "n"
+      },
+      {
+       "w": "几",
+       "m": "which number",
+       "r": "q",
+       "alt": [
+        "什么"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-14",
+   "title": "What time is it?",
+   "learn": [
+    {
+     "h": "点 = o'clock",
+     "p": "Hours are number + <b>点</b> (diǎn): 三点 = 3:00. Two o'clock is 两点, not 二点.",
+     "ex": [
+      "zh-现在几点？"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-点",
+     "w": "点",
+     "r": "diǎn",
+     "m": "o'clock",
+     "kind": "char"
+    },
+    {
+     "id": "zh-两点",
+     "w": "两点",
+     "r": "liǎng diǎn",
+     "m": "two o'clock",
+     "kind": "sent",
+     "toks": [
+      "两",
+      "点"
+     ]
+    },
+    {
+     "id": "zh-十二点",
+     "w": "十二点",
+     "r": "shí'èr diǎn",
+     "m": "twelve o'clock",
+     "kind": "sent",
+     "toks": [
+      "十二",
+      "点"
+     ]
+    },
+    {
+     "id": "zh-现在几点？",
+     "w": "现在几点？",
+     "r": "xiànzài jǐ diǎn?",
+     "m": "What time is it now?",
+     "kind": "sent",
+     "toks": [
+      "现在",
+      "几",
+      "点"
+     ]
+    },
+    {
+     "id": "zh-三点了。",
+     "w": "三点了。",
+     "r": "sān diǎn le.",
+     "m": "It's three o'clock.",
+     "kind": "sent",
+     "toks": [
+      "三",
+      "点",
+      "了"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "几 点？",
+     "ex": "zh-现在几点？",
+     "parts": [
+      {
+       "w": "现在",
+       "m": "now",
+       "r": "t"
+      },
+      {
+       "w": "几",
+       "m": "what (number)",
+       "r": "q"
+      },
+      {
+       "w": "点",
+       "m": "o'clock",
+       "r": "n",
+       "alt": [
+        "个"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-15",
+   "title": "Minutes and half past",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-分",
+     "w": "分",
+     "r": "fēn",
+     "m": "minute",
+     "kind": "char"
+    },
+    {
+     "id": "zh-半",
+     "w": "半",
+     "r": "bàn",
+     "m": "half",
+     "kind": "char"
+    },
+    {
+     "id": "zh-刻",
+     "w": "刻",
+     "r": "kè",
+     "m": "quarter (hour)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-时间",
+     "w": "时间",
+     "r": "shíjiān",
+     "m": "time",
+     "kind": "word"
+    },
+    {
+     "id": "zh-三点半",
+     "w": "三点半",
+     "r": "sān diǎn bàn",
+     "m": "three thirty",
+     "kind": "sent",
+     "toks": [
+      "三",
+      "点",
+      "半"
+     ]
+    },
+    {
+     "id": "zh-八点一刻",
+     "w": "八点一刻",
+     "r": "bā diǎn yí kè",
+     "m": "a quarter past eight",
+     "kind": "sent",
+     "toks": [
+      "八",
+      "点",
+      "一",
+      "刻"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-16",
+   "title": "Buying and selling",
+   "unit": "Unit 4 · Shopping",
+   "learn": [
+    {
+     "h": "买 vs 卖",
+     "p": "<b>买</b> (mǎi, 3rd tone) = buy. <b>卖</b> (mài, 4th tone) = sell. Same sound, different tone: listen carefully!",
+     "ex": [
+      "zh-买",
+      "zh-卖"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-买",
+     "w": "买",
+     "r": "mǎi",
+     "m": "to buy",
+     "kind": "char"
+    },
+    {
+     "id": "zh-卖",
+     "w": "卖",
+     "r": "mài",
+     "m": "to sell",
+     "kind": "char"
+    },
+    {
+     "id": "zh-贵",
+     "w": "贵",
+     "r": "guì",
+     "m": "expensive",
+     "kind": "char"
+    },
+    {
+     "id": "zh-便宜",
+     "w": "便宜",
+     "r": "piányi",
+     "m": "cheap",
+     "kind": "word"
+    },
+    {
+     "id": "zh-太贵了！",
+     "w": "太贵了！",
+     "r": "tài guì le!",
+     "m": "It's too expensive!",
+     "kind": "sent",
+     "toks": [
+      "太",
+      "贵",
+      "了"
+     ]
+    },
+    {
+     "id": "zh-便宜一点儿吧。",
+     "w": "便宜一点儿吧。",
+     "r": "piányi yìdiǎnr ba.",
+     "m": "Make it a bit cheaper.",
+     "kind": "sent",
+     "toks": [
+      "便宜",
+      "一点儿",
+      "吧"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "太 … 了！ = too …!",
+     "ex": "zh-太贵了！",
+     "parts": [
+      {
+       "w": "太",
+       "m": "too",
+       "r": "m",
+       "alt": [
+        "很"
+       ]
+      },
+      {
+       "w": "贵",
+       "m": "expensive",
+       "r": "a"
+      },
+      {
+       "w": "了",
+       "m": "(!)",
+       "r": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-17",
+   "title": "Paying",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-元",
+     "w": "元",
+     "r": "yuán",
+     "m": "yuan (written)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-百",
+     "w": "百",
+     "r": "bǎi",
+     "m": "hundred",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一共",
+     "w": "一共",
+     "r": "yígòng",
+     "m": "altogether",
+     "kind": "word"
+    },
+    {
+     "id": "zh-一共多少钱？",
+     "w": "一共多少钱？",
+     "r": "yígòng duōshao qián?",
+     "m": "How much altogether?",
+     "kind": "sent",
+     "toks": [
+      "一共",
+      "多少",
+      "钱"
+     ]
+    },
+    {
+     "id": "zh-一共五十块。",
+     "w": "一共五十块。",
+     "r": "yígòng wǔshí kuài.",
+     "m": "Fifty yuan altogether.",
+     "kind": "sent",
+     "toks": [
+      "一共",
+      "五十",
+      "块"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-18",
+   "title": "Clothes",
+   "learn": [
+    {
+     "h": "双 = a pair",
+     "p": "Shoes and socks come in pairs: 一<b>双</b>鞋 = a pair of shoes.",
+     "ex": [
+      "zh-我想买一双鞋。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-衣服",
+     "w": "衣服",
+     "r": "yīfu",
+     "m": "clothes",
+     "kind": "word"
+    },
+    {
+     "id": "zh-裤子",
+     "w": "裤子",
+     "r": "kùzi",
+     "m": "pants",
+     "kind": "word"
+    },
+    {
+     "id": "zh-鞋",
+     "w": "鞋",
+     "r": "xié",
+     "m": "shoes",
+     "kind": "char"
+    },
+    {
+     "id": "zh-帽子",
+     "w": "帽子",
+     "r": "màozi",
+     "m": "hat",
+     "kind": "word"
+    },
+    {
+     "id": "zh-双",
+     "w": "双",
+     "r": "shuāng",
+     "m": "pair",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我想买一双鞋。",
+     "w": "我想买一双鞋。",
+     "r": "wǒ xiǎng mǎi yì shuāng xié.",
+     "m": "I'd like to buy a pair of shoes.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "想",
+      "买",
+      "一",
+      "双",
+      "鞋"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "一 双 + shoes",
+     "ex": "zh-我想买一双鞋。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "想",
+       "m": "would like to",
+       "r": "m"
+      },
+      {
+       "w": "买",
+       "m": "buy",
+       "r": "v",
+       "alt": [
+        "卖"
+       ]
+      },
+      {
+       "w": "一",
+       "m": "one",
+       "r": "m"
+      },
+      {
+       "w": "双",
+       "m": "pair",
+       "r": "p",
+       "alt": [
+        "本"
+       ]
+      },
+      {
+       "w": "鞋",
+       "m": "shoes",
+       "r": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-19",
+   "title": "Trying things on",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-大小",
+     "w": "大小",
+     "r": "dàxiǎo",
+     "m": "size",
+     "kind": "word"
+    },
+    {
+     "id": "zh-合适",
+     "w": "合适",
+     "r": "héshì",
+     "m": "fitting / suitable",
+     "kind": "word"
+    },
+    {
+     "id": "zh-试试",
+     "w": "试试",
+     "r": "shìshi",
+     "m": "to try (on)",
+     "kind": "word"
+    },
+    {
+     "id": "zh-可以",
+     "w": "可以",
+     "r": "kěyǐ",
+     "m": "may / can",
+     "kind": "word"
+    },
+    {
+     "id": "zh-可以试试吗？",
+     "w": "可以试试吗？",
+     "r": "kěyǐ shìshi ma?",
+     "m": "Can I try it on?",
+     "kind": "sent",
+     "toks": [
+      "可以",
+      "试试",
+      "吗"
+     ]
+    },
+    {
+     "id": "zh-有大一点儿的吗？",
+     "w": "有大一点儿的吗？",
+     "r": "yǒu dà yìdiǎnr de ma?",
+     "m": "Do you have a bigger one?",
+     "kind": "sent",
+     "toks": [
+      "有",
+      "大",
+      "一点儿",
+      "的",
+      "吗"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-20",
+   "title": "At a restaurant",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-菜单",
+     "w": "菜单",
+     "r": "càidān",
+     "m": "menu",
+     "kind": "word"
+    },
+    {
+     "id": "zh-服务员",
+     "w": "服务员",
+     "r": "fúwùyuán",
+     "m": "waiter / waitress",
+     "kind": "word"
+    },
+    {
+     "id": "zh-点菜",
+     "w": "点菜",
+     "r": "diǎn cài",
+     "m": "to order food",
+     "kind": "word"
+    },
+    {
+     "id": "zh-买单",
+     "w": "买单",
+     "r": "mǎidān",
+     "m": "the bill, please",
+     "kind": "word"
+    },
+    {
+     "id": "zh-服务员，点菜！",
+     "w": "服务员，点菜！",
+     "r": "fúwùyuán, diǎn cài!",
+     "m": "Waiter, we'd like to order!",
+     "kind": "sent",
+     "toks": [
+      "服务员",
+      "点菜"
+     ]
+    },
+    {
+     "id": "zh-我要这个。",
+     "w": "我要这个。",
+     "r": "wǒ yào zhège.",
+     "m": "I'll have this.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "要",
+      "这个"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-21",
+   "title": "Morning and night",
+   "unit": "Unit 5 · My day",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-起床",
+     "w": "起床",
+     "r": "qǐchuáng",
+     "m": "to get up",
+     "kind": "word"
+    },
+    {
+     "id": "zh-睡觉",
+     "w": "睡觉",
+     "r": "shuìjiào",
+     "m": "to sleep / go to bed",
+     "kind": "word"
+    },
+    {
+     "id": "zh-洗澡",
+     "w": "洗澡",
+     "r": "xǐzǎo",
+     "m": "to shower / bathe",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我七点起床。",
+     "w": "我七点起床。",
+     "r": "wǒ qī diǎn qǐchuáng.",
+     "m": "I get up at seven.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "七",
+      "点",
+      "起床"
+     ]
+    },
+    {
+     "id": "zh-你几点睡觉？",
+     "w": "你几点睡觉？",
+     "r": "nǐ jǐ diǎn shuìjiào?",
+     "m": "What time do you go to bed?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "几",
+      "点",
+      "睡觉"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "who + time + action",
+     "ex": "zh-我七点起床。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "七",
+       "m": "seven",
+       "r": "m"
+      },
+      {
+       "w": "点",
+       "m": "o'clock",
+       "r": "n"
+      },
+      {
+       "w": "起床",
+       "m": "get up",
+       "r": "v",
+       "alt": [
+        "睡觉"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-22",
+   "title": "School",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-上课",
+     "w": "上课",
+     "r": "shàngkè",
+     "m": "to have class",
+     "kind": "word"
+    },
+    {
+     "id": "zh-下课",
+     "w": "下课",
+     "r": "xiàkè",
+     "m": "class is over",
+     "kind": "word"
+    },
+    {
+     "id": "zh-作业",
+     "w": "作业",
+     "r": "zuòyè",
+     "m": "homework",
+     "kind": "word"
+    },
+    {
+     "id": "zh-考试",
+     "w": "考试",
+     "r": "kǎoshì",
+     "m": "exam",
+     "kind": "word"
+    },
+    {
+     "id": "zh-做",
+     "w": "做",
+     "r": "zuò",
+     "m": "to do / make",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我做作业。",
+     "w": "我做作业。",
+     "r": "wǒ zuò zuòyè.",
+     "m": "I'm doing homework.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "做",
+      "作业"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-23",
+   "title": "Hobbies",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-爱好",
+     "w": "爱好",
+     "r": "àihào",
+     "m": "hobby",
+     "kind": "word"
+    },
+    {
+     "id": "zh-电影",
+     "w": "电影",
+     "r": "diànyǐng",
+     "m": "movie",
+     "kind": "word"
+    },
+    {
+     "id": "zh-唱歌",
+     "w": "唱歌",
+     "r": "chànggē",
+     "m": "to sing",
+     "kind": "word"
+    },
+    {
+     "id": "zh-跳舞",
+     "w": "跳舞",
+     "r": "tiàowǔ",
+     "m": "to dance",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你的爱好是什么？",
+     "w": "你的爱好是什么？",
+     "r": "nǐ de àihào shì shénme?",
+     "m": "What's your hobby?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "的",
+      "爱好",
+      "是",
+      "什么"
+     ]
+    },
+    {
+     "id": "zh-我喜欢看电影。",
+     "w": "我喜欢看电影。",
+     "r": "wǒ xǐhuan kàn diànyǐng.",
+     "m": "I like watching movies.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "喜欢",
+      "看",
+      "电影"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-24",
+   "title": "Sports",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-运动",
+     "w": "运动",
+     "r": "yùndòng",
+     "m": "sports / exercise",
+     "kind": "word"
+    },
+    {
+     "id": "zh-足球",
+     "w": "足球",
+     "r": "zúqiú",
+     "m": "soccer",
+     "kind": "word"
+    },
+    {
+     "id": "zh-篮球",
+     "w": "篮球",
+     "r": "lánqiú",
+     "m": "basketball",
+     "kind": "word"
+    },
+    {
+     "id": "zh-游泳",
+     "w": "游泳",
+     "r": "yóuyǒng",
+     "m": "to swim",
+     "kind": "word"
+    },
+    {
+     "id": "zh-踢",
+     "w": "踢",
+     "r": "tī",
+     "m": "to kick / play (soccer)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我喜欢游泳。",
+     "w": "我喜欢游泳。",
+     "r": "wǒ xǐhuan yóuyǒng.",
+     "m": "I like swimming.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "喜欢",
+      "游泳"
+     ]
+    },
+    {
+     "id": "zh-他每天踢足球。",
+     "w": "他每天踢足球。",
+     "r": "tā měitiān tī zúqiú.",
+     "m": "He plays soccer every day.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "每天",
+      "踢",
+      "足球"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-25",
+   "title": "Together",
+   "learn": [
+    {
+     "h": "和…一起",
+     "p": "<b>和</b> (hé) = and / with. <b>一起</b> (together) goes before the verb: 我和朋友一起去 = I'm going with a friend.",
+     "ex": [
+      "zh-我和朋友一起去。"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "zh-和",
+     "w": "和",
+     "r": "hé",
+     "m": "and / with",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一起",
+     "w": "一起",
+     "r": "yìqǐ",
+     "m": "together",
+     "kind": "word"
+    },
+    {
+     "id": "zh-住",
+     "w": "住",
+     "r": "zhù",
+     "m": "to live (somewhere)",
+     "kind": "char"
+    },
+    {
+     "id": "zh-一个人",
+     "w": "一个人",
+     "r": "yí ge rén",
+     "m": "alone",
+     "kind": "word"
+    },
+    {
+     "id": "zh-我和朋友一起去。",
+     "w": "我和朋友一起去。",
+     "r": "wǒ hé péngyou yìqǐ qù.",
+     "m": "I'm going with a friend.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "和",
+      "朋友",
+      "一起",
+      "去"
+     ]
+    },
+    {
+     "id": "zh-他一个人住。",
+     "w": "他一个人住。",
+     "r": "tā yí ge rén zhù.",
+     "m": "He lives alone.",
+     "kind": "sent",
+     "toks": [
+      "他",
+      "一个人",
+      "住"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "和 [person] 一起 + verb",
+     "ex": "zh-我和朋友一起去。",
+     "parts": [
+      {
+       "w": "我",
+       "m": "I",
+       "r": "n"
+      },
+      {
+       "w": "和",
+       "m": "with",
+       "r": "p",
+       "alt": [
+        "的"
+       ]
+      },
+      {
+       "w": "朋友",
+       "m": "friend",
+       "r": "n"
+      },
+      {
+       "w": "一起",
+       "m": "together",
+       "r": "m"
+      },
+      {
+       "w": "去",
+       "m": "go",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-26",
+   "title": "When and why",
+   "unit": "Unit 6 · Questions and feelings",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-什么时候",
+     "w": "什么时候",
+     "r": "shénme shíhou",
+     "m": "when",
+     "kind": "word"
+    },
+    {
+     "id": "zh-为什么",
+     "w": "为什么",
+     "r": "wèishénme",
+     "m": "why",
+     "kind": "word"
+    },
+    {
+     "id": "zh-怎么",
+     "w": "怎么",
+     "r": "zěnme",
+     "m": "how",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你什么时候来？",
+     "w": "你什么时候来？",
+     "r": "nǐ shénme shíhou lái?",
+     "m": "When are you coming?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "什么时候",
+      "来"
+     ]
+    },
+    {
+     "id": "zh-你为什么不去？",
+     "w": "你为什么不去？",
+     "r": "nǐ wèishénme bú qù?",
+     "m": "Why aren't you going?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "为什么",
+      "不",
+      "去"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "f": "question words stay in place",
+     "ex": "zh-你什么时候来？",
+     "parts": [
+      {
+       "w": "你",
+       "m": "you",
+       "r": "n"
+      },
+      {
+       "w": "什么时候",
+       "m": "when",
+       "r": "q",
+       "alt": [
+        "哪儿"
+       ]
+      },
+      {
+       "w": "来",
+       "m": "come",
+       "r": "v"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-27",
+   "title": "Which one?",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-哪个",
+     "w": "哪个",
+     "r": "nǎge",
+     "m": "which one",
+     "kind": "word"
+    },
+    {
+     "id": "zh-什么样",
+     "w": "什么样",
+     "r": "shénmeyàng",
+     "m": "what kind",
+     "kind": "word"
+    },
+    {
+     "id": "zh-你要哪个？",
+     "w": "你要哪个？",
+     "r": "nǐ yào nǎge?",
+     "m": "Which one do you want?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "要",
+      "哪个"
+     ]
+    },
+    {
+     "id": "zh-你喜欢什么颜色？",
+     "w": "你喜欢什么颜色？",
+     "r": "nǐ xǐhuan shénme yánsè?",
+     "m": "What color do you like?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "喜欢",
+      "什么",
+      "颜色"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-28",
+   "title": "How is it?",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-怎么样",
+     "w": "怎么样",
+     "r": "zěnmeyàng",
+     "m": "how is it?",
+     "kind": "word"
+    },
+    {
+     "id": "zh-有意思",
+     "w": "有意思",
+     "r": "yǒu yìsi",
+     "m": "interesting",
+     "kind": "word"
+    },
+    {
+     "id": "zh-难",
+     "w": "难",
+     "r": "nán",
+     "m": "difficult",
+     "kind": "char"
+    },
+    {
+     "id": "zh-容易",
+     "w": "容易",
+     "r": "róngyì",
+     "m": "easy",
+     "kind": "word"
+    },
+    {
+     "id": "zh-汉语难吗？",
+     "w": "汉语难吗？",
+     "r": "Hànyǔ nán ma?",
+     "m": "Is Chinese difficult?",
+     "kind": "sent",
+     "toks": [
+      "汉语",
+      "难",
+      "吗"
+     ]
+    },
+    {
+     "id": "zh-这个电影怎么样？",
+     "w": "这个电影怎么样？",
+     "r": "zhège diànyǐng zěnmeyàng?",
+     "m": "How's this movie?",
+     "kind": "sent",
+     "toks": [
+      "这个",
+      "电影",
+      "怎么样"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-29",
+   "title": "Phone numbers",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-手机",
+     "w": "手机",
+     "r": "shǒujī",
+     "m": "cell phone",
+     "kind": "word"
+    },
+    {
+     "id": "zh-电话",
+     "w": "电话",
+     "r": "diànhuà",
+     "m": "telephone",
+     "kind": "word"
+    },
+    {
+     "id": "zh-号码",
+     "w": "号码",
+     "r": "hàomǎ",
+     "m": "number",
+     "kind": "word"
+    },
+    {
+     "id": "zh-打电话",
+     "w": "打电话",
+     "r": "dǎ diànhuà",
+     "m": "to make a phone call",
+     "kind": "word"
+    },
+    {
+     "id": "zh-给",
+     "w": "给",
+     "r": "gěi",
+     "m": "to give / for",
+     "kind": "char"
+    },
+    {
+     "id": "zh-你的手机号码是多少？",
+     "w": "你的手机号码是多少？",
+     "r": "nǐ de shǒujī hàomǎ shì duōshao?",
+     "m": "What's your cell number?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "的",
+      "手机",
+      "号码",
+      "是",
+      "多少"
+     ]
+    },
+    {
+     "id": "zh-给我打电话。",
+     "w": "给我打电话。",
+     "r": "gěi wǒ dǎ diànhuà.",
+     "m": "Give me a call.",
+     "kind": "sent",
+     "toks": [
+      "给",
+      "我",
+      "打电话"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-30",
+   "title": "Feelings",
+   "learn": [],
+   "items": [
+    {
+     "id": "zh-高兴",
+     "w": "高兴",
+     "r": "gāoxìng",
+     "m": "happy",
+     "kind": "word"
+    },
+    {
+     "id": "zh-累",
+     "w": "累",
+     "r": "lèi",
+     "m": "tired",
+     "kind": "char"
+    },
+    {
+     "id": "zh-饿",
+     "w": "饿",
+     "r": "è",
+     "m": "hungry",
+     "kind": "char"
+    },
+    {
+     "id": "zh-忙",
+     "w": "忙",
+     "r": "máng",
+     "m": "busy",
+     "kind": "char"
+    },
+    {
+     "id": "zh-我很累。",
+     "w": "我很累。",
+     "r": "wǒ hěn lèi.",
+     "m": "I'm very tired.",
+     "kind": "sent",
+     "toks": [
+      "我",
+      "很",
+      "累"
+     ]
+    },
+    {
+     "id": "zh-你饿吗？",
+     "w": "你饿吗？",
+     "r": "nǐ è ma?",
+     "m": "Are you hungry?",
+     "kind": "sent",
+     "toks": [
+      "你",
+      "饿",
+      "吗"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zh2-R",
+   "title": "Tier 2 review",
+   "review": true
+  }
+ ]
+}

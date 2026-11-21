@@ -1,0 +1,11 @@
+# Voice engine stays local (model ~4.6 GB, Python env, CosyVoice checkout, test renders)
+engine/.venv/
+engine/models/
+engine/CosyVoice/
+engine/voice_test/
+engine/req-win.txt
+engine/build-constraints.txt
+engine/ja_probe.py
+__pycache__/
+*.pyc
+*.wav

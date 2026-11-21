@@ -1,0 +1,225 @@
+{
+  "lang": "ko",
+  "tier": 0,
+  "name": "Sounds",
+  "sub": "Hangul letters and syllable blocks",
+  "lessons": [
+    {
+      "id": "ko0-1",
+      "title": "Vowels I",
+      "learn": [
+        {"h": "Hangul builds blocks", "p": "Korean is written in <b>Hangul</b>, an alphabet of 24 basic letters. Letters stack into square <b>syllable blocks</b>: ㅎ + ㅏ + ㄴ = 한 (han). Every block starts with a consonant."},
+        {"h": "The silent ㅇ", "p": "A vowel can't stand alone, so it borrows the circle <b>ㅇ</b> as a silent placeholder: ㅇ + ㅏ = 아 (a). Tall vowels sit to the <b>right</b> of the consonant (아), flat vowels sit <b>underneath</b> (오).", "ex": ["ko-a", "ko-o"]}
+      ],
+      "items": [
+        {"id": "ko-a", "w": "ㅏ", "r": "a", "say": "아", "kind": "letter", "hint": "a as in “father”"},
+        {"id": "ko-eo", "w": "ㅓ", "r": "eo", "say": "어", "kind": "letter", "hint": "like the o in “son”, mouth open"},
+        {"id": "ko-o", "w": "ㅗ", "r": "o", "say": "오", "kind": "letter", "hint": "o as in “go”, lips rounded, no w at the end"},
+        {"id": "ko-u", "w": "ㅜ", "r": "u", "say": "우", "kind": "letter", "hint": "oo as in “moon”"},
+        {"id": "ko-eu", "w": "ㅡ", "r": "eu", "say": "으", "kind": "letter", "hint": "say “oo” with flat, unrounded lips"},
+        {"id": "ko-i", "w": "ㅣ", "r": "i", "say": "이", "kind": "letter", "hint": "ee as in “see”"}
+      ],
+      "pairs": [["ko-a", "ko-eo"], ["ko-o", "ko-eo"], ["ko-u", "ko-eu"], ["ko-o", "ko-u"]],
+      "build": [
+        {"w": "아이", "r": "ai", "m": "child"},
+        {"w": "오이", "r": "oi", "m": "cucumber"},
+        {"w": "이", "r": "i", "m": "two / tooth"}
+      ]
+    },
+    {
+      "id": "ko0-2",
+      "title": "Consonants I",
+      "learn": [
+        {"h": "Letters shaped like your mouth", "p": "The basic consonants are pictures of the mouth saying them: <b>ㄱ</b> is the back of the tongue raised, <b>ㄴ</b> is the tongue tip touching behind the teeth, <b>ㅁ</b> is closed lips. Other letters add strokes to these."},
+        {"h": "Soft g, d, b", "p": "<b>ㄱ ㄷ ㅂ</b> sound like a soft k, t, p at the start of a word and closer to g, d, b between vowels. That's why they're spelled g, d, b in Latin letters.", "ex": ["ko-g", "ko-d", "ko-b"]}
+      ],
+      "items": [
+        {"id": "ko-g", "w": "ㄱ", "r": "g", "say": "가", "kind": "letter", "hint": "a soft g / k"},
+        {"id": "ko-n", "w": "ㄴ", "r": "n", "say": "나", "kind": "letter", "hint": "n as in “no”"},
+        {"id": "ko-d", "w": "ㄷ", "r": "d", "say": "다", "kind": "letter", "hint": "a soft d / t"},
+        {"id": "ko-r", "w": "ㄹ", "r": "r / l", "say": "라", "kind": "letter", "hint": "a light tap, between r and l"},
+        {"id": "ko-m", "w": "ㅁ", "r": "m", "say": "마", "kind": "letter", "hint": "m as in “mom”"},
+        {"id": "ko-b", "w": "ㅂ", "r": "b", "say": "바", "kind": "letter", "hint": "a soft b / p"}
+      ],
+      "pairs": [["ko-n", "ko-d"], ["ko-d", "ko-r"], ["ko-m", "ko-b"]],
+      "build": [
+        {"w": "나무", "r": "namu", "m": "tree"},
+        {"w": "바다", "r": "bada", "m": "sea"},
+        {"w": "머리", "r": "meori", "m": "head"},
+        {"w": "고기", "r": "gogi", "m": "meat"},
+        {"w": "누나", "r": "nuna", "m": "older sister (said by a boy)"}
+      ]
+    },
+    {
+      "id": "ko0-3",
+      "title": "Consonants II",
+      "learn": [
+        {"h": "ㅅ ㅈ ㅎ", "p": "<b>ㅅ</b> is s (before ㅣ it turns into “sh”: 시 = shi). <b>ㅈ</b> is a soft j. <b>ㅎ</b> is h.", "ex": ["ko-s", "ko-j", "ko-h"]},
+        {"h": "Two vowels, one sound", "p": "<b>ㅐ</b> (ae) and <b>ㅔ</b> (e) sound the same in modern Seoul speech, like the e in “bed”. You tell them apart by spelling, not by ear.", "ex": ["ko-ae", "ko-e"]}
+      ],
+      "items": [
+        {"id": "ko-s", "w": "ㅅ", "r": "s", "say": "사", "kind": "letter", "hint": "s; before ㅣ it sounds like “sh”"},
+        {"id": "ko-j", "w": "ㅈ", "r": "j", "say": "자", "kind": "letter", "hint": "a soft j"},
+        {"id": "ko-h", "w": "ㅎ", "r": "h", "say": "하", "kind": "letter", "hint": "h as in “hat”"},
+        {"id": "ko-ae", "w": "ㅐ", "r": "ae", "say": "애", "snd": "ko-e", "kind": "letter", "hint": "e as in “bed”"},
+        {"id": "ko-e", "w": "ㅔ", "r": "e", "say": "에", "snd": "ko-e", "kind": "letter", "hint": "e as in “bed” (same sound as ㅐ)"}
+      ],
+      "pairs": [["ko-s", "ko-j"], ["ko-j", "ko-d"], ["ko-h", "ko-g"]],
+      "build": [
+        {"w": "사자", "r": "saja", "m": "lion"},
+        {"w": "지도", "r": "jido", "m": "map"},
+        {"w": "하나", "r": "hana", "m": "one"},
+        {"w": "노래", "r": "norae", "m": "song"},
+        {"w": "모자", "r": "moja", "m": "hat"},
+        {"w": "개", "r": "gae", "m": "dog"}
+      ]
+    },
+    {
+      "id": "ko0-4",
+      "title": "Breathy consonants",
+      "learn": [
+        {"h": "Add a puff of air", "p": "One extra stroke makes a consonant <b>breathy</b>: push out a strong puff of air. ㄱ → <b>ㅋ</b>, ㄷ → <b>ㅌ</b>, ㅂ → <b>ㅍ</b>, ㅈ → <b>ㅊ</b>. Hold your hand in front of your mouth: ㅋ should blow on it, ㄱ barely.", "ex": ["ko-g", "ko-k"]}
+      ],
+      "items": [
+        {"id": "ko-k", "w": "ㅋ", "r": "k", "say": "카", "kind": "letter", "hint": "k with a strong puff of air"},
+        {"id": "ko-t", "w": "ㅌ", "r": "t", "say": "타", "kind": "letter", "hint": "t with a strong puff of air"},
+        {"id": "ko-p", "w": "ㅍ", "r": "p", "say": "파", "kind": "letter", "hint": "p with a strong puff of air"},
+        {"id": "ko-ch", "w": "ㅊ", "r": "ch", "say": "차", "kind": "letter", "hint": "ch with a strong puff of air"}
+      ],
+      "pairs": [["ko-g", "ko-k"], ["ko-d", "ko-t"], ["ko-b", "ko-p"], ["ko-j", "ko-ch"]],
+      "build": [
+        {"w": "코", "r": "ko", "m": "nose"},
+        {"w": "차", "r": "cha", "m": "tea / car"},
+        {"w": "커피", "r": "keopi", "m": "coffee"},
+        {"w": "토마토", "r": "tomato", "m": "tomato"},
+        {"w": "피자", "r": "pija", "m": "pizza"},
+        {"w": "기차", "r": "gicha", "m": "train"}
+      ]
+    },
+    {
+      "id": "ko0-5",
+      "title": "Tense consonants",
+      "learn": [
+        {"h": "Doubled = tense", "p": "Doubling a letter makes it <b>tense</b>: tighten your throat, no puff of air, a sharp clipped sound. <b>ㄲ ㄸ ㅃ ㅆ ㅉ</b>."},
+        {"h": "Three kinds of k", "p": "Korean has three versions of k, t, p and ch: plain <b>가</b>, breathy <b>카</b>, tense <b>까</b>. This is the hardest listening skill in Korean, so expect your ears to need practice.", "ex": ["ko-g", "ko-k", "ko-kk"]}
+      ],
+      "items": [
+        {"id": "ko-kk", "w": "ㄲ", "r": "kk", "say": "까", "kind": "letter", "hint": "tense k, no air"},
+        {"id": "ko-tt", "w": "ㄸ", "r": "tt", "say": "따", "kind": "letter", "hint": "tense t, no air"},
+        {"id": "ko-pp", "w": "ㅃ", "r": "pp", "say": "빠", "kind": "letter", "hint": "tense p, no air"},
+        {"id": "ko-ss", "w": "ㅆ", "r": "ss", "say": "싸", "kind": "letter", "hint": "a sharp, hissing s"},
+        {"id": "ko-jj", "w": "ㅉ", "r": "jj", "say": "짜", "kind": "letter", "hint": "tense j, no air"}
+      ],
+      "pairs": [["ko-g", "ko-k", "ko-kk"], ["ko-d", "ko-t", "ko-tt"], ["ko-b", "ko-p", "ko-pp"], ["ko-j", "ko-ch", "ko-jj"], ["ko-s", "ko-ss"]],
+      "build": [
+        {"w": "아빠", "r": "appa", "m": "dad"},
+        {"w": "토끼", "r": "tokki", "m": "rabbit"},
+        {"w": "오빠", "r": "oppa", "m": "older brother (said by a girl)"},
+        {"w": "꼬리", "r": "kkori", "m": "tail"},
+        {"w": "비싸다", "r": "bissada", "m": "expensive"}
+      ]
+    },
+    {
+      "id": "ko0-6",
+      "title": "Y-vowels",
+      "learn": [
+        {"h": "One extra stroke = a y sound", "p": "Add a second short stroke and the vowel gets a <b>y</b> in front: ㅏ → ㅑ (ya), ㅓ → ㅕ (yeo), ㅗ → ㅛ (yo), ㅜ → ㅠ (yu), ㅐ → ㅒ (yae), ㅔ → ㅖ (ye).", "ex": ["ko-a", "ko-ya"]}
+      ],
+      "items": [
+        {"id": "ko-ya", "w": "ㅑ", "r": "ya", "say": "야", "kind": "letter", "hint": "ya as in “yard”"},
+        {"id": "ko-yeo", "w": "ㅕ", "r": "yeo", "say": "여", "kind": "letter", "hint": "y + ㅓ, like “yuh”"},
+        {"id": "ko-yo", "w": "ㅛ", "r": "yo", "say": "요", "kind": "letter", "hint": "yo as in “yoga”"},
+        {"id": "ko-yu", "w": "ㅠ", "r": "yu", "say": "유", "kind": "letter", "hint": "you"},
+        {"id": "ko-yae", "w": "ㅒ", "r": "yae", "say": "얘", "snd": "ko-ye", "kind": "letter", "hint": "ye as in “yes” (rare letter)"},
+        {"id": "ko-ye", "w": "ㅖ", "r": "ye", "say": "예", "snd": "ko-ye", "kind": "letter", "hint": "ye as in “yes”"}
+      ],
+      "pairs": [["ko-a", "ko-ya"], ["ko-eo", "ko-yeo"], ["ko-o", "ko-yo"], ["ko-u", "ko-yu"]],
+      "build": [
+        {"w": "우유", "r": "uyu", "m": "milk"},
+        {"w": "여자", "r": "yeoja", "m": "woman"},
+        {"w": "야구", "r": "yagu", "m": "baseball"},
+        {"w": "여우", "r": "yeou", "m": "fox"},
+        {"w": "요리", "r": "yori", "m": "cooking"}
+      ]
+    },
+    {
+      "id": "ko0-7",
+      "title": "W-vowels",
+      "learn": [
+        {"h": "Vowels that team up", "p": "Two vowels can merge into one gliding sound: ㅗ + ㅏ = <b>ㅘ</b> (wa), ㅜ + ㅓ = <b>ㅝ</b> (wo).", "ex": ["ko-wa", "ko-wo"]},
+        {"h": "Three ways to write “we”", "p": "<b>ㅙ</b> (wae), <b>ㅞ</b> (we) and <b>ㅚ</b> (oe) all sound like “we” today. <b>ㅟ</b> is “wi”, and <b>ㅢ</b> is “ui”: say 으 and 이 quickly together.", "ex": ["ko-wi", "ko-ui"]}
+      ],
+      "items": [
+        {"id": "ko-wa", "w": "ㅘ", "r": "wa", "say": "와", "kind": "letter", "hint": "wa as in “wand”"},
+        {"id": "ko-wo", "w": "ㅝ", "r": "wo", "say": "워", "kind": "letter", "hint": "wo as in “won”"},
+        {"id": "ko-wae", "w": "ㅙ", "r": "wae", "say": "왜", "snd": "ko-we", "kind": "letter", "hint": "we as in “wet”"},
+        {"id": "ko-we", "w": "ㅞ", "r": "we", "say": "웨", "snd": "ko-we", "kind": "letter", "hint": "we as in “wet”"},
+        {"id": "ko-oe", "w": "ㅚ", "r": "oe", "say": "외", "snd": "ko-we", "kind": "letter", "hint": "we as in “wet” (today)"},
+        {"id": "ko-wi", "w": "ㅟ", "r": "wi", "say": "위", "kind": "letter", "hint": "wee"},
+        {"id": "ko-ui", "w": "ㅢ", "r": "ui", "say": "의", "kind": "letter", "hint": "으 + 이 said quickly"}
+      ],
+      "pairs": [["ko-wa", "ko-wo"], ["ko-wi", "ko-ui"], ["ko-wa", "ko-ya"]],
+      "build": [
+        {"w": "사과", "r": "sagwa", "m": "apple"},
+        {"w": "과자", "r": "gwaja", "m": "snack"},
+        {"w": "귀", "r": "gwi", "m": "ear"},
+        {"w": "의사", "r": "uisa", "m": "doctor"},
+        {"w": "회사", "r": "hoesa", "m": "company"},
+        {"w": "돼지", "r": "dwaeji", "m": "pig"}
+      ]
+    },
+    {
+      "id": "ko0-8",
+      "title": "Final consonants",
+      "learn": [
+        {"h": "A consonant at the bottom", "p": "A block can end with a consonant tucked underneath, called <b>받침</b> (batchim): 바 + ㄴ = <b>반</b> (ban). At the bottom, ㅇ finally makes a sound: “ng”, as in 강 (gang).", "ex": ["ko-san", "ko-gang"]},
+        {"h": "Only 7 ending sounds", "p": "Whatever letter is at the bottom, a block ends in one of 7 sounds: <b>k, n, t, l, m, p, ng</b>. For example ㅅ, ㅈ, ㅊ, ㅌ and ㅎ at the bottom all end in a clipped t: <b>옷</b> (clothes) is said “ot”.", "ex": ["ko-ot"]}
+      ],
+      "items": [
+        {"id": "ko-san", "w": "산", "r": "san", "m": "mountain", "kind": "word"},
+        {"id": "ko-bam", "w": "밤", "r": "bam", "m": "night", "kind": "word"},
+        {"id": "ko-bang", "w": "방", "r": "bang", "m": "room", "kind": "word"},
+        {"id": "ko-bap", "w": "밥", "r": "bap", "m": "rice / a meal", "kind": "word"},
+        {"id": "ko-mul", "w": "물", "r": "mul", "m": "water", "kind": "word"},
+        {"id": "ko-gang", "w": "강", "r": "gang", "m": "river", "kind": "word"},
+        {"id": "ko-chaek", "w": "책", "r": "chaek", "m": "book", "kind": "word"},
+        {"id": "ko-ot", "w": "옷", "r": "ot", "m": "clothes", "kind": "word", "hint": "the ㅅ at the bottom ends as a clipped t"}
+      ],
+      "pairs": [["ko-bam", "ko-bang"], ["ko-bap", "ko-bam"]],
+      "build": [
+        {"w": "한국", "r": "hanguk", "m": "Korea"},
+        {"w": "학생", "r": "haksaeng", "m": "student"},
+        {"w": "친구", "r": "chingu", "m": "friend"},
+        {"w": "사랑", "r": "sarang", "m": "love"},
+        {"w": "김치", "r": "gimchi", "m": "kimchi"}
+      ]
+    },
+    {
+      "id": "ko0-9",
+      "title": "Linking and first words",
+      "learn": [
+        {"h": "Sounds slide forward", "p": "When a block ends in a consonant and the next block starts with silent ㅇ, the consonant slides over: <b>음악</b> (music) is said 으막 (eu-mak), and <b>한국어</b> (Korean) is said 한구거 (han-gu-geo).", "ex": ["ko-eumak", "ko-hangugeo"]},
+        {"h": "Nose sounds", "p": "ㅂ before ㄴ or ㅁ turns into ㅁ: <b>감사합니다</b> (thank you) is said 감사함니다 (gam-sa-ham-ni-da). The spelling stays the same, only the sound changes.", "ex": ["ko-gamsa"]}
+      ],
+      "items": [
+        {"id": "ko-annyeong", "w": "안녕하세요", "r": "annyeonghaseyo", "m": "hello", "kind": "word"},
+        {"id": "ko-gamsa", "w": "감사합니다", "r": "gamsahamnida", "m": "thank you", "kind": "word"},
+        {"id": "ko-ne", "w": "네", "r": "ne", "m": "yes", "kind": "word"},
+        {"id": "ko-aniyo", "w": "아니요", "r": "aniyo", "m": "no", "kind": "word"},
+        {"id": "ko-saram", "w": "사람", "r": "saram", "m": "person", "kind": "word"},
+        {"id": "ko-eumak", "w": "음악", "r": "eumak", "m": "music", "kind": "word"},
+        {"id": "ko-hangugeo", "w": "한국어", "r": "hangugeo", "m": "the Korean language", "kind": "word"}
+      ],
+      "build": [
+        {"w": "안녕", "r": "annyeong", "m": "hi (casual)"},
+        {"w": "일본", "r": "ilbon", "m": "Japan"},
+        {"w": "중국", "r": "jungguk", "m": "China"}
+      ]
+    },
+    {
+      "id": "ko0-R",
+      "title": "Tier 0 review",
+      "review": true
+    }
+  ]
+}

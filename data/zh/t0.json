@@ -1,0 +1,174 @@
+{
+  "lang": "zh",
+  "tier": 0,
+  "name": "Sounds",
+  "sub": "Tones, pinyin and the first characters",
+  "lessons": [
+    {
+      "id": "zh0-1",
+      "title": "The four tones",
+      "learn": [
+        {"h": "Tones change meaning", "p": "Every Chinese syllable has a melody called a <b>tone</b>. Same sounds, different tone, different word: mā (mom), má (hemp), mǎ (horse), mà (scold).", "ex": ["zh-ma1", "zh-ma2", "zh-ma3", "zh-ma4"]},
+        {"h": "The four shapes", "p": "<b>1st ā</b>: high and flat, like holding a note. <b>2nd á</b>: rising, like asking “huh?”. <b>3rd ǎ</b>: low and dipping, like a doubtful “well…”. <b>4th à</b>: a sharp fall, like a firm “No!”. There's also a short, light <b>neutral</b> tone, as in 吗 (ma), the question word."}
+      ],
+      "items": [
+        {"id": "zh-ma1", "w": "妈", "r": "mā", "m": "mom", "kind": "char"},
+        {"id": "zh-ma2", "w": "麻", "r": "má", "m": "hemp / numb", "kind": "char"},
+        {"id": "zh-ma3", "w": "马", "r": "mǎ", "m": "horse", "kind": "char"},
+        {"id": "zh-ma4", "w": "骂", "r": "mà", "m": "to scold", "kind": "char"}
+      ],
+      "pairs": [["zh-ma1", "zh-ma2", "zh-ma3", "zh-ma4"], ["zh-ma2", "zh-ma3"], ["zh-ma1", "zh-ma4"]]
+    },
+    {
+      "id": "zh0-2",
+      "title": "Tone practice",
+      "learn": [
+        {"h": "Draw the tone in the air", "p": "While you listen, trace the tone with your finger: flat <b>‾</b>, up <b>╱</b>, dip <b>∨</b>, down <b>╲</b>. Tones 2 and 3 are the easiest to mix up. The 3rd tone goes <b>low</b> first.", "ex": ["zh-ba2", "zh-ba3"]}
+      ],
+      "items": [
+        {"id": "zh-ba1", "w": "八", "r": "bā", "m": "eight", "kind": "char"},
+        {"id": "zh-ba2", "w": "拔", "r": "bá", "m": "to pull out", "kind": "char"},
+        {"id": "zh-ba3", "w": "把", "r": "bǎ", "m": "to hold", "kind": "char"},
+        {"id": "zh-ba4", "w": "爸", "r": "bà", "m": "dad", "kind": "char"},
+        {"id": "zh-tang1", "w": "汤", "r": "tāng", "m": "soup", "kind": "char"},
+        {"id": "zh-tang2", "w": "糖", "r": "táng", "m": "sugar / candy", "kind": "char"},
+        {"id": "zh-tang3", "w": "躺", "r": "tǎng", "m": "to lie down", "kind": "char"},
+        {"id": "zh-tang4", "w": "烫", "r": "tàng", "m": "scalding hot", "kind": "char"}
+      ],
+      "pairs": [["zh-ba1", "zh-ba2", "zh-ba3", "zh-ba4"], ["zh-tang1", "zh-tang2", "zh-tang3", "zh-tang4"], ["zh-ba2", "zh-ba3"], ["zh-tang2", "zh-tang3"]]
+    },
+    {
+      "id": "zh0-3",
+      "title": "Pinyin: easy starts",
+      "learn": [
+        {"h": "Pinyin", "p": "<b>Pinyin</b> spells Chinese sounds with Latin letters. Many match English: m, f, n, l, h."},
+        {"h": "b/p, d/t, g/k", "p": "<b>b, d, g</b> are soft and unvoiced, almost p, t, k. <b>p, t, k</b> come with a strong puff of air. It's the same idea as Korean ㅂ/ㅍ, ㄷ/ㅌ, ㄱ/ㅋ!", "ex": ["zh-ba4", "zh-pa4"]}
+      ],
+      "items": [
+        {"id": "zh-pa4", "w": "怕", "r": "pà", "m": "to be afraid", "kind": "char"},
+        {"id": "zh-fan4", "w": "饭", "r": "fàn", "m": "rice / a meal", "kind": "char"},
+        {"id": "zh-da4", "w": "大", "r": "dà", "m": "big", "kind": "char"},
+        {"id": "zh-ta1", "w": "他", "r": "tā", "m": "he / him", "kind": "char"},
+        {"id": "zh-ni3", "w": "你", "r": "nǐ", "m": "you", "kind": "char"},
+        {"id": "zh-lai2", "w": "来", "r": "lái", "m": "to come", "kind": "char"},
+        {"id": "zh-ge1", "w": "哥", "r": "gē", "m": "older brother", "kind": "char"},
+        {"id": "zh-kan4", "w": "看", "r": "kàn", "m": "to look / watch", "kind": "char"},
+        {"id": "zh-hao3", "w": "好", "r": "hǎo", "m": "good", "kind": "char"}
+      ],
+      "pairs": [["zh-ba4", "zh-pa4"], ["zh-da4", "zh-ta1"], ["zh-fan4", "zh-kan4"]]
+    },
+    {
+      "id": "zh0-4",
+      "title": "j, q, x",
+      "learn": [
+        {"h": "The smiling sounds", "p": "Make <b>j, q, x</b> with the tongue flat behind your lower teeth, lips spread in a smile. <b>j</b> ≈ a soft “gee”, <b>q</b> ≈ “chee” with a puff of air, <b>x</b> ≈ a thin, hissy “shee”.", "ex": ["zh-ji1", "zh-qi1", "zh-xi1"]},
+        {"h": "Hidden ü", "p": "After j, q and x, a written <b>u</b> is really ü (said “ee” with rounded lips): 去 qù."}
+      ],
+      "items": [
+        {"id": "zh-ji1", "w": "鸡", "r": "jī", "m": "chicken", "kind": "char"},
+        {"id": "zh-qi1", "w": "七", "r": "qī", "m": "seven", "kind": "char"},
+        {"id": "zh-xi1", "w": "西", "r": "xī", "m": "west", "kind": "char"},
+        {"id": "zh-jia1", "w": "家", "r": "jiā", "m": "home / family", "kind": "char"},
+        {"id": "zh-qu4", "w": "去", "r": "qù", "m": "to go", "kind": "char"},
+        {"id": "zh-jiu3", "w": "九", "r": "jiǔ", "m": "nine", "kind": "char"},
+        {"id": "zh-xie4", "w": "谢", "r": "xiè", "m": "to thank", "kind": "char"}
+      ],
+      "pairs": [["zh-ji1", "zh-qi1", "zh-xi1"], ["zh-qi1", "zh-xi1"]]
+    },
+    {
+      "id": "zh0-5",
+      "title": "zh ch sh r · z c s",
+      "learn": [
+        {"h": "Curled-tongue sounds", "p": "<b>zh, ch, sh, r</b> curl the tongue tip up and back: zh ≈ the j in “jar”, ch ≈ “church”, sh ≈ “shirt”, r ≈ a buzzy r.", "ex": ["zh-zhong1", "zh-chi1", "zh-shi2", "zh-ren2"]},
+        {"h": "Flat-tongue sounds", "p": "<b>z, c, s</b> keep the tongue flat behind the teeth: z ≈ the ds in “kids”, c ≈ the ts in “cats”, s = s.", "ex": ["zh-zai4", "zh-cai4", "zh-si4"]},
+        {"h": "The famous pair", "p": "十 <b>shí</b> (ten) and 四 <b>sì</b> (four) differ only by tongue position and tone. Chinese kids learn tongue twisters about them!", "ex": ["zh-shi2", "zh-si4"]}
+      ],
+      "items": [
+        {"id": "zh-zhong1", "w": "中", "r": "zhōng", "m": "middle", "kind": "char"},
+        {"id": "zh-chi1", "w": "吃", "r": "chī", "m": "to eat", "kind": "char"},
+        {"id": "zh-shi2", "w": "十", "r": "shí", "m": "ten", "kind": "char"},
+        {"id": "zh-shi4", "w": "是", "r": "shì", "m": "to be (am / is / are)", "kind": "char"},
+        {"id": "zh-ren2", "w": "人", "r": "rén", "m": "person", "kind": "char", "cousin": "Japanese 人 hito · Korean 인 in (as in 한국인)"},
+        {"id": "zh-zai4", "w": "在", "r": "zài", "m": "at / in", "kind": "char"},
+        {"id": "zh-cai4", "w": "菜", "r": "cài", "m": "dish / vegetable", "kind": "char"},
+        {"id": "zh-si4", "w": "四", "r": "sì", "m": "four", "kind": "char"}
+      ],
+      "pairs": [["zh-shi2", "zh-si4"], ["zh-shi4", "zh-si4"], ["zh-zai4", "zh-cai4"], ["zh-chi1", "zh-qi1"]]
+    },
+    {
+      "id": "zh0-6",
+      "title": "Endings and ü",
+      "learn": [
+        {"h": "ü", "p": "<b>ü</b> is “ee” said with rounded lips, like German ü or French u. Pinyin drops the dots after j, q, x and y (鱼 yú), but keeps them after n and l (女 nǚ, 绿 lǜ).", "ex": ["zh-lu4", "zh-lv4"]},
+        {"h": "-n vs -ng", "p": "<b>-n</b> ends with the tongue touching behind the teeth. <b>-ng</b> ends at the back of the throat, like “sing”: 饭 fàn (meal) vs 放 fàng (to put).", "ex": ["zh-fan4", "zh-fang4"]}
+      ],
+      "items": [
+        {"id": "zh-nv3", "w": "女", "r": "nǚ", "m": "woman / female", "kind": "char"},
+        {"id": "zh-lv4", "w": "绿", "r": "lǜ", "m": "green", "kind": "char"},
+        {"id": "zh-lu4", "w": "路", "r": "lù", "m": "road", "kind": "char"},
+        {"id": "zh-yu2", "w": "鱼", "r": "yú", "m": "fish", "kind": "char"},
+        {"id": "zh-fang4", "w": "放", "r": "fàng", "m": "to put", "kind": "char"},
+        {"id": "zh-shan1", "w": "山", "r": "shān", "m": "mountain", "kind": "char", "cousin": "Japanese 山 yama · Korean 산 san"},
+        {"id": "zh-shang1", "w": "伤", "r": "shāng", "m": "injury", "kind": "char"}
+      ],
+      "pairs": [["zh-lu4", "zh-lv4"], ["zh-fan4", "zh-fang4"], ["zh-shan1", "zh-shang1"]]
+    },
+    {
+      "id": "zh0-7",
+      "title": "Tone changes",
+      "learn": [
+        {"h": "Two 3rd tones in a row", "p": "When two 3rd tones meet, the first one turns into a 2nd: 你好 is written <b>nǐ hǎo</b> but said <b>ní hǎo</b>.", "ex": ["zh-nihao", "zh-henhao"]},
+        {"h": "不 and 一 change too", "p": "不 (bù, not) becomes <b>bú</b> before a 4th tone: 不是 bú shì. 一 (yī, one) becomes <b>yí</b> before a 4th tone (一个 yí gè) and <b>yì</b> before the others (一天 yì tiān). The pinyin here shows the tone you actually hear.", "ex": ["zh-bushi", "zh-yige", "zh-yitian"]}
+      ],
+      "items": [
+        {"id": "zh-nihao", "w": "你好", "r": "nǐ hǎo", "m": "hello", "kind": "word", "hint": "said ní hǎo"},
+        {"id": "zh-henhao", "w": "很好", "r": "hěn hǎo", "m": "very good", "kind": "word", "hint": "said hén hǎo"},
+        {"id": "zh-bushi", "w": "不是", "r": "bú shì", "m": "is not", "kind": "word"},
+        {"id": "zh-buyao", "w": "不要", "r": "bú yào", "m": "don't want", "kind": "word"},
+        {"id": "zh-yige", "w": "一个", "r": "yí gè", "m": "one (of something)", "kind": "word"},
+        {"id": "zh-yitian", "w": "一天", "r": "yì tiān", "m": "one day", "kind": "word"}
+      ],
+      "pairs": [["zh-bushi", "zh-buyao"], ["zh-yige", "zh-yitian"]]
+    },
+    {
+      "id": "zh0-8",
+      "title": "How characters work",
+      "learn": [
+        {"h": "Pictures that became writing", "p": "Many basic characters began as drawings: <b>人</b> a person walking, <b>山</b> three peaks, <b>日</b> the sun, <b>月</b> the moon, <b>木</b> a tree, <b>水</b> flowing water, <b>火</b> flames, <b>口</b> an open mouth.", "ex": ["zh-ri4", "zh-yue4", "zh-mu4"]},
+        {"h": "Radicals", "p": "Bigger characters reuse these as parts, called <b>radicals</b>. 妈 (mā, mom) = 女 (woman, for the meaning) + 马 (mǎ, for the sound). Spotting the parts makes characters much easier to remember.", "ex": ["zh-ma1", "zh-nv3", "zh-ma3"]},
+        {"h": "Cousins in Japanese", "p": "Japanese uses these same characters as kanji, with the same meanings: 山 人 日 月 木 水 火 口."}
+      ],
+      "items": [
+        {"id": "zh-kou3", "w": "口", "r": "kǒu", "m": "mouth", "kind": "char"},
+        {"id": "zh-mu4", "w": "木", "r": "mù", "m": "tree / wood", "kind": "char"},
+        {"id": "zh-shui3", "w": "水", "r": "shuǐ", "m": "water", "kind": "char", "cousin": "Japanese 水 mizu · Korean 수 su (as in 수요일, Wednesday)"},
+        {"id": "zh-huo3", "w": "火", "r": "huǒ", "m": "fire", "kind": "char"},
+        {"id": "zh-ri4", "w": "日", "r": "rì", "m": "sun / day", "kind": "char"},
+        {"id": "zh-yue4", "w": "月", "r": "yuè", "m": "moon / month", "kind": "char"}
+      ],
+      "pairs": [["zh-shui3", "zh-huo3"], ["zh-ri4", "zh-yue4"]]
+    },
+    {
+      "id": "zh0-9",
+      "title": "First words",
+      "learn": [
+        {"h": "Words from two characters", "p": "Most Chinese words are two characters long. Each character keeps a bit of its meaning: 学生 (student) = 学 study + 生 born/person.", "ex": ["zh-xuesheng"]},
+        {"h": "Cousin words", "p": "学生 xuésheng also exists in Japanese (学生 gakusei) and Korean (학생 haksaeng). Learn one, and you're halfway to the others."}
+      ],
+      "items": [
+        {"id": "zh-xiexie", "w": "谢谢", "r": "xièxie", "m": "thank you", "kind": "word"},
+        {"id": "zh-zaijian", "w": "再见", "r": "zàijiàn", "m": "goodbye", "kind": "word"},
+        {"id": "zh-duibuqi", "w": "对不起", "r": "duìbuqǐ", "m": "sorry", "kind": "word"},
+        {"id": "zh-zhongguo", "w": "中国", "r": "Zhōngguó", "m": "China", "kind": "word"},
+        {"id": "zh-laoshi", "w": "老师", "r": "lǎoshī", "m": "teacher", "kind": "word"},
+        {"id": "zh-xuesheng", "w": "学生", "r": "xuésheng", "m": "student", "kind": "word", "cousin": "Japanese 学生 gakusei · Korean 학생 haksaeng"},
+        {"id": "zh-pengyou", "w": "朋友", "r": "péngyou", "m": "friend", "kind": "word"}
+      ]
+    },
+    {
+      "id": "zh0-R",
+      "title": "Tier 0 review",
+      "review": true
+    }
+  ]
+}
