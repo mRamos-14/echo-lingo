@@ -9,6 +9,8 @@ A listening-first, Duolingo-style app for **Korean, Japanese and Mandarin Chines
 
 ## Play on your phone
 
+**Download page:** https://mramos-14.github.io/echo-lingo/download.html
+
 **Android app:** [download echo-lingo.apk](https://github.com/mRamos-14/echo-lingo/releases/latest/download/echo-lingo.apk), open it and tap Install (allow your browser to install apps if asked). The app checks GitHub for new versions and shows a **Download update** button; installing the new APK keeps your progress.
 
 **iPhone:** open the GitHub Pages link in **Safari**, tap Share → **Add to Home Screen**.
