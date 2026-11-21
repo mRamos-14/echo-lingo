@@ -226,6 +226,28 @@
   }
 
   /* ---------------- exercise generators ---------------- */
+  // Two answers that mean the same thing ("mom" / "mom", "(my) mother" / "mother / mom", "dark / black" / "black")
+  // must never sit side by side as the right and a wrong choice.
+  const MEAN_STOP = /\b(the|a|an|my|to|some)\b/g;
+  const bare = (s) => s.replace(/[.,!?'"]/g, '').replace(MEAN_STOP, '').replace(/\s+/g, ' ').trim();
+  function meanParts(it) {
+    if (it._mp) return it._mp;
+    let set;
+    if (!it.m) set = new Set([(it.r || it.w).toLowerCase()]);          // letters: their sound
+    else {
+      const m = it.m.toLowerCase().replace(/\(.*?\)/g, '').replace(/\bi'?m going\b/g, 'i go');
+      set = new Set([bare(m), ...m.split(/\/|;/).map(bare)].filter(Boolean));
+    }
+    Object.defineProperty(it, '_mp', { value: set, enumerable: false });
+    return set;
+  }
+  const plainW = (w) => w.replace(/[\s.,!?。、，？！]/g, '');
+  function sameMeaning(a, b) {
+    if (a === b || plainW(a.w) === plainW(b.w)) return true;
+    const pb = meanParts(b);
+    for (const p of meanParts(a)) if (pb.has(p)) return true;
+    return false;
+  }
   function optionPool(target, ctx) {
     const g = group(target);
     const all = langItems(target.lang).filter((it) => it.id !== target.id && group(it) === g && !it.nopick);
@@ -269,7 +291,11 @@
       ...shuffle(all.filter((it) => group(it) !== g)),
     ];
     const ms = new Set([item.m]), ds = [];
-    for (const it of ordered) { if (ds.length >= 3) break; if (ms.has(it.m)) continue; ms.add(it.m); ds.push(it); }
+    for (const it of ordered) {
+      if (ds.length >= 3) break;
+      if (ms.has(it.m) || sameMeaning(it, item) || ds.some((d) => sameMeaning(d, it))) continue;
+      ms.add(it.m); ds.push(it);
+    }
     return ds.length ? { t: 'meaning', item, opts: shuffle([item, ...ds]) } : null;
   }
   function exTone(item) {
@@ -322,7 +348,7 @@
   function exMatch(items) {
     const L = new Set(), R = new Set(), pairs = [];
     for (const it of items) {
-      if (!it || L.has(it.w) || R.has(rightOf(it))) continue;
+      if (!it || L.has(it.w) || R.has(rightOf(it)) || pairs.some((p) => sameMeaning(p, it))) continue;
       L.add(it.w); R.add(rightOf(it)); pairs.push(it);
       if (pairs.length === 4) break;
     }
@@ -332,7 +358,7 @@
   function exSpeed(items) {
     const pool = items.filter(Boolean), qs = [];
     for (const it of pool) {
-      const others = pool.filter((o) => o !== it && rightOf(o) !== rightOf(it));
+      const others = pool.filter((o) => rightOf(o) !== rightOf(it) && !sameMeaning(o, it));
       if (!others.length) continue;
       qs.push({ item: it, opts: shuffle([rightOf(it), rightOf(pick(others))]) });
       if (qs.length === 8) break;
@@ -342,7 +368,7 @@
   // True or false: does the sentence you hear mean this?
   function exTF(item, pool, r) {
     if (!item.m) return null;
-    const others = pool.filter((o) => o.m && o.m !== item.m);
+    const others = pool.filter((o) => o.m && o.m !== item.m && !sameMeaning(o, item));
     const truth = !others.length || r() < 0.5;
     return { t: 'tf', item, truth, shown: truth ? item.m : pickR(others, r).m };
   }
@@ -1526,7 +1552,7 @@
   window.addEventListener('hashchange', () => { if (SES) clearTimeout(SES.timer); SES = null; route(); });
 
   // test hooks
-  window.EL = { D, get S() { return S; }, get SES() { return SES; }, startLesson, startPractice, buildLesson, buildReview, play, check, choose, tapTile, next, sayOf, soundKey, levelOf, BADGES, UPD, checkForUpdates, checkApkUpdate, APPV, IS_APK, buildFloor, startTower, settle, today };
+  window.EL = { D, get S() { return S; }, get SES() { return SES; }, startLesson, startPractice, buildLesson, buildReview, play, check, choose, tapTile, next, sayOf, soundKey, levelOf, BADGES, UPD, checkForUpdates, checkApkUpdate, APPV, IS_APK, buildFloor, startTower, settle, today, sameMeaning };
 
   initSW();
   loadAll().then(route).catch((err) => {

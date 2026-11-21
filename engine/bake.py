@@ -232,7 +232,8 @@ def compile_factory(lang, fac, items_by_w):
 
         for assign in combos[:12]:
             w = render(tpl['w'], assign, 'w')
-            if w in seen or w in items_by_w:
+            disp = w.replace(' ', '') if lang == 'zh' else w
+            if w in seen or disp in items_by_w:   # a lesson already teaches this exact sentence
                 continue
             seen.add(w)
             r = render(tpl['r'], assign, 'r')
@@ -242,7 +243,6 @@ def compile_factory(lang, fac, items_by_w):
                 r = r.replace('\x00YI\x00', 'yí' if t4 else 'yì')
             m = render(tpl['m'], assign, 'm')
             m = m[0].upper() + m[1:]
-            disp = w.replace(' ', '') if lang == 'zh' else w
             toks = [t for t in (x.strip(PUNCT) for x in w.split(' ')) if t]
             need = [tpl['after']] + [items_by_w[e[0]]['lesson'] for e in assign.values() if e[0] in items_by_w]
             d = {'id': f'{lang}-x-' + hashlib.sha1(w.encode('utf-8')).hexdigest()[:10], 'w': disp, 'r': r, 'm': m,

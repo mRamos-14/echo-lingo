@@ -22,7 +22,7 @@
     "transport": [["でんしゃ", {"by": "by train"}], ["バス", {"by": "by bus"}], ["じてんしゃ", {"by": "by bicycle"}]]
   },
   "templates": [
-    {"after": "ja1-17", "w": "{menu} を ください。", "r": "{menu} o kudasai.", "m": "{menu:o}, please.", "x": ["{menu} は ください。"]},
+    {"after": "ja1-17", "w": "{menu} を ください。", "r": "{menu} o kudasai.", "m": "{menu:o}, please.", "x": ["{menu} が ください。"]},
     {"after": "ja1-18", "w": "{food} を たべます。", "r": "{food} o tabemasu.", "m": "I eat {food:o}.", "x": ["{food} に たべます。", "{food} を のみます。"]},
     {"after": "ja1-18", "w": "{drink} を のみます。", "r": "{drink} o nomimasu.", "m": "I drink {drink:o}.", "x": ["{drink} に のみます。"]},
     {"after": "ja1-19", "w": "{food} は おいしい です。", "r": "{food} wa oishii desu.", "m": "{food:the} {food:be} delicious.", "x": ["{food} を おいしい です。"]},
