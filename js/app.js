@@ -1127,8 +1127,9 @@
     if (IS_ANDROID) {
       body = `<b>Get the Android app</b>
         <p>Download the app, open the file, and tap <b>Install</b>. If your phone asks, allow your browser to install apps. It works offline, and updates show up inside the app.</p>
-        <div class="ibtns"><a class="btn primary sm" id="apkdl" href="${APK_URL}">Download Android app</a>
-        ${installPrompt ? '<button class="btn ghost sm" id="pwainstall">Install web version</button>' : ''}</div>`;
+        <div class="ibtns"><a class="btn primary sm" id="apkdl" href="download.html">Download Android app</a>
+        ${installPrompt ? '<button class="btn ghost sm" id="pwainstall">Install from Chrome</button>' : ''}</div>
+        <p class="muted sm">No download? In <b>Chrome</b> tap ⋮ → <b>Install app</b> (not “Create shortcut”) for a real app without the browser badge.</p>`;
     } else if (/CriOS|FxiOS|EdgiOS|OPiOS|GSA\//.test(UA)) {
       body = `<b>Install on iPhone</b><p>iPhone apps from the web can only be installed from <b>Safari</b>. Copy this page's link, open it in Safari, then follow the steps there.</p>`;
     } else {
