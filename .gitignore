@@ -6,6 +6,11 @@ engine/voice_test/
 engine/req-win.txt
 engine/build-constraints.txt
 engine/ja_probe.py
+# Android signing key: NEVER commit (backup kept locally, copy stored as a GitHub secret)
+engine/keys/
+*.p12
+*.jks
+*.keystore
 __pycache__/
 *.pyc
 *.wav

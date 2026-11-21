@@ -36,6 +36,38 @@ def icon(size, pad_frac=0.0, rounded=True):
     return img.resize((size, size), Image.LANCZOS)
 
 
+def foreground(size):
+    """Transparent adaptive-icon foreground: the artwork inside Android's 66% safe zone."""
+    full = icon(size, pad_frac=0.0, rounded=False)
+    art = Image.new('RGBA', (size, size), (0, 0, 0, 0))
+    inner = int(size * 0.62)
+    # draw the artwork on transparent by keying out the indigo background
+    src = icon(inner, rounded=False).convert('RGBA')
+    px = src.load()
+    for y in range(inner):
+        for x in range(inner):
+            r, g, b, a = px[x, y]
+            if abs(r - 79) < 14 and abs(g - 70) < 14 and abs(b - 229) < 14:
+                px[x, y] = (0, 0, 0, 0)
+    art.paste(src, ((size - inner) // 2, (size - inner) // 2), src)
+    return art
+
+
+# Android launcher icons (copied into the Capacitor project by the GitHub build)
+AND = os.path.join(ROOT, 'android-res')
+for dens, s, fg in [('mdpi', 48, 108), ('hdpi', 72, 162), ('xhdpi', 96, 216), ('xxhdpi', 144, 324), ('xxxhdpi', 192, 432)]:
+    d = os.path.join(AND, f'mipmap-{dens}')
+    os.makedirs(d, exist_ok=True)
+    sq = icon(s, rounded=True)
+    sq.save(os.path.join(d, 'ic_launcher.png'))
+    rnd = icon(s, rounded=False)
+    mask = Image.new('L', (s * 4, s * 4), 0)
+    ImageDraw.Draw(mask).ellipse([0, 0, s * 4 - 1, s * 4 - 1], fill=255)
+    rnd.putalpha(mask.resize((s, s), Image.LANCZOS))
+    rnd.save(os.path.join(d, 'ic_launcher_round.png'))
+    foreground(fg).save(os.path.join(d, 'ic_launcher_foreground.png'))
+Image.new('RGB', (64, 64), (22, 21, 19)).save(os.path.join(AND, 'splash.png'))
+
 icon(192).save(os.path.join(OUT, 'icon-192.png'))
 icon(512).save(os.path.join(OUT, 'icon-512.png'))
 icon(512, pad_frac=0.1, rounded=False).save(os.path.join(OUT, 'icon-maskable-512.png'))

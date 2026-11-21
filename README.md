@@ -9,7 +9,11 @@ A listening-first, Duolingo-style app for **Korean, Japanese and Mandarin Chines
 
 ## Play on your phone
 
-Open the GitHub Pages link in your phone's browser, then **Add to Home Screen** (iPhone: Share → Add to Home Screen; Android: ⋮ → Install app). It opens full-screen and works offline; tap **Save audio for offline** on the home screen to keep all audio on the phone.
+**Android app:** [download echo-lingo.apk](https://github.com/mRamos-14/echo-lingo/releases/latest/download/echo-lingo.apk), open it and tap Install (allow your browser to install apps if asked). The app checks GitHub for new versions and shows a **Download update** button; installing the new APK keeps your progress.
+
+**iPhone:** open the GitHub Pages link in **Safari**, tap Share → **Add to Home Screen**.
+
+**Any browser:** open the GitHub Pages link, then **Add to Home Screen** / **Install app**. It opens full-screen and works offline; tap **Save audio for offline** on the home screen to keep all audio on the phone.
 
 The app checks for new versions automatically (on open, when you come back to it, and every 30 minutes) and shows an **Update now** button. You can also tap **Check for updates** at the bottom of the home screen.
 

@@ -503,6 +503,7 @@
             <span class="pill" title="Level ${L}: ${S.xpTotal - lo}/${hi - lo} XP to next level">Lv <b>${L}</b> <span class="lvbar"><i style="width:${((S.xpTotal - lo) / (hi - lo)) * 100}%"></i></span></span>
           </div>
         </header>
+        ${installCardHTML()}
         ${nl ? `
         <button class="hero-card" id="continue" data-lang="${lastLang}">
           <span class="glyph sm" lang="${lastLang}">${course(lastLang).glyph}</span>
@@ -540,6 +541,7 @@
         ${appInfoHTML()}
       </div>`;
     wireAppInfo();
+    wireInstallCard();
     $$('.lang').forEach((b) => b.addEventListener('click', () => go(`#/c/${b.dataset.lang}`)));
     const cont = $('#continue');
     if (cont) cont.addEventListener('click', () => startLesson(lastLang, nl.id));
@@ -973,6 +975,7 @@
       </div>`;
     countUp($('#xpc'), xp);
     confetti();
+    setTimeout(showUpdateBar, 2500);
     if (ev.level) SFX.level(); else SFX.done();
     const ft = $('#foot');
     ft.className = 'foot';
@@ -989,7 +992,44 @@
   const UPD = { reg: null, waiting: null, status: '' };
   // The PC preview (localhost) runs without the service worker so edits show up immediately; add ?sw=1 to test it.
   const DEV_HOST = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) && !/[?&]sw=1/.test(location.search);
+  const UA = navigator.userAgent || '';
+  const IS_APK = !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+  const IS_IOS = /iPhone|iPad|iPod/.test(UA) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const IS_ANDROID = /Android/i.test(UA);
+  const IS_STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+  const REPO = 'mRamos-14/echo-lingo';
+  const APK_URL = `https://github.com/${REPO}/releases/latest/download/echo-lingo.apk`;
+  const onHome = () => !location.hash || location.hash === '#/' || location.hash === '#';
+  let installPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installPrompt = e; if (!SES && onHome() && D.courses.length) renderHome(); });
+
+  // Android app (APK): ask GitHub for the newest release and offer the download
+  async function checkApkUpdate(manual) {
+    if (manual) setUpdStatus('Checking…');
+    try {
+      const r = await fetch(`https://api.github.com/repos/${REPO}/releases/latest`, { cache: 'no-store' });
+      if (r.status === 404) { if (manual) setUpdStatus('You have the latest version ✓'); return; }
+      if (!r.ok) throw new Error(String(r.status));
+      const rel = await r.json();
+      const latest = String(rel.tag_name || '').replace(/^v/, '');
+      const asset = (rel.assets || []).find((a) => a.name.endsWith('.apk'));
+      if (latest && asset && latest > APPV) {
+        UPD.apk = { version: latest, url: asset.browser_download_url };
+        setUpdStatus(`Version ${latest} is ready`);
+        showUpdateBar();
+        if (!SES && onHome() && D.courses.length) renderHome();
+      } else if (manual) setUpdStatus('You have the latest version ✓');
+    } catch (e) { if (manual) setUpdStatus("You're offline, couldn't check"); }
+  }
+  function openExternal(url) { location.href = url; } // the Android app hands outside links to the phone's browser
+
   function initSW() {
+    if (IS_APK) {
+      checkApkUpdate(false);
+      setInterval(() => checkApkUpdate(false), 30 * 60 * 1000);
+      document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkApkUpdate(false); });
+      return;
+    }
     if (!('serviceWorker' in navigator) || DEV_HOST) return;
     navigator.serviceWorker.register('sw.js').then((reg) => {
       UPD.reg = reg;
@@ -1018,15 +1058,19 @@
   function setUpdStatus(t) { UPD.status = t; const el = $('#updstatus'); if (el) el.textContent = t; }
   function updateReady(worker) { UPD.waiting = worker; setUpdStatus('Update ready'); showUpdateBar(); if (!SES && !location.hash.match(/^#\/[cgn]\//)) renderHome(); }
   function showUpdateBar() {
-    if (!UPD.waiting || $('#updbar')) return;
+    if (!(UPD.waiting || UPD.apk) || $('#updbar')) return;
+    if (SES) return; // never cover the lesson's answer bar; shown again when the lesson ends
     const bar = document.createElement('div');
     bar.id = 'updbar'; bar.className = 'updbar';
-    bar.innerHTML = '<span>✨ A new version of Echo Lingo is ready.</span><button class="btn primary sm" id="updnow">Update now</button><button class="link" id="updlater">Later</button>';
+    bar.innerHTML = UPD.apk
+      ? `<span>✨ Echo Lingo ${esc(UPD.apk.version)} is out.</span><button class="btn primary sm" id="updnow">Download update</button><button class="link" id="updlater">Later</button>`
+      : '<span>✨ A new version of Echo Lingo is ready.</span><button class="btn primary sm" id="updnow">Update now</button><button class="link" id="updlater">Later</button>';
     document.body.appendChild(bar);
     $('#updnow').addEventListener('click', applyUpdate);
     $('#updlater').addEventListener('click', () => bar.remove());
   }
   function applyUpdate() {
+    if (UPD.apk) { openExternal(UPD.apk.url); return; }
     if (!UPD.waiting) return;
     if (SES && !confirm('Updating restarts the app, so this lesson will be lost. Update now?')) return;
     setUpdStatus('Updating…');
@@ -1034,6 +1078,7 @@
     UPD.waiting.postMessage({ type: 'SKIP_WAITING' });
   }
   async function checkForUpdates() {
+    if (IS_APK) { if (UPD.apk) showUpdateBar(); else await checkApkUpdate(true); return; }
     if (!UPD.reg) { setUpdStatus(DEV_HOST ? 'Updates are off in the PC preview' : 'Updates need the installed app'); return; }
     if (UPD.waiting) { showUpdateBar(); return; }
     setUpdStatus('Checking…');
@@ -1067,11 +1112,40 @@
     return `<div class="appinfo">
       <span>Echo Lingo <b>${esc(APPV)}</b> · <span id="updstatus">${esc(UPD.status)}</span></span>
       <span class="appbtns">
-        ${UPD.waiting ? '<button class="btn primary sm" id="updnow2">Update now</button>' : '<button class="btn ghost sm" id="checkupd">Check for updates</button>'}
+        ${UPD.apk ? '<button class="btn primary sm" id="updnow2">Download update</button>'
+          : UPD.waiting ? '<button class="btn primary sm" id="updnow2">Update now</button>'
+          : '<button class="btn ghost sm" id="checkupd">Check for updates</button>'}
         ${sw ? `<button class="btn ghost sm" id="offline">${offlineSaved() ? 'Audio saved for offline ✓' : 'Save audio for offline (16 MB)'}</button>` : ''}
       </span>
     </div>`;
   }
+  // Install help on the web version: APK for Android, Safari steps for iPhone
+  const installHidden = () => { try { return localStorage.getItem('echolingo.hideinstall') === '1'; } catch (e) { return false; } };
+  function installCardHTML() {
+    if (IS_APK || IS_STANDALONE || installHidden() || !(IS_ANDROID || IS_IOS)) return '';
+    let body;
+    if (IS_ANDROID) {
+      body = `<b>Get the Android app</b>
+        <p>Download the app, open the file, and tap <b>Install</b>. If your phone asks, allow your browser to install apps. It works offline, and updates show up inside the app.</p>
+        <div class="ibtns"><a class="btn primary sm" id="apkdl" href="${APK_URL}">Download Android app</a>
+        ${installPrompt ? '<button class="btn ghost sm" id="pwainstall">Install web version</button>' : ''}</div>`;
+    } else if (/CriOS|FxiOS|EdgiOS|OPiOS|GSA\//.test(UA)) {
+      body = `<b>Install on iPhone</b><p>iPhone apps from the web can only be installed from <b>Safari</b>. Copy this page's link, open it in Safari, then follow the steps there.</p>`;
+    } else {
+      body = `<b>Install on iPhone</b>
+        <ol><li>Tap the <b>Share</b> button <span class="ico">⬆︎</span> at the bottom of Safari.</li>
+        <li>Scroll down and tap <b>Add to Home Screen</b>.</li>
+        <li>Tap <b>Add</b>. Open Echo Lingo from your home screen.</li></ol>`;
+    }
+    return `<div class="installcard"><button class="x sm" id="hideinstall" aria-label="Hide">✕</button><span class="ibig">📱</span><div>${body}</div></div>`;
+  }
+  function wireInstallCard() {
+    const h = $('#hideinstall');
+    if (h) h.addEventListener('click', () => { try { localStorage.setItem('echolingo.hideinstall', '1'); } catch (e) { /* ignore */ } const c = $('.installcard'); if (c) c.remove(); });
+    const p = $('#pwainstall');
+    if (p) p.addEventListener('click', async () => { if (!installPrompt) return; installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; renderHome(); });
+  }
+
   function wireAppInfo() {
     const c = $('#checkupd'); if (c) c.addEventListener('click', checkForUpdates);
     const u = $('#updnow2'); if (u) u.addEventListener('click', applyUpdate);
@@ -1104,6 +1178,7 @@
   function go(hash) { if (location.hash === hash) route(); else location.hash = hash; }
   function route() {
     if (SES) return;
+    setTimeout(showUpdateBar, 0);
     const h = location.hash || '#/';
     let m;
     if ((m = h.match(/^#\/c\/(\w+)/))) return renderCourse(m[1]);
@@ -1114,7 +1189,7 @@
   window.addEventListener('hashchange', () => { if (SES) clearTimeout(SES.timer); SES = null; route(); });
 
   // test hooks
-  window.EL = { D, get S() { return S; }, get SES() { return SES; }, startLesson, startPractice, buildLesson, buildReview, play, check, choose, tapTile, next, sayOf, soundKey, levelOf, BADGES, UPD, checkForUpdates, APPV };
+  window.EL = { D, get S() { return S; }, get SES() { return SES; }, startLesson, startPractice, buildLesson, buildReview, play, check, choose, tapTile, next, sayOf, soundKey, levelOf, BADGES, UPD, checkForUpdates, checkApkUpdate, APPV, IS_APK };
 
   initSW();
   loadAll().then(route).catch((err) => {
