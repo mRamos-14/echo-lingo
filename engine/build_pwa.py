@@ -12,7 +12,7 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SHELL = ['./', 'index.html', 'css/app.css', 'js/lang.js', 'js/app.js', 'js/version.js', 'manifest.webmanifest',
+SHELL = ['./', 'index.html', 'download.html','css/app.css', 'js/lang.js', 'js/app.js', 'js/version.js', 'manifest.webmanifest',
          'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png',
          'icons/favicon.png', 'data/index.json', 'audio/manifest.json']
 

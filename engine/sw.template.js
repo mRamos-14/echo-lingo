@@ -46,9 +46,20 @@ self.addEventListener('fetch', (event) => {
   }
 
   // App files and lessons: serve this installed version (works offline). New versions arrive via Update.
+  // Anything not in the app (other pages on the site) comes from the network; offline, pages fall back to a saved copy.
   event.respondWith((async () => {
     const cache = await caches.open(SHELL_CACHE);
-    const hit = await cache.match(req, { ignoreSearch: true }) || (req.mode === 'navigate' ? await cache.match('index.html') : null);
-    return hit || fetch(req);
+    const hit = await cache.match(req, { ignoreSearch: true });
+    if (hit) return hit;
+    try {
+      return await fetch(req);
+    } catch (err) {
+      if (req.mode === 'navigate') {
+        const page = url.pathname.endsWith('download.html') ? 'download.html' : 'index.html';
+        const saved = await cache.match(page);
+        if (saved) return saved;
+      }
+      throw err;
+    }
   })());
 });

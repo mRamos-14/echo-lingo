@@ -1027,8 +1027,9 @@
   function initSW() {
     if (IS_APK || IS_DESKTOP) {
       checkApkUpdate(false);
-      setInterval(() => checkApkUpdate(false), 30 * 60 * 1000);
+      setInterval(() => checkApkUpdate(false), 5 * 60 * 1000);
       document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkApkUpdate(false); });
+      window.addEventListener('online', () => checkApkUpdate(false));
       return;
     }
     if (!('serviceWorker' in navigator) || DEV_HOST) return;
@@ -1045,9 +1046,14 @@
           else setUpdStatus('Ready to work offline ✓');
         });
       });
-      // automatic checks: on open (register does one), every 30 minutes, and whenever the app comes back to the front
-      setInterval(() => reg.update().catch(() => {}), 30 * 60 * 1000);
+      // automatic checks: on open (register does one), every 5 minutes, when the app comes back to the front, and when back online
+      setInterval(() => reg.update().catch(() => {}), 5 * 60 * 1000);
       document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+      window.addEventListener('online', () => reg.update().catch(() => {}));
+      // installed from Chrome / Safari: fetch all audio once in the background, so it works offline like the APK
+      if (IS_STANDALONE && !offlineSaved()) {
+        navigator.serviceWorker.ready.then(() => setTimeout(() => { if (navigator.serviceWorker.controller) saveOffline(null); }, 4000));
+      }
     }).catch((e) => console.warn('[echo-lingo] service worker failed', e));
     // reload only when the user pressed Update (not when the very first install takes control)
     let reloading = false;
@@ -1090,23 +1096,29 @@
     else setUpdStatus('You have the latest version ✓');
   }
   const offlineSaved = () => { try { return localStorage.getItem('echolingo.offline') === '1'; } catch (e) { return false; } };
+  let savingOffline = false;
   async function saveOffline(btn) {
+    if (savingOffline) return;
+    savingOffline = true;
+    if (!D.manifest || !Object.keys(D.manifest).length) await new Promise((r) => setTimeout(r, 1500));
     const urls = [...new Set(Object.values(D.manifest))];
     const q = urls.slice();
     let done = 0, failed = 0;
-    btn.disabled = true;
+    const show = (t) => { const b = btn || $('#offline'); if (b) b.textContent = t; };
+    if (btn) btn.disabled = true;
     const worker = async () => {
       while (q.length) {
         const u = q.shift();
         try { const r = await fetch(u); if (!r.ok) failed++; } catch (e) { failed++; }
         done++;
-        if (done % 25 === 0 || done === urls.length) btn.textContent = `Saving audio… ${Math.round((done / urls.length) * 100)}%`;
+        if (done % 25 === 0 || done === urls.length) show(`Saving audio… ${Math.round((done / urls.length) * 100)}%`);
       }
     };
-    await Promise.all(Array.from({ length: 6 }, worker));
-    if (failed) { btn.disabled = false; btn.textContent = `Saved, but ${failed} files failed. Tap to retry`; return; }
+    await Promise.all(Array.from({ length: btn ? 6 : 3 }, worker));
+    savingOffline = false;
+    if (failed) { if (btn) btn.disabled = false; show(`Saved, but ${failed} files failed. Tap to retry`); return; }
     try { localStorage.setItem('echolingo.offline', '1'); } catch (e) { /* ignore */ }
-    btn.textContent = 'Audio saved for offline ✓';
+    show('Audio saved for offline ✓');
   }
   function appInfoHTML() {
     const sw = 'serviceWorker' in navigator && navigator.serviceWorker.controller;
@@ -1116,9 +1128,19 @@
         ${UPD.apk ? '<button class="btn primary sm" id="updnow2">Download update</button>'
           : UPD.waiting ? '<button class="btn primary sm" id="updnow2">Update now</button>'
           : '<button class="btn ghost sm" id="checkupd">Check for updates</button>'}
-        ${sw ? `<button class="btn ghost sm" id="offline">${offlineSaved() ? 'Audio saved for offline ✓' : 'Save audio for offline (16 MB)'}</button>` : ''}
+        ${sw ? `<button class="btn ghost sm" id="offline">${offlineSaved() ? 'Audio saved for offline ✓' : savingOffline ? 'Saving audio…' : 'Save audio for offline (16 MB)'}</button>` : ''}
+        ${installBtnHTML()}
       </span>
     </div>`;
+  }
+  // Settings: install as a real app wherever possible (same name, icon and full-screen look as the APK)
+  function installBtnHTML() {
+    if (IS_APK || IS_DESKTOP) return '';
+    if (IS_STANDALONE) return '<span class="installed">Installed app ✓</span>';
+    if (installPrompt) return '<button class="btn primary sm" id="setinstall">Install app</button>';
+    if (IS_IOS) return '<span class="muted sm">Install: Safari → Share → Add to Home Screen</span>';
+    if (IS_ANDROID) return '<a class="btn ghost sm" href="download.html">Install / download app</a>';
+    return '';
   }
   // Install help on the web version: APK for Android, Safari steps for iPhone
   const installHidden = () => { try { return localStorage.getItem('echolingo.hideinstall') === '1'; } catch (e) { return false; } };
@@ -1152,6 +1174,8 @@
     const c = $('#checkupd'); if (c) c.addEventListener('click', checkForUpdates);
     const u = $('#updnow2'); if (u) u.addEventListener('click', applyUpdate);
     const o = $('#offline'); if (o) o.addEventListener('click', () => saveOffline(o));
+    const si = $('#setinstall');
+    if (si) si.addEventListener('click', async () => { if (!installPrompt) return; installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; renderHome(); });
   }
 
   /* ---------------- keyboard ---------------- */
