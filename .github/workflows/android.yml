@@ -36,32 +36,27 @@ jobs:
           fi
 
       - uses: actions/setup-node@v4
-        if: steps.key.outputs.ok == 'true'
         with:
           node-version: 20
 
       - uses: actions/setup-java@v4
-        if: steps.key.outputs.ok == 'true'
         with:
           distribution: temurin
           java-version: 17
 
       - name: Read app version
         id: v
-        if: steps.key.outputs.ok == 'true'
         run: |
           V=$(grep -oP "version: '\K[^']+" js/version.js)
           echo "version=$V" >> "$GITHUB_OUTPUT"
           echo "App version $V"
 
       - name: Bundle the web app
-        if: steps.key.outputs.ok == 'true'
         run: |
           mkdir -p app/www
           cp -r index.html manifest.webmanifest css js data audio icons app/www/
 
       - name: Create the Android project (Capacitor)
-        if: steps.key.outputs.ok == 'true'
         working-directory: app
         run: |
           npm init -y > /dev/null
@@ -78,7 +73,6 @@ jobs:
           npx cap sync android
 
       - name: Icons, splash, version
-        if: steps.key.outputs.ok == 'true'
         working-directory: app/android/app
         run: |
           RES=src/main/res
@@ -92,7 +86,6 @@ jobs:
           grep -E "versionCode|versionName" build.gradle
 
       - name: Build
-        if: steps.key.outputs.ok == 'true'
         working-directory: app/android
         run: ./gradlew assembleRelease --no-daemon --stacktrace
 
