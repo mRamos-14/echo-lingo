@@ -19,7 +19,8 @@ SHELL = ['./', 'index.html', 'download.html', 'play/', 'play/index.html', 'css/a
 
 def main():
     with open(os.path.join(ROOT, 'data', 'index.json'), encoding='utf-8') as f:
-        files = SHELL + [t['file'] for c in json.load(f) for t in c['tiers']]
+        idx = json.load(f)
+        files = SHELL + [t['file'] for c in idx for t in c['tiers']] + [c['drills'] for c in idx if c.get('drills')]
     # content fingerprint, so the version only changes when something actually changed
     h = hashlib.sha1()
     for rel in [f for f in files if not f.endswith('/') and f != 'js/version.js'] + ['engine/sw.template.js']:

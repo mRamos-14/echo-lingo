@@ -324,6 +324,48 @@ html, body { overflow-x: hidden; }
 .badge b { font-size: 12px; }
 .badge.got { filter: none; opacity: 1; border-color: #f0c64c; }
 
+/* ---------- Tower activities ---------- */
+.hearts { font-size: 14px; letter-spacing: -2px; white-space: nowrap; }
+.hearts .lost { filter: grayscale(1); opacity: .3; }
+.opts.col { grid-template-columns: 1fr; }
+.opts.col .opt { align-items: flex-start; padding-left: 34px; min-height: 64px; }
+.match { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.mcol { display: flex; flex-direction: column; gap: 10px; }
+.mt { min-height: 60px; border: 2px solid var(--line); border-radius: 14px; background: var(--card); box-shadow: var(--shadow); cursor: pointer; padding: 8px 10px; display: flex; align-items: center; justify-content: center; text-align: center; }
+.mt .tw { font-size: 24px; }
+.mt .en { font-size: 15px; font-weight: 600; }
+.mt.sel { border-color: var(--acc); background: var(--acc-soft); }
+.mt.done { border-color: var(--good); background: var(--good-bg); opacity: .55; cursor: default; box-shadow: none; }
+.mt.bad { border-color: var(--bad); background: var(--bad-bg); animation: shake .3s; }
+.timer { height: 10px; background: var(--line); border-radius: 99px; overflow: hidden; margin: 4px 0 16px; }
+.timer i { display: block; height: 100%; width: 100%; background: linear-gradient(90deg, #ff7a18, #ffb400); border-radius: 99px; }
+.sqw { text-align: center; margin: 6px 0 16px; }
+.sqw .tw.big { font-size: 56px; }
+.sqw .tw.big.sent { font-size: 28px; }
+
+/* ---------- Tower page ---------- */
+.towerhead { display: flex; gap: 14px; align-items: flex-start; margin-top: 8px; }
+.towerhead .h1 { margin-top: 4px; }
+.towerhead p { margin: 4px 0 0; }
+.tglyph { font-size: 52px; line-height: 1; }
+.towerstats { justify-content: space-between; }
+.towerstats > div b { display: block; font-size: 20px; }
+.towerstats > div span { color: var(--muted); font-size: 13px; }
+.towerstats .btn.primary.sm { width: auto; min-width: 0; }
+.emptynote { background: var(--card); border: 1px dashed var(--line-strong); border-radius: 14px; padding: 14px; }
+.floors { display: flex; flex-direction: column; gap: 10px; }
+.floor { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; background: var(--card); border: 2px solid var(--line); border-radius: 16px; padding: 10px 14px; cursor: pointer; box-shadow: var(--shadow); }
+.floor:hover:not(:disabled) { border-color: var(--acc); }
+.floor .fnum { width: 40px; height: 40px; flex: none; border-radius: 12px; display: grid; place-items: center; font-weight: 800; background: var(--acc-soft); color: var(--acc); }
+.floor .ft { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.floor .ft small { color: var(--muted); }
+.floor.cleared { border-color: var(--good); }
+.floor.cleared .fnum { background: var(--good-bg); color: var(--good); }
+.floor.locked { opacity: .5; cursor: not-allowed; box-shadow: none; }
+.stars { white-space: nowrap; color: var(--line-strong); font-size: 18px; }
+.stars .on { color: #f0b429; }
+.stars.big { font-size: 40px; margin: 4px 0 8px; }
+
 /* ---------- install help ---------- */
 .installcard { position: relative; display: flex; gap: 12px; margin-top: 16px; background: var(--acc-soft); border: 2px solid var(--acc); border-radius: 16px; padding: 14px 40px 14px 14px; }
 .installcard .ibig { font-size: 28px; line-height: 1; }

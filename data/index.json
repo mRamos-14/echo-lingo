@@ -1,8 +1,8 @@
 [
-  {"lang": "ko", "name": "Korean", "native": "한국어", "glyph": "한", "speech": "ko-KR",
+  {"lang": "ko", "name": "Korean", "native": "한국어", "glyph": "한", "speech": "ko-KR", "drills": "data/ko/drills.json",
    "tiers": [{"id": "t0", "file": "data/ko/t0.json"}, {"id": "t1", "file": "data/ko/t1.json"}, {"id": "t2", "file": "data/ko/t2.json"}, {"id": "t3", "file": "data/ko/t3.json"}]},
-  {"lang": "ja", "name": "Japanese", "native": "日本語", "glyph": "あ", "speech": "ja-JP",
+  {"lang": "ja", "name": "Japanese", "native": "日本語", "glyph": "あ", "speech": "ja-JP", "drills": "data/ja/drills.json",
    "tiers": [{"id": "t0", "file": "data/ja/t0.json"}, {"id": "t1", "file": "data/ja/t1.json"}, {"id": "t2", "file": "data/ja/t2.json"}, {"id": "t3", "file": "data/ja/t3.json"}]},
-  {"lang": "zh", "name": "Chinese", "native": "中文", "glyph": "中", "speech": "zh-CN",
+  {"lang": "zh", "name": "Chinese", "native": "中文", "glyph": "中", "speech": "zh-CN", "drills": "data/zh/drills.json",
    "tiers": [{"id": "t0", "file": "data/zh/t0.json"}, {"id": "t1", "file": "data/zh/t1.json"}, {"id": "t2", "file": "data/zh/t2.json"}, {"id": "t3", "file": "data/zh/t3.json"}]}
 ]

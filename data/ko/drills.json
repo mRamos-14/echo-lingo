@@ -1,0 +1,3521 @@
+[
+ {
+  "id": "ko-x-ae37a9da67",
+  "w": "물 주세요.",
+  "r": "mul juseyo.",
+  "m": "Water, please.",
+  "kind": "sent",
+  "toks": [
+   "물",
+   "주세요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-16"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-8c1d0e0665",
+  "w": "차 주세요.",
+  "r": "cha juseyo.",
+  "m": "Tea, please.",
+  "kind": "sent",
+  "toks": [
+   "차",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-17"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-d131bc703e",
+  "w": "과일 주세요.",
+  "r": "gwail juseyo.",
+  "m": "Fruit, please.",
+  "kind": "sent",
+  "toks": [
+   "과일",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-07f17257b8",
+  "w": "사과 주세요.",
+  "r": "sagwa juseyo.",
+  "m": "Apples, please.",
+  "kind": "sent",
+  "toks": [
+   "사과",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-7445007e83",
+  "w": "커피 주세요.",
+  "r": "keopi juseyo.",
+  "m": "Coffee, please.",
+  "kind": "sent",
+  "toks": [
+   "커피",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-17"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-c23adce8ee",
+  "w": "주스 주세요.",
+  "r": "juseu juseyo.",
+  "m": "Juice, please.",
+  "kind": "sent",
+  "toks": [
+   "주스",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-17"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-5b2e5e7f54",
+  "w": "맥주 주세요.",
+  "r": "maekju juseyo.",
+  "m": "Beer, please.",
+  "kind": "sent",
+  "toks": [
+   "맥주",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-17"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-2ba7b220c2",
+  "w": "김치 주세요.",
+  "r": "gimchi juseyo.",
+  "m": "Kimchi, please.",
+  "kind": "sent",
+  "toks": [
+   "김치",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-a841a181e7",
+  "w": "밥 주세요.",
+  "r": "bap juseyo.",
+  "m": "Rice, please.",
+  "kind": "sent",
+  "toks": [
+   "밥",
+   "주세요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-16"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-1a1bda79b0",
+  "w": "고기 주세요.",
+  "r": "gogi juseyo.",
+  "m": "Meat, please.",
+  "kind": "sent",
+  "toks": [
+   "고기",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-1c835c0252",
+  "w": "우유 주세요.",
+  "r": "uyu juseyo.",
+  "m": "Milk, please.",
+  "kind": "sent",
+  "toks": [
+   "우유",
+   "주세요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-17"
+  ],
+  "tpl": 0
+ },
+ {
+  "id": "ko-x-064985a471",
+  "w": "이거 컴퓨터예요.",
+  "r": "igeo keompyuteoyeyo.",
+  "m": "This is a computer.",
+  "kind": "sent",
+  "toks": [
+   "이거",
+   "컴퓨터예요"
+  ],
+  "need": [
+   "ko1-15",
+   "ko1-25"
+  ],
+  "tpl": 1,
+  "x": [
+   "이거 컴퓨터이에요."
+  ]
+ },
+ {
+  "id": "ko-x-4d0954e73d",
+  "w": "이거 가방이에요.",
+  "r": "igeo gabangieyo.",
+  "m": "This is a bag.",
+  "kind": "sent",
+  "toks": [
+   "이거",
+   "가방이에요"
+  ],
+  "need": [
+   "ko1-15",
+   "ko1-22"
+  ],
+  "tpl": 1,
+  "x": [
+   "이거 가방예요."
+  ]
+ },
+ {
+  "id": "ko-x-d69649aac1",
+  "w": "이거 의자예요.",
+  "r": "igeo uijayeyo.",
+  "m": "This is a chair.",
+  "kind": "sent",
+  "toks": [
+   "이거",
+   "의자예요"
+  ],
+  "need": [
+   "ko1-15",
+   "ko1-25"
+  ],
+  "tpl": 1,
+  "x": [
+   "이거 의자이에요."
+  ]
+ },
+ {
+  "id": "ko-x-a2392985b6",
+  "w": "이거 연필이에요.",
+  "r": "igeo yeonpirieyo.",
+  "m": "This is a pencil.",
+  "kind": "sent",
+  "toks": [
+   "이거",
+   "연필이에요"
+  ],
+  "need": [
+   "ko1-15",
+   "ko1-25"
+  ],
+  "tpl": 1,
+  "x": [
+   "이거 연필예요."
+  ]
+ },
+ {
+  "id": "ko-x-d4cb3ac81b",
+  "w": "이거 공책이에요.",
+  "r": "igeo gongchaegieyo.",
+  "m": "This is a notebook.",
+  "kind": "sent",
+  "toks": [
+   "이거",
+   "공책이에요"
+  ],
+  "need": [
+   "ko1-15",
+   "ko1-25"
+  ],
+  "tpl": 1,
+  "x": [
+   "이거 공책예요."
+  ]
+ },
+ {
+  "id": "ko-x-3e0011f1e9",
+  "w": "이거 책이에요.",
+  "r": "igeo chaegieyo.",
+  "m": "This is a book.",
+  "kind": "sent",
+  "toks": [
+   "이거",
+   "책이에요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-15"
+  ],
+  "tpl": 1,
+  "x": [
+   "이거 책예요."
+  ]
+ },
+ {
+  "id": "ko-x-02df4756fb",
+  "w": "새가 있어요.",
+  "r": "saega isseoyo.",
+  "m": "I have a bird.",
+  "kind": "sent",
+  "toks": [
+   "새가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-13",
+   "ko1-24"
+  ],
+  "tpl": 2,
+  "x": [
+   "새이 있어요.",
+   "새를 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-2b7391a8a3",
+  "w": "물고기가 있어요.",
+  "r": "mulgogiga isseoyo.",
+  "m": "I have a fish.",
+  "kind": "sent",
+  "toks": [
+   "물고기가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-13",
+   "ko1-24"
+  ],
+  "tpl": 2,
+  "x": [
+   "물고기이 있어요.",
+   "물고기를 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-01a469ed9b",
+  "w": "강아지가 있어요.",
+  "r": "gangajiga isseoyo.",
+  "m": "I have a puppy.",
+  "kind": "sent",
+  "toks": [
+   "강아지가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-13",
+   "ko1-24"
+  ],
+  "tpl": 2,
+  "x": [
+   "강아지이 있어요.",
+   "강아지를 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-24999c9322",
+  "w": "토끼가 있어요.",
+  "r": "tokkiga isseoyo.",
+  "m": "I have a rabbit.",
+  "kind": "sent",
+  "toks": [
+   "토끼가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-13",
+   "ko1-24"
+  ],
+  "tpl": 2,
+  "x": [
+   "토끼이 있어요.",
+   "토끼를 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-d57204fdeb",
+  "w": "언니가 있어요.",
+  "r": "eonniga isseoyo.",
+  "m": "I have an older sister.",
+  "kind": "sent",
+  "toks": [
+   "언니가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-12",
+   "ko1-13"
+  ],
+  "tpl": 3,
+  "x": [
+   "언니이 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-50e784ae3e",
+  "w": "형이 있어요.",
+  "r": "hyeongi isseoyo.",
+  "m": "I have an older brother.",
+  "kind": "sent",
+  "toks": [
+   "형이",
+   "있어요"
+  ],
+  "need": [
+   "ko1-12",
+   "ko1-13"
+  ],
+  "tpl": 3,
+  "x": [
+   "형가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-767b286622",
+  "w": "사과를 먹어요.",
+  "r": "sagwareul meogeoyo.",
+  "m": "I eat apples.",
+  "kind": "sent",
+  "toks": [
+   "사과를",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-18"
+  ],
+  "tpl": 4,
+  "x": [
+   "사과을 먹어요.",
+   "사과가 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-3eadee90ec",
+  "w": "김치를 먹어요.",
+  "r": "gimchireul meogeoyo.",
+  "m": "I eat kimchi.",
+  "kind": "sent",
+  "toks": [
+   "김치를",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-18"
+  ],
+  "tpl": 4,
+  "x": [
+   "김치을 먹어요.",
+   "김치가 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-ba4b2ab9ad",
+  "w": "과일을 먹어요.",
+  "r": "gwaireul meogeoyo.",
+  "m": "I eat fruit.",
+  "kind": "sent",
+  "toks": [
+   "과일을",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-18"
+  ],
+  "tpl": 4,
+  "x": [
+   "과일를 먹어요.",
+   "과일이 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-ce80edc21c",
+  "w": "고기를 먹어요.",
+  "r": "gogireul meogeoyo.",
+  "m": "I eat meat.",
+  "kind": "sent",
+  "toks": [
+   "고기를",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-18"
+  ],
+  "tpl": 4,
+  "x": [
+   "고기을 먹어요.",
+   "고기가 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-4aa442c17e",
+  "w": "빵을 먹어요.",
+  "r": "ppangeul meogeoyo.",
+  "m": "I eat bread.",
+  "kind": "sent",
+  "toks": [
+   "빵을",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-18"
+  ],
+  "tpl": 4,
+  "x": [
+   "빵를 먹어요.",
+   "빵이 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-981d57385e",
+  "w": "맥주를 마셔요.",
+  "r": "maekjureul masyeoyo.",
+  "m": "I drink beer.",
+  "kind": "sent",
+  "toks": [
+   "맥주를",
+   "마셔요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-18"
+  ],
+  "tpl": 5,
+  "x": [
+   "맥주을 마셔요."
+  ]
+ },
+ {
+  "id": "ko-x-e8a9724a92",
+  "w": "커피를 마셔요.",
+  "r": "keopireul masyeoyo.",
+  "m": "I drink coffee.",
+  "kind": "sent",
+  "toks": [
+   "커피를",
+   "마셔요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-18"
+  ],
+  "tpl": 5,
+  "x": [
+   "커피을 마셔요."
+  ]
+ },
+ {
+  "id": "ko-x-6db64e725c",
+  "w": "차를 마셔요.",
+  "r": "chareul masyeoyo.",
+  "m": "I drink tea.",
+  "kind": "sent",
+  "toks": [
+   "차를",
+   "마셔요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-18"
+  ],
+  "tpl": 5,
+  "x": [
+   "차을 마셔요."
+  ]
+ },
+ {
+  "id": "ko-x-a06e798efd",
+  "w": "우유를 마셔요.",
+  "r": "uyureul masyeoyo.",
+  "m": "I drink milk.",
+  "kind": "sent",
+  "toks": [
+   "우유를",
+   "마셔요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-18"
+  ],
+  "tpl": 5,
+  "x": [
+   "우유을 마셔요."
+  ]
+ },
+ {
+  "id": "ko-x-19b13bcf4e",
+  "w": "주스를 마셔요.",
+  "r": "juseureul masyeoyo.",
+  "m": "I drink juice.",
+  "kind": "sent",
+  "toks": [
+   "주스를",
+   "마셔요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-18"
+  ],
+  "tpl": 5,
+  "x": [
+   "주스을 마셔요."
+  ]
+ },
+ {
+  "id": "ko-x-7bf50e6a0b",
+  "w": "김치가 맛있어요.",
+  "r": "gimchiga masisseoyo.",
+  "m": "The kimchi is delicious.",
+  "kind": "sent",
+  "toks": [
+   "김치가",
+   "맛있어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-19"
+  ],
+  "tpl": 6,
+  "x": [
+   "김치이 맛있어요."
+  ]
+ },
+ {
+  "id": "ko-x-f780b8a422",
+  "w": "사과가 맛있어요.",
+  "r": "sagwaga masisseoyo.",
+  "m": "The apple is delicious.",
+  "kind": "sent",
+  "toks": [
+   "사과가",
+   "맛있어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-19"
+  ],
+  "tpl": 6,
+  "x": [
+   "사과이 맛있어요."
+  ]
+ },
+ {
+  "id": "ko-x-0ae26ae4ce",
+  "w": "빵이 맛있어요.",
+  "r": "ppangi masisseoyo.",
+  "m": "The bread is delicious.",
+  "kind": "sent",
+  "toks": [
+   "빵이",
+   "맛있어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-19"
+  ],
+  "tpl": 6,
+  "x": [
+   "빵가 맛있어요."
+  ]
+ },
+ {
+  "id": "ko-x-848d8dca3e",
+  "w": "고기가 맛있어요.",
+  "r": "gogiga masisseoyo.",
+  "m": "The meat is delicious.",
+  "kind": "sent",
+  "toks": [
+   "고기가",
+   "맛있어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-19"
+  ],
+  "tpl": 6,
+  "x": [
+   "고기이 맛있어요."
+  ]
+ },
+ {
+  "id": "ko-x-e9e35ce8a4",
+  "w": "밥이 맛있어요.",
+  "r": "babi masisseoyo.",
+  "m": "The rice is delicious.",
+  "kind": "sent",
+  "toks": [
+   "밥이",
+   "맛있어요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-19"
+  ],
+  "tpl": 6,
+  "x": [
+   "밥가 맛있어요."
+  ]
+ },
+ {
+  "id": "ko-x-3bc0cef255",
+  "w": "과일이 맛있어요.",
+  "r": "gwairi masisseoyo.",
+  "m": "The fruit is delicious.",
+  "kind": "sent",
+  "toks": [
+   "과일이",
+   "맛있어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-19"
+  ],
+  "tpl": 6,
+  "x": [
+   "과일가 맛있어요."
+  ]
+ },
+ {
+  "id": "ko-x-eb0082e0ff",
+  "w": "저는 김치를 좋아해요.",
+  "r": "jeoneun gimchireul joahaeyo.",
+  "m": "I like kimchi.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "김치를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 김치을 좋아해요.",
+   "저를 김치를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-58adf054e7",
+  "w": "저는 주스를 좋아해요.",
+  "r": "jeoneun juseureul joahaeyo.",
+  "m": "I like juice.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "주스를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 주스을 좋아해요.",
+   "저를 주스를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-36e1ee948d",
+  "w": "저는 맥주를 좋아해요.",
+  "r": "jeoneun maekjureul joahaeyo.",
+  "m": "I like beer.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "맥주를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 맥주을 좋아해요.",
+   "저를 맥주를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-16f397af52",
+  "w": "저는 우유를 좋아해요.",
+  "r": "jeoneun uyureul joahaeyo.",
+  "m": "I like milk.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "우유를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 우유을 좋아해요.",
+   "저를 우유를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-0400f04ab4",
+  "w": "저는 고기를 좋아해요.",
+  "r": "jeoneun gogireul joahaeyo.",
+  "m": "I like meat.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "고기를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 고기을 좋아해요.",
+   "저를 고기를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-0b49b676fa",
+  "w": "저는 물을 좋아해요.",
+  "r": "jeoneun mureul joahaeyo.",
+  "m": "I like water.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "물을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 물를 좋아해요.",
+   "저를 물을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-514495a6e9",
+  "w": "저는 커피를 좋아해요.",
+  "r": "jeoneun keopireul joahaeyo.",
+  "m": "I like coffee.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "커피를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 커피을 좋아해요.",
+   "저를 커피를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-cc81c3a4c5",
+  "w": "저는 차를 좋아해요.",
+  "r": "jeoneun chareul joahaeyo.",
+  "m": "I like tea.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "차를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-17",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 차을 좋아해요.",
+   "저를 차를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-340d937fac",
+  "w": "저는 과일을 좋아해요.",
+  "r": "jeoneun gwaireul joahaeyo.",
+  "m": "I like fruit.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "과일을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 과일를 좋아해요.",
+   "저를 과일을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-36c9d6d8d9",
+  "w": "저는 빵을 좋아해요.",
+  "r": "jeoneun ppangeul joahaeyo.",
+  "m": "I like bread.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "빵을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 빵를 좋아해요.",
+   "저를 빵을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-8fa4b622ba",
+  "w": "저는 밥을 좋아해요.",
+  "r": "jeoneun babeul joahaeyo.",
+  "m": "I like rice.",
+  "kind": "sent",
+  "toks": [
+   "저는",
+   "밥을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-20"
+  ],
+  "tpl": 7,
+  "x": [
+   "저는 밥를 좋아해요.",
+   "저를 밥을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-318d32b75c",
+  "w": "아빠는 밥을 좋아해요.",
+  "r": "appaneun babeul joahaeyo.",
+  "m": "Dad likes rice.",
+  "kind": "sent",
+  "toks": [
+   "아빠는",
+   "밥을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-11",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "아빠는 밥를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-7f99b7f73c",
+  "w": "엄마는 빵을 좋아해요.",
+  "r": "eommaneun ppangeul joahaeyo.",
+  "m": "Mom likes bread.",
+  "kind": "sent",
+  "toks": [
+   "엄마는",
+   "빵을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-11",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "엄마는 빵를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-6c76787100",
+  "w": "할머니는 고기를 좋아해요.",
+  "r": "halmeonineun gogireul joahaeyo.",
+  "m": "Grandma likes meat.",
+  "kind": "sent",
+  "toks": [
+   "할머니는",
+   "고기를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-14",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "할머니는 고기을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-b190f8ce94",
+  "w": "친구는 과일을 좋아해요.",
+  "r": "chinguneun gwaireul joahaeyo.",
+  "m": "My friend likes fruit.",
+  "kind": "sent",
+  "toks": [
+   "친구는",
+   "과일을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-13",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "친구는 과일를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-02a3cef103",
+  "w": "엄마는 과일을 좋아해요.",
+  "r": "eommaneun gwaireul joahaeyo.",
+  "m": "Mom likes fruit.",
+  "kind": "sent",
+  "toks": [
+   "엄마는",
+   "과일을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-11",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "엄마는 과일를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-94047138d0",
+  "w": "선생님은 과일을 좋아해요.",
+  "r": "seonsaengnimeun gwaireul joahaeyo.",
+  "m": "The teacher likes fruit.",
+  "kind": "sent",
+  "toks": [
+   "선생님은",
+   "과일을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-20",
+   "ko1-3"
+  ],
+  "tpl": 8,
+  "x": [
+   "선생님은 과일를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-59f19bca7a",
+  "w": "할머니는 사과를 좋아해요.",
+  "r": "halmeonineun sagwareul joahaeyo.",
+  "m": "Grandma likes apples.",
+  "kind": "sent",
+  "toks": [
+   "할머니는",
+   "사과를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-14",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "할머니는 사과을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-552485b96d",
+  "w": "할머니는 과일을 좋아해요.",
+  "r": "halmeonineun gwaireul joahaeyo.",
+  "m": "Grandma likes fruit.",
+  "kind": "sent",
+  "toks": [
+   "할머니는",
+   "과일을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-14",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "할머니는 과일를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-bcd15a4bcf",
+  "w": "선생님은 빵을 좋아해요.",
+  "r": "seonsaengnimeun ppangeul joahaeyo.",
+  "m": "The teacher likes bread.",
+  "kind": "sent",
+  "toks": [
+   "선생님은",
+   "빵을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko1-20",
+   "ko1-3"
+  ],
+  "tpl": 8,
+  "x": [
+   "선생님은 빵를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-92bfaa04b7",
+  "w": "아빠는 김치를 좋아해요.",
+  "r": "appaneun gimchireul joahaeyo.",
+  "m": "Dad likes kimchi.",
+  "kind": "sent",
+  "toks": [
+   "아빠는",
+   "김치를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-11",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "아빠는 김치을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-81aa2f372f",
+  "w": "동생은 빵을 좋아해요.",
+  "r": "dongsaengeun ppangeul joahaeyo.",
+  "m": "My younger sibling likes bread.",
+  "kind": "sent",
+  "toks": [
+   "동생은",
+   "빵을",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-12",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "동생은 빵를 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-a645cd3c03",
+  "w": "할머니는 김치를 좋아해요.",
+  "r": "halmeonineun gimchireul joahaeyo.",
+  "m": "Grandma likes kimchi.",
+  "kind": "sent",
+  "toks": [
+   "할머니는",
+   "김치를",
+   "좋아해요"
+  ],
+  "need": [
+   "ko1-14",
+   "ko1-16",
+   "ko1-20"
+  ],
+  "tpl": 8,
+  "x": [
+   "할머니는 김치을 좋아해요."
+  ]
+ },
+ {
+  "id": "ko-x-482f01d842",
+  "w": "도서관에 가요.",
+  "r": "doseogwane gayo.",
+  "m": "I go to the library.",
+  "kind": "sent",
+  "toks": [
+   "도서관에",
+   "가요"
+  ],
+  "need": [
+   "ko1-27",
+   "ko2-6"
+  ],
+  "tpl": 9,
+  "x": [
+   "도서관에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-8689133b5f",
+  "w": "카페에 가요.",
+  "r": "kapee gayo.",
+  "m": "I go to the cafe.",
+  "kind": "sent",
+  "toks": [
+   "카페에",
+   "가요"
+  ],
+  "need": [
+   "ko1-27",
+   "ko2-6"
+  ],
+  "tpl": 9,
+  "x": [
+   "카페에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-c8ab049bc5",
+  "w": "공항에 가요.",
+  "r": "gonghange gayo.",
+  "m": "I go to the airport.",
+  "kind": "sent",
+  "toks": [
+   "공항에",
+   "가요"
+  ],
+  "need": [
+   "ko1-27",
+   "ko3-17"
+  ],
+  "tpl": 9,
+  "x": [
+   "공항에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-f5368d4864",
+  "w": "은행에 가요.",
+  "r": "eunhaenge gayo.",
+  "m": "I go to the bank.",
+  "kind": "sent",
+  "toks": [
+   "은행에",
+   "가요"
+  ],
+  "need": [
+   "ko1-27",
+   "ko2-8"
+  ],
+  "tpl": 9,
+  "x": [
+   "은행에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-b659d2730b",
+  "w": "병원에 가요.",
+  "r": "byeongwone gayo.",
+  "m": "I go to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "병원에",
+   "가요"
+  ],
+  "need": [
+   "ko1-27",
+   "ko3-20"
+  ],
+  "tpl": 9,
+  "x": [
+   "병원에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-2217477858",
+  "w": "식당에 가요.",
+  "r": "sikdange gayo.",
+  "m": "I go to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "식당에",
+   "가요"
+  ],
+  "need": [
+   "ko1-27",
+   "ko2-6"
+  ],
+  "tpl": 9,
+  "x": [
+   "식당에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-6b6ed74aed",
+  "w": "가게에 가요.",
+  "r": "gagee gayo.",
+  "m": "I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "가게에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko1-27"
+  ],
+  "tpl": 9,
+  "x": [
+   "가게에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-731be3e930",
+  "w": "집에 가요.",
+  "r": "jibe gayo.",
+  "m": "I go home.",
+  "kind": "sent",
+  "toks": [
+   "집에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko1-27"
+  ],
+  "tpl": 9,
+  "x": [
+   "집에서 가요."
+  ]
+ },
+ {
+  "id": "ko-x-124a8617a2",
+  "w": "아빠가 병원에 가요.",
+  "r": "appaga byeongwone gayo.",
+  "m": "Dad goes to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "아빠가",
+   "병원에",
+   "가요"
+  ],
+  "need": [
+   "ko1-11",
+   "ko1-27",
+   "ko3-20"
+  ],
+  "tpl": 10,
+  "x": [
+   "아빠이 병원에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-6339199a26",
+  "w": "엄마가 집에 가요.",
+  "r": "eommaga jibe gayo.",
+  "m": "Mom goes home.",
+  "kind": "sent",
+  "toks": [
+   "엄마가",
+   "집에",
+   "가요"
+  ],
+  "need": [
+   "ko1-11",
+   "ko1-26",
+   "ko1-27"
+  ],
+  "tpl": 10,
+  "x": [
+   "엄마이 집에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-2441e54b95",
+  "w": "친구가 가게에 가요.",
+  "r": "chinguga gagee gayo.",
+  "m": "My friend goes to the shop.",
+  "kind": "sent",
+  "toks": [
+   "친구가",
+   "가게에",
+   "가요"
+  ],
+  "need": [
+   "ko1-13",
+   "ko1-26",
+   "ko1-27"
+  ],
+  "tpl": 10,
+  "x": [
+   "친구이 가게에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-0c8baf0143",
+  "w": "할머니가 도서관에 가요.",
+  "r": "halmeoniga doseogwane gayo.",
+  "m": "Grandma goes to the library.",
+  "kind": "sent",
+  "toks": [
+   "할머니가",
+   "도서관에",
+   "가요"
+  ],
+  "need": [
+   "ko1-14",
+   "ko1-27",
+   "ko2-6"
+  ],
+  "tpl": 10,
+  "x": [
+   "할머니이 도서관에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-602eb54a35",
+  "w": "친구가 은행에 가요.",
+  "r": "chinguga eunhaenge gayo.",
+  "m": "My friend goes to the bank.",
+  "kind": "sent",
+  "toks": [
+   "친구가",
+   "은행에",
+   "가요"
+  ],
+  "need": [
+   "ko1-13",
+   "ko1-27",
+   "ko2-8"
+  ],
+  "tpl": 10,
+  "x": [
+   "친구이 은행에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-6715c59212",
+  "w": "동생이 병원에 가요.",
+  "r": "dongsaengi byeongwone gayo.",
+  "m": "My younger sibling goes to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "동생이",
+   "병원에",
+   "가요"
+  ],
+  "need": [
+   "ko1-12",
+   "ko1-27",
+   "ko3-20"
+  ],
+  "tpl": 10,
+  "x": [
+   "동생가 병원에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-d15b90a77b",
+  "w": "할머니가 집에 가요.",
+  "r": "halmeoniga jibe gayo.",
+  "m": "Grandma goes home.",
+  "kind": "sent",
+  "toks": [
+   "할머니가",
+   "집에",
+   "가요"
+  ],
+  "need": [
+   "ko1-14",
+   "ko1-26",
+   "ko1-27"
+  ],
+  "tpl": 10,
+  "x": [
+   "할머니이 집에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-f290a2818b",
+  "w": "엄마가 카페에 가요.",
+  "r": "eommaga kapee gayo.",
+  "m": "Mom goes to the cafe.",
+  "kind": "sent",
+  "toks": [
+   "엄마가",
+   "카페에",
+   "가요"
+  ],
+  "need": [
+   "ko1-11",
+   "ko1-27",
+   "ko2-6"
+  ],
+  "tpl": 10,
+  "x": [
+   "엄마이 카페에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-63d39c605f",
+  "w": "할머니가 학교에 가요.",
+  "r": "halmeoniga hakgyoe gayo.",
+  "m": "Grandma goes to school.",
+  "kind": "sent",
+  "toks": [
+   "할머니가",
+   "학교에",
+   "가요"
+  ],
+  "need": [
+   "ko1-14",
+   "ko1-26",
+   "ko1-27"
+  ],
+  "tpl": 10,
+  "x": [
+   "할머니이 학교에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-814a47c50d",
+  "w": "선생님이 식당에 가요.",
+  "r": "seonsaengnimi sikdange gayo.",
+  "m": "The teacher goes to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "선생님이",
+   "식당에",
+   "가요"
+  ],
+  "need": [
+   "ko1-27",
+   "ko1-3",
+   "ko2-6"
+  ],
+  "tpl": 10,
+  "x": [
+   "선생님가 식당에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-f0a6cd0ed1",
+  "w": "엄마가 식당에 가요.",
+  "r": "eommaga sikdange gayo.",
+  "m": "Mom goes to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "엄마가",
+   "식당에",
+   "가요"
+  ],
+  "need": [
+   "ko1-11",
+   "ko1-27",
+   "ko2-6"
+  ],
+  "tpl": 10,
+  "x": [
+   "엄마이 식당에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-f11177092c",
+  "w": "동생이 학교에 가요.",
+  "r": "dongsaengi hakgyoe gayo.",
+  "m": "My younger sibling goes to school.",
+  "kind": "sent",
+  "toks": [
+   "동생이",
+   "학교에",
+   "가요"
+  ],
+  "need": [
+   "ko1-12",
+   "ko1-26",
+   "ko1-27"
+  ],
+  "tpl": 10,
+  "x": [
+   "동생가 학교에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-c6cfefea5e",
+  "w": "내일 도서관에 가요.",
+  "r": "naeil doseogwane gayo.",
+  "m": "I'm going to the library tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "도서관에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko2-6"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-31fddd653d",
+  "w": "오늘 가게에 가요.",
+  "r": "oneul gagee gayo.",
+  "m": "I'm going to the shop today.",
+  "kind": "sent",
+  "toks": [
+   "오늘",
+   "가게에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko1-28"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-632e8f1951",
+  "w": "오늘 학교에 가요.",
+  "r": "oneul hakgyoe gayo.",
+  "m": "I'm going to school today.",
+  "kind": "sent",
+  "toks": [
+   "오늘",
+   "학교에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko1-28"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-42f41a384f",
+  "w": "오늘 병원에 가요.",
+  "r": "oneul byeongwone gayo.",
+  "m": "I'm going to the hospital today.",
+  "kind": "sent",
+  "toks": [
+   "오늘",
+   "병원에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko3-20"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-fd2e7b8ad7",
+  "w": "지금 은행에 가요.",
+  "r": "jigeum eunhaenge gayo.",
+  "m": "I'm going to the bank now.",
+  "kind": "sent",
+  "toks": [
+   "지금",
+   "은행에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko2-8"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-57ca37cbec",
+  "w": "지금 식당에 가요.",
+  "r": "jigeum sikdange gayo.",
+  "m": "I'm going to the restaurant now.",
+  "kind": "sent",
+  "toks": [
+   "지금",
+   "식당에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko2-6"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-4081208fad",
+  "w": "오늘 카페에 가요.",
+  "r": "oneul kapee gayo.",
+  "m": "I'm going to the cafe today.",
+  "kind": "sent",
+  "toks": [
+   "오늘",
+   "카페에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko2-6"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-e179738fe6",
+  "w": "지금 도서관에 가요.",
+  "r": "jigeum doseogwane gayo.",
+  "m": "I'm going to the library now.",
+  "kind": "sent",
+  "toks": [
+   "지금",
+   "도서관에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko2-6"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-76ec27c4bb",
+  "w": "내일 식당에 가요.",
+  "r": "naeil sikdange gayo.",
+  "m": "I'm going to the restaurant tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "식당에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko2-6"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-e029fdbe7f",
+  "w": "오늘 도서관에 가요.",
+  "r": "oneul doseogwane gayo.",
+  "m": "I'm going to the library today.",
+  "kind": "sent",
+  "toks": [
+   "오늘",
+   "도서관에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko2-6"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-35260f933b",
+  "w": "내일 공항에 가요.",
+  "r": "naeil gonghange gayo.",
+  "m": "I'm going to the airport tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "공항에",
+   "가요"
+  ],
+  "need": [
+   "ko1-28",
+   "ko3-17"
+  ],
+  "tpl": 11
+ },
+ {
+  "id": "ko-x-458bcf759b",
+  "w": "카페에서 공부해요.",
+  "r": "kapeeseo gongbuhaeyo.",
+  "m": "I study at the cafe.",
+  "kind": "sent",
+  "toks": [
+   "카페에서",
+   "공부해요"
+  ],
+  "need": [
+   "ko2-6"
+  ],
+  "tpl": 12,
+  "x": [
+   "카페에 공부해요."
+  ]
+ },
+ {
+  "id": "ko-x-46c35949a1",
+  "w": "집에서 공부해요.",
+  "r": "jibeseo gongbuhaeyo.",
+  "m": "I study at home.",
+  "kind": "sent",
+  "toks": [
+   "집에서",
+   "공부해요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-6"
+  ],
+  "tpl": 12,
+  "x": [
+   "집에 공부해요."
+  ]
+ },
+ {
+  "id": "ko-x-b79ca4f86c",
+  "w": "학교에서 공부해요.",
+  "r": "hakgyoeseo gongbuhaeyo.",
+  "m": "I study at school.",
+  "kind": "sent",
+  "toks": [
+   "학교에서",
+   "공부해요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-6"
+  ],
+  "tpl": 12,
+  "x": [
+   "학교에 공부해요."
+  ]
+ },
+ {
+  "id": "ko-x-46bc26df29",
+  "w": "집에서 밥을 먹어요.",
+  "r": "jibeseo babeul meogeoyo.",
+  "m": "I eat at home.",
+  "kind": "sent",
+  "toks": [
+   "집에서",
+   "밥을",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-6"
+  ],
+  "tpl": 13,
+  "x": [
+   "집에 밥을 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-c3fe6b8bb3",
+  "w": "카페에서 밥을 먹어요.",
+  "r": "kapeeseo babeul meogeoyo.",
+  "m": "I eat at the cafe.",
+  "kind": "sent",
+  "toks": [
+   "카페에서",
+   "밥을",
+   "먹어요"
+  ],
+  "need": [
+   "ko2-6"
+  ],
+  "tpl": 13,
+  "x": [
+   "카페에 밥을 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-fdf425f923",
+  "w": "학교에서 밥을 먹어요.",
+  "r": "hakgyoeseo babeul meogeoyo.",
+  "m": "I eat at school.",
+  "kind": "sent",
+  "toks": [
+   "학교에서",
+   "밥을",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-6"
+  ],
+  "tpl": 13,
+  "x": [
+   "학교에 밥을 먹어요."
+  ]
+ },
+ {
+  "id": "ko-x-5fbeb86c59",
+  "w": "버스로 가요.",
+  "r": "beoseuro gayo.",
+  "m": "I go by bus.",
+  "kind": "sent",
+  "toks": [
+   "버스로",
+   "가요"
+  ],
+  "need": [
+   "ko2-7"
+  ],
+  "tpl": 14,
+  "x": [
+   "버스으로 가요."
+  ]
+ },
+ {
+  "id": "ko-x-5313605c23",
+  "w": "택시로 가요.",
+  "r": "taeksiro gayo.",
+  "m": "I go by taxi.",
+  "kind": "sent",
+  "toks": [
+   "택시로",
+   "가요"
+  ],
+  "need": [
+   "ko2-7"
+  ],
+  "tpl": 14,
+  "x": [
+   "택시으로 가요."
+  ]
+ },
+ {
+  "id": "ko-x-ff16564845",
+  "w": "과일을 안 먹어요.",
+  "r": "gwaireul an meogeoyo.",
+  "m": "I don't eat fruit.",
+  "kind": "sent",
+  "toks": [
+   "과일을",
+   "안",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko2-10"
+  ],
+  "tpl": 15,
+  "x": [
+   "과일을 먹어요 안."
+  ]
+ },
+ {
+  "id": "ko-x-c4efb1d5fb",
+  "w": "김치를 안 먹어요.",
+  "r": "gimchireul an meogeoyo.",
+  "m": "I don't eat kimchi.",
+  "kind": "sent",
+  "toks": [
+   "김치를",
+   "안",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko2-10"
+  ],
+  "tpl": 15,
+  "x": [
+   "김치를 먹어요 안."
+  ]
+ },
+ {
+  "id": "ko-x-58fba4509d",
+  "w": "사과를 안 먹어요.",
+  "r": "sagwareul an meogeoyo.",
+  "m": "I don't eat apples.",
+  "kind": "sent",
+  "toks": [
+   "사과를",
+   "안",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko2-10"
+  ],
+  "tpl": 15,
+  "x": [
+   "사과를 먹어요 안."
+  ]
+ },
+ {
+  "id": "ko-x-f5fdfbaf23",
+  "w": "빵을 안 먹어요.",
+  "r": "ppangeul an meogeoyo.",
+  "m": "I don't eat bread.",
+  "kind": "sent",
+  "toks": [
+   "빵을",
+   "안",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko2-10"
+  ],
+  "tpl": 15,
+  "x": [
+   "빵을 먹어요 안."
+  ]
+ },
+ {
+  "id": "ko-x-318d4de146",
+  "w": "밥을 안 먹어요.",
+  "r": "babeul an meogeoyo.",
+  "m": "I don't eat rice.",
+  "kind": "sent",
+  "toks": [
+   "밥을",
+   "안",
+   "먹어요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko2-10"
+  ],
+  "tpl": 15,
+  "x": [
+   "밥을 먹어요 안."
+  ]
+ },
+ {
+  "id": "ko-x-7dba22505f",
+  "w": "고기를 안 먹어요.",
+  "r": "gogireul an meogeoyo.",
+  "m": "I don't eat meat.",
+  "kind": "sent",
+  "toks": [
+   "고기를",
+   "안",
+   "먹어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko2-10"
+  ],
+  "tpl": 15,
+  "x": [
+   "고기를 먹어요 안."
+  ]
+ },
+ {
+  "id": "ko-x-0dea3ca182",
+  "w": "아침에 운동해요.",
+  "r": "achime undonghaeyo.",
+  "m": "I exercise in the morning.",
+  "kind": "sent",
+  "toks": [
+   "아침에",
+   "운동해요"
+  ],
+  "need": [
+   "ko2-11"
+  ],
+  "tpl": 16
+ },
+ {
+  "id": "ko-x-79c314700f",
+  "w": "주말에 운동해요.",
+  "r": "jumare undonghaeyo.",
+  "m": "I exercise on the weekend.",
+  "kind": "sent",
+  "toks": [
+   "주말에",
+   "운동해요"
+  ],
+  "need": [
+   "ko2-11",
+   "ko2-13"
+  ],
+  "tpl": 16
+ },
+ {
+  "id": "ko-x-6d7c7213a0",
+  "w": "수요일에 가게에 가요.",
+  "r": "suyoire gagee gayo.",
+  "m": "On Wednesday, I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "수요일에",
+   "가게에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-12"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-3e16e2f767",
+  "w": "토요일에 도서관에 가요.",
+  "r": "toyoire doseogwane gayo.",
+  "m": "On Saturday, I go to the library.",
+  "kind": "sent",
+  "toks": [
+   "토요일에",
+   "도서관에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko2-6"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-00be77067e",
+  "w": "토요일에 학교에 가요.",
+  "r": "toyoire hakgyoe gayo.",
+  "m": "On Saturday, I go to school.",
+  "kind": "sent",
+  "toks": [
+   "토요일에",
+   "학교에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-12"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-e9d5a688ac",
+  "w": "수요일에 병원에 가요.",
+  "r": "suyoire byeongwone gayo.",
+  "m": "On Wednesday, I go to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "수요일에",
+   "병원에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko3-20"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-3252358c6d",
+  "w": "일요일에 가게에 가요.",
+  "r": "iryoire gagee gayo.",
+  "m": "On Sunday, I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "일요일에",
+   "가게에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-12"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-df18843b7d",
+  "w": "월요일에 은행에 가요.",
+  "r": "woryoire eunhaenge gayo.",
+  "m": "On Monday, I go to the bank.",
+  "kind": "sent",
+  "toks": [
+   "월요일에",
+   "은행에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko2-8"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-e7aaf33117",
+  "w": "수요일에 은행에 가요.",
+  "r": "suyoire eunhaenge gayo.",
+  "m": "On Wednesday, I go to the bank.",
+  "kind": "sent",
+  "toks": [
+   "수요일에",
+   "은행에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko2-8"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-d3032fa638",
+  "w": "월요일에 도서관에 가요.",
+  "r": "woryoire doseogwane gayo.",
+  "m": "On Monday, I go to the library.",
+  "kind": "sent",
+  "toks": [
+   "월요일에",
+   "도서관에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko2-6"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-0ef5df3de7",
+  "w": "월요일에 공항에 가요.",
+  "r": "woryoire gonghange gayo.",
+  "m": "On Monday, I go to the airport.",
+  "kind": "sent",
+  "toks": [
+   "월요일에",
+   "공항에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko3-17"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-afe50505d3",
+  "w": "토요일에 가게에 가요.",
+  "r": "toyoire gagee gayo.",
+  "m": "On Saturday, I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "토요일에",
+   "가게에",
+   "가요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko2-12"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-588109fbf0",
+  "w": "금요일에 은행에 가요.",
+  "r": "geumyoire eunhaenge gayo.",
+  "m": "On Friday, I go to the bank.",
+  "kind": "sent",
+  "toks": [
+   "금요일에",
+   "은행에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko2-8"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-c0abe0b0c2",
+  "w": "화요일에 은행에 가요.",
+  "r": "hwayoire eunhaenge gayo.",
+  "m": "On Tuesday, I go to the bank.",
+  "kind": "sent",
+  "toks": [
+   "화요일에",
+   "은행에",
+   "가요"
+  ],
+  "need": [
+   "ko2-12",
+   "ko2-8"
+  ],
+  "tpl": 17
+ },
+ {
+  "id": "ko-x-9416771d6a",
+  "w": "치마 얼마예요?",
+  "r": "chima eolmayeyo?",
+  "m": "How much is the skirt?",
+  "kind": "sent",
+  "toks": [
+   "치마",
+   "얼마예요"
+  ],
+  "need": [
+   "ko2-16",
+   "ko2-18"
+  ],
+  "tpl": 18
+ },
+ {
+  "id": "ko-x-0398be4bbb",
+  "w": "모자 얼마예요?",
+  "r": "moja eolmayeyo?",
+  "m": "How much is the hat?",
+  "kind": "sent",
+  "toks": [
+   "모자",
+   "얼마예요"
+  ],
+  "need": [
+   "ko2-16",
+   "ko2-18"
+  ],
+  "tpl": 18
+ },
+ {
+  "id": "ko-x-3bdf096473",
+  "w": "가방 얼마예요?",
+  "r": "gabang eolmayeyo?",
+  "m": "How much is the bag?",
+  "kind": "sent",
+  "toks": [
+   "가방",
+   "얼마예요"
+  ],
+  "need": [
+   "ko1-22",
+   "ko2-16"
+  ],
+  "tpl": 18
+ },
+ {
+  "id": "ko-x-0917f64e92",
+  "w": "신발 얼마예요?",
+  "r": "sinbal eolmayeyo?",
+  "m": "How much are the shoes?",
+  "kind": "sent",
+  "toks": [
+   "신발",
+   "얼마예요"
+  ],
+  "need": [
+   "ko2-16",
+   "ko2-18"
+  ],
+  "tpl": 18
+ },
+ {
+  "id": "ko-x-6fdb598f05",
+  "w": "바지 얼마예요?",
+  "r": "baji eolmayeyo?",
+  "m": "How much are the pants?",
+  "kind": "sent",
+  "toks": [
+   "바지",
+   "얼마예요"
+  ],
+  "need": [
+   "ko2-16",
+   "ko2-18"
+  ],
+  "tpl": 18
+ },
+ {
+  "id": "ko-x-d9515fe23e",
+  "w": "어제 공항에 갔어요.",
+  "r": "eoje gonghange gasseoyo.",
+  "m": "I went to the airport yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "공항에",
+   "갔어요"
+  ],
+  "need": [
+   "ko3-1",
+   "ko3-17"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 공항에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-a607c99eba",
+  "w": "어제 은행에 갔어요.",
+  "r": "eoje eunhaenge gasseoyo.",
+  "m": "I went to the bank yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "은행에",
+   "갔어요"
+  ],
+  "need": [
+   "ko2-8",
+   "ko3-1"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 은행에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-75b1112690",
+  "w": "어제 식당에 갔어요.",
+  "r": "eoje sikdange gasseoyo.",
+  "m": "I went to the restaurant yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "식당에",
+   "갔어요"
+  ],
+  "need": [
+   "ko2-6",
+   "ko3-1"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 식당에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-0d1ea85405",
+  "w": "어제 카페에 갔어요.",
+  "r": "eoje kapee gasseoyo.",
+  "m": "I went to the cafe yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "카페에",
+   "갔어요"
+  ],
+  "need": [
+   "ko2-6",
+   "ko3-1"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 카페에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-006d9b891c",
+  "w": "어제 집에 갔어요.",
+  "r": "eoje jibe gasseoyo.",
+  "m": "I went home yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "집에",
+   "갔어요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko3-1"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 집에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-e3e78edf33",
+  "w": "어제 가게에 갔어요.",
+  "r": "eoje gagee gasseoyo.",
+  "m": "I went to the shop yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "가게에",
+   "갔어요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko3-1"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 가게에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-a828bc76d2",
+  "w": "어제 병원에 갔어요.",
+  "r": "eoje byeongwone gasseoyo.",
+  "m": "I went to the hospital yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "병원에",
+   "갔어요"
+  ],
+  "need": [
+   "ko3-1",
+   "ko3-20"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 병원에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-0a67c04561",
+  "w": "어제 도서관에 갔어요.",
+  "r": "eoje doseogwane gasseoyo.",
+  "m": "I went to the library yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "도서관에",
+   "갔어요"
+  ],
+  "need": [
+   "ko2-6",
+   "ko3-1"
+  ],
+  "tpl": 19,
+  "x": [
+   "어제 도서관에 가요."
+  ]
+ },
+ {
+  "id": "ko-x-915805e083",
+  "w": "어제 고기를 먹었어요.",
+  "r": "eoje gogireul meogeosseoyo.",
+  "m": "I ate meat yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "고기를",
+   "먹었어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-2"
+  ],
+  "tpl": 20,
+  "x": [
+   "어제 고기를 먹을 거예요."
+  ]
+ },
+ {
+  "id": "ko-x-f08d417851",
+  "w": "어제 과일을 먹었어요.",
+  "r": "eoje gwaireul meogeosseoyo.",
+  "m": "I ate fruit yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "과일을",
+   "먹었어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-2"
+  ],
+  "tpl": 20,
+  "x": [
+   "어제 과일을 먹을 거예요."
+  ]
+ },
+ {
+  "id": "ko-x-e99dec7e36",
+  "w": "어제 김치를 먹었어요.",
+  "r": "eoje gimchireul meogeosseoyo.",
+  "m": "I ate kimchi yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "김치를",
+   "먹었어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-2"
+  ],
+  "tpl": 20,
+  "x": [
+   "어제 김치를 먹을 거예요."
+  ]
+ },
+ {
+  "id": "ko-x-f80cfb8f8f",
+  "w": "어제 빵을 먹었어요.",
+  "r": "eoje ppangeul meogeosseoyo.",
+  "m": "I ate bread yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "빵을",
+   "먹었어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-2"
+  ],
+  "tpl": 20,
+  "x": [
+   "어제 빵을 먹을 거예요."
+  ]
+ },
+ {
+  "id": "ko-x-818297b5c8",
+  "w": "어제 사과를 먹었어요.",
+  "r": "eoje sagwareul meogeosseoyo.",
+  "m": "I ate apples yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "사과를",
+   "먹었어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-2"
+  ],
+  "tpl": 20,
+  "x": [
+   "어제 사과를 먹을 거예요."
+  ]
+ },
+ {
+  "id": "ko-x-aa12fd53eb",
+  "w": "어제 밥을 먹었어요.",
+  "r": "eoje babeul meogeosseoyo.",
+  "m": "I ate rice yesterday.",
+  "kind": "sent",
+  "toks": [
+   "어제",
+   "밥을",
+   "먹었어요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko3-2"
+  ],
+  "tpl": 20,
+  "x": [
+   "어제 밥을 먹을 거예요."
+  ]
+ },
+ {
+  "id": "ko-x-f8ac1c81bf",
+  "w": "내일 공항에 갈 거예요.",
+  "r": "naeil gonghange gal geoyeyo.",
+  "m": "I'll go to the airport tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "공항에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko3-17",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 공항에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-8ccadb4d36",
+  "w": "내일 은행에 갈 거예요.",
+  "r": "naeil eunhaenge gal geoyeyo.",
+  "m": "I'll go to the bank tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "은행에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko2-8",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 은행에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-f69d78c66e",
+  "w": "내일 집에 갈 거예요.",
+  "r": "naeil jibe gal geoyeyo.",
+  "m": "I'll go home tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "집에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 집에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-b822fca5af",
+  "w": "내일 카페에 갈 거예요.",
+  "r": "naeil kapee gal geoyeyo.",
+  "m": "I'll go to the cafe tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "카페에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko2-6",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 카페에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-a42ad99f5a",
+  "w": "내일 도서관에 갈 거예요.",
+  "r": "naeil doseogwane gal geoyeyo.",
+  "m": "I'll go to the library tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "도서관에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko2-6",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 도서관에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-64f1c28daa",
+  "w": "내일 가게에 갈 거예요.",
+  "r": "naeil gagee gal geoyeyo.",
+  "m": "I'll go to the shop tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "가게에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 가게에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-39ddf145af",
+  "w": "내일 식당에 갈 거예요.",
+  "r": "naeil sikdange gal geoyeyo.",
+  "m": "I'll go to the restaurant tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "식당에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko2-6",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 식당에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-8fd0c27f0d",
+  "w": "내일 병원에 갈 거예요.",
+  "r": "naeil byeongwone gal geoyeyo.",
+  "m": "I'll go to the hospital tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "병원에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko3-20",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 병원에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-959e2287d9",
+  "w": "내일 학교에 갈 거예요.",
+  "r": "naeil hakgyoe gal geoyeyo.",
+  "m": "I'll go to school tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "내일",
+   "학교에",
+   "갈",
+   "거예요"
+  ],
+  "need": [
+   "ko1-26",
+   "ko3-6"
+  ],
+  "tpl": 21,
+  "x": [
+   "내일 학교에 갔어요."
+  ]
+ },
+ {
+  "id": "ko-x-50e1d7ad4d",
+  "w": "과일을 먹고 싶어요.",
+  "r": "gwaireul meokgo sipeoyo.",
+  "m": "I want to eat fruit.",
+  "kind": "sent",
+  "toks": [
+   "과일을",
+   "먹고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-8"
+  ],
+  "tpl": 22,
+  "x": [
+   "과일을 먹어 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-b0f94b993c",
+  "w": "밥을 먹고 싶어요.",
+  "r": "babeul meokgo sipeoyo.",
+  "m": "I want to eat rice.",
+  "kind": "sent",
+  "toks": [
+   "밥을",
+   "먹고",
+   "싶어요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko3-8"
+  ],
+  "tpl": 22,
+  "x": [
+   "밥을 먹어 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-75433993ed",
+  "w": "고기를 먹고 싶어요.",
+  "r": "gogireul meokgo sipeoyo.",
+  "m": "I want to eat meat.",
+  "kind": "sent",
+  "toks": [
+   "고기를",
+   "먹고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-8"
+  ],
+  "tpl": 22,
+  "x": [
+   "고기를 먹어 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-98f1eb67d1",
+  "w": "빵을 먹고 싶어요.",
+  "r": "ppangeul meokgo sipeoyo.",
+  "m": "I want to eat bread.",
+  "kind": "sent",
+  "toks": [
+   "빵을",
+   "먹고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-8"
+  ],
+  "tpl": 22,
+  "x": [
+   "빵을 먹어 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-b58d27fc25",
+  "w": "사과를 먹고 싶어요.",
+  "r": "sagwareul meokgo sipeoyo.",
+  "m": "I want to eat apples.",
+  "kind": "sent",
+  "toks": [
+   "사과를",
+   "먹고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-8"
+  ],
+  "tpl": 22,
+  "x": [
+   "사과를 먹어 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-6a27cf9960",
+  "w": "김치를 먹고 싶어요.",
+  "r": "gimchireul meokgo sipeoyo.",
+  "m": "I want to eat kimchi.",
+  "kind": "sent",
+  "toks": [
+   "김치를",
+   "먹고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-16",
+   "ko3-8"
+  ],
+  "tpl": 22,
+  "x": [
+   "김치를 먹어 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-45744c8421",
+  "w": "일본에 가고 싶어요.",
+  "r": "ilbone gago sipeoyo.",
+  "m": "I want to go to Japan.",
+  "kind": "sent",
+  "toks": [
+   "일본에",
+   "가고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-5",
+   "ko3-8"
+  ],
+  "tpl": 23,
+  "x": [
+   "일본에 가요 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-7e12e5f09d",
+  "w": "미국에 가고 싶어요.",
+  "r": "miguge gago sipeoyo.",
+  "m": "I want to go to the USA.",
+  "kind": "sent",
+  "toks": [
+   "미국에",
+   "가고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-5",
+   "ko3-8"
+  ],
+  "tpl": 23,
+  "x": [
+   "미국에 가요 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-8f3ab0131b",
+  "w": "중국에 가고 싶어요.",
+  "r": "jungguge gago sipeoyo.",
+  "m": "I want to go to China.",
+  "kind": "sent",
+  "toks": [
+   "중국에",
+   "가고",
+   "싶어요"
+  ],
+  "need": [
+   "ko1-5",
+   "ko3-8"
+  ],
+  "tpl": 23,
+  "x": [
+   "중국에 가요 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-d4967a4ef7",
+  "w": "부산에 가고 싶어요.",
+  "r": "busane gago sipeoyo.",
+  "m": "I want to go to Busan.",
+  "kind": "sent",
+  "toks": [
+   "부산에",
+   "가고",
+   "싶어요"
+  ],
+  "need": [
+   "ko3-5",
+   "ko3-8"
+  ],
+  "tpl": 23,
+  "x": [
+   "부산에 가요 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-68548492de",
+  "w": "서울에 가고 싶어요.",
+  "r": "seoure gago sipeoyo.",
+  "m": "I want to go to Seoul.",
+  "kind": "sent",
+  "toks": [
+   "서울에",
+   "가고",
+   "싶어요"
+  ],
+  "need": [
+   "ko2-2",
+   "ko3-8"
+  ],
+  "tpl": 23,
+  "x": [
+   "서울에 가요 싶어요."
+  ]
+ },
+ {
+  "id": "ko-x-6f8f6b70e3",
+  "w": "맥주 두 잔 주세요.",
+  "r": "maekju du jan juseyo.",
+  "m": "Two cups of beer, please.",
+  "kind": "sent",
+  "toks": [
+   "맥주",
+   "두",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "맥주 이 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-825bc6ebc0",
+  "w": "주스 세 잔 주세요.",
+  "r": "juseu se jan juseyo.",
+  "m": "Three cups of juice, please.",
+  "kind": "sent",
+  "toks": [
+   "주스",
+   "세",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "주스 삼 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-2aaba97dc5",
+  "w": "커피 세 잔 주세요.",
+  "r": "keopi se jan juseyo.",
+  "m": "Three cups of coffee, please.",
+  "kind": "sent",
+  "toks": [
+   "커피",
+   "세",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "커피 삼 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-389a7e3f7d",
+  "w": "주스 한 잔 주세요.",
+  "r": "juseu han jan juseyo.",
+  "m": "One cup of juice, please.",
+  "kind": "sent",
+  "toks": [
+   "주스",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "주스 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-0961430a37",
+  "w": "맥주 세 잔 주세요.",
+  "r": "maekju se jan juseyo.",
+  "m": "Three cups of beer, please.",
+  "kind": "sent",
+  "toks": [
+   "맥주",
+   "세",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "맥주 삼 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-477c338797",
+  "w": "맥주 한 잔 주세요.",
+  "r": "maekju han jan juseyo.",
+  "m": "One cup of beer, please.",
+  "kind": "sent",
+  "toks": [
+   "맥주",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "맥주 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-e3930697bd",
+  "w": "물 두 잔 주세요.",
+  "r": "mul du jan juseyo.",
+  "m": "Two cups of water, please.",
+  "kind": "sent",
+  "toks": [
+   "물",
+   "두",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "물 이 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-4e91afa793",
+  "w": "물 한 잔 주세요.",
+  "r": "mul han jan juseyo.",
+  "m": "One cup of water, please.",
+  "kind": "sent",
+  "toks": [
+   "물",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko0-8",
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "물 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-5f5cf019b2",
+  "w": "우유 한 잔 주세요.",
+  "r": "uyu han jan juseyo.",
+  "m": "One cup of milk, please.",
+  "kind": "sent",
+  "toks": [
+   "우유",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "우유 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-0419ed8a44",
+  "w": "차 한 잔 주세요.",
+  "r": "cha han jan juseyo.",
+  "m": "One cup of tea, please.",
+  "kind": "sent",
+  "toks": [
+   "차",
+   "한",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "차 일 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-8c4f4acab8",
+  "w": "커피 두 잔 주세요.",
+  "r": "keopi du jan juseyo.",
+  "m": "Two cups of coffee, please.",
+  "kind": "sent",
+  "toks": [
+   "커피",
+   "두",
+   "잔",
+   "주세요"
+  ],
+  "need": [
+   "ko1-17"
+  ],
+  "tpl": 24,
+  "x": [
+   "커피 이 잔 주세요."
+  ]
+ },
+ {
+  "id": "ko-x-2fb5c2c42c",
+  "w": "새 네 마리가 있어요.",
+  "r": "sae ne mariga isseoyo.",
+  "m": "I have four birds.",
+  "kind": "sent",
+  "toks": [
+   "새",
+   "네",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko0-9",
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "새 사 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-8fde2f6c38",
+  "w": "강아지 네 마리가 있어요.",
+  "r": "gangaji ne mariga isseoyo.",
+  "m": "I have four puppies.",
+  "kind": "sent",
+  "toks": [
+   "강아지",
+   "네",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko0-9",
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "강아지 사 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-d7e0388093",
+  "w": "고양이 세 마리가 있어요.",
+  "r": "goyangi se mariga isseoyo.",
+  "m": "I have three cats.",
+  "kind": "sent",
+  "toks": [
+   "고양이",
+   "세",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "고양이 삼 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-ea3e941e4f",
+  "w": "물고기 세 마리가 있어요.",
+  "r": "mulgogi se mariga isseoyo.",
+  "m": "I have three fish.",
+  "kind": "sent",
+  "toks": [
+   "물고기",
+   "세",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "물고기 삼 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-f95b9e002d",
+  "w": "강아지 두 마리가 있어요.",
+  "r": "gangaji du mariga isseoyo.",
+  "m": "I have two puppies.",
+  "kind": "sent",
+  "toks": [
+   "강아지",
+   "두",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "강아지 이 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-fa792520ad",
+  "w": "물고기 두 마리가 있어요.",
+  "r": "mulgogi du mariga isseoyo.",
+  "m": "I have two fish.",
+  "kind": "sent",
+  "toks": [
+   "물고기",
+   "두",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "물고기 이 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-37b87ea15b",
+  "w": "고양이 네 마리가 있어요.",
+  "r": "goyangi ne mariga isseoyo.",
+  "m": "I have four cats.",
+  "kind": "sent",
+  "toks": [
+   "고양이",
+   "네",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko0-9",
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "고양이 사 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-29914c6a44",
+  "w": "새 세 마리가 있어요.",
+  "r": "sae se mariga isseoyo.",
+  "m": "I have three birds.",
+  "kind": "sent",
+  "toks": [
+   "새",
+   "세",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "새 삼 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-1a4e45e218",
+  "w": "물고기 네 마리가 있어요.",
+  "r": "mulgogi ne mariga isseoyo.",
+  "m": "I have four fish.",
+  "kind": "sent",
+  "toks": [
+   "물고기",
+   "네",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko0-9",
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "물고기 사 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-9f810564e0",
+  "w": "토끼 두 마리가 있어요.",
+  "r": "tokki du mariga isseoyo.",
+  "m": "I have two rabbits.",
+  "kind": "sent",
+  "toks": [
+   "토끼",
+   "두",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "토끼 이 마리가 있어요."
+  ]
+ },
+ {
+  "id": "ko-x-0e0e8d9da0",
+  "w": "강아지 세 마리가 있어요.",
+  "r": "gangaji se mariga isseoyo.",
+  "m": "I have three puppies.",
+  "kind": "sent",
+  "toks": [
+   "강아지",
+   "세",
+   "마리가",
+   "있어요"
+  ],
+  "need": [
+   "ko1-24",
+   "ko3-12"
+  ],
+  "tpl": 25,
+  "x": [
+   "강아지 삼 마리가 있어요."
+  ]
+ }
+]

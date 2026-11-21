@@ -1,0 +1,2869 @@
+[
+ {
+  "id": "zh-x-773508f3c6",
+  "w": "我吃肉。",
+  "r": "wǒ chī ròu.",
+  "m": "I eat meat.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "吃",
+   "肉"
+  ],
+  "need": [
+   "zh1-16"
+  ],
+  "tpl": 0,
+  "x": [
+   "我肉吃。"
+  ]
+ },
+ {
+  "id": "zh-x-a6ef6cf69a",
+  "w": "我吃面条。",
+  "r": "wǒ chī miàntiáo.",
+  "m": "I eat noodles.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "吃",
+   "面条"
+  ],
+  "need": [
+   "zh1-16"
+  ],
+  "tpl": 0,
+  "x": [
+   "我面条吃。"
+  ]
+ },
+ {
+  "id": "zh-x-c1bff72ce3",
+  "w": "我吃水果。",
+  "r": "wǒ chī shuǐguǒ.",
+  "m": "I eat fruit.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "吃",
+   "水果"
+  ],
+  "need": [
+   "zh1-16"
+  ],
+  "tpl": 0,
+  "x": [
+   "我水果吃。"
+  ]
+ },
+ {
+  "id": "zh-x-0635908b70",
+  "w": "我吃米饭。",
+  "r": "wǒ chī mǐfàn.",
+  "m": "I eat rice.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "吃",
+   "米饭"
+  ],
+  "need": [
+   "zh1-16"
+  ],
+  "tpl": 0,
+  "x": [
+   "我米饭吃。"
+  ]
+ },
+ {
+  "id": "zh-x-8b198687fe",
+  "w": "我吃苹果。",
+  "r": "wǒ chī píngguǒ.",
+  "m": "I eat apples.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "吃",
+   "苹果"
+  ],
+  "need": [
+   "zh1-16"
+  ],
+  "tpl": 0,
+  "x": [
+   "我苹果吃。"
+  ]
+ },
+ {
+  "id": "zh-x-7b74775526",
+  "w": "我吃鸡蛋。",
+  "r": "wǒ chī jīdàn.",
+  "m": "I eat eggs.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "吃",
+   "鸡蛋"
+  ],
+  "need": [
+   "zh1-16"
+  ],
+  "tpl": 0,
+  "x": [
+   "我鸡蛋吃。"
+  ]
+ },
+ {
+  "id": "zh-x-24934dbb65",
+  "w": "我喝茶。",
+  "r": "wǒ hē chá.",
+  "m": "I drink tea.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "喝",
+   "茶"
+  ],
+  "need": [
+   "zh1-17"
+  ],
+  "tpl": 1,
+  "x": [
+   "我茶喝。"
+  ]
+ },
+ {
+  "id": "zh-x-c0678bcf86",
+  "w": "我喝啤酒。",
+  "r": "wǒ hē píjiǔ.",
+  "m": "I drink beer.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "喝",
+   "啤酒"
+  ],
+  "need": [
+   "zh1-17"
+  ],
+  "tpl": 1,
+  "x": [
+   "我啤酒喝。"
+  ]
+ },
+ {
+  "id": "zh-x-4d3e714194",
+  "w": "我喝咖啡。",
+  "r": "wǒ hē kāfēi.",
+  "m": "I drink coffee.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "喝",
+   "咖啡"
+  ],
+  "need": [
+   "zh1-17"
+  ],
+  "tpl": 1,
+  "x": [
+   "我咖啡喝。"
+  ]
+ },
+ {
+  "id": "zh-x-9eb4c36fdb",
+  "w": "我喝牛奶。",
+  "r": "wǒ hē niúnǎi.",
+  "m": "I drink milk.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "喝",
+   "牛奶"
+  ],
+  "need": [
+   "zh1-17"
+  ],
+  "tpl": 1,
+  "x": [
+   "我牛奶喝。"
+  ]
+ },
+ {
+  "id": "zh-x-b4b9317e51",
+  "w": "我喝水。",
+  "r": "wǒ hē shuǐ.",
+  "m": "I drink water.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "喝",
+   "水"
+  ],
+  "need": [
+   "zh0-8",
+   "zh1-17"
+  ],
+  "tpl": 1,
+  "x": [
+   "我水喝。"
+  ]
+ },
+ {
+  "id": "zh-x-04358060d0",
+  "w": "我想喝水。",
+  "r": "wǒ xiǎng hē shuǐ.",
+  "m": "I'd like some water.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "喝",
+   "水"
+  ],
+  "need": [
+   "zh0-8",
+   "zh1-18"
+  ],
+  "tpl": 2,
+  "x": [
+   "我喝想水。"
+  ]
+ },
+ {
+  "id": "zh-x-56adb0b3f5",
+  "w": "我想喝茶。",
+  "r": "wǒ xiǎng hē chá.",
+  "m": "I'd like some tea.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "喝",
+   "茶"
+  ],
+  "need": [
+   "zh1-17",
+   "zh1-18"
+  ],
+  "tpl": 2,
+  "x": [
+   "我喝想茶。"
+  ]
+ },
+ {
+  "id": "zh-x-df967eacbd",
+  "w": "我想喝啤酒。",
+  "r": "wǒ xiǎng hē píjiǔ.",
+  "m": "I'd like some beer.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "喝",
+   "啤酒"
+  ],
+  "need": [
+   "zh1-17",
+   "zh1-18"
+  ],
+  "tpl": 2,
+  "x": [
+   "我喝想啤酒。"
+  ]
+ },
+ {
+  "id": "zh-x-098befbc8b",
+  "w": "我想喝咖啡。",
+  "r": "wǒ xiǎng hē kāfēi.",
+  "m": "I'd like some coffee.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "喝",
+   "咖啡"
+  ],
+  "need": [
+   "zh1-17",
+   "zh1-18"
+  ],
+  "tpl": 2,
+  "x": [
+   "我喝想咖啡。"
+  ]
+ },
+ {
+  "id": "zh-x-31a3409488",
+  "w": "我想喝牛奶。",
+  "r": "wǒ xiǎng hē niúnǎi.",
+  "m": "I'd like some milk.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "喝",
+   "牛奶"
+  ],
+  "need": [
+   "zh1-17",
+   "zh1-18"
+  ],
+  "tpl": 2,
+  "x": [
+   "我喝想牛奶。"
+  ]
+ },
+ {
+  "id": "zh-x-aa43debfd9",
+  "w": "妈妈喜欢苹果。",
+  "r": "māma xǐhuan píngguǒ.",
+  "m": "Mom likes apples.",
+  "kind": "sent",
+  "toks": [
+   "妈妈",
+   "喜欢",
+   "苹果"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "妈妈苹果喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-5189cf94af",
+  "w": "姐姐喜欢水果。",
+  "r": "jiějie xǐhuan shuǐguǒ.",
+  "m": "My older sister likes fruit.",
+  "kind": "sent",
+  "toks": [
+   "姐姐",
+   "喜欢",
+   "水果"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "姐姐水果喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-b7e2858b58",
+  "w": "姐姐喜欢米饭。",
+  "r": "jiějie xǐhuan mǐfàn.",
+  "m": "My older sister likes rice.",
+  "kind": "sent",
+  "toks": [
+   "姐姐",
+   "喜欢",
+   "米饭"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "姐姐米饭喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-af43c4b60c",
+  "w": "爸爸喜欢面条。",
+  "r": "bàba xǐhuan miàntiáo.",
+  "m": "Dad likes noodles.",
+  "kind": "sent",
+  "toks": [
+   "爸爸",
+   "喜欢",
+   "面条"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "爸爸面条喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-2291c1d17e",
+  "w": "老师喜欢苹果。",
+  "r": "lǎoshī xǐhuan píngguǒ.",
+  "m": "The teacher likes apples.",
+  "kind": "sent",
+  "toks": [
+   "老师",
+   "喜欢",
+   "苹果"
+  ],
+  "need": [
+   "zh0-9",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "老师苹果喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-c1d6a3a206",
+  "w": "爸爸喜欢鸡蛋。",
+  "r": "bàba xǐhuan jīdàn.",
+  "m": "Dad likes eggs.",
+  "kind": "sent",
+  "toks": [
+   "爸爸",
+   "喜欢",
+   "鸡蛋"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "爸爸鸡蛋喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-b9078c70de",
+  "w": "爸爸喜欢水果。",
+  "r": "bàba xǐhuan shuǐguǒ.",
+  "m": "Dad likes fruit.",
+  "kind": "sent",
+  "toks": [
+   "爸爸",
+   "喜欢",
+   "水果"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "爸爸水果喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-819736b503",
+  "w": "姐姐喜欢苹果。",
+  "r": "jiějie xǐhuan píngguǒ.",
+  "m": "My older sister likes apples.",
+  "kind": "sent",
+  "toks": [
+   "姐姐",
+   "喜欢",
+   "苹果"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "姐姐苹果喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-c8d614c554",
+  "w": "妈妈喜欢肉。",
+  "r": "māma xǐhuan ròu.",
+  "m": "Mom likes meat.",
+  "kind": "sent",
+  "toks": [
+   "妈妈",
+   "喜欢",
+   "肉"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "妈妈肉喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-1f4c831138",
+  "w": "老师喜欢米饭。",
+  "r": "lǎoshī xǐhuan mǐfàn.",
+  "m": "The teacher likes rice.",
+  "kind": "sent",
+  "toks": [
+   "老师",
+   "喜欢",
+   "米饭"
+  ],
+  "need": [
+   "zh0-9",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "老师米饭喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-597308e71d",
+  "w": "哥哥喜欢面条。",
+  "r": "gēge xǐhuan miàntiáo.",
+  "m": "My older brother likes noodles.",
+  "kind": "sent",
+  "toks": [
+   "哥哥",
+   "喜欢",
+   "面条"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "哥哥面条喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-11319b4201",
+  "w": "妈妈喜欢面条。",
+  "r": "māma xǐhuan miàntiáo.",
+  "m": "Mom likes noodles.",
+  "kind": "sent",
+  "toks": [
+   "妈妈",
+   "喜欢",
+   "面条"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 3,
+  "x": [
+   "妈妈面条喜欢。"
+  ]
+ },
+ {
+  "id": "zh-x-f1835266b1",
+  "w": "我不吃苹果。",
+  "r": "wǒ bù chī píngguǒ.",
+  "m": "I don't eat apples.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "不",
+   "吃",
+   "苹果"
+  ],
+  "need": [
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 4,
+  "x": [
+   "不我吃苹果。"
+  ]
+ },
+ {
+  "id": "zh-x-ca7f4d8bc3",
+  "w": "我不吃肉。",
+  "r": "wǒ bù chī ròu.",
+  "m": "I don't eat meat.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "不",
+   "吃",
+   "肉"
+  ],
+  "need": [
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 4,
+  "x": [
+   "不我吃肉。"
+  ]
+ },
+ {
+  "id": "zh-x-633c5f70d4",
+  "w": "我不吃水果。",
+  "r": "wǒ bù chī shuǐguǒ.",
+  "m": "I don't eat fruit.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "不",
+   "吃",
+   "水果"
+  ],
+  "need": [
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 4,
+  "x": [
+   "不我吃水果。"
+  ]
+ },
+ {
+  "id": "zh-x-d930d82d2b",
+  "w": "我不吃鸡蛋。",
+  "r": "wǒ bù chī jīdàn.",
+  "m": "I don't eat eggs.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "不",
+   "吃",
+   "鸡蛋"
+  ],
+  "need": [
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 4,
+  "x": [
+   "不我吃鸡蛋。"
+  ]
+ },
+ {
+  "id": "zh-x-d456e0963e",
+  "w": "我不吃米饭。",
+  "r": "wǒ bù chī mǐfàn.",
+  "m": "I don't eat rice.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "不",
+   "吃",
+   "米饭"
+  ],
+  "need": [
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 4,
+  "x": [
+   "不我吃米饭。"
+  ]
+ },
+ {
+  "id": "zh-x-5a365ca2dd",
+  "w": "我不吃面条。",
+  "r": "wǒ bù chī miàntiáo.",
+  "m": "I don't eat noodles.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "不",
+   "吃",
+   "面条"
+  ],
+  "need": [
+   "zh1-16",
+   "zh1-20"
+  ],
+  "tpl": 4,
+  "x": [
+   "不我吃面条。"
+  ]
+ },
+ {
+  "id": "zh-x-bd27f73b90",
+  "w": "我去医院。",
+  "r": "wǒ qù yīyuàn.",
+  "m": "I'm going to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh1-27"
+  ],
+  "tpl": 5,
+  "x": [
+   "我医院去。"
+  ]
+ },
+ {
+  "id": "zh-x-1bced5acde",
+  "w": "我去学校。",
+  "r": "wǒ qù xuéxiào.",
+  "m": "I'm going to school.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "学校"
+  ],
+  "need": [
+   "zh1-26",
+   "zh1-27"
+  ],
+  "tpl": 5,
+  "x": [
+   "我学校去。"
+  ]
+ },
+ {
+  "id": "zh-x-84ae89b086",
+  "w": "我去商店。",
+  "r": "wǒ qù shāngdiàn.",
+  "m": "I'm going to the shop.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "商店"
+  ],
+  "need": [
+   "zh1-26",
+   "zh1-27"
+  ],
+  "tpl": 5,
+  "x": [
+   "我商店去。"
+  ]
+ },
+ {
+  "id": "zh-x-65cc447001",
+  "w": "我去机场。",
+  "r": "wǒ qù jīchǎng.",
+  "m": "I'm going to the airport.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "机场"
+  ],
+  "need": [
+   "zh1-27",
+   "zh3-16"
+  ],
+  "tpl": 5,
+  "x": [
+   "我机场去。"
+  ]
+ },
+ {
+  "id": "zh-x-1db95995ed",
+  "w": "我去公司。",
+  "r": "wǒ qù gōngsī.",
+  "m": "I'm going to the office.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "公司"
+  ],
+  "need": [
+   "zh1-27",
+   "zh2-3"
+  ],
+  "tpl": 5,
+  "x": [
+   "我公司去。"
+  ]
+ },
+ {
+  "id": "zh-x-49d3c98ec9",
+  "w": "我去饭馆。",
+  "r": "wǒ qù fànguǎn.",
+  "m": "I'm going to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh1-27",
+   "zh2-4"
+  ],
+  "tpl": 5,
+  "x": [
+   "我饭馆去。"
+  ]
+ },
+ {
+  "id": "zh-x-3f5708f453",
+  "w": "我去图书馆。",
+  "r": "wǒ qù túshūguǎn.",
+  "m": "I'm going to the library.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "图书馆"
+  ],
+  "need": [
+   "zh1-27",
+   "zh2-4"
+  ],
+  "tpl": 5,
+  "x": [
+   "我图书馆去。"
+  ]
+ },
+ {
+  "id": "zh-x-048e2729b0",
+  "w": "我去银行。",
+  "r": "wǒ qù yínháng.",
+  "m": "I'm going to the bank.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "银行"
+  ],
+  "need": [
+   "zh1-27",
+   "zh2-6"
+  ],
+  "tpl": 5,
+  "x": [
+   "我银行去。"
+  ]
+ },
+ {
+  "id": "zh-x-cb41e056ba",
+  "w": "我想去日本。",
+  "r": "wǒ xiǎng qù Rìběn.",
+  "m": "I want to go to Japan.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "去",
+   "日本"
+  ],
+  "need": [
+   "zh1-27",
+   "zh1-5"
+  ],
+  "tpl": 6,
+  "x": [
+   "我去想日本。"
+  ]
+ },
+ {
+  "id": "zh-x-3e51beed04",
+  "w": "我想去上海。",
+  "r": "wǒ xiǎng qù Shànghǎi.",
+  "m": "I want to go to Shanghai.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "去",
+   "上海"
+  ],
+  "need": [
+   "zh1-27",
+   "zh3-5"
+  ],
+  "tpl": 6,
+  "x": [
+   "我去想上海。"
+  ]
+ },
+ {
+  "id": "zh-x-d164fc09b9",
+  "w": "我想去美国。",
+  "r": "wǒ xiǎng qù Měiguó.",
+  "m": "I want to go to the USA.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "去",
+   "美国"
+  ],
+  "need": [
+   "zh1-27",
+   "zh1-5"
+  ],
+  "tpl": 6,
+  "x": [
+   "我去想美国。"
+  ]
+ },
+ {
+  "id": "zh-x-51eae2a186",
+  "w": "我想去北京。",
+  "r": "wǒ xiǎng qù Běijīng.",
+  "m": "I want to go to Beijing.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "去",
+   "北京"
+  ],
+  "need": [
+   "zh1-27",
+   "zh3-1"
+  ],
+  "tpl": 6,
+  "x": [
+   "我去想北京。"
+  ]
+ },
+ {
+  "id": "zh-x-a16c27a6c5",
+  "w": "我想去中国。",
+  "r": "wǒ xiǎng qù Zhōngguó.",
+  "m": "I want to go to China.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "想",
+   "去",
+   "中国"
+  ],
+  "need": [
+   "zh0-9",
+   "zh1-27"
+  ],
+  "tpl": 6,
+  "x": [
+   "我去想中国。"
+  ]
+ },
+ {
+  "id": "zh-x-64a75a72a0",
+  "w": "明天我去公司。",
+  "r": "míngtiān wǒ qù gōngsī.",
+  "m": "I'm going to the office tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "明天",
+   "我",
+   "去",
+   "公司"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-3"
+  ],
+  "tpl": 7,
+  "x": [
+   "我公司去明天。"
+  ]
+ },
+ {
+  "id": "zh-x-05041d7a47",
+  "w": "今天我去商店。",
+  "r": "jīntiān wǒ qù shāngdiàn.",
+  "m": "I'm going to the shop today.",
+  "kind": "sent",
+  "toks": [
+   "今天",
+   "我",
+   "去",
+   "商店"
+  ],
+  "need": [
+   "zh1-26",
+   "zh1-28"
+  ],
+  "tpl": 7,
+  "x": [
+   "我商店去今天。"
+  ]
+ },
+ {
+  "id": "zh-x-407b2ae7c5",
+  "w": "今天我去医院。",
+  "r": "jīntiān wǒ qù yīyuàn.",
+  "m": "I'm going to the hospital today.",
+  "kind": "sent",
+  "toks": [
+   "今天",
+   "我",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh1-28"
+  ],
+  "tpl": 7,
+  "x": [
+   "我医院去今天。"
+  ]
+ },
+ {
+  "id": "zh-x-2167d454bc",
+  "w": "今天我去公司。",
+  "r": "jīntiān wǒ qù gōngsī.",
+  "m": "I'm going to the office today.",
+  "kind": "sent",
+  "toks": [
+   "今天",
+   "我",
+   "去",
+   "公司"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-3"
+  ],
+  "tpl": 7,
+  "x": [
+   "我公司去今天。"
+  ]
+ },
+ {
+  "id": "zh-x-3f71f02692",
+  "w": "明天我去银行。",
+  "r": "míngtiān wǒ qù yínháng.",
+  "m": "I'm going to the bank tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "明天",
+   "我",
+   "去",
+   "银行"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-6"
+  ],
+  "tpl": 7,
+  "x": [
+   "我银行去明天。"
+  ]
+ },
+ {
+  "id": "zh-x-4636d55928",
+  "w": "明天我去商店。",
+  "r": "míngtiān wǒ qù shāngdiàn.",
+  "m": "I'm going to the shop tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "明天",
+   "我",
+   "去",
+   "商店"
+  ],
+  "need": [
+   "zh1-26",
+   "zh1-28"
+  ],
+  "tpl": 7,
+  "x": [
+   "我商店去明天。"
+  ]
+ },
+ {
+  "id": "zh-x-2dce632b3d",
+  "w": "今天我去饭馆。",
+  "r": "jīntiān wǒ qù fànguǎn.",
+  "m": "I'm going to the restaurant today.",
+  "kind": "sent",
+  "toks": [
+   "今天",
+   "我",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-4"
+  ],
+  "tpl": 7,
+  "x": [
+   "我饭馆去今天。"
+  ]
+ },
+ {
+  "id": "zh-x-1050569222",
+  "w": "今天我去图书馆。",
+  "r": "jīntiān wǒ qù túshūguǎn.",
+  "m": "I'm going to the library today.",
+  "kind": "sent",
+  "toks": [
+   "今天",
+   "我",
+   "去",
+   "图书馆"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-4"
+  ],
+  "tpl": 7,
+  "x": [
+   "我图书馆去今天。"
+  ]
+ },
+ {
+  "id": "zh-x-83d44d1b23",
+  "w": "今天我去学校。",
+  "r": "jīntiān wǒ qù xuéxiào.",
+  "m": "I'm going to school today.",
+  "kind": "sent",
+  "toks": [
+   "今天",
+   "我",
+   "去",
+   "学校"
+  ],
+  "need": [
+   "zh1-26",
+   "zh1-28"
+  ],
+  "tpl": 7,
+  "x": [
+   "我学校去今天。"
+  ]
+ },
+ {
+  "id": "zh-x-1e76c613db",
+  "w": "明天我去图书馆。",
+  "r": "míngtiān wǒ qù túshūguǎn.",
+  "m": "I'm going to the library tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "明天",
+   "我",
+   "去",
+   "图书馆"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-4"
+  ],
+  "tpl": 7,
+  "x": [
+   "我图书馆去明天。"
+  ]
+ },
+ {
+  "id": "zh-x-ac4ace90e9",
+  "w": "今天我去银行。",
+  "r": "jīntiān wǒ qù yínháng.",
+  "m": "I'm going to the bank today.",
+  "kind": "sent",
+  "toks": [
+   "今天",
+   "我",
+   "去",
+   "银行"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-6"
+  ],
+  "tpl": 7,
+  "x": [
+   "我银行去今天。"
+  ]
+ },
+ {
+  "id": "zh-x-9f190a01ca",
+  "w": "明天我去饭馆。",
+  "r": "míngtiān wǒ qù fànguǎn.",
+  "m": "I'm going to the restaurant tomorrow.",
+  "kind": "sent",
+  "toks": [
+   "明天",
+   "我",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh1-28",
+   "zh2-4"
+  ],
+  "tpl": 7,
+  "x": [
+   "我饭馆去明天。"
+  ]
+ },
+ {
+  "id": "zh-x-daf59b261b",
+  "w": "图书馆在哪儿？",
+  "r": "túshūguǎn zài nǎr?",
+  "m": "Where is the library?",
+  "kind": "sent",
+  "toks": [
+   "图书馆",
+   "在",
+   "哪儿"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-4"
+  ],
+  "tpl": 8,
+  "x": [
+   "在图书馆哪儿？"
+  ]
+ },
+ {
+  "id": "zh-x-e2480cf189",
+  "w": "厕所在哪儿？",
+  "r": "cèsuǒ zài nǎr?",
+  "m": "Where is the toilet?",
+  "kind": "sent",
+  "toks": [
+   "厕所",
+   "在",
+   "哪儿"
+  ],
+  "need": [
+   "zh1-26"
+  ],
+  "tpl": 8,
+  "x": [
+   "在厕所哪儿？"
+  ]
+ },
+ {
+  "id": "zh-x-0c22b10a08",
+  "w": "商店在哪儿？",
+  "r": "shāngdiàn zài nǎr?",
+  "m": "Where is the shop?",
+  "kind": "sent",
+  "toks": [
+   "商店",
+   "在",
+   "哪儿"
+  ],
+  "need": [
+   "zh1-26"
+  ],
+  "tpl": 8,
+  "x": [
+   "在商店哪儿？"
+  ]
+ },
+ {
+  "id": "zh-x-177957cb29",
+  "w": "银行在哪儿？",
+  "r": "yínháng zài nǎr?",
+  "m": "Where is the bank?",
+  "kind": "sent",
+  "toks": [
+   "银行",
+   "在",
+   "哪儿"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-6"
+  ],
+  "tpl": 8,
+  "x": [
+   "在银行哪儿？"
+  ]
+ },
+ {
+  "id": "zh-x-d2b43460a5",
+  "w": "医院在哪儿？",
+  "r": "yīyuàn zài nǎr?",
+  "m": "Where is the hospital?",
+  "kind": "sent",
+  "toks": [
+   "医院",
+   "在",
+   "哪儿"
+  ],
+  "need": [
+   "zh1-26"
+  ],
+  "tpl": 8,
+  "x": [
+   "在医院哪儿？"
+  ]
+ },
+ {
+  "id": "zh-x-e5e39f0dab",
+  "w": "火车站在哪儿？",
+  "r": "huǒchēzhàn zài nǎr?",
+  "m": "Where is the train station?",
+  "kind": "sent",
+  "toks": [
+   "火车站",
+   "在",
+   "哪儿"
+  ],
+  "need": [
+   "zh1-26",
+   "zh3-19"
+  ],
+  "tpl": 8,
+  "x": [
+   "在火车站哪儿？"
+  ]
+ },
+ {
+  "id": "zh-x-cc9b5b6d43",
+  "w": "学校在哪儿？",
+  "r": "xuéxiào zài nǎr?",
+  "m": "Where is the school?",
+  "kind": "sent",
+  "toks": [
+   "学校",
+   "在",
+   "哪儿"
+  ],
+  "need": [
+   "zh1-26"
+  ],
+  "tpl": 8,
+  "x": [
+   "在学校哪儿？"
+  ]
+ },
+ {
+  "id": "zh-x-300a53e0a0",
+  "w": "我有一只鸟。",
+  "r": "wǒ yǒu yì zhī niǎo.",
+  "m": "I have a bird.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "有",
+   "一",
+   "只",
+   "鸟"
+  ],
+  "need": [
+   "zh1-24"
+  ],
+  "tpl": 9,
+  "x": [
+   "我有一鸟。"
+  ]
+ },
+ {
+  "id": "zh-x-eb8795a187",
+  "w": "我有一个书包。",
+  "r": "wǒ yǒu yí ge shūbāo.",
+  "m": "I have a schoolbag.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "有",
+   "一",
+   "个",
+   "书包"
+  ],
+  "need": [
+   "zh1-24",
+   "zh1-25"
+  ],
+  "tpl": 9,
+  "x": [
+   "我有一书包。"
+  ]
+ },
+ {
+  "id": "zh-x-6bd26c3cb4",
+  "w": "我有一本书。",
+  "r": "wǒ yǒu yì běn shū.",
+  "m": "I have a book.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "有",
+   "一",
+   "本",
+   "书"
+  ],
+  "need": [
+   "zh1-24",
+   "zh1-9"
+  ],
+  "tpl": 9,
+  "x": [
+   "我有一书。"
+  ]
+ },
+ {
+  "id": "zh-x-c06a76dac8",
+  "w": "我有一只猫。",
+  "r": "wǒ yǒu yì zhī māo.",
+  "m": "I have a cat.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "有",
+   "一",
+   "只",
+   "猫"
+  ],
+  "need": [
+   "zh1-24"
+  ],
+  "tpl": 9,
+  "x": [
+   "我有一猫。"
+  ]
+ },
+ {
+  "id": "zh-x-e008f9e4c4",
+  "w": "我有一只狗。",
+  "r": "wǒ yǒu yì zhī gǒu.",
+  "m": "I have a dog.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "有",
+   "一",
+   "只",
+   "狗"
+  ],
+  "need": [
+   "zh1-24"
+  ],
+  "tpl": 9,
+  "x": [
+   "我有一狗。"
+  ]
+ },
+ {
+  "id": "zh-x-7b09e0a870",
+  "w": "我有一个哥哥。",
+  "r": "wǒ yǒu yí ge gēge.",
+  "m": "I have an older brother.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "有",
+   "一",
+   "个",
+   "哥哥"
+  ],
+  "need": [
+   "zh1-11",
+   "zh1-24"
+  ],
+  "tpl": 9,
+  "x": [
+   "我有一哥哥。"
+  ]
+ },
+ {
+  "id": "zh-x-811d3048d6",
+  "w": "帽子多少钱？",
+  "r": "màozi duōshao qián?",
+  "m": "How much is the hat?",
+  "kind": "sent",
+  "toks": [
+   "帽子",
+   "多少",
+   "钱"
+  ],
+  "need": [
+   "zh1-10",
+   "zh2-18"
+  ],
+  "tpl": 10,
+  "x": [
+   "多少帽子钱是？"
+  ]
+ },
+ {
+  "id": "zh-x-c7b7eba404",
+  "w": "鞋多少钱？",
+  "r": "xié duōshao qián?",
+  "m": "How much are the shoes?",
+  "kind": "sent",
+  "toks": [
+   "鞋",
+   "多少",
+   "钱"
+  ],
+  "need": [
+   "zh1-10",
+   "zh2-18"
+  ],
+  "tpl": 10,
+  "x": [
+   "多少鞋钱是？"
+  ]
+ },
+ {
+  "id": "zh-x-032f2c993a",
+  "w": "苹果多少钱？",
+  "r": "píngguǒ duōshao qián?",
+  "m": "How much are the apples?",
+  "kind": "sent",
+  "toks": [
+   "苹果",
+   "多少",
+   "钱"
+  ],
+  "need": [
+   "zh1-10",
+   "zh1-16"
+  ],
+  "tpl": 10,
+  "x": [
+   "多少苹果钱是？"
+  ]
+ },
+ {
+  "id": "zh-x-654f23ccaa",
+  "w": "书多少钱？",
+  "r": "shū duōshao qián?",
+  "m": "How much is the book?",
+  "kind": "sent",
+  "toks": [
+   "书",
+   "多少",
+   "钱"
+  ],
+  "need": [
+   "zh1-10",
+   "zh1-9"
+  ],
+  "tpl": 10,
+  "x": [
+   "多少书钱是？"
+  ]
+ },
+ {
+  "id": "zh-x-f98d1a2b47",
+  "w": "书包多少钱？",
+  "r": "shūbāo duōshao qián?",
+  "m": "How much is the schoolbag?",
+  "kind": "sent",
+  "toks": [
+   "书包",
+   "多少",
+   "钱"
+  ],
+  "need": [
+   "zh1-10",
+   "zh1-25"
+  ],
+  "tpl": 10,
+  "x": [
+   "多少书包钱是？"
+  ]
+ },
+ {
+  "id": "zh-x-34576cb5b6",
+  "w": "衣服多少钱？",
+  "r": "yīfu duōshao qián?",
+  "m": "How much are the clothes?",
+  "kind": "sent",
+  "toks": [
+   "衣服",
+   "多少",
+   "钱"
+  ],
+  "need": [
+   "zh1-10",
+   "zh2-18"
+  ],
+  "tpl": 10,
+  "x": [
+   "多少衣服钱是？"
+  ]
+ },
+ {
+  "id": "zh-x-9b79264d50",
+  "w": "手机多少钱？",
+  "r": "shǒujī duōshao qián?",
+  "m": "How much is the phone?",
+  "kind": "sent",
+  "toks": [
+   "手机",
+   "多少",
+   "钱"
+  ],
+  "need": [
+   "zh1-10",
+   "zh2-29"
+  ],
+  "tpl": 10,
+  "x": [
+   "多少手机钱是？"
+  ]
+ },
+ {
+  "id": "zh-x-e9da522c05",
+  "w": "我没去银行。",
+  "r": "wǒ méi qù yínháng.",
+  "m": "I didn't go to the bank.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "银行"
+  ],
+  "need": [
+   "zh2-2",
+   "zh2-6"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没银行。"
+  ]
+ },
+ {
+  "id": "zh-x-05acef45b9",
+  "w": "我没去机场。",
+  "r": "wǒ méi qù jīchǎng.",
+  "m": "I didn't go to the airport.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "机场"
+  ],
+  "need": [
+   "zh2-2",
+   "zh3-16"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没机场。"
+  ]
+ },
+ {
+  "id": "zh-x-977b243eb2",
+  "w": "我没去医院。",
+  "r": "wǒ méi qù yīyuàn.",
+  "m": "I didn't go to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-2"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没医院。"
+  ]
+ },
+ {
+  "id": "zh-x-9de9a47283",
+  "w": "我没去图书馆。",
+  "r": "wǒ méi qù túshūguǎn.",
+  "m": "I didn't go to the library.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "图书馆"
+  ],
+  "need": [
+   "zh2-2",
+   "zh2-4"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没图书馆。"
+  ]
+ },
+ {
+  "id": "zh-x-578bf66221",
+  "w": "我没去商店。",
+  "r": "wǒ méi qù shāngdiàn.",
+  "m": "I didn't go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "商店"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-2"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没商店。"
+  ]
+ },
+ {
+  "id": "zh-x-8071418e27",
+  "w": "我没去公司。",
+  "r": "wǒ méi qù gōngsī.",
+  "m": "I didn't go to the office.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "公司"
+  ],
+  "need": [
+   "zh2-2",
+   "zh2-3"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没公司。"
+  ]
+ },
+ {
+  "id": "zh-x-ff02b2be76",
+  "w": "我没去饭馆。",
+  "r": "wǒ méi qù fànguǎn.",
+  "m": "I didn't go to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh2-2",
+   "zh2-4"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没饭馆。"
+  ]
+ },
+ {
+  "id": "zh-x-fd30445791",
+  "w": "我没去学校。",
+  "r": "wǒ méi qù xuéxiào.",
+  "m": "I didn't go to school.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "没",
+   "去",
+   "学校"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-2"
+  ],
+  "tpl": 11,
+  "x": [
+   "我去没学校。"
+  ]
+ },
+ {
+  "id": "zh-x-eb78eec854",
+  "w": "我坐地铁去银行。",
+  "r": "wǒ zuò dìtiě qù yínháng.",
+  "m": "I take the subway to the bank.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "地铁",
+   "去",
+   "银行"
+  ],
+  "need": [
+   "zh2-5",
+   "zh2-6"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-47bd2e14a7",
+  "w": "我坐出租车去医院。",
+  "r": "wǒ zuò chūzūchē qù yīyuàn.",
+  "m": "I take a taxi to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "出租车",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-6e99d1b460",
+  "w": "我坐公共汽车去饭馆。",
+  "r": "wǒ zuò gōnggòng qìchē qù fànguǎn.",
+  "m": "I take the bus to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "公共汽车",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh2-4",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-d04aa232b8",
+  "w": "我坐公共汽车去学校。",
+  "r": "wǒ zuò gōnggòng qìchē qù xuéxiào.",
+  "m": "I take the bus to school.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "公共汽车",
+   "去",
+   "学校"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-b1bdfa95e5",
+  "w": "我坐地铁去图书馆。",
+  "r": "wǒ zuò dìtiě qù túshūguǎn.",
+  "m": "I take the subway to the library.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "地铁",
+   "去",
+   "图书馆"
+  ],
+  "need": [
+   "zh2-4",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-4c9f784b6d",
+  "w": "我坐出租车去饭馆。",
+  "r": "wǒ zuò chūzūchē qù fànguǎn.",
+  "m": "I take a taxi to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "出租车",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh2-4",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-a1d1297859",
+  "w": "我坐地铁去学校。",
+  "r": "wǒ zuò dìtiě qù xuéxiào.",
+  "m": "I take the subway to school.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "地铁",
+   "去",
+   "学校"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-1fc91e5aa7",
+  "w": "我坐出租车去学校。",
+  "r": "wǒ zuò chūzūchē qù xuéxiào.",
+  "m": "I take a taxi to school.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "出租车",
+   "去",
+   "学校"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-09c3f31d0d",
+  "w": "我坐公共汽车去医院。",
+  "r": "wǒ zuò gōnggòng qìchē qù yīyuàn.",
+  "m": "I take the bus to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "公共汽车",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-554b37eb2d",
+  "w": "我坐出租车去公司。",
+  "r": "wǒ zuò chūzūchē qù gōngsī.",
+  "m": "I take a taxi to the office.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "出租车",
+   "去",
+   "公司"
+  ],
+  "need": [
+   "zh2-3",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-1adbacb3b7",
+  "w": "我坐地铁去商店。",
+  "r": "wǒ zuò dìtiě qù shāngdiàn.",
+  "m": "I take the subway to the shop.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "地铁",
+   "去",
+   "商店"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-3a42fb0b21",
+  "w": "我坐地铁去医院。",
+  "r": "wǒ zuò dìtiě qù yīyuàn.",
+  "m": "I take the subway to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "坐",
+   "地铁",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-5"
+  ],
+  "tpl": 12
+ },
+ {
+  "id": "zh-x-2f647cbd29",
+  "w": "星期六我去饭馆。",
+  "r": "xīngqīliù wǒ qù fànguǎn.",
+  "m": "On Saturday, I go to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "星期六",
+   "我",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh2-12",
+   "zh2-4"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-250ac32f37",
+  "w": "星期一我去图书馆。",
+  "r": "xīngqīyī wǒ qù túshūguǎn.",
+  "m": "On Monday, I go to the library.",
+  "kind": "sent",
+  "toks": [
+   "星期一",
+   "我",
+   "去",
+   "图书馆"
+  ],
+  "need": [
+   "zh2-12",
+   "zh2-4"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-0f3096ed22",
+  "w": "星期四我去学校。",
+  "r": "xīngqīsì wǒ qù xuéxiào.",
+  "m": "On Thursday, I go to school.",
+  "kind": "sent",
+  "toks": [
+   "星期四",
+   "我",
+   "去",
+   "学校"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-12"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-07760aa47c",
+  "w": "星期一我去医院。",
+  "r": "xīngqīyī wǒ qù yīyuàn.",
+  "m": "On Monday, I go to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "星期一",
+   "我",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-12"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-3cd95b196f",
+  "w": "星期天我去商店。",
+  "r": "xīngqītiān wǒ qù shāngdiàn.",
+  "m": "On Sunday, I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "星期天",
+   "我",
+   "去",
+   "商店"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-12"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-9408adc682",
+  "w": "星期二我去医院。",
+  "r": "xīngqī'èr wǒ qù yīyuàn.",
+  "m": "On Tuesday, I go to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "星期二",
+   "我",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-12"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-7e7745a588",
+  "w": "星期四我去医院。",
+  "r": "xīngqīsì wǒ qù yīyuàn.",
+  "m": "On Thursday, I go to the hospital.",
+  "kind": "sent",
+  "toks": [
+   "星期四",
+   "我",
+   "去",
+   "医院"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-12"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-cfdfdb208f",
+  "w": "星期一我去饭馆。",
+  "r": "xīngqīyī wǒ qù fànguǎn.",
+  "m": "On Monday, I go to the restaurant.",
+  "kind": "sent",
+  "toks": [
+   "星期一",
+   "我",
+   "去",
+   "饭馆"
+  ],
+  "need": [
+   "zh2-12",
+   "zh2-4"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-8df20e1356",
+  "w": "星期五我去机场。",
+  "r": "xīngqīwǔ wǒ qù jīchǎng.",
+  "m": "On Friday, I go to the airport.",
+  "kind": "sent",
+  "toks": [
+   "星期五",
+   "我",
+   "去",
+   "机场"
+  ],
+  "need": [
+   "zh2-12",
+   "zh3-16"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-1cb8efcc46",
+  "w": "星期三我去商店。",
+  "r": "xīngqīsān wǒ qù shāngdiàn.",
+  "m": "On Wednesday, I go to the shop.",
+  "kind": "sent",
+  "toks": [
+   "星期三",
+   "我",
+   "去",
+   "商店"
+  ],
+  "need": [
+   "zh1-26",
+   "zh2-12"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-2e5458b42e",
+  "w": "星期二我去公司。",
+  "r": "xīngqī'èr wǒ qù gōngsī.",
+  "m": "On Tuesday, I go to the office.",
+  "kind": "sent",
+  "toks": [
+   "星期二",
+   "我",
+   "去",
+   "公司"
+  ],
+  "need": [
+   "zh2-12",
+   "zh2-3"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-92fa1d1097",
+  "w": "星期五我去公司。",
+  "r": "xīngqīwǔ wǒ qù gōngsī.",
+  "m": "On Friday, I go to the office.",
+  "kind": "sent",
+  "toks": [
+   "星期五",
+   "我",
+   "去",
+   "公司"
+  ],
+  "need": [
+   "zh2-12",
+   "zh2-3"
+  ],
+  "tpl": 13
+ },
+ {
+  "id": "zh-x-bf42f1c3bf",
+  "w": "我去了中国。",
+  "r": "wǒ qù le Zhōngguó.",
+  "m": "I went to China.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "了",
+   "中国"
+  ],
+  "need": [
+   "zh0-9",
+   "zh3-1"
+  ],
+  "tpl": 14,
+  "x": [
+   "我了去中国。"
+  ]
+ },
+ {
+  "id": "zh-x-2533197a53",
+  "w": "我去了美国。",
+  "r": "wǒ qù le Měiguó.",
+  "m": "I went to the USA.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "了",
+   "美国"
+  ],
+  "need": [
+   "zh1-5",
+   "zh3-1"
+  ],
+  "tpl": 14,
+  "x": [
+   "我了去美国。"
+  ]
+ },
+ {
+  "id": "zh-x-d541f4b20d",
+  "w": "我去了上海。",
+  "r": "wǒ qù le Shànghǎi.",
+  "m": "I went to Shanghai.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "了",
+   "上海"
+  ],
+  "need": [
+   "zh3-1",
+   "zh3-5"
+  ],
+  "tpl": 14,
+  "x": [
+   "我了去上海。"
+  ]
+ },
+ {
+  "id": "zh-x-47f355586b",
+  "w": "我去了日本。",
+  "r": "wǒ qù le Rìběn.",
+  "m": "I went to Japan.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "了",
+   "日本"
+  ],
+  "need": [
+   "zh1-5",
+   "zh3-1"
+  ],
+  "tpl": 14,
+  "x": [
+   "我了去日本。"
+  ]
+ },
+ {
+  "id": "zh-x-65e60f421d",
+  "w": "我去了北京。",
+  "r": "wǒ qù le Běijīng.",
+  "m": "I went to Beijing.",
+  "kind": "sent",
+  "toks": [
+   "我",
+   "去",
+   "了",
+   "北京"
+  ],
+  "need": [
+   "zh3-1"
+  ],
+  "tpl": 14,
+  "x": [
+   "我了去北京。"
+  ]
+ },
+ {
+  "id": "zh-x-58ca864b8b",
+  "w": "你去过中国吗？",
+  "r": "nǐ qùguo Zhōngguó ma?",
+  "m": "Have you been to China?",
+  "kind": "sent",
+  "toks": [
+   "你",
+   "去过",
+   "中国",
+   "吗"
+  ],
+  "need": [
+   "zh0-9",
+   "zh3-3"
+  ],
+  "tpl": 15,
+  "x": [
+   "你去中国过吗？"
+  ]
+ },
+ {
+  "id": "zh-x-f49ae0d9f4",
+  "w": "你去过日本吗？",
+  "r": "nǐ qùguo Rìběn ma?",
+  "m": "Have you been to Japan?",
+  "kind": "sent",
+  "toks": [
+   "你",
+   "去过",
+   "日本",
+   "吗"
+  ],
+  "need": [
+   "zh1-5",
+   "zh3-3"
+  ],
+  "tpl": 15,
+  "x": [
+   "你去日本过吗？"
+  ]
+ },
+ {
+  "id": "zh-x-362db5ad96",
+  "w": "你去过美国吗？",
+  "r": "nǐ qùguo Měiguó ma?",
+  "m": "Have you been to the USA?",
+  "kind": "sent",
+  "toks": [
+   "你",
+   "去过",
+   "美国",
+   "吗"
+  ],
+  "need": [
+   "zh1-5",
+   "zh3-3"
+  ],
+  "tpl": 15,
+  "x": [
+   "你去美国过吗？"
+  ]
+ },
+ {
+  "id": "zh-x-6f55a30b21",
+  "w": "你去过北京吗？",
+  "r": "nǐ qùguo Běijīng ma?",
+  "m": "Have you been to Beijing?",
+  "kind": "sent",
+  "toks": [
+   "你",
+   "去过",
+   "北京",
+   "吗"
+  ],
+  "need": [
+   "zh3-1",
+   "zh3-3"
+  ],
+  "tpl": 15,
+  "x": [
+   "你去北京过吗？"
+  ]
+ },
+ {
+  "id": "zh-x-f4eb70f1b0",
+  "w": "你去过上海吗？",
+  "r": "nǐ qùguo Shànghǎi ma?",
+  "m": "Have you been to Shanghai?",
+  "kind": "sent",
+  "toks": [
+   "你",
+   "去过",
+   "上海",
+   "吗"
+  ],
+  "need": [
+   "zh3-3",
+   "zh3-5"
+  ],
+  "tpl": 15,
+  "x": [
+   "你去上海过吗？"
+  ]
+ },
+ {
+  "id": "zh-x-a7ae36e721",
+  "w": "我们一起去公司吧。",
+  "r": "wǒmen yìqǐ qù gōngsī ba.",
+  "m": "Let's go to the office together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "公司",
+   "吧"
+  ],
+  "need": [
+   "zh2-3",
+   "zh3-10"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去公司一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-e4b7a61c4a",
+  "w": "我们一起去图书馆吧。",
+  "r": "wǒmen yìqǐ qù túshūguǎn ba.",
+  "m": "Let's go to the library together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "图书馆",
+   "吧"
+  ],
+  "need": [
+   "zh2-4",
+   "zh3-10"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去图书馆一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-801a792dbf",
+  "w": "我们一起去商店吧。",
+  "r": "wǒmen yìqǐ qù shāngdiàn ba.",
+  "m": "Let's go to the shop together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "商店",
+   "吧"
+  ],
+  "need": [
+   "zh1-26",
+   "zh3-10"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去商店一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-f5024d09ba",
+  "w": "我们一起去机场吧。",
+  "r": "wǒmen yìqǐ qù jīchǎng ba.",
+  "m": "Let's go to the airport together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "机场",
+   "吧"
+  ],
+  "need": [
+   "zh3-10",
+   "zh3-16"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去机场一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-b8bb425479",
+  "w": "我们一起去医院吧。",
+  "r": "wǒmen yìqǐ qù yīyuàn ba.",
+  "m": "Let's go to the hospital together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "医院",
+   "吧"
+  ],
+  "need": [
+   "zh1-26",
+   "zh3-10"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去医院一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-5f2904c42b",
+  "w": "我们一起去银行吧。",
+  "r": "wǒmen yìqǐ qù yínháng ba.",
+  "m": "Let's go to the bank together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "银行",
+   "吧"
+  ],
+  "need": [
+   "zh2-6",
+   "zh3-10"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去银行一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-c684333cd4",
+  "w": "我们一起去饭馆吧。",
+  "r": "wǒmen yìqǐ qù fànguǎn ba.",
+  "m": "Let's go to the restaurant together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "饭馆",
+   "吧"
+  ],
+  "need": [
+   "zh2-4",
+   "zh3-10"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去饭馆一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-99fcd07951",
+  "w": "我们一起去学校吧。",
+  "r": "wǒmen yìqǐ qù xuéxiào ba.",
+  "m": "Let's go to school together.",
+  "kind": "sent",
+  "toks": [
+   "我们",
+   "一起",
+   "去",
+   "学校",
+   "吧"
+  ],
+  "need": [
+   "zh1-26",
+   "zh3-10"
+  ],
+  "tpl": 16,
+  "x": [
+   "我们去学校一起吧。"
+  ]
+ },
+ {
+  "id": "zh-x-0bfd9a4b58",
+  "w": "哥哥比老师高。",
+  "r": "gēge bǐ lǎoshī gāo.",
+  "m": "My older brother is taller than the teacher.",
+  "kind": "sent",
+  "toks": [
+   "哥哥",
+   "比",
+   "老师",
+   "高"
+  ],
+  "need": [
+   "zh0-9",
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "哥哥高比老师。"
+  ]
+ },
+ {
+  "id": "zh-x-1e59101d2e",
+  "w": "妈妈比爸爸高。",
+  "r": "māma bǐ bàba gāo.",
+  "m": "Mom is taller than Dad.",
+  "kind": "sent",
+  "toks": [
+   "妈妈",
+   "比",
+   "爸爸",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "妈妈高比爸爸。"
+  ]
+ },
+ {
+  "id": "zh-x-f60ec41511",
+  "w": "姐姐比弟弟高。",
+  "r": "jiějie bǐ dìdi gāo.",
+  "m": "My older sister is taller than my younger brother.",
+  "kind": "sent",
+  "toks": [
+   "姐姐",
+   "比",
+   "弟弟",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "姐姐高比弟弟。"
+  ]
+ },
+ {
+  "id": "zh-x-07acee38ff",
+  "w": "弟弟比哥哥高。",
+  "r": "dìdi bǐ gēge gāo.",
+  "m": "My younger brother is taller than my older brother.",
+  "kind": "sent",
+  "toks": [
+   "弟弟",
+   "比",
+   "哥哥",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "弟弟高比哥哥。"
+  ]
+ },
+ {
+  "id": "zh-x-75569c3342",
+  "w": "哥哥比爸爸高。",
+  "r": "gēge bǐ bàba gāo.",
+  "m": "My older brother is taller than Dad.",
+  "kind": "sent",
+  "toks": [
+   "哥哥",
+   "比",
+   "爸爸",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "哥哥高比爸爸。"
+  ]
+ },
+ {
+  "id": "zh-x-27c34d0ce1",
+  "w": "哥哥比弟弟高。",
+  "r": "gēge bǐ dìdi gāo.",
+  "m": "My older brother is taller than my younger brother.",
+  "kind": "sent",
+  "toks": [
+   "哥哥",
+   "比",
+   "弟弟",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "哥哥高比弟弟。"
+  ]
+ },
+ {
+  "id": "zh-x-3b78095086",
+  "w": "爸爸比妈妈高。",
+  "r": "bàba bǐ māma gāo.",
+  "m": "Dad is taller than Mom.",
+  "kind": "sent",
+  "toks": [
+   "爸爸",
+   "比",
+   "妈妈",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "爸爸高比妈妈。"
+  ]
+ },
+ {
+  "id": "zh-x-77eec97279",
+  "w": "妈妈比弟弟高。",
+  "r": "māma bǐ dìdi gāo.",
+  "m": "Mom is taller than my younger brother.",
+  "kind": "sent",
+  "toks": [
+   "妈妈",
+   "比",
+   "弟弟",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "妈妈高比弟弟。"
+  ]
+ },
+ {
+  "id": "zh-x-b4161106a8",
+  "w": "弟弟比爸爸高。",
+  "r": "dìdi bǐ bàba gāo.",
+  "m": "My younger brother is taller than Dad.",
+  "kind": "sent",
+  "toks": [
+   "弟弟",
+   "比",
+   "爸爸",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "弟弟高比爸爸。"
+  ]
+ },
+ {
+  "id": "zh-x-bf1fb08d28",
+  "w": "爸爸比弟弟高。",
+  "r": "bàba bǐ dìdi gāo.",
+  "m": "Dad is taller than my younger brother.",
+  "kind": "sent",
+  "toks": [
+   "爸爸",
+   "比",
+   "弟弟",
+   "高"
+  ],
+  "need": [
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "爸爸高比弟弟。"
+  ]
+ },
+ {
+  "id": "zh-x-79a3c5148e",
+  "w": "弟弟比老师高。",
+  "r": "dìdi bǐ lǎoshī gāo.",
+  "m": "My younger brother is taller than the teacher.",
+  "kind": "sent",
+  "toks": [
+   "弟弟",
+   "比",
+   "老师",
+   "高"
+  ],
+  "need": [
+   "zh0-9",
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "弟弟高比老师。"
+  ]
+ },
+ {
+  "id": "zh-x-0e22d79ad4",
+  "w": "老师比姐姐高。",
+  "r": "lǎoshī bǐ jiějie gāo.",
+  "m": "The teacher is taller than my older sister.",
+  "kind": "sent",
+  "toks": [
+   "老师",
+   "比",
+   "姐姐",
+   "高"
+  ],
+  "need": [
+   "zh0-9",
+   "zh1-11",
+   "zh3-11"
+  ],
+  "tpl": 17,
+  "x": [
+   "老师高比姐姐。"
+  ]
+ }
+]

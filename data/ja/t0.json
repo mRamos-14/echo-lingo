@@ -40,7 +40,7 @@
         {"id": "ja-ko", "w": "こ", "r": "ko", "kind": "letter"},
         {"id": "ja-sa", "w": "さ", "r": "sa", "kind": "letter"},
         {"id": "ja-shi", "w": "し", "r": "shi", "kind": "letter", "hint": "shi, not si"},
-        {"id": "ja-su", "w": "す", "r": "su", "say": "す。", "kind": "letter", "hint": "the u is often whispered"},
+        {"id": "ja-su", "w": "す", "r": "su", "kind": "letter", "hint": "the u is often whispered"},
         {"id": "ja-se", "w": "せ", "r": "se", "kind": "letter"},
         {"id": "ja-so", "w": "そ", "r": "so", "kind": "letter"}
       ],
@@ -98,7 +98,7 @@
         {"id": "ja-he", "w": "へ", "r": "he", "kind": "letter"},
         {"id": "ja-ho", "w": "ほ", "r": "ho", "kind": "letter"},
         {"id": "ja-ma", "w": "ま", "r": "ma", "kind": "letter"},
-        {"id": "ja-mi", "w": "み", "r": "mi", "say": "み。", "kind": "letter"},
+        {"id": "ja-mi", "w": "み", "r": "mi", "kind": "letter"},
         {"id": "ja-mu", "w": "む", "r": "mu", "kind": "letter"},
         {"id": "ja-me", "w": "め", "r": "me", "kind": "letter"},
         {"id": "ja-mo", "w": "も", "r": "mo", "kind": "letter"}

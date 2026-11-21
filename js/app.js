@@ -12,6 +12,14 @@
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = (a) => a[Math.floor(Math.random() * a.length)];
+  // Seeded randomness: the Tower is the same all day and different tomorrow
+  const hashStr = (s) => { let h = 2166136261; for (const ch of s) h = Math.imul(h ^ ch.codePointAt(0), 16777619); return h >>> 0; };
+  function seeded(seed) {
+    let a = hashStr(String(seed));
+    return () => { a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  }
+  const shuffleR = (a, r) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+  const pickR = (a, r) => a[Math.floor(r() * a.length)];
   const ymd = (t) => { const d = new Date(t); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
   const today = () => ymd(Date.now());
 
@@ -19,7 +27,7 @@
   function freshState() {
     return {
       v: 1, done: {}, srs: {}, days: {}, streak: { count: 0, last: null }, lastLang: null,
-      xpTotal: 0, badges: {}, bestCombo: 0, goalDays: [],
+      xpTotal: 0, badges: {}, bestCombo: 0, goalDays: [], tower: { date: null, floors: {} }, towerBest: {},
       settings: { slow: false, goal: 20, sfx: true },
     };
   }
@@ -67,7 +75,7 @@
   }
 
   /* ---------------- data ---------------- */
-  const D = { courses: [], tiers: {}, items: {}, manifest: {}, gram: {} };
+  const D = { courses: [], tiers: {}, items: {}, manifest: {}, gram: {}, drills: {} };
   async function fetchJSON(u) { const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) throw new Error(`${u}: ${r.status}`); return r.json(); }
   async function loadAll() {
     const [courses, manifest] = await Promise.all([fetchJSON('data/index.json'), fetchJSON('audio/manifest.json').catch(() => ({}))]);
@@ -90,6 +98,13 @@
     for (const c of courses) for (const les of allLessons(c.lang)) for (const g of les.grammar || []) {
       g.lesson = les; g.item = D.items[g.ex];
       if (g.item) (D.gram[g.ex] = D.gram[g.ex] || []).push(g);
+    }
+    // Tower sentences: usable on a floor once every lesson they need is at or below it
+    for (const c of courses) {
+      if (!c.drills) continue;
+      const list = await fetchJSON(c.drills).catch(() => []);
+      const gOf = Object.fromEntries(allLessons(c.lang).map((l) => [l.id, l.gidx]));
+      D.drills[c.lang] = list.map((d) => ({ ...d, lang: c.lang, floor: Math.max(...d.need.map((id) => gOf[id] ?? 999)) }));
     }
   }
   const course = (lang) => D.courses.find((c) => c.lang === lang);
@@ -199,6 +214,9 @@
     { id: 'tri', icon: '🌏', name: 'Trilingual', desc: 'Finish a lesson in all three languages', test: () => ['ko', 'ja', 'zh'].every((l) => Object.keys(S.done).some((k) => k.startsWith(l))) },
     { id: 'goal5', icon: '⭐', name: 'Goal getter', desc: 'Hit your daily goal on 5 days', test: () => S.goalDays.length >= 5 },
     { id: 'level10', icon: '🚀', name: 'Level 10', desc: 'Reach level 10', test: () => levelOf(S.xpTotal) >= 10 },
+    { id: 'tower1', icon: '🗼', name: 'First floor', desc: 'Clear a Daily Tower floor', test: () => Object.keys((S.tower && S.tower.floors) || {}).length >= 1 },
+    { id: 'tower10', icon: '🏯', name: 'Tower climber', desc: 'Clear 10 Tower floors in one day', test: () => Object.keys((S.tower && S.tower.floors) || {}).length >= 10 },
+    { id: 'perfect3', icon: '🌟', name: 'Three stars', desc: 'Clear a Tower floor with no mistakes', test: () => Object.values((S.tower && S.tower.floors) || {}).some((v) => v === 3) },
   ];
   function checkBadges(ctx) {
     const fresh = [];
@@ -297,6 +315,78 @@
     return { t: 'gap', item: g.item, g, gi, opts: shuffle([p.w, ...p.alt.slice(0, 3)]) };
   }
   function gapFor(it) { const gs = D.gram[it.id]; return gs ? exGap(pick(gs)) : null; }
+
+  /* ----- Tower activities ----- */
+  const rightOf = (it) => it.m || it.r;
+  // Match: tap pairs (word ↔ meaning, or letter ↔ sound)
+  function exMatch(items) {
+    const L = new Set(), R = new Set(), pairs = [];
+    for (const it of items) {
+      if (!it || L.has(it.w) || R.has(rightOf(it))) continue;
+      L.add(it.w); R.add(rightOf(it)); pairs.push(it);
+      if (pairs.length === 4) break;
+    }
+    return pairs.length >= 3 ? { t: 'match', items: pairs, left: shuffle(pairs), right: shuffle(pairs) } : null;
+  }
+  // Speed round: quick two-choice meanings against the clock
+  function exSpeed(items) {
+    const pool = items.filter(Boolean), qs = [];
+    for (const it of pool) {
+      const others = pool.filter((o) => o !== it && rightOf(o) !== rightOf(it));
+      if (!others.length) continue;
+      qs.push({ item: it, opts: shuffle([rightOf(it), rightOf(pick(others))]) });
+      if (qs.length === 8) break;
+    }
+    return qs.length >= 4 ? { t: 'speed', qs, secs: 5 + qs.length * 3 } : null;
+  }
+  // True or false: does the sentence you hear mean this?
+  function exTF(item, pool, r) {
+    if (!item.m) return null;
+    const others = pool.filter((o) => o.m && o.m !== item.m);
+    const truth = !others.length || r() < 0.5;
+    return { t: 'tf', item, truth, shown: truth ? item.m : pickR(others, r).m };
+  }
+  // Spot the mistake: the right sentence among wrong particle / tense / word-order versions
+  function exFix(item) {
+    let wrongs = (item.x || []).slice(0, 2);
+    if (!wrongs.length && D.gram[item.id]) {
+      const g = D.gram[item.id][0];
+      wrongs = g.parts.map((p, i) => i).filter((i) => g.parts[i].alt && g.parts[i].alt.length).slice(0, 2)
+        .map((i) => segments(item.w, g.parts).map((s) => (s.gap != null ? s.gap : s.part === i ? g.parts[i].alt[0] : g.parts[s.part].w)).join(''));
+    }
+    wrongs = [...new Set(wrongs)].filter((w) => w !== item.w);
+    return wrongs.length ? { t: 'fix', item, answer: item.w, opts: shuffle([item.w, ...wrongs]) } : null;
+  }
+
+  // One Tower floor = today's mix of activities for one lesson (same all day, new tomorrow)
+  function buildFloor(les, day = today()) {
+    const r = seeded(`${day}|${les.id}`);
+    const lang = les.lang, g = les.gidx, ctx = { maxIdx: g };
+    const tier = D.tiers[les.tierKey];
+    const own = les.review ? tier.lessons.filter((l) => l.idx < les.idx).flatMap((l) => l.items || []) : (les.items || []);
+    const words = own.filter((it) => it.kind !== 'sent' && !it.nopick);
+    const older = shuffleR(langItems(lang).filter((it) => it.lessonIdx < g && it.kind !== 'sent' && !it.nopick && !it.lesson.startsWith(les.id)), r).slice(0, 6);
+    const drills = (D.drills[lang] || []).filter((d) => d.floor <= g);
+    const near = les.review ? drills : drills.filter((d) => d.need.includes(les.id));
+    const ownSents = own.filter((it) => it.kind === 'sent');
+    const sents = [...new Set([...shuffleR(near, r).slice(0, 4), ...shuffleR(ownSents, r).slice(0, 2), ...shuffleR(drills, r).slice(0, 3)])].slice(0, 6);
+    const sentPool = [...drills, ...ownSents];
+    const acts = [];
+    const add = (e) => { if (e) acts.push(e); };
+    add(exMatch(shuffleR([...words, ...older], r)));
+    if (words.length + older.length >= 5) add(exSpeed(shuffleR([...new Set([...words, ...older])], r)));
+    shuffleR(words, r).slice(0, sents.length ? 2 : 4).forEach((it) => {
+      const opts = [exHear(it, ctx), it.lang === 'zh' && it.kind === 'char' ? exTone(it) : exMeaning(it, ctx), it.kind === 'letter' || it.kind === 'kata' ? exSee(it, ctx) : null].filter(Boolean);
+      if (opts.length) add(pickR(opts, r));
+    });
+    sents.forEach((s) => {
+      const kinds = shuffleR([() => exTF(s, sentPool, r), () => exFix(s), () => exSentence(s, ctx, false), () => exSentence(s, ctx, true), () => exMeaning(s, ctx)], r);
+      for (const k of kinds) { const e = k(); if (e) { add(e); break; } }
+    });
+    (les.grammar || []).filter((x) => x.item).slice(0, 2).forEach((gp) => add(exGap(gp)));
+    if (les.tierKey.endsWith('t0')) shuffleR(les.build || [], r).slice(0, 2).forEach((b) => add(exBuild(b, ctx)));
+    return { steps: spread(shuffleR(acts, r)).slice(0, 10), ctx };
+  }
   function mainExercises(it, ctx) {
     if (it.nopick) return [];
     if (it.kind === 'sent') return [exMeaning(it, ctx), pick([exSentence(it, ctx, false), exSentence(it, ctx, true), exHear(it, ctx, 2)])];
@@ -514,6 +604,7 @@
           <div class="goal">${ring(xp / goal)}<div><b>${xp}/${goal} XP</b><span>daily goal${xp >= goal ? ' ✓' : ''}</span></div></div>
           <div class="week"><div class="wdays">${week}</div><span>${streakNow()} day streak</span></div>
           ${dueAll && dueAll.n ? `<button class="btn ghost sm" id="quick">Quick review · ${dueAll.n}</button>` : ''}
+          ${lastLang && allLessons(lastLang).some((l) => S.done[l.id]) ? `<button class="btn ghost sm" data-go="#/t/${lastLang}">🗼 Daily Tower</button>` : ''}
         </div>
         <div class="langs">
           ${D.courses.map((c) => {
@@ -543,6 +634,7 @@
     wireAppInfo();
     wireInstallCard();
     $$('.lang').forEach((b) => b.addEventListener('click', () => go(`#/c/${b.dataset.lang}`)));
+    $$('.today [data-go]').forEach((b) => b.addEventListener('click', () => go(b.dataset.go)));
     const cont = $('#continue');
     if (cont) cont.addEventListener('click', () => startLesson(lastLang, nl.id));
     const q = $('#quick');
@@ -578,6 +670,7 @@
         <div class="actions">
           ${nl ? `<button class="btn primary" id="cont">▶ ${esc(nl.title)}</button>` : ''}
           <button class="btn ghost" id="practice" ${seen ? '' : 'disabled'}>Practice${due ? ` · ${due}` : ''}</button>
+          <button class="btn ghost" data-go="#/t/${lang}">🗼 Daily Tower</button>
           <button class="btn ghost" data-go="#/n/${lang}">Grammar</button>
         </div>
         ${c.tierData.map((tier) => `
@@ -609,6 +702,54 @@
     if (pr) pr.addEventListener('click', () => startPractice(lang));
     const curNode = $('.node.cur');
     if (curNode) curNode.scrollIntoView({ block: 'center' });
+  }
+
+  /* ---------------- daily Tower ---------------- */
+  function renderTower(lang) {
+    const c = course(lang);
+    if (!c) return go('#/');
+    setAccent(lang); towerToday();
+    const all = allLessons(lang);
+    const open = all.filter((l) => S.done[l.id]);
+    const clearedToday = open.filter((l) => S.tower.floors[l.id]).length;
+    const starsToday = open.reduce((n, l) => n + (S.tower.floors[l.id] || 0), 0);
+    const mid = new Date(); mid.setHours(24, 0, 0, 0);
+    const mins = Math.max(1, Math.round((mid - Date.now()) / 60000));
+    const nextOpen = open.find((l) => !S.tower.floors[l.id]);
+    const firstLocked = all.find((l) => !S.done[l.id]);
+    app().innerHTML = `
+      <div class="page">
+        <header class="top"><button class="back" data-go="#/c/${lang}">‹ ${c.name}</button>
+          <div class="stats"><span class="pill fire">🔥 <b>${streakNow()}</b></span><span class="pill"><b>${xpToday()}</b>/${S.settings.goal} XP</span></div></header>
+        <div class="towerhead">
+          <div class="tglyph">🗼</div>
+          <div><h1 class="h1">${c.name} Daily Tower</h1>
+          <p class="muted">One floor for every lesson you've finished. Today's floors mix matching, true/false, spot-the-mistake, sentence building and speed rounds, with <b>new sentences every day</b>. 3 hearts per floor.</p></div>
+        </div>
+        <div class="today towerstats">
+          <div><b>${clearedToday}/${open.length}</b><span>floors cleared today</span></div>
+          <div><b>${starsToday} ★</b><span>stars today</span></div>
+          <div><b>${Math.floor(mins / 60)}h ${mins % 60}m</b><span>until new floors</span></div>
+          ${nextOpen ? `<button class="btn primary sm" id="climb">Climb: floor ${nextOpen.gidx + 1} ▶</button>` : ''}
+        </div>
+        ${open.length ? '' : `<p class="emptynote">Finish your first ${c.name} lesson to open floor 1.</p>`}
+        ${c.tierData.map((tier) => {
+          const fl = tier.lessons.filter((l) => S.done[l.id] || l === firstLocked);
+          if (!fl.length) return '';
+          return `<h2 class="h2">Tier ${tier.tier} · ${esc(tier.name)}</h2><div class="floors">${fl.map((l) => {
+            const st = S.tower.floors[l.id] || 0, locked = !S.done[l.id];
+            return `<button class="floor ${st ? 'cleared' : ''} ${locked ? 'locked' : ''}" data-les="${l.id}" ${locked ? 'disabled' : ''}>
+              <span class="fnum">${l.gidx + 1}</span>
+              <span class="ft"><b>${esc(l.title)}</b><small>${locked ? 'Finish this lesson to unlock' : st ? 'Cleared today' : (l.grammar ? 'Grammar floor' : 'Ready')}</small></span>
+              <span class="stars">${[1, 2, 3].map((i) => `<span class="${i <= st ? 'on' : ''}">★</span>`).join('')}</span>
+            </button>`;
+          }).join('')}</div>`;
+        }).join('')}
+      </div>`;
+    $$('[data-go]').forEach((b) => b.addEventListener('click', () => go(b.dataset.go)));
+    $$('.floor').forEach((b) => b.addEventListener('click', () => startTower(lang, b.dataset.les)));
+    const cl = $('#climb');
+    if (cl) cl.addEventListener('click', () => startTower(lang, nextOpen.id));
   }
 
   /* ---------------- guide & grammar notebook ---------------- */
@@ -683,14 +824,28 @@
     } else built = buildLesson(les);
     startSession(built.steps, built.ctx, { lang, kind: les.review ? 'review' : 'lesson', les, title: les.title });
   }
+  function towerToday() {
+    if (!S.tower || S.tower.date !== today()) { S.tower = { date: today(), floors: {} }; save(); }
+    return S.tower;
+  }
+  function startTower(lang, id) {
+    const les = allLessons(lang).find((l) => l.id === id);
+    if (!les || !S.done[les.id]) return;
+    const { steps, ctx } = buildFloor(les);
+    if (!steps.length) { toast('Nothing to practice on this floor yet'); return; }
+    S.lastLang = lang; save();
+    startSession(steps, ctx, { lang, kind: 'tower', les, title: `Floor ${les.gidx + 1} · ${les.title}` });
+  }
   function startSession(steps, ctx, meta) {
-    SES = { steps: steps.slice(), i: 0, ctx, meta, first: new Map(), retries: new Map(), start: Date.now(), state: 'ask', combo: 0, maxCombo: 0, xp: 0, timer: null };
+    SES = { steps: steps.slice(), i: 0, ctx, meta, first: new Map(), retries: new Map(), start: Date.now(), state: 'ask', combo: 0, maxCombo: 0, xp: 0, timer: null,
+      hearts: meta.kind === 'tower' ? 3 : null, mistakes: 0, answered: 0, right: 0 };
     setAccent(meta.lang);
     app().innerHTML = `
       <div class="lesson">
         <header class="lhead">
           <button class="x" id="quit" aria-label="Quit lesson">✕</button>
           <div class="prog"><i></i></div>
+          ${SES.hearts != null ? '<span class="hearts" id="hearts"></span>' : ''}
           <span class="combo" id="combo" hidden></span>
           <span class="lxp" id="lxp">0 XP</span>
           <button class="slowbtn ${S.settings.slow ? 'on' : ''}" id="slow" title="Slow audio (S)" aria-label="Slow audio">${TURTLE}</button>
@@ -700,6 +855,7 @@
       </div>`;
     $('#quit').addEventListener('click', () => { if (confirm('Quit this lesson? Progress in it will be lost.')) { clearTimeout(SES.timer); SES = null; route(); } });
     $('#slow').addEventListener('click', toggleSlow);
+    setHud();
     renderStep();
   }
   function toggleSlow() {
@@ -715,10 +871,13 @@
     c.hidden = SES.combo < 2;
     c.textContent = `🔥 ${SES.combo}`;
     $('#lxp').textContent = `${SES.xp} XP`;
+    const h = $('#hearts');
+    if (h) h.innerHTML = [0, 1, 2].map((i) => `<span class="${i < SES.hearts ? '' : 'lost'}">❤️</span>`).join('');
   }
   const cur = () => SES.steps[SES.i];
-  // Choice exercises submit on tap; 'see' needs a listen first, builds need Check
-  const autoSubmit = (ex) => ex.t === 'hear' || ex.t === 'meaning' || ex.t === 'tone' || ex.t === 'gap';
+  // Choice exercises submit on tap; 'see' needs a listen first, builds need Check; match and speed run themselves
+  const autoSubmit = (ex) => ['hear', 'meaning', 'tone', 'gap', 'tf', 'fix'].includes(ex.t);
+  const selfRun = (ex) => ex.t === 'match' || ex.t === 'speed';
 
   function renderStep() {
     clearTimeout(SES.timer);
@@ -820,11 +979,34 @@
         ${it.lang === 'ko' && !ex.words ? '<div class="preview" id="preview" lang="ko"></div>' : ''}
         <div class="slots ${ex.words ? 'words' : ''}" id="slots"></div>
         <div class="tiles ${ex.words ? 'words' : ''}">${ex.tiles.map((c, i) => `<button class="tile" data-i="${i}" lang="${it.lang}">${esc(c)}</button>`).join('')}</div>`;
+    } else if (ex.t === 'tf') {
+      body = `<div class="kicker">True or false</div><div class="prompt">Listen. Does it mean this?</div>${speaker}
+        <div class="engq">“${esc(ex.shown)}”</div>
+        <div class="opts">${['Yes, it does', 'No, it doesn’t'].map((o, i) => `<button class="opt" data-i="${i}"><span class="key">${i + 1}</span><span class="en">${i ? '✗' : '✓'} ${o}</span></button>`).join('')}</div>`;
+    } else if (ex.t === 'fix') {
+      autoplay = false;
+      body = `<div class="kicker">Spot the mistake</div><div class="prompt">Which sentence is correct?</div>
+        <div class="engq">${esc(it.m)}</div>
+        <div class="opts col">${ex.opts.map((o, i) => `<button class="opt" data-i="${i}"><span class="key">${i + 1}</span><span class="tw sent" lang="${it.lang}">${esc(o)}</span></button>`).join('')}</div>`;
+    } else if (ex.t === 'match') {
+      autoplay = false;
+      const byMeaning = ex.items.every((x) => x.m);
+      body = `<div class="kicker">Match</div><div class="prompt">${byMeaning ? 'Match each one to its meaning' : ex.items.some((x) => x.m) ? 'Match each one to its meaning or sound' : 'Match each letter to its sound'}</div>
+        <div class="match">
+          <div class="mcol">${ex.left.map((x) => `<button class="mt" data-side="L" data-id="${esc(x.id)}">${wordHTML(x)}</button>`).join('')}</div>
+          <div class="mcol">${ex.right.map((x) => `<button class="mt" data-side="R" data-id="${esc(x.id)}"><span class="en">${esc(rightOf(x))}</span></button>`).join('')}</div>
+        </div>`;
+    } else if (ex.t === 'speed') {
+      autoplay = false;
+      body = `<div class="kicker">Speed round</div><div class="prompt">Quick! Pick the right meaning</div>
+        <div class="timer"><i id="tbar"></i></div><div class="sq" id="sq"></div>`;
     }
     st.innerHTML = body;
-    ft.innerHTML = autoSubmit(ex)
-      ? `<span class="muted tap">Tap your answer</span>`
+    ft.innerHTML = autoSubmit(ex) || selfRun(ex)
+      ? `<span class="muted tap">${ex.t === 'match' ? 'Tap a word, then its partner' : ex.t === 'speed' ? 'Beat the clock' : 'Tap your answer'}</span>`
       : `<button class="btn primary" id="check" disabled>Check</button>`;
+    if (ex.t === 'match') runMatch(ex);
+    if (ex.t === 'speed') runSpeed(ex);
     const spk = $('#spk');
     if (spk) {
       spk.addEventListener('click', () => play(it, undefined, spk));
@@ -840,8 +1022,8 @@
   function choose(i) {
     if (!SES || SES.state !== 'ask') return;
     const ex = cur();
-    if (!ex || ex.t === 'build') return;
-    const max = ex.t === 'tone' ? 4 : ex.opts.length;
+    if (!ex || ex.t === 'build' || selfRun(ex)) return;
+    const max = ex.t === 'tone' ? 4 : ex.t === 'tf' ? 2 : ex.opts.length;
     if (i < 0 || i >= max) return;
     SES.sel = i;
     $$('.opt').forEach((b) => b.classList.toggle('sel', +b.dataset.i === i));
@@ -869,11 +1051,101 @@
     else if (SES.sel == null) return;
     else if (ex.t === 'tone') ok = SES.sel + 1 === ex.tone;
     else if (ex.t === 'gap') ok = ex.opts[SES.sel] === ex.g.parts[ex.gi].w;
+    else if (ex.t === 'tf') ok = (SES.sel === 0) === ex.truth;
+    else if (ex.t === 'fix') ok = ex.opts[SES.sel] === ex.answer;
     else ok = ex.opts[SES.sel] === ex.item || (ex.t !== 'meaning' && soundKey(ex.opts[SES.sel]) === soundKey(ex.item));
+    // mark options
+    if (ex.t !== 'build') {
+      const right = ex.t === 'tone' ? ex.tone - 1 : ex.t === 'gap' ? ex.opts.indexOf(ex.g.parts[ex.gi].w)
+        : ex.t === 'tf' ? (ex.truth ? 0 : 1) : ex.t === 'fix' ? ex.opts.indexOf(ex.answer) : ex.opts.indexOf(ex.item);
+      $$('.opt').forEach((b) => {
+        const i = +b.dataset.i;
+        b.classList.toggle('right', i === right);
+        b.classList.toggle('wrong', i === SES.sel && !ok);
+        b.disabled = true;
+      });
+    }
+    if (ex.t === 'gap') {
+      const bl = $('#blank');
+      if (bl) { bl.textContent = ex.g.parts[ex.gi].w; bl.className = `blank filled ${ok ? 'ok' : 'no'}`; }
+    }
+    settle(ex, ok);
+  }
+
+  // Match: tap a word, then its partner. Every wrong pair counts as a slip.
+  function runMatch(ex) {
+    const st = { sel: null, done: new Set(), slips: 0 };
+    $$('.mt').forEach((b) => b.addEventListener('click', () => {
+      if (!SES || SES.state !== 'ask' || b.classList.contains('done')) return;
+      const id = b.dataset.id;
+      if (b.dataset.side === 'L') {
+        st.sel = id;
+        $$('.mt[data-side="L"]').forEach((x) => x.classList.toggle('sel', x === b));
+        play(D.items[id] || ex.items.find((x) => x.id === id), undefined, null);
+        return;
+      }
+      if (!st.sel) return;
+      const L = $(`.mt[data-side="L"][data-id="${CSS.escape(st.sel)}"]`);
+      if (st.sel === id) {
+        L.classList.remove('sel'); L.classList.add('done'); b.classList.add('done');
+        st.done.add(id); st.sel = null;
+        SFX.good();
+        if (st.done.size === ex.items.length) {
+          settle(ex, st.slips === 0, `${st.slips === 0 ? 'All pairs matched, no slips!' : `Matched, with ${st.slips} slip${st.slips > 1 ? 's' : ''}.`}`);
+        }
+      } else {
+        st.slips++;
+        SFX.bad();
+        b.classList.add('bad'); setTimeout(() => b.classList.remove('bad'), 350);
+      }
+    }));
+  }
+
+  // Speed round: answer as many as you can before the bar runs out
+  function runSpeed(ex) {
+    const s = { i: 0, right: 0, t0: performance.now(), over: false };
+    const mine = SES, step = ex;
+    const end = () => {
+      if (s.over || SES !== mine || cur() !== step) return;
+      s.over = true;
+      const ok = s.right >= Math.ceil(ex.qs.length * 0.7);
+      settle(ex, ok, `${s.right} / ${ex.qs.length} right${ok ? '' : ' (need 70%)'}`);
+    };
+    const tick = () => {
+      if (s.over || SES !== mine || cur() !== step) return;
+      const k = (performance.now() - s.t0) / (ex.secs * 1000);
+      const bar = $('#tbar');
+      if (bar) bar.style.width = `${Math.max(0, 100 - k * 100)}%`;
+      if (k >= 1) end(); else requestAnimationFrame(tick);
+    };
+    const show = () => {
+      if (s.i >= ex.qs.length) return end();
+      const q = ex.qs[s.i];
+      $('#sq').innerHTML = `<div class="sqw">${wordHTML(q.item, true)}</div>
+        <div class="opts">${q.opts.map((o, i) => `<button class="opt" data-i="${i}"><span class="key">${i + 1}</span><span class="en">${esc(o)}</span></button>`).join('')}</div>`;
+      play(q.item, undefined, null);
+      $$('#sq .opt').forEach((b) => b.addEventListener('click', () => {
+        if (s.over) return;
+        const good = q.opts[+b.dataset.i] === rightOf(q.item);
+        b.classList.add(good ? 'right' : 'wrong');
+        if (good) { s.right++; SFX.good(); } else SFX.bad();
+        s.i++;
+        setTimeout(show, 220);
+      }));
+    };
+    show();
+    requestAnimationFrame(tick);
+  }
+
+  // Shared result handling: combo, XP, hearts (Tower) or retry queue (lessons), feedback bar
+  function settle(ex, ok, summary) {
+    if (!SES || SES.state !== 'ask') return;
     SES.state = 'fb';
     const it = ex.item;
-    const firstTry = it.id && !SES.first.has(it.id);
-    if (firstTry) { SES.first.set(it.id, ok); grade(it.id, ok); save(); }
+    const tower = SES.meta.kind === 'tower';
+    SES.answered++;
+    if (ok) SES.right++;
+    if (it && it.id && !tower && !SES.first.has(it.id)) { SES.first.set(it.id, ok); grade(it.id, ok); save(); }
 
     // combo + XP
     if (ok) {
@@ -889,53 +1161,91 @@
       SES.combo = 0;
       SFX.bad();
     }
-    setHud();
-
-    // mark options
-    if (ex.t !== 'build') {
-      const right = ex.t === 'tone' ? ex.tone - 1 : ex.t === 'gap' ? ex.opts.indexOf(ex.g.parts[ex.gi].w) : ex.opts.indexOf(it);
-      $$('.opt').forEach((b) => {
-        const i = +b.dataset.i;
-        b.classList.toggle('right', i === right);
-        b.classList.toggle('wrong', i === SES.sel && !ok);
-        b.disabled = true;
-      });
-    }
-    if (ex.t === 'gap') {
-      const bl = $('#blank');
-      if (bl) { bl.textContent = ex.g.parts[ex.gi].w; bl.className = `blank filled ${ok ? 'ok' : 'no'}`; }
-    }
     if (!ok) {
-      const n = (SES.retries.get(it) || 0) + 1;
-      SES.retries.set(it, n);
-      if (n <= 2) { const again = regen(ex, SES.ctx); if (again) SES.steps.push(again); }
+      if (tower) { SES.hearts--; SES.mistakes++; }
+      else if (it) {
+        const n = (SES.retries.get(it) || 0) + 1;
+        SES.retries.set(it, n);
+        if (n <= 2) { const again = regen(ex, SES.ctx); if (again) SES.steps.push(again); }
+      }
     }
+    setHud();
+    const out = tower && SES.hearts <= 0;
     const ft = $('#foot');
     ft.className = `foot ${ok ? 'good' : 'bad'} pop`;
     const p = ex.t === 'gap' ? ex.g.parts[ex.gi] : null;
-    const answer = `${wordHTML(it)} <span class="rom">${esc(it.r)}</span>${it.m ? ` <span class="mean">${esc(it.m)}</span>` : ''}`;
+    const answer = it ? `${wordHTML(it)} <span class="rom">${esc(it.r)}</span>${it.m ? ` <span class="mean">${esc(it.m)}</span>` : ''}` : '';
+    const title = summary ? (ok ? `Nice! ${summary}` : summary)
+      : ok ? pick(['Nice!', 'Great ear!', 'Correct!', 'Yes!', 'Spot on!']) : 'Not quite. The answer was:';
     ft.innerHTML = `
       <div class="fb">
-        <div class="fbt">${ok ? pick(['Nice!', 'Great ear!', 'Correct!', 'Yes!', 'Spot on!']) : 'Not quite. The answer was:'}</div>
-        <div class="fba"><button class="spk sm" id="fbspk" aria-label="Play">${SPK}</button>${answer}</div>
+        <div class="fbt">${esc(title)}${out ? ' · out of hearts' : ''}</div>
+        ${it ? `<div class="fba"><button class="spk sm" id="fbspk" aria-label="Play">${SPK}</button>${answer}</div>` : ''}
         ${p ? `<div class="hint"><b lang="${it.lang}">${esc(p.w)}</b> = ${esc(p.m)} · pattern: <span lang="${it.lang}">${esc(ex.g.f)}</span></div>` : ''}
-        ${it.hint && !ok ? `<div class="hint">${esc(it.hint)}</div>` : ''}
+        ${it && it.hint && !ok ? `<div class="hint">${esc(it.hint)}</div>` : ''}
       </div>
-      <button class="btn primary" id="go">Continue</button>`;
+      <button class="btn primary" id="go">${out ? 'See result' : 'Continue'}</button>`;
     const fbspk = $('#fbspk');
-    fbspk.addEventListener('click', () => play(it, undefined, fbspk));
-    const say = !ok || ex.t === 'build' || ex.t === 'see' || ex.t === 'gap';
+    if (fbspk) fbspk.addEventListener('click', () => play(it, undefined, fbspk));
+    const say = it && (!ok || ['build', 'see', 'gap', 'fix', 'tf'].includes(ex.t));
     const mine = SES, step = ex;
     if (say) setTimeout(() => { if (SES === mine && cur() === step) play(it, undefined, fbspk); }, ok ? 150 : 350);
-    $('#go').addEventListener('click', next);
+    $('#go').addEventListener('click', () => (out ? finishTower(false) : next()));
     $('#go').focus();
     // correct answers move on by themselves
-    if (ok) SES.timer = setTimeout(() => { if (SES === mine && cur() === step) next(); }, say ? 2300 : 1100);
+    if (ok && !out) SES.timer = setTimeout(() => { if (SES === mine && cur() === step) next(); }, say ? 2300 : 1100);
+  }
+
+  // End of a Tower floor: stars for clearing it today (3 = no mistakes)
+  function finishTower(cleared) {
+    const m = SES.meta, les = m.les, lang = m.lang;
+    const stars = cleared ? Math.max(1, 3 - SES.mistakes) : 0;
+    const xp = cleared ? SES.xp + 5 + stars * 2 : Math.floor(SES.xp / 2);
+    towerToday();
+    if (cleared) {
+      S.tower.floors[les.id] = Math.max(S.tower.floors[les.id] || 0, stars);
+      S.towerBest[les.id] = Math.max(S.towerBest[les.id] || 0, stars);
+    }
+    S.bestCombo = Math.max(S.bestCombo, SES.maxCombo);
+    const ev = addXP(xp);
+    const fresh = checkBadges({});
+    const maxCombo = SES.maxCombo;
+    SES = null;
+    const nf = cleared ? allLessons(lang).find((l) => l.gidx > les.gidx && S.done[l.id] && !S.tower.floors[l.id]) : null;
+    $('.prog i').style.width = '100%';
+    const events = [];
+    if (ev.streak) events.push(`<div class="ev fire">🔥 <b>${ev.streak}-day streak!</b></div>`);
+    if (ev.goal) events.push('<div class="ev goal">⭐ <b>Daily goal reached!</b></div>');
+    if (ev.level) events.push(`<div class="ev level">🚀 <b>Level up! You're level ${ev.level}.</b></div>`);
+    fresh.forEach((b) => events.push(`<div class="ev badge-ev"><span>${b.icon}</span> <b>New badge: ${esc(b.name)}</b> · ${esc(b.desc)}</div>`));
+    $('#stage').innerHTML = `
+      <div class="done">
+        <div class="trophy">${cleared ? '🗼' : '💔'}</div>
+        <div class="kicker">${cleared ? 'Floor cleared' : 'Out of hearts'}</div>
+        <h1 class="h1">${esc(m.title)}</h1>
+        <div class="stars big">${cleared ? [1, 2, 3].map((i) => `<span class="${i <= stars ? 'on' : ''}">★</span>`).join('') : ''}</div>
+        <div class="tiles3">
+          <div class="stat"><b id="xpc">+0</b><span>XP</span></div>
+          <div class="stat"><b>${stars}/3</b><span>stars</span></div>
+          <div class="stat"><b>🔥 ${maxCombo}</b><span>best combo</span></div>
+        </div>
+        ${events.join('')}
+        <p class="muted">${cleared ? 'Tomorrow this floor has new sentences and activities.' : 'Same floor, same activities all day: try again!'}</p>
+      </div>`;
+    countUp($('#xpc'), xp);
+    if (cleared) { confetti(); SFX.done(); }
+    const ft = $('#foot');
+    ft.className = 'foot';
+    ft.innerHTML = `<button class="btn ghost" id="back">Back to Tower</button>${cleared ? (nf ? '<button class="btn primary" id="go">Next floor ▶</button>' : '') : '<button class="btn primary" id="go">Try again</button>'}`;
+    $('#back').addEventListener('click', () => go(`#/t/${lang}`));
+    const g = $('#go');
+    if (g) { g.addEventListener('click', () => startTower(lang, cleared ? nf.id : les.id)); g.focus(); }
   }
 
   function next() { if (!SES) return; clearTimeout(SES.timer); SES.i++; renderStep(); }
 
   function finish() {
+    if (SES.meta.kind === 'tower') return finishTower(true);
     const m = SES.meta;
     const total = SES.first.size;
     const right = [...SES.first.values()].filter(Boolean).length;
@@ -1210,12 +1520,13 @@
     if ((m = h.match(/^#\/c\/(\w+)/))) return renderCourse(m[1]);
     if ((m = h.match(/^#\/g\/([\w-]+)/))) return renderGuide(m[1]);
     if ((m = h.match(/^#\/n\/(\w+)/))) return renderNotebook(m[1]);
+    if ((m = h.match(/^#\/t\/(\w+)/))) return renderTower(m[1]);
     renderHome();
   }
   window.addEventListener('hashchange', () => { if (SES) clearTimeout(SES.timer); SES = null; route(); });
 
   // test hooks
-  window.EL = { D, get S() { return S; }, get SES() { return SES; }, startLesson, startPractice, buildLesson, buildReview, play, check, choose, tapTile, next, sayOf, soundKey, levelOf, BADGES, UPD, checkForUpdates, checkApkUpdate, APPV, IS_APK };
+  window.EL = { D, get S() { return S; }, get SES() { return SES; }, startLesson, startPractice, buildLesson, buildReview, play, check, choose, tapTile, next, sayOf, soundKey, levelOf, BADGES, UPD, checkForUpdates, checkApkUpdate, APPV, IS_APK, buildFloor, startTower, settle, today };
 
   initSW();
   loadAll().then(route).catch((err) => {
